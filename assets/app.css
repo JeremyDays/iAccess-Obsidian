@@ -152,7 +152,7 @@ input[type="search"] { width: 100%; border: 1px solid #ccd4e1; border-radius: 5p
 .top-nav a { background: var(--surface); border: 1px solid var(--line); border-radius: 5px; font-size: 13px !important; padding: 5px 8px !important; text-decoration: none; }
 .note-page main { width: 100%; }
 .note-detail { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 30px; }
-.note-detail header { min-height: 92px; padding-right: min(42vw, 330px); position: relative !important; }
+.note-detail header { min-height: 0; padding-right: 0; position: relative !important; }
 .note-detail h1 { font-size: clamp(34px, 5vw, 56px); }
 .note-meta { background: #f3f5f9; border: 1px solid var(--line); border-radius: 7px; box-shadow: 0 6px 18px rgb(31 51 92 / 6%); display: grid; gap: 8px; max-width: min(38vw, 310px); padding: 10px; position: absolute; right: 0; top: 0; }
 .note-meta-row { display: grid; gap: 4px; justify-items: end; }
