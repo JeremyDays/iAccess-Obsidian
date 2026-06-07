@@ -16,7 +16,7 @@
     "Eigentümer": "Moser; Bühler; Höfler; Baur",
     "Grundstücksfläche": "179.000 m²",
     "NutzbareFläche": "23.416 m²",
-    "Leistung": "0 kWp",
+    "Leistung": "120 MWp",
     "SpecificYield": "1.094,6 m²",
     "YieldEstimate": "",
     "Design": "",
@@ -62,7 +62,7 @@
     "Bild_klein": "",
     "Bild_groß": "",
     "DVLP": "https://app.dvlp.energy/projects/2cb94b76-4d3b-430e-aced-d2b135e1d5c1/?lng=8.58728&lat=47.95296&zoom=14.28&bearing=0.00&pitch=0.00&style=Outdoor&layers=bw_district%2Cbw_parcels&name=bad+d",
-    "Anlagentyp": "Freiflächen-PV",
+    "Anlagentyp": "Batteriepark",
     "Technische_Komponenten": "Module: TSM-590NEG19RC.20\\nWechselrichter: Sungrow SG350HX\\nAzimut: 180°\\nNeigung: 12°\\nLayout: Portrait 2:1"
   },
   "links": [],
