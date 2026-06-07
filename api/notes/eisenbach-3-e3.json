@@ -53,8 +53,7 @@
     "Phase": "",
     "Bundesland": "",
     "Regionalverband": "",
-    "Gemeinde": "",
-    "Gemarkung": "",
+    "Gemeinde": "Eisenbach 3",
     "Flur": "",
     "Flurstücke": "",
     "DVLP": "",
@@ -121,7 +120,8 @@
     "Im_Lead": "SH",
     "ViBa-BW": "",
     "BA_Aktenzeichen": "",
-    "Template": "2026.02.23 (1)"
+    "Template": "2026.02.23 (1)",
+    "Land": "Deutschland"
   },
   "links": [
     {

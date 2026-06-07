@@ -88,8 +88,7 @@
     "Beschluss_Beteiligung": "false",
     "Beschluss_Offenlage": "false",
     "Beschluss_Satzung": "false",
-    "Anlagentyp": "",
-    "MS0_Aufstellungsbeschluss": "",
+    "Anlagentyp": "Freiflächen-PV",
     "MS0_Bebauungsplan": "",
     "MS5_ConstructionStartCivil": "",
     "Landsicherung": "false",
@@ -120,7 +119,8 @@
     "Im_Lead": "",
     "ViBa-BW": "",
     "BA_Aktenzeichen": "",
-    "Template": "2026.02.23 (1)"
+    "Template": "2026.02.23 (1)",
+    "Land": "Deutschland"
   },
   "links": [
     {

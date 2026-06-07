@@ -75,8 +75,7 @@
     "Baufreigabe": "false",
     "Bauantragsverfahren": "false",
     "Hecke": "Beauftragt?",
-    "Anlagentyp": "",
-    "MS0_Aufstellungsbeschluss": "",
+    "Anlagentyp": "Freiflächen-PV",
     "MS0_Bebauungsplan": "",
     "MS5_ConstructionStartCivil": "",
     "status": "Todo",
@@ -111,14 +110,14 @@
     "Vertrag_Pacht": "",
     "Projektkosten": "",
     "Bauleitplanung_Notizen": "",
-    "Technische_Komponenten": "",
-    "Kooperationspartner": "",
+    "Technische_Komponenten": "Module: EN182N-144D-570\\nWechselrichter: Sungrow 125\\nUnterkonstruktion: Treesystem\\nAzimut: 180°\\nNeigung: 15°\\nLayout: Portrait 2:1",
     "PLZ": "",
     "Baugenehmigung_Notizen": "",
     "Im_Lead": "",
     "ViBa-BW": "",
     "BA_Aktenzeichen": "",
-    "Template": "2026.02.23 (1)"
+    "Template": "2026.02.23 (1)",
+    "Land": "Deutschland"
   },
   "links": [
     {

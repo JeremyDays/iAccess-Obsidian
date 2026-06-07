@@ -21,8 +21,7 @@
     "YieldEstimate": "15.122.640,00 kWh",
     "Design": "",
     "Netzbetreiber": "Stadtwerke Freiberg",
-    "EinspeisungGesichert": "",
-    "BezugGesichert": "",
+    "EinspeisungGesichert": "11.000 kVA",
     "KapazitätGesichert": "24.438 kWh",
     "GesichertEBK": "",
     "Distanz": "",
@@ -63,7 +62,10 @@
     "Vorgangsnummern": "23/330",
     "NVP": "UW-Sammelschiene des UW Freiberg Ost - 20-kV-Schaltfeld J25",
     "Bild_klein": "![[Temp.png|250]]",
-    "Bild_groß": "[[Temp.png|Vollbild]]"
+    "Bild_groß": "[[Temp.png|Vollbild]]",
+    "Anlagentyp": "Freiflächen-PV",
+    "Land": "Deutschland",
+    "Technische_Komponenten": "Module: EN182N-144D-570\\nWechselrichter: SMA Sunny Tripower 24000TL-US\\nAzimut: 180°\\nNeigung: 12°\\nLayout: Portrait 2:1"
   },
   "links": [
     {

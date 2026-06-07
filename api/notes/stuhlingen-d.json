@@ -61,8 +61,7 @@
     "Restriktionen": "",
     "Anfragedatum": "2024-09-17",
     "Vorgangsnummern": "42701; 52789; 51901; 51907; 51909; 51911",
-    "NVP": "",
-    "Bild_klein": "![[Temp.png|250]]",
+    "NVP": "Gallus-Straße in Stühlingen-Mauchen (Flst. 23/3)",
     "Bild_groß": "[[Temp.png|Vollbild]]",
     "UK_beantragt": "Form-Tec Root/Ramm",
     "Feuerwehrplan": "(noch nicht)",
@@ -71,8 +70,7 @@
     "Leitungsauskunft_Trasse": "Abgeschlossen",
     "Fachgutachten": "V20250324. Fachgutachten zu Nestern",
     "Hecke": "Beauftragt?",
-    "Anlagentyp": "",
-    "Kartierung": "",
+    "Anlagentyp": "Freiflächen-PV",
     "MS0_Aufstellungsbeschluss": "",
     "MS0_Bebauungsplan": "",
     "MS5_ConstructionStartCivil": "",
@@ -111,14 +109,14 @@
     "Vertrag_Pacht": "",
     "Projektkosten": "",
     "Bauleitplanung_Notizen": "",
-    "Technische_Komponenten": "",
-    "Kooperationspartner": "",
+    "Technische_Komponenten": "Module: EN182N-144D-570\\nWechselrichter: SMA Sunny Tripower 24000TL-US\\nAzimut: 180°\\nNeigung: 12°\\nLayout: Portrait 2:1",
     "PLZ": "",
     "Baugenehmigung_Notizen": "",
     "Im_Lead": "",
     "ViBa-BW": "",
     "BA_Aktenzeichen": "",
-    "Template": "2026.02.23 (1)"
+    "Template": "2026.02.23 (1)",
+    "Land": "Deutschland"
   },
   "links": [
     {

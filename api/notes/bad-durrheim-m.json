@@ -27,8 +27,7 @@
     "BezugGesichert": "0 MVA",
     "KapazitätGesichert": "",
     "GesichertEBK": "",
-    "Distanz": "",
-    "EigenesUW": "",
+    "Distanz": "4.500 m",
     "NVP": "HSP Mast 49",
     "Reservierung": "2024-03-06",
     "Stadtplanung": "",
@@ -62,7 +61,9 @@
     "MS7_CommercialOperation": "",
     "Bild_klein": "",
     "Bild_groß": "",
-    "DVLP": "https://app.dvlp.energy/projects/2cb94b76-4d3b-430e-aced-d2b135e1d5c1/?lng=8.58728&lat=47.95296&zoom=14.28&bearing=0.00&pitch=0.00&style=Outdoor&layers=bw_district%2Cbw_parcels&name=bad+d"
+    "DVLP": "https://app.dvlp.energy/projects/2cb94b76-4d3b-430e-aced-d2b135e1d5c1/?lng=8.58728&lat=47.95296&zoom=14.28&bearing=0.00&pitch=0.00&style=Outdoor&layers=bw_district%2Cbw_parcels&name=bad+d",
+    "Anlagentyp": "Freiflächen-PV",
+    "Technische_Komponenten": "Module: TSM-590NEG19RC.20\\nWechselrichter: Sungrow SG350HX\\nAzimut: 180°\\nNeigung: 12°\\nLayout: Portrait 2:1"
   },
   "links": [],
   "markdown": "\n>[!dialogue2] Projekt\n- **Projekttyp:** `=this.Projekttyp`\n- **Privilegierung:** `=this.Privilegierung`\n- **Verfahren:** `=this.Verfahren`\n- **Projektstatus:** `=this.Projektstatus`\n- **Nächste Schritte:** `=this.NächsteSchritte`\n\n>[!dialogue2] Land\n- **Koordinaten:** `=this.Koordinaten`\n- **Eigentümer:** `=this.Eigentümer`\n- **Grundstücksfläche:** `=this.Grundstücksfläche`\n- **Nutzbare Fläche:** `=this.NutzbareFläche`\n- **Bundesland:** `=this.Bundesland`\n- **Regionalverband:** `=this.Regionalverband`\n- **Gemeinde:** `=this.Gemeinde`\n- **Gemarkung:** `=this.Gemarkung`\n- **Flur:** `=this.Flur`\n- **Flurstücke:** `=this.Flurstücke`\n\n>[!dialogue2] Leistung\n- **Leistung:** `=this.Leistung`\n- **Specific Yield:** `=this.SpecificYield`\n- **Yield Estimate:** `=this.YieldEstimate`\n- **Letztes Design:** `=this.Design`\n\n>[!dialogue2] Netz\n- **Netzbetreiber:** `=this.Netzbetreiber`\n- **Einspeisung (gesichert):** `=this.EinspeisungGesichert`\n- **Bezug (gesichert):** `=this.BezugGesichert`\n- **Kapazität (gesichert):** `=this.KapazitätGesichert`\n- **Distanz zum NVP:** `=this.Distanz`\n- **Reservierungsstufe:** `=this.Stufe`\n- **Reservierung bis:** `=this.Reservierung`\n\n>[!dialogue2] Gutachten etc.\n- **Stadtplanung:** `=this.Stadtplanung`\n- **Vermessung:** `=this.Vermessung`\n- **Leitungsauskunft:** `=this.Leitungsauskunft`\n- **Blendschutz:** `=this.Blendschutz`\n- **Umweltschutz:** `=this.Umweltschutz`\n- **Brandschutz:** `=this.Brandschutz`\n- **Bodenschutz:** `=this.Bodenschutz`\n- **Schallschutz/Immissionsschutz:** `=this.Schallschutz`\n- **Landwirtschaftliches Nutzungskonzept:** `=this.LWNK`\n- **Auszugstests:** `=this.Auszugstests`\n- **Standsicherheitsnachweis:** `=this.Standsicherheitsnachweis`\n\n>[!dialogue2] Baurecht\n- **Zeitplan:**\n\n\n>[!dialogue2] Notizen\n\n\n\n\n"

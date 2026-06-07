@@ -78,8 +78,7 @@
     "Bauzeitenbeschränkung": "Nicht 01.03.-30.09. (Brutzeit)",
     "Baufenster": "01.10.-28.02.",
     "Kleintierdurchlass": "20cm",
-    "Anlagentyp": "",
-    "MS0_Aufstellungsbeschluss": "",
+    "Anlagentyp": "Freiflächen-PV",
     "MS0_Bebauungsplan": "",
     "MS5_ConstructionStartCivil": "",
     "status": "In Progress",
@@ -114,14 +113,14 @@
     "Vertrag_Pacht": "",
     "Projektkosten": "",
     "Bauleitplanung_Notizen": "",
-    "Technische_Komponenten": "",
-    "Kooperationspartner": "",
+    "Technische_Komponenten": "Module: EN182M-144-550\\nWechselrichter: SMA Sunny Tripower 24000TL-US\\nAzimut: 180°\\nNeigung: 12°\\nLayout: Portrait 2:1",
     "PLZ": "",
     "Baugenehmigung_Notizen": "",
     "Im_Lead": "",
     "ViBa-BW": "",
     "BA_Aktenzeichen": "",
-    "Template": "2026.02.23 (1)"
+    "Template": "2026.02.23 (1)",
+    "Land": "Deutschland"
   },
   "links": [
     {
