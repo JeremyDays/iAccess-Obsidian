@@ -5,10 +5,6 @@
   "relativePath": "Projekte/B - BaugenehmigungV/B1 - Baufreigabe/Schallstadt (GMK).md",
   "url": "notes/schallstadt-gmk.html",
   "apiUrl": "api/notes/schallstadt-gmk.json",
-  "tags": [
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

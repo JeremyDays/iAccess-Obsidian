@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Bosenberg (GPB).md",
   "url": "notes/bosenberg-gpb.html",
   "apiUrl": "api/notes/bosenberg-gpb.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Enverio)",

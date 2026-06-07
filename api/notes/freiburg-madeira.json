@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Freiburg (Madeira).md",
   "url": "notes/freiburg-madeira.html",
   "apiUrl": "api/notes/freiburg-madeira.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

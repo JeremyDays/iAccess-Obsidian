@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Tochigi.md",
   "url": "notes/tochigi.html",
   "apiUrl": "api/notes/tochigi.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

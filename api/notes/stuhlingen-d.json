@@ -5,13 +5,6 @@
   "relativePath": "Projekte/A2 - Im Bau/A2 - Im Bau/Stühlingen (D).md",
   "url": "notes/stuhlingen-d.html",
   "apiUrl": "api/notes/stuhlingen-d.json",
-  "tags": [
-    "CB",
-    "CU",
-    "MH",
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

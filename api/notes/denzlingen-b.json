@@ -5,9 +5,6 @@
   "relativePath": "Projekte/F - Leads/F1 - Warm-Akquise/Denzlingen (B).md",
   "url": "notes/denzlingen-b.html",
   "apiUrl": "api/notes/denzlingen-b.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

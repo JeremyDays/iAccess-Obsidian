@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Kühmoos.md",
   "url": "notes/kuhmoos.html",
   "apiUrl": "api/notes/kuhmoos.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt?",

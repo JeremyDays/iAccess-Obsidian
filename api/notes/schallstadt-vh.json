@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Schallstadt (vH).md",
   "url": "notes/schallstadt-vh.html",
   "apiUrl": "api/notes/schallstadt-vh.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Diveo)",

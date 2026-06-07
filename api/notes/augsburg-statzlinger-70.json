@@ -5,9 +5,6 @@
   "relativePath": "Projekte/D1 - Bezugsprojekte/Augsburg (Stätzlinger 70).md",
   "url": "notes/augsburg-statzlinger-70.html",
   "apiUrl": "api/notes/augsburg-statzlinger-70.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

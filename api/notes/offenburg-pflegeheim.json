@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Offenburg (Pflegeheim).md",
   "url": "notes/offenburg-pflegeheim.html",
   "apiUrl": "api/notes/offenburg-pflegeheim.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

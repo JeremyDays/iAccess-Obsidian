@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/4 - Anlagenzertifikat/Bötzingen (H).md",
   "url": "notes/botzingen-h.html",
   "apiUrl": "api/notes/botzingen-h.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Uwaba South.md",
   "url": "notes/uwaba-south.html",
   "apiUrl": "api/notes/uwaba-south.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E7 - Nur Vertrag/Neuenburg (G).md",
   "url": "notes/neuenburg-g.html",
   "apiUrl": "api/notes/neuenburg-g.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Diveo)",

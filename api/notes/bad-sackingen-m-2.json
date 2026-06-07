@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Bad Säckingen (M).md",
   "url": "notes/bad-sackingen-m-2.html",
   "apiUrl": "api/notes/bad-sackingen-m-2.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Denzlingen (S).md",
   "url": "notes/denzlingen-s.html",
   "apiUrl": "api/notes/denzlingen-s.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (DEnG)",

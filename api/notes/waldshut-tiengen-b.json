@@ -5,9 +5,6 @@
   "relativePath": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Waldshut-Tiengen (B).md",
   "url": "notes/waldshut-tiengen-b.html",
   "apiUrl": "api/notes/waldshut-tiengen-b.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

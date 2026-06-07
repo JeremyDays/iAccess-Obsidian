@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Freiburg (Kindergalaxie).md",
   "url": "notes/freiburg-kindergalaxie.html",
   "apiUrl": "api/notes/freiburg-kindergalaxie.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.path DVLP Link: VIEW[{DVLP}][link] [!blank] Milestones INPUT[toggle:Landsicherung] Landsicherung...",
   "frontmatter": {
     "Projekttyp": "Nur EPC",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/F - Leads/F1 - Warm-Akquise/Munzingen 2 (B).md",
   "url": "notes/munzingen-2-b.html",
   "apiUrl": "api/notes/munzingen-2-b.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

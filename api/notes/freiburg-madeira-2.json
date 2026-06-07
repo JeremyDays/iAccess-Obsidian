@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/5 - Vorbereitung IBN/Freiburg (Madeira 2).md",
   "url": "notes/freiburg-madeira-2.html",
   "apiUrl": "api/notes/freiburg-madeira-2.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "",

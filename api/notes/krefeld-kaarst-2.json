@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Krefeld (Kaarst 2).md",
   "url": "notes/krefeld-kaarst-2.html",
   "apiUrl": "api/notes/krefeld-kaarst-2.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Genthin.md",
   "url": "notes/genthin.html",
   "apiUrl": "api/notes/genthin.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "",

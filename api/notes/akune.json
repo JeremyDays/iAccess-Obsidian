@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Akune.md",
   "url": "notes/akune.html",
   "apiUrl": "api/notes/akune.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

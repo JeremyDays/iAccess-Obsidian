@@ -5,13 +5,6 @@
   "relativePath": "Projekte/B - BaugenehmigungV/B3 - Bauantrag/Friedenweiler (GMK).md",
   "url": "notes/friedenweiler-gmk.html",
   "apiUrl": "api/notes/friedenweiler-gmk.json",
-  "tags": [
-    "CB",
-    "CU",
-    "Projekt",
-    "S_hion",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

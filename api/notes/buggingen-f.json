@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E3 - Vertrag & NetzR/Buggingen (F).md",
   "url": "notes/buggingen-f.html",
   "apiUrl": "api/notes/buggingen-f.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

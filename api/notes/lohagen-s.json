@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S).md",
   "url": "notes/lohagen-s.html",
   "apiUrl": "api/notes/lohagen-s.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Omuniti)",

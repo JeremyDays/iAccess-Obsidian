@@ -5,9 +5,6 @@
   "relativePath": "Projekte/F - Leads/F1 - Warm-Akquise/Linden (CS).md",
   "url": "notes/linden-cs.html",
   "apiUrl": "api/notes/linden-cs.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Omuniti)",

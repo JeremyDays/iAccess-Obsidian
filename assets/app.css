@@ -233,6 +233,50 @@ input[type="search"] { width: 100%; border: 1px solid #ccd4e1; border-radius: 5p
 .inline-meta-toggle { background: #fff; border: 2px solid #aab4c5; border-radius: 3px; color: #fff; display: inline-flex; height: 22px; justify-content: center; margin-right: 5px; vertical-align: middle; width: 22px; }
 .inline-meta-toggle.is-done { background: var(--accent-strong); border-color: var(--accent-strong); }
 .obsidian-note { box-shadow: inset 0 0 0 1px rgb(33 59 120 / 10%); }
+.note-detail { font-size: 13px; }
+.note-detail h1 { font-size: clamp(20px, 2.5vw, 28px); line-height: 1.15; }
+.content { font-size: 13px; line-height: 1.5; margin-top: 18px; }
+.content h1 { font-size: 19px; }
+.content h2 { font-size: 17px; }
+.content h3 { font-size: 15px; }
+.content h4, .content h5, .content h6 { font-size: 14px; }
+.task-item { font-size: 13px; line-height: 1.35; min-height: 25px; }
+.kanban-board { align-items: start; display: flex; gap: 12px; margin: 0 -12px; overflow-x: auto; padding: 4px 12px 18px; }
+.kanban-column { background: #e8edf5; border: 1px solid #bdc9dc; border-radius: 5px; flex: 0 0 290px; max-height: calc(100vh - 190px); overflow: auto; padding: 9px; }
+.kanban-column > header { align-items: center; display: flex; justify-content: space-between; margin-bottom: 9px; min-height: 35px; position: sticky; top: 0; z-index: 2; }
+.kanban-column > header h2 { color: var(--accent-strong); font-size: 16px; margin: 0; }
+.kanban-column > header span { color: var(--muted); font-size: 12px; }
+.kanban-cards { display: grid; gap: 7px; }
+.kanban-card { background: #fff; border: 1px solid #c8d1df; border-radius: 3px; display: block; font-size: 13px; line-height: 1.25; padding: 8px 9px; text-decoration: none; }
+.kanban-card:hover { background: #f6f8fc; border-color: #8298bc; }
+.kanban-card.is-heading { color: #29313d; font-weight: 800; }
+.note-projektphasen .note-column { padding-left: 18px; padding-right: 18px; }
+.note-projektphasen .note-detail { overflow: hidden; }
+.note-preview { background: #fff; border: 1px solid #aebbd0; border-radius: 7px; box-shadow: 0 18px 55px rgb(20 35 70 / 28%); display: none; height: min(72vh, 760px); overflow: hidden; position: fixed; right: 22px; top: 110px; width: min(760px, calc(100vw - 44px)); z-index: 300; }
+.note-preview.is-open { display: grid; grid-template-rows: auto minmax(0, 1fr); }
+.note-preview-bar { align-items: center; background: #edf1f7; border-bottom: 1px solid var(--line); display: flex; gap: 9px; justify-content: flex-end; padding: 7px 9px; }
+.note-preview-bar strong { color: var(--accent-strong); margin-right: auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.note-preview-bar a, .note-preview-bar button { background: #fff; border: 1px solid #b9c4d5; border-radius: 4px; color: var(--accent-strong); cursor: pointer; font: inherit; padding: 4px 7px; text-decoration: none; }
+.note-preview-content { overflow: auto; padding: 18px; user-select: text; }
+.note-preview-content .note-detail { border: 0; box-shadow: none; padding: 0; }
+.note-preview-content .note-detail > header { min-height: 0; padding-right: 0; }
+.note-preview-content .note-meta, .note-preview-content .relation-panel { display: none; }
+.project-maps { display: grid; gap: 22px; }
+.map-intro { color: var(--muted); margin: 0; }
+.map-legend { display: flex; flex-wrap: wrap; gap: 7px 14px; }
+.map-status { align-items: center; display: inline-flex; gap: 6px; }
+.map-status::before { background: #7b8493; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 1px #7b8493; content: ""; height: 11px; width: 11px; }
+.map-status.acquisition::before, .map-pin.acquisition { background: #7485ad; }
+.map-status.development::before, .map-pin.development { background: #3f6db5; }
+.map-status.construction::before, .map-pin.construction { background: #d4872c; }
+.map-status.built::before, .map-pin.built { background: #253b78; }
+.country-map-section h2 { color: var(--accent-strong); margin-bottom: 8px; }
+.project-map { background: #e9edf3; border: 1px solid var(--line); border-radius: 6px; height: 540px; overflow: hidden; }
+.map-progress { color: var(--muted); font-size: 12px; margin: 5px 0 0; }
+.map-pin { border: 2px solid #fff; border-radius: 50% 50% 50% 0; box-shadow: 0 1px 4px rgb(0 0 0 / 45%); height: 18px; transform: rotate(-45deg); width: 18px; }
+.map-pin.other { background: #7b8493; }
+.leaflet-popup-content { font-size: 13px; line-height: 1.35; }
+.leaflet-popup-content a { color: var(--accent-strong); font-weight: 800; }
 .note-malduk-charakterblatt .note-detail header { min-height: 58px; }
 .note-malduk-charakterblatt .content { color: #261c16; font-size: 13px; line-height: 1.35; margin-top: 12px; }
 .note-malduk-charakterblatt .content h1 { display: none; }

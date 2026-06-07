@@ -5,10 +5,6 @@
   "relativePath": "Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Blumberg (G).md",
   "url": "notes/blumberg-g.html",
   "apiUrl": "api/notes/blumberg-g.json",
-  "tags": [
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Diveo)",

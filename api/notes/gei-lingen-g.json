@@ -5,9 +5,6 @@
   "relativePath": "Projekte/F - Leads/F1 - Warm-Akquise/Geißlingen (G).md",
   "url": "notes/gei-lingen-g.html",
   "apiUrl": "api/notes/gei-lingen-g.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

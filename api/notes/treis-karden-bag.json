@@ -5,9 +5,6 @@
   "relativePath": "Projekte/F - Leads/F1 - Warm-Akquise/Treis Karden (BAG).md",
   "url": "notes/treis-karden-bag.html",
   "apiUrl": "api/notes/treis-karden-bag.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",

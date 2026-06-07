@@ -5,13 +5,6 @@
   "relativePath": "Projekte/B - BaugenehmigungV/B3 - Bauantrag/Eisenbach 3 (E3).md",
   "url": "notes/eisenbach-3-e3.html",
   "apiUrl": "api/notes/eisenbach-3-e3.json",
-  "tags": [
-    "CB",
-    "CU",
-    "MH",
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt",

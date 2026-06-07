@@ -5,10 +5,6 @@
   "relativePath": "Projekte/D2 - Kaufprojekte DD/Immendingen (K).md",
   "url": "notes/immendingen-k.html",
   "apiUrl": "api/notes/immendingen-k.json",
-  "tags": [
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.path DVLP Link: VIEW[{DVLP}][link] [!blank] Milestones INPUT[toggle:Landsicherung] Landsicherung...",
   "frontmatter": {
     "Projekttyp": "Projektkauf",

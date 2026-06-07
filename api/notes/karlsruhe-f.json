@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Karlsruhe (F).md",
   "url": "notes/karlsruhe-f.html",
   "apiUrl": "api/notes/karlsruhe-f.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",

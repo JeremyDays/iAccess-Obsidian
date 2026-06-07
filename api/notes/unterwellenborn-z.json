@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Unterwellenborn (Z).md",
   "url": "notes/unterwellenborn-z.html",
   "apiUrl": "api/notes/unterwellenborn-z.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",

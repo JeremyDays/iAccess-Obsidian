@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Haßfurt (Uponor).md",
   "url": "notes/ha-furt-uponor.html",
   "apiUrl": "api/notes/ha-furt-uponor.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Nur EPC",

@@ -191,6 +191,160 @@ function bootFolderTree() {
   requestAnimationFrame(() => active.scrollIntoView({ block: "nearest" }));
 }
 
+function bootNotePreviews() {
+  if (!document.querySelector("[data-preview-url]")) return;
+  const preview = document.createElement("aside");
+  preview.className = "note-preview";
+  preview.setAttribute("aria-label", "Notizvorschau");
+  preview.innerHTML = '<div class="note-preview-bar"><strong>Vorschau</strong><a href="#">Öffnen</a><button type="button" aria-label="Schließen">×</button></div><div class="note-preview-content"></div>';
+  document.body.appendChild(preview);
+  const title = preview.querySelector("strong");
+  const openLink = preview.querySelector("a");
+  const closeButton = preview.querySelector("button");
+  const content = preview.querySelector(".note-preview-content");
+  const cache = new Map();
+  let closeTimer = 0;
+  let requestId = 0;
+
+  const cancelClose = () => window.clearTimeout(closeTimer);
+  const close = () => {
+    cancelClose();
+    preview.classList.remove("is-open");
+  };
+  const scheduleClose = () => {
+    cancelClose();
+    closeTimer = window.setTimeout(close, 260);
+  };
+  const open = async (link) => {
+    cancelClose();
+    const url = new URL(link.dataset.previewUrl, window.location.href).href;
+    title.textContent = link.textContent.trim() || "Vorschau";
+    openLink.href = url;
+    preview.classList.add("is-open");
+    const id = ++requestId;
+    if (cache.has(url)) {
+      content.innerHTML = cache.get(url);
+      return;
+    }
+    content.innerHTML = '<p class="muted">Vorschau wird geladen…</p>';
+    const html = await fetch(url).then((response) => response.ok ? response.text() : "").catch(() => "");
+    if (id !== requestId) return;
+    const parsed = new DOMParser().parseFromString(html, "text/html");
+    const article = parsed.querySelector(".note-detail");
+    const markup = article ? article.outerHTML : '<p class="muted">Keine Vorschau verfügbar.</p>';
+    cache.set(url, markup);
+    content.innerHTML = markup;
+    content.scrollTop = 0;
+  };
+
+  document.addEventListener("pointerover", (event) => {
+    const link = event.target.closest?.("[data-preview-url]");
+    if (!link || link.contains(event.relatedTarget)) return;
+    open(link);
+  });
+  document.addEventListener("pointerout", (event) => {
+    const link = event.target.closest?.("[data-preview-url]");
+    if (!link || link.contains(event.relatedTarget)) return;
+    scheduleClose();
+  });
+  preview.addEventListener("pointerenter", cancelClose);
+  preview.addEventListener("pointerleave", scheduleClose);
+  closeButton.addEventListener("click", close);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") close();
+  });
+}
+
+function bootProjectMaps() {
+  const dataElement = document.querySelector("#project-map-data");
+  if (!dataElement || !window.L) return;
+  let projects = [];
+  try {
+    projects = JSON.parse(dataElement.textContent || "[]");
+  } catch {
+    return;
+  }
+  const settings = {
+    DE: { center: [51.1, 10.4], zoom: 6 },
+    FR: { center: [46.6, 2.4], zoom: 6 },
+    JP: { center: [36.2, 138.2], zoom: 5 }
+  };
+  const maps = new Map();
+  document.querySelectorAll(".project-map[data-country]").forEach((element) => {
+    const country = element.dataset.country;
+    const setting = settings[country];
+    const map = L.map(element, { scrollWheelZoom: true }).setView(setting.center, setting.zoom);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    maps.set(country, { map, bounds: [] });
+  });
+
+  const markerFor = (project) => {
+    if (!project.coordinates || !maps.has(project.country)) return;
+    const target = maps.get(project.country);
+    const icon = L.divIcon({
+      className: "map-pin-shell",
+      html: '<div class="map-pin ' + escapeHtml(project.status) + '"></div>',
+      iconSize: [20, 20],
+      iconAnchor: [10, 18],
+      popupAnchor: [0, -17]
+    });
+    L.marker(project.coordinates, { icon }).addTo(target.map)
+      .bindPopup('<a href="' + escapeHtml(project.url) + '">' + escapeHtml(project.title) + '</a><br>' + escapeHtml(project.location || ""));
+    target.bounds.push(project.coordinates);
+  };
+
+  projects.filter((project) => project.coordinates).forEach(markerFor);
+  const cacheKey = "iaccess-project-geocoding-v1";
+  let cache = {};
+  try {
+    cache = JSON.parse(localStorage.getItem(cacheKey) || "{}");
+  } catch {
+    cache = {};
+  }
+  const missing = projects.filter((project) => !project.coordinates && project.location);
+  const updateProgress = () => {
+    for (const country of Object.keys(settings)) {
+      const countryProjects = projects.filter((project) => project.country === country);
+      const located = countryProjects.filter((project) => project.coordinates).length;
+      const progress = document.querySelector('[data-map-progress="' + country + '"]');
+      if (progress) progress.textContent = located + " von " + countryProjects.length + " Projekten verortet";
+    }
+  };
+  const fitMaps = () => {
+    for (const target of maps.values()) {
+      if (target.bounds.length > 1) target.map.fitBounds(target.bounds, { padding: [24, 24], maxZoom: 11 });
+    }
+  };
+  updateProgress();
+  fitMaps();
+
+  const geocode = async (project) => {
+    const key = project.country + "|" + project.location.toLowerCase();
+    if (Array.isArray(cache[key])) return cache[key];
+    const url = "https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(project.location) + "&count=1&language=de&format=json&countryCode=" + project.country;
+    const result = await fetch(url).then((response) => response.ok ? response.json() : null).catch(() => null);
+    const hit = result?.results?.[0];
+    const coordinates = hit ? [hit.latitude, hit.longitude] : null;
+    cache[key] = coordinates;
+    localStorage.setItem(cacheKey, JSON.stringify(cache));
+    return coordinates;
+  };
+  let cursor = 0;
+  const worker = async () => {
+    while (cursor < missing.length) {
+      const project = missing[cursor++];
+      project.coordinates = await geocode(project);
+      if (project.coordinates) markerFor(project);
+      updateProgress();
+      await new Promise((resolve) => window.setTimeout(resolve, 180));
+    }
+  };
+  Promise.all([worker(), worker(), worker()]).then(fitMaps);
+}
+
 function escapeHtml(value) {
   return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 }
@@ -198,3 +352,5 @@ function escapeHtml(value) {
 bootSearch();
 bootImageLightbox();
 bootFolderTree();
+bootNotePreviews();
+bootProjectMaps();

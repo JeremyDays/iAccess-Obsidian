@@ -5,12 +5,6 @@
   "relativePath": "Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Schrenz (S).md",
   "url": "notes/schrenz-s.html",
   "apiUrl": "api/notes/schrenz-s.json",
-  "tags": [
-    "CB",
-    "MH",
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Projektkauf",

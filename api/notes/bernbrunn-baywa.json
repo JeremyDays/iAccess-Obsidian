@@ -5,9 +5,6 @@
   "relativePath": "Projekte/D2 - Kaufprojekte DD/Bernbrunn (BayWa).md",
   "url": "notes/bernbrunn-baywa.html",
   "apiUrl": "api/notes/bernbrunn-baywa.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "Kaufprojekt",

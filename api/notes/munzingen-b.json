@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A2 - Im Bau/A2 - Im Bau/Munzingen (B).md",
   "url": "notes/munzingen-b.html",
   "apiUrl": "api/notes/munzingen-b.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

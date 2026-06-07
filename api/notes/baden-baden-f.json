@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F).md",
   "url": "notes/baden-baden-f.html",
   "apiUrl": "api/notes/baden-baden-f.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Diveo)",

@@ -5,10 +5,6 @@
   "relativePath": "Projekte/D2 - Kaufprojekte DD/Ettlingen (F).md",
   "url": "notes/ettlingen-f.html",
   "apiUrl": "api/notes/ettlingen-f.json",
-  "tags": [
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.path DVLP Link: VIEW[{DVLP}][link] [!blank] Milestones INPUT[toggle:Landsicherung] Landsicherung...",
   "frontmatter": {
     "Projekttyp": "",

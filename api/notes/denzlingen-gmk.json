@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E7 - Nur Vertrag/Denzlingen (GMK).md",
   "url": "notes/denzlingen-gmk.html",
   "apiUrl": "api/notes/denzlingen-gmk.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (DEnG)",

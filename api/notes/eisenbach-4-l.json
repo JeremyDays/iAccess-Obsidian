@@ -5,9 +5,6 @@
   "relativePath": "Projekte/D1 - Bezugsprojekte/Eisenbach 4 (L).md",
   "url": "notes/eisenbach-4-l.html",
   "apiUrl": "api/notes/eisenbach-4-l.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

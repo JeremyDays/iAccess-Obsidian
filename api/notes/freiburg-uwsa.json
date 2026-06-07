@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E5 - Nur Netzreservierung/Freiburg (UWSA).md",
   "url": "notes/freiburg-uwsa.html",
   "apiUrl": "api/notes/freiburg-uwsa.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",

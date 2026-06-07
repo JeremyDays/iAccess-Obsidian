@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Calden (R).md",
   "url": "notes/calden-r.html",
   "apiUrl": "api/notes/calden-r.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Enverio)",

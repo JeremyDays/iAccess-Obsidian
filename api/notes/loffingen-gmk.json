@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Löffingen (GMK).md",
   "url": "notes/loffingen-gmk.html",
   "apiUrl": "api/notes/loffingen-gmk.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

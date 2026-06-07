@@ -5,9 +5,6 @@
   "relativePath": "Projekte/D2 - Kaufprojekte DD/Schafstedt (Chint).md",
   "url": "notes/schafstedt-chint.html",
   "apiUrl": "api/notes/schafstedt-chint.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/D2 - Kaufprojekte DD/Gresselgrund (BayWa).md",
   "url": "notes/gresselgrund-baywa.html",
   "apiUrl": "api/notes/gresselgrund-baywa.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "",

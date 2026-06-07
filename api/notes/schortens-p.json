@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Schortens (P).md",
   "url": "notes/schortens-p.html",
   "apiUrl": "api/notes/schortens-p.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus: =this.Projektstatus Nächste Schritte:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Planwatt, Hr. Renke Harms)",

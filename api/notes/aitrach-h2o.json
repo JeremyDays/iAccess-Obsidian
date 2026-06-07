@@ -5,10 +5,6 @@
   "relativePath": "Projekte/F - Leads/F2 - Kalt-Akquise/Aitrach (H2O).md",
   "url": "notes/aitrach-h2o.html",
   "apiUrl": "api/notes/aitrach-h2o.json",
-  "tags": [
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "status": "Todo",

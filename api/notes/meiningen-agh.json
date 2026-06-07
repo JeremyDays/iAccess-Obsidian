@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Meiningen (AGH).md",
   "url": "notes/meiningen-agh.html",
   "apiUrl": "api/notes/meiningen-agh.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Zickler)",

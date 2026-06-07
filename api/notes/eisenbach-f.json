@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Eisenbach (F).md",
   "url": "notes/eisenbach-f.html",
   "apiUrl": "api/notes/eisenbach-f.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",

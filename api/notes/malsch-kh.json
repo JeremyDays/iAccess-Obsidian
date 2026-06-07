@@ -5,9 +5,6 @@
   "relativePath": "Projekte/F - Leads/F2 - Kalt-Akquise/Malsch (KH).md",
   "url": "notes/malsch-kh.html",
   "apiUrl": "api/notes/malsch-kh.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "",

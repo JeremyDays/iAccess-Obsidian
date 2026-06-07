@@ -5,9 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E7 - Nur Vertrag/Zützen (C).md",
   "url": "notes/zutzen-c.html",
   "apiUrl": "api/notes/zutzen-c.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme ohne AZ/Eisenbach (W).md",
   "url": "notes/eisenbach-w.html",
   "apiUrl": "api/notes/eisenbach-w.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Nur EPC",

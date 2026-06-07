@@ -5,9 +5,6 @@
   "relativePath": "Projekte/z_Cancelled/Weil am Rhein (M).md",
   "url": "notes/weil-am-rhein-m.html",
   "apiUrl": "api/notes/weil-am-rhein-m.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Komplett",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A1 - Inbetriebnahme/5 - Vorbereitung IBN/Neuwied (R).md",
   "url": "notes/neuwied-r.html",
   "apiUrl": "api/notes/neuwied-r.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Nur EPC",

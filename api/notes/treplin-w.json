@@ -5,10 +5,6 @@
   "relativePath": "Projekte/C - BaurechtV/C6 - Aufstellung B/Treplin (W).md",
   "url": "notes/treplin-w.html",
   "apiUrl": "api/notes/treplin-w.json",
-  "tags": [
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Kooperationsprojekt (Omuniti)",

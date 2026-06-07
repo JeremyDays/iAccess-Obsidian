@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A2 - Im Bau/A2 - Im Bau/Ochtendung MfP (R).md",
   "url": "notes/ochtendung-mfp-r.html",
   "apiUrl": "api/notes/ochtendung-mfp-r.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.path DVLP Link: VIEW[{DVLP}][link] [!blank] Milestones INPUT[toggle:Landsicherung] Landsicherung...",
   "frontmatter": {
     "Projekttyp": "Nur Sales",

@@ -5,11 +5,6 @@
   "relativePath": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Pfullendorf (G).md",
   "url": "notes/pfullendorf-g.html",
   "apiUrl": "api/notes/pfullendorf-g.json",
-  "tags": [
-    "CU",
-    "Projekt",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BORS-Praktikum</title>
-  <link rel="stylesheet" href="../assets/app.css?v=mq3u1ynd">
-  <link rel="stylesheet" href="../assets/obsidian.css?v=mq3u1ynd">
-  <script defer src="../assets/app.js?v=mq3u1ynd"></script>
+  <title>Projektkarten</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <link rel="stylesheet" href="../assets/app.css?v=mq3wfmrs">
+  <link rel="stylesheet" href="../assets/obsidian.css?v=mq3wfmrs">
+  <script defer src="../assets/app.js?v=mq3wfmrs"></script>
 </head>
-<body class="note-page note-bors-praktikum">
+<body class="note-page note-projektkarten">
   <main>
       <header class="site-header">
     <div class="header-brand">
@@ -16,7 +18,7 @@
       <div class="brand-title"><strong>Obsidian Database</strong></div>
     </div>
     <section class="header-stats" aria-label="Dashboard">
-      <div><span>Alle Projekte</span><strong>179</strong></div><div><span>Akquise</span><strong>87</strong></div><div><span>Entwicklung</span><strong>33</strong></div><div><span>Bau</span><strong>33</strong></div><div><span>Errichtet</span><strong>26</strong></div><div><span>MWp errichtet</span><strong>203,8</strong></div><div><span>MWp übrige Projekte</span><strong>700,7</strong></div>
+      <div><span>Alle Projekte</span><strong>179</strong></div><div><span>In Akquise</span><strong>87</strong></div><div><span>In Entwicklung</span><strong>33</strong></div><div><span>In Bau</span><strong>33</strong></div><div><span>Errichtet</span><strong>26</strong></div><div><span>MWp errichtet</span><strong>203,8</strong></div><div><span>MWp übrige Projekte</span><strong>700,7</strong></div>
     </section>
     <div class="search-shell header-search">
       <input id="site-search" type="search" placeholder="Titel oder Alias..." autocomplete="off" aria-label="Notizen durchsuchen">
@@ -27,10 +29,7 @@
         <aside class="site-sidebar">
     <div class="folder-panel">
       <h2>Ordner</h2>
-      <div class="category-tree"><details class="tree-node" data-tree-id="Gutachter">
-    <summary><span>Gutachter</span><strong>1</strong></summary>
-    <div class="tree-children"><a class="tree-note" data-note-slug="solargik" href="../notes/solargik.html">SolarGik</a></div>
-  </details><details class="tree-node" data-tree-id="Projekte">
+      <div class="category-tree"><details class="tree-node" data-tree-id="Projekte">
     <summary><span>Projekte</span><strong>214</strong></summary>
     <div class="tree-children"><details class="tree-node" data-tree-id="Projekte/A0 - In Betrieb">
     <summary><span>A0 - In Betrieb</span><strong>27</strong></summary>
@@ -169,197 +168,51 @@
   </details></div>
   </details></div>
   </details><details class="tree-node" data-tree-id="Übersicht">
-    <summary><span>Übersicht</span><strong>10</strong></summary>
-    <div class="tree-children"><a class="tree-note" data-note-slug="00-projekte-entwicklung" href="../notes/00-projekte-entwicklung.html">00 Projekte Entwicklung</a><a class="tree-note" data-note-slug="die-nachsten-bauprojekte" href="../notes/die-nachsten-bauprojekte.html">Die nächsten Bauprojekte</a><a class="tree-note" data-note-slug="iac-central-design-and-material-list" href="../notes/iac-central-design-and-material-list.html">iAC Central Design and Material List</a><a class="tree-note" data-note-slug="iac-central-greenkeeping-list" href="../notes/iac-central-greenkeeping-list.html">iAC Central Greenkeeping List</a><a class="tree-note" data-note-slug="projektphasen" href="../notes/projektphasen.html">Projektphasen</a><a class="tree-note" data-note-slug="qgis-wiki-formelsammlung-qgis" href="../notes/qgis-wiki-formelsammlung-qgis.html">QGIS Wiki - Formelsammlung QGIS</a><a class="tree-note" data-note-slug="solar-bau-wiki-informationssammlung-solar-bau" href="../notes/solar-bau-wiki-informationssammlung-solar-bau.html">Solar &amp; Bau Wiki - Informationssammlung Solar &amp; Bau</a><a class="tree-note" data-note-slug="task-overview-cb" href="../notes/task-overview-cb.html">task overview CB</a><a class="tree-note" data-note-slug="task-overview-sh" href="../notes/task-overview-sh.html">task overview SH</a><a class="tree-note" data-note-slug="tasks" href="../notes/tasks.html">Tasks</a></div>
-  </details><a class="tree-note" data-note-slug="bors-praktikum" href="../notes/bors-praktikum.html">BORS-Praktikum</a></div>
+    <summary><span>Übersicht</span><strong>4</strong></summary>
+    <div class="tree-children"><a class="tree-note" data-note-slug="00-projekte-entwicklung" href="../notes/00-projekte-entwicklung.html">00 Projekte Entwicklung</a><a class="tree-note" data-note-slug="die-nachsten-bauprojekte" href="../notes/die-nachsten-bauprojekte.html">Die nächsten Bauprojekte</a><a class="tree-note" data-note-slug="projektkarten" href="../notes/projektkarten.html">Projektkarten</a><a class="tree-note" data-note-slug="projektphasen" href="../notes/projektphasen.html">Projektphasen</a></div>
+  </details></div>
     </div>
   </aside>
         <div class="note-column">
       <nav class="top-nav"><a href="../index.html">Dashboard</a></nav>
       <article class="note-detail obsidian-note">
         <header>
-          <p class="eyebrow">Notizen</p>
-          <h1>BORS-Praktikum</h1>
+          <p class="eyebrow">Übersicht</p>
+          <h1>Projektkarten</h1>
           <aside class="note-meta" aria-label="Metadaten">
             <div class="note-meta-row">
               <span>Ordner</span>
-              <div><b>Notizen</b></div>
+              <div><b>Übersicht</b></div>
             </div>
           </aside>
         </header>
         <div class="content obsidian-rendered">
           
-          <p>Projektentwickler</p>
-<p><strong>Yugo Nakano</strong> Auwaldstraße 64, Freiburg 0176 20457558 yugo2910nk@gmail.com Klasse 9 Alter: 15 (29.10.)</p>
-<details class="callout callout-dialogue2"><summary>Schule</summary><div class="callout-body"><p>Hansjakob-Realschule Freiburg Bildungswerkstatt Baden-Württemberg Wannerstraße 2, 79106 Freiburg 0761 201-7605 sekretariat.hjrsvn@freiburger-schulen.bwl.de BORS-Beauftragte: Christina Holzhauer</p>
-<p>Ansprechpartner: Linda Heizmann Betreuer: Stephan Hornick</p></div></details>
-<h4>Interessen/Notizen:</h4>
-<ul><li>Baustellen von Nahem zu sehen</li>
-<li>Japan</li>
-<li>Englisch, Sport, Geschichte, Chemie</li>
-<li>Klassensprecher</li>
-<li>Schnelles Denken, Freies Sprechen, Teamwork, Kommunizieren, Probleme lösen</li>
-<li>Sport, Autos, Kochen, 10 Jahre im SV Hochdorf (Fußball), Boxen</li>
-<li>Deutsch-Defizit</li></ul>
-<h4>Ziele des Praktikums</h4>
-<ul><li><strong>Berufsorientierung:</strong> Erkennen, ob ihn technische, kaufmännische oder planerische Tätigkeiten interessieren.</li>
-<li><strong>Praxisbezug:</strong> Verstehen, wie theoretisches Wissen (z. B. aus Physik, Geographie, Wirtschaft) im Berufsleben genutzt wird.</li>
-<li><strong>Arbeitskultur erleben:</strong> Pünktlichkeit, Kommunikation, Teamarbeit, Verantwortung, Selbstorganisation.</li>
-<li><strong>Motivation für Ausbildung oder Studium entwickeln.</strong></li></ul>
-<h4>Wochenstruktur</h4>
-<h6>Montag – Einführung und Überblick iAccess, Projektentwicklung = Jonglieren</h6>
-<ul><li>Begrüßung, Rundgang durchs Büro, kurze Vorstellung aller Mitarbeiter.</li>
-<li>Plausch über Interessen (Technik, Natur, Politik, Computer, ...)</li>
-<li>Grundregeln: Kleidung, Pünktlichkeit, Arbeitszeit, Mittagessen, Pausen, Kommunikation, Sicherheit und Datenschutz, Verschwiegenheit, Handynutzung, Fotografieren (z.B. für Präsentation oder Bericht), Zuverlässigkeit, Ansprechpartner, Arbeitsweise / Eigeninitiative, Kritik, Fragenstellen</li>
-<li>BORS-Ziele erklären: „Du sollst in dieser Woche herausfinden, was man hier eigentlich tut, welche Berufe es gibt und ob das etwas für dich wäre.“ (<strong>s.o.</strong>)</li>
-<li>Bewerbungsgespräch</li>
-<li>Erkläre, was iAccess macht: <strong>PV-Projekte, Batteriespeicher, kommunale Planung, technische Umsetzung</strong>.</li>
-<li>Grundprinzipien des Praktikums erklären</li>
-<li>Damit es sich für ihn nicht wie Schule anfühlt:</li>
-<li><strong>Sag am ersten Tag klar:</strong> „Ich will nicht, dass du Arbeitsblätter ausfüllst, sondern dass du mitdenkst. Schreib auf, was du verstehst und was du nicht verstehst.“</li>
-<li><strong>Mach ihn zum Beobachter:</strong> „Stell dir vor, du müsstest jemandem erklären, was wir hier tun – was würdest du sagen?“</li>
-<li><strong>Lass ihn eigene Fragen formulieren:</strong> „Was würdest du am liebsten genauer wissen?“</li>
-<li><strong>Gib Feedback im Gespräch, nicht schriftlich.</strong></li></ul>
-<p><strong>Grundprinzipien für ein „produktives“ Schülerpraktikum bei iAccess</strong> 1. <strong>Alle Aufgaben haben echten Nutzen</strong> (Datenpflege, Ablagen, Vorrecherchen, Karten, Strukturierung). 2. <strong>Kein Zugang zu vertraulichen Daten</strong> (nur vorbereitete oder öffentliche Informationen). 3. <strong>Jede Aufgabe ist Teil eines realen Projektschritts</strong> – nur eben mit klar definierten Grenzen. 4. <strong>Ergebnis bleibt im Unternehmen verwendbar.</strong></p>
-<ul><li><strong>Praxis statt Langeweile:</strong> Kleine, abgeschlossene Aufgaben statt bloßem Zusehen.</li>
-<li><strong>Begleitung:</strong> Gib ihm täglich 10–15 Minuten Feedback und beantworte Fragen.</li>
-<li>Er lernt den Beruf realistisch kennen, du gewinnst Mehrwert, und das Team erlebt ihn als Unterstützung statt als „Beobachter“.</li>
-<li>Betriebspraktikum. Du willst, dass er <strong>Eigenständigkeit erlebt</strong>, aber <strong>nicht wie ein Schüler behandelt wird</strong>. </li>
-<li>Und du willst echten Mehrwert schaffen, ohne dass du oder dein Team zusätzlichen Aufwand mit &quot;pädagogischer Verpackung&quot; haben. Das lässt sich hervorragend umsetzen.</li>
-<li>Ich schlage dir dafür eine <strong>minimalistische, praxisnahe Struktur</strong> vor: kein Formular, kein Handout, sondern ein einfacher <strong>„Mitlaufen, Zuhören, Nachfragen, Zusammenfassen“-Ansatz</strong>.</li></ul>
-<p><strong>Grundidee: „Mitarbeiten durch Verstehen und Verdichten“</strong> Er soll: 1. <strong>mitlaufen, beobachten, mitschreiben</strong>, 2. <strong>später in eigenen Worten wiedergeben</strong>, 3. und <strong>am Freitag daraus eine kurze Präsentation (5–10 Minuten)</strong> machen.</p>
-<p>Daraus bekommst du brauchbare Texte oder Präsentationsfolien, die du intern (z. B. für Website, Praktikanten-Mappe oder Projektbeschreibungen) weiterverwenden kannst.</p>
-<ul><li>Zeige ihm in 15–20 Minuten, <strong>woran ihr aktuell arbeitet</strong> (z. B. Karte eines PV-Projekts, Lageplan, paar Fotos, grober Projektstand).</li>
-<li>Er soll sich <strong>Notizen machen</strong>: </li>
-<li>„Was passiert hier eigentlich?“</li>
-<li>Was macht der Betrieb?</li>
-<li>Welche Aufgaben werden ausgeführt?</li>
-<li>Welche Aufgaben darf er selbst ausführen?</li>
-<li>Welche Eindrücke hat er von dem Beruf?</li>
-<li>Passt der tatsächliche Beruf zu seinen Vorstellungen von dem Beruf?</li>
-<li>Welche Berufe beobachtet er hier außer dem Projektentwickler?</li>
-<li>Assistenz der Geschäftsleitung, Marketing</li>
-<li>Designer, Bauzeichner, Techniker, Elektriker</li>
-<li>Bauarbeiter, Bauplaner, Bauleiter</li>
-<li>Informatik, Programmierer, Geoinformatik / GIS-Spezialisten</li>
-<li>Geographie, Umweltwissenschaften, Biologie, Umweltplaner</li>
-<li>Rechtswissenschaft</li>
-<li>Projektmanager, Projektkoordinator, Logistik</li>
-<li>Kaufmann, Akquise, Sales</li>
-<li>Gib ihm eine <strong>einfache Aufgabe</strong>:  </li></ul>
-<p><em>„Schreib heute Nachmittag kurz auf (halbe Seite), was du heute über iAccess gelernt hast.“</em> → Das ist sein erstes Zusammenfassen, kein Schulaufsatz, nur seine Sicht.</p>
-<h6>Dienstag – Projektentwicklung, Behörden, Projekte, Technik</h6>
-<ul><li>Nimm ihn mit in ein reales Gespräch oder zeige ihm z. B. ein Leistungsverzeichnis, technische Zeichnungen oder ein Bodenschutzkonzept.</li>
-<li>Sag: <em>„Erklär mir heute Abend in 5 Sätzen, worum es in diesem Dokument geht.“</em></li>
-<li>Lass ihn ggf. recherchieren, <strong>was einzelne Begriffe bedeuten</strong> („Trafo“, „Leistungsbegrenzung“, „kWp“, „§35 BauGB“).</li>
-<li>Am Nachmittag oder nächsten Tag: Du gehst seine Notizen kurz durch und erklärst das, was er nicht verstanden hat.</li></ul>
-<p>→ So entsteht über die Woche eine Art „Lerntagebuch in Stichpunkten“, das du später inhaltlich verwenden kannst.</p>
-<p>Umbenennung in Dropbox DVLP Restriktionen Recherche über die einzelnen Elemente einer PV Anlage in Klammern Module, Modul, tische, Kabel, Trafo, Wechselrichter, Batterien, Löschwasser, kalte Tanks… Zum Beispiel auch aus dem Design Unterlagen. Gespräch mit Gutachter</p>
-<h6><strong>Mittwoch – Zusammenarbeit, Akquise, Wirtschaft, Design, Bau</strong></h6>
-<ul><li>Zeig ihm, wie Pachtverträge oder Genehmigungsprozesse funktionieren (aber nur den allgemeinen Ablauf, keine sensiblen Inhalte).  </li>
-<li>Sag: <em>„Schreib heute auf, wie du dir vorstellst, dass so ein Projekt von der Idee bis zur Genehmigung läuft.“</em></li>
-<li>Lass ihn dazu z. B. ein kleines <strong>Flussdiagramm oder eine Aufzählung</strong> machen.</li>
-<li>Wenn er will, kann er das in PowerPoint oder Word darstellen.</li>
-<li><strong>DO: Munzingen-Baustelle</strong></li>
-<li>Laminier-Arbeit (2h) monoton</li></ul>
-<h6><strong>Donnerstag – Eigenarbeit, Reflexion und Vorbereitung</strong></h6>
-<ul><li>Er fasst <strong>die Woche in 5–10 Stichpunkten zusammen</strong>, was ihn am meisten überrascht oder interessiert hat.</li>
-<li>Du kannst ihm ein paar Impulse geben:</li>
-<li>„Was glaubst du, ist das Schwierigste an unserem Job?“</li>
-<li>„Was würdest du anders machen?“</li>
-<li>„Was würdest du deinen Freunden über iAccess erzählen?“</li></ul>
-<p>→ Das wird das Grundgerüst seiner Präsentation.</p>
-<ul><li>Was glaubst du, ist das schwierigste in unserem Beruf?</li>
-<li>Was ist das beste? Was reizt, diesen Job auszuführen?</li>
-<li>Aufstiegschancen? Gehalt? Boni?</li>
-<li>Minijob 520, kurzfristige Beschäftigung (3mnt/70t), Halbtags 20h, Vollzeit 40h, Überstunden, Urlaub, Mindestlohn, typisches Gehalt per Ausbildung und Erfahrung, Gehaltserhöhungen, Versicherung, Steuern</li>
-<li>Was würdest du anders machen? Wo siehst du Probleme?</li>
-<li>Wäre das etwas für dich?</li>
-<li>Feedback von mir</li>
-<li>„Was würdest du deinen Freunden über iAccess erzählen?</li>
-<li>Flussdiagramm Projekt Entwicklung.</li>
-<li>Wie entstehen Projekte?</li>
-<li>Auswertung des Angebots von LVBO Lärmschutz</li>
-<li>Aufgaben und Deadlines</li></ul>
-<h6>Freitag – Eigenarbeit, Rückblick und Präsentation</h6>
-<ul><li>Er soll kurz vorstellen (5–10 Minuten), was er gelernt hat:</li></ul>
-<p><em>Was ich bei iAccess gelernt habe</em></p>
-<ul><li>Wie funktioniert eine PV-Anlage?</li>
-<li>Was macht ein Projektentwickler?</li>
-<li>Wie entstehen Projekte?</li>
-<li>Was fand er interessant oder schwierig oder überraschend?</li>
-<li>Feedback-Gespräch:</li>
-<li>Was hat ihm gefallen?</li>
-<li>Welche Bereiche fand er spannend?</li>
-<li>Was würde er gern vertiefen?</li></ul>
-<p>16:00 Uhr Präsentation -&gt; Foto</p>
-<p>Bild mit Hintergrund Anlage Logo, Michael und uns <strong>BEZAHLUNG : 100 €</strong></p>
-<p>---</p>
-<h6><strong>Mögliche Aufgaben</strong></h6>
-<p>1. <strong>Standortdokumentation und Kartenpflege</strong> <strong>Ziel:</strong> Saubere Übersicht über laufende Projekte (z. B. Eisenbach, Hüfingen, Waldshut, Schallstadt …)</p>
-<ul><li>Er bekommt <strong>einen vorbereiteten Google-Earth-Ordner oder QGIS-Projekt</strong> mit den bekannten Standorten.</li>
-<li>Aufgabe:</li>
-<li>Kontrollieren, ob die Screenshots und Standortdaten aktuell sind.</li>
-<li>Fotos hinzufügen (z. B. von OpenStreetMap, Luftbildern).</li>
-<li>Koordinaten und Größenangaben notieren.</li>
-<li>Ergebnis: <strong>Aktualisierte Karte oder Screenshot-Sammlung</strong>, die du in Präsentationen oder Berichten verwenden kannst.</li></ul>
-<p>→ <em>Verwertbar:</em> Für Projektüberblicke, Website, interne Projektlisten. 2. <strong>Dokumentenstruktur und Datenpflege</strong> <strong>Ziel:</strong> Ordnung und Effizienz in Projektordnern.</p>
-<ul><li>Aufgabe: Durchsicht eines Projektordners (lokal oder auf SharePoint) nach vorgegebenen Kriterien:</li>
-<li>Fehlen standardisierte Dateinamen?</li>
-<li>Sind alle Unterlagen richtig einsortiert?</li>
-<li>Gibt es alte Versionen, die man archivieren sollte?</li>
-<li>Er arbeitet mit einer <strong>Checkliste</strong> und markiert, was verbessert werden sollte.</li></ul>
-<p>→ <em>Verwertbar:</em> Du bekommst eine saubere Übersicht und To-Do-Liste zur digitalen Ablagepflege. 3. <strong>Komponentendatenbank oder Lieferantenübersicht</strong> <strong>Ziel:</strong> Schnell abrufbare technische Vergleichsdaten.</p>
-<ul><li>Aufgabe: Er soll <strong>öffentlich verfügbare Datenblätter</strong> (Module, Batterien, Wechselrichter, Transformatoren) sammeln und in eine Excel-Tabelle übertragen:</li>
-<li>Hersteller, Modell, Nennleistung, Maße, Gewicht, Effizienz, Spannung, Zertifikate.</li>
-<li>Diese Daten kann man später für neue Projekte wiederverwenden.</li></ul>
-<p>→ <em>Verwertbar:</em> Technische Übersichtstabelle als internes Nachschlagewerk. 4. <strong>Öffentlichkeitsarbeit &amp; Präsentation</strong> <strong>Ziel:</strong> Material für Infoveranstaltungen oder Website.</p>
-<ul><li>Aufgabe: Er bereitet <strong>eine bebilderte Präsentation</strong> über ein reales Projekt vor:</li>
-<li>Standort, Größe, Besonderheiten, Umweltmaßnahmen.</li>
-<li>Quellen: Firmenwebsite, öffentliche Karten, Presseartikel.</li>
-<li>Betreuer kontrolliert, dass nichts Vertrauliches veröffentlicht wird.</li></ul>
-<p>→ <em>Verwertbar:</em> Präsentation kann später in Gesprächen mit Gemeinden oder Eigentümern dienen. 5. <strong>Umwelt- und Bodendaten zusammentragen</strong> <strong>Ziel:</strong> Hilfreiche Basis für Umweltberichte.</p>
-<ul><li>Aufgabe: Er recherchiert <strong>öffentlich zugängliche Informationen</strong> (Bodenarten, Schutzgebiete, Sonneneinstrahlung, Wind, Hangneigung) für ausgewählte Flächen.</li>
-<li>Ergebnis in Excel oder GIS-Tabelle (z. B. Link + Kurzbeschreibung + Quelle).</li></ul>
-<p>→ <em>Verwertbar:</em> Schnellübersicht, die ihr bei Vorprüfungen neuer Flächen nutzen könnt. 6. <strong>Behördenübersicht</strong> <strong>Ziel:</strong> Interne Kontaktliste pflegen oder ergänzen.</p>
-<ul><li>Aufgabe: Er sammelt Kontaktdaten (Mail, Telefonnummer, Zuständigkeit) von:</li>
-<li>Untere Naturschutzbehörden, Bauämter, Regionalverbände, Stadtwerke usw.</li>
-<li>Daten aus öffentlichen Websites, sauber in Excel eingetragen.</li></ul>
-<p>→ <em>Verwertbar:</em> Kontaktliste für neue Projekte oder Bauvoranfragen. 7. <strong>Technische Hilfstätigkeiten</strong> <strong>Ziel:</strong> Verständnis fördern und Arbeit erleichtern.</p>
-<ul><li>Beispiel: Er kann <strong>Daten aus PDF-Plänen in eine Excel-Liste übertragen</strong>, z. B.:</li>
-<li>Kabellängen, Parzellennummern, Koordinaten, Modultypen.</li>
-<li>Oder: aus Fotos eine Dokumentation mit Beschriftung erstellen („Wegeausbau 2024 – Stand 11/2025“).</li></ul>
-<p>→ <em>Verwertbar:</em> Dokumentation für Bauüberwachung oder Behördenberichte. 8. <strong>Politische Entscheidungen</strong></p>
-<ul><li>Erkläre ihm, <strong>was eine Gemeinderatssitzung ist</strong>:  </li></ul>
-<p><em>Wie wird entschieden? Wer darf sprechen? Was bedeutet ein Bebauungsplanbeschluss?</em></p>
-<ul><li>Zeige ihm die <strong>Tagesordnung</strong> der Sitzung und erkläre kurz, <strong>wie so etwas abläuft</strong>.</li>
-<li>Falls möglich: Zeige ihm später die <strong>öffentliche Niederschrift oder Zeitungsausschnitt</strong> zu „eurem“ Punkt.</li>
-<li>Lass ihn notieren, <strong>welche Entscheidungen nötig sind, bevor gebaut werden darf</strong>.</li></ul>
-<h6><strong>Mögliche weitere Themen/Aufgaben</strong></h6>
-<ul><li>Zeige eine <strong>Übersicht über ein laufendes Projekt</strong> (z. B. Lageplan, Netzanschluss, Genehmigungspfad).</li>
-<li>Lass ihn einfache Recherchen oder Beobachtungen machen:</li>
-<li>„Finde heraus, wie viele Sonnenstunden Freiburg im Jahr hat.“</li>
-<li>„Was bedeutet §35 BauGB?“</li>
-<li>„Wie funktioniert ein Wechselrichter?“  </li></ul>
-<p>→ Anschließend kurze Besprechung.</p>
-<ul><li>Zeige <strong>Lagepläne, Bebauungspläne und GIS-Daten</strong>.</li>
-<li>Lass ihn in <strong>QGIS oder Google Earth</strong> einfache Dinge ausprobieren (z. B. Fläche eines Grundstücks messen).</li>
-<li>Erkläre <strong>Aufbau einer PV-Anlage</strong> (Module, Wechselrichter, Kabelwege, Umspannwerk).</li>
-<li>Kleine Aufgabe: Zeichne schematisch den Aufbau einer Solarstromanlage.</li>
-<li>Erkläre <strong>Kosten, Erträge, Pacht, Einspeisung</strong>.</li>
-<li>Lass ihn mit Excel einfache Berechnungen machen:</li>
-<li>„Wie viel Strom erzeugt eine 12 MWp-Anlage pro Jahr?“</li>
-<li>„Was bedeutet 1 MW?“</li>
-<li>Wenn möglich: Teilnahme an einem internen Termin oder kurzem Teams-Call.</li>
-<li>Erkläre, wie <strong>Verhandlungen mit Eigentümern</strong> und <strong>Behörden</strong> ablaufen.</li>
-<li>Zeige Beispiele von <strong>Bodenschutzkonzepten, Umweltberichten, Brandschutzkonzepten</strong>.</li>
-<li>Erkläre, warum ökologische Themen wichtig sind (Boden, Wasser, Landschaftsbild).</li>
-<li>Aufgabe: Er soll eine <strong>fiktive Fläche bewerten</strong>, ob sie für PV geeignet wäre (Neigung, Nähe zur Leitung, Bodenart, Schutzgebiete).</li>
-<li>Recherchieren, was ein Umspannwerk macht.</li>
-<li>In PowerPoint eine Folie über „Erneuerbare Energien in Deutschland“ gestalten.</li>
-<li>Den Ablauf eines Projekts als Flussdiagramm zeichnen.</li>
-<li>Module zählen oder Flächen auf Karten markieren.</li>
-<li>Ein einfaches Berechnungsblatt erstellen (z. B. Stromverbrauch eines Haushalts vs. PV-Ertrag).</li></ul>
+          
+          <section class="project-maps">
+    <p class="map-intro">Die Pins verwenden vorhandene GPS-Koordinaten. Fehlende Koordinaten werden anhand des Ortsnamens ermittelt und im Browser zwischengespeichert.</p>
+    <div class="map-legend">
+      <span class="map-status acquisition">In Akquise</span>
+      <span class="map-status development">In Entwicklung</span>
+      <span class="map-status construction">In Bau</span>
+      <span class="map-status built">Errichtet</span>
+      <span class="map-status other">Weitere</span>
+    </div>
+    <section class="country-map-section">
+      <h2>Deutschland</h2>
+      <div class="project-map" data-country="DE" aria-label="Projektkarte Deutschland"></div>
+      <p class="map-progress" data-map-progress="DE"></p>
+    </section><section class="country-map-section">
+      <h2>Frankreich</h2>
+      <div class="project-map" data-country="FR" aria-label="Projektkarte Frankreich"></div>
+      <p class="map-progress" data-map-progress="FR"></p>
+    </section><section class="country-map-section">
+      <h2>Japan</h2>
+      <div class="project-map" data-country="JP" aria-label="Projektkarte Japan"></div>
+      <p class="map-progress" data-map-progress="JP"></p>
+    </section>
+    <script id="project-map-data" type="application/json">[{"title":"Eisenbach (F)","url":"eisenbach-f.html","country":"DE","status":"built","location":"Eisenbach","coordinates":[47.94737,8.26214]},{"title":"Freiburg (Kindergalaxie)","url":"freiburg-kindergalaxie.html","country":"DE","status":"built","location":"Freiburg","coordinates":null},{"title":"Grabsleben","url":"grabsleben.html","country":"DE","status":"built","location":"Grabsleben","coordinates":null},{"title":"Hugstetten","url":"hugstetten.html","country":"DE","status":"built","location":"Hugstetten","coordinates":null},{"title":"Kippenheim (Sportpark)","url":"kippenheim-sportpark.html","country":"DE","status":"built","location":"Kippenheim","coordinates":null},{"title":"Nauroth","url":"nauroth.html","country":"DE","status":"built","location":"Nauroth","coordinates":null},{"title":"Pferdsfeld","url":"pferdsfeld.html","country":"DE","status":"built","location":"Pferdsfeld","coordinates":null},{"title":"Stassfurt","url":"stassfurt.html","country":"DE","status":"built","location":"Stassfurt","coordinates":null},{"title":"Cardon","url":"cardon.html","country":"FR","status":"built","location":"Cardon","coordinates":null},{"title":"Estézargues","url":"estezargues.html","country":"FR","status":"built","location":"Estézargues","coordinates":null},{"title":"Guitinières","url":"guitinieres.html","country":"FR","status":"built","location":"Guitinières","coordinates":null},{"title":"Puch-D'Agenais","url":"puch-d-agenais.html","country":"FR","status":"built","location":"Puch-D'Agenais","coordinates":null},{"title":"Akune","url":"akune.html","country":"JP","status":"built","location":"Akune","coordinates":null},{"title":"Isahaya North","url":"isahaya-north.html","country":"JP","status":"built","location":"Isahaya North","coordinates":null},{"title":"Isahaya South","url":"isahaya-south.html","country":"JP","status":"built","location":"Isahaya South","coordinates":null},{"title":"Kawasaki","url":"kawasaki.html","country":"JP","status":"built","location":"Kawasaki","coordinates":null},{"title":"Minami-Izu","url":"minami-izu.html","country":"JP","status":"built","location":"Minami-Izu","coordinates":null},{"title":"Okayama","url":"okayama.html","country":"JP","status":"built","location":"Okayama","coordinates":null},{"title":"Sanbonmatsu","url":"sanbonmatsu.html","country":"JP","status":"built","location":"Sanbonmatsu","coordinates":null},{"title":"Tochigi","url":"tochigi.html","country":"JP","status":"built","location":"Tochigi","coordinates":null},{"title":"Tsuyama","url":"tsuyama.html","country":"JP","status":"built","location":"Tsuyama","coordinates":null},{"title":"Uwaba North","url":"uwaba-north.html","country":"JP","status":"built","location":"Uwaba North","coordinates":null},{"title":"Uwaba South","url":"uwaba-south.html","country":"JP","status":"built","location":"Uwaba South","coordinates":null},{"title":"Yamagata","url":"yamagata.html","country":"JP","status":"built","location":"Yamagata","coordinates":null},{"title":"Yamanashi","url":"yamanashi.html","country":"JP","status":"built","location":"Yamanashi","coordinates":null},{"title":"Yamashita North","url":"yamashita-north.html","country":"JP","status":"built","location":"Yamashita North","coordinates":null},{"title":"Yamashita South","url":"yamashita-south.html","country":"JP","status":"built","location":"Yamashita South","coordinates":null},{"title":"Bad Säckingen (M)","url":"bad-sackingen-m-2.html","country":"DE","status":"construction","location":"Bad Säckingen","coordinates":null},{"title":"Haßfurt (Uponor)","url":"ha-furt-uponor.html","country":"DE","status":"construction","location":"Haßfurt","coordinates":null},{"title":"Lüptitz (BAG)","url":"luptitz-bag.html","country":"DE","status":"construction","location":"Lossatal","coordinates":[51.382224,12.765811]},{"title":"Eisenbach (W)","url":"eisenbach-w.html","country":"DE","status":"construction","location":"Eisenbach","coordinates":[47.9496,8.29842]},{"title":"Stockhausen (BAG)","url":"stockhausen-bag.html","country":"DE","status":"construction","location":"Stockhausen","coordinates":[50.555472,8.327667]},{"title":"Bötzingen (H)","url":"botzingen-h.html","country":"DE","status":"construction","location":"Bötzingen","coordinates":[48.079566,7.703887]},{"title":"Freiburg (Madeira 2)","url":"freiburg-madeira-2.html","country":"DE","status":"construction","location":"Freiburg","coordinates":null},{"title":"Neuwied (R)","url":"neuwied-r.html","country":"DE","status":"construction","location":"Neuwied","coordinates":[50.419474,7.470528]},{"title":"Bitz (ASW)","url":"bitz-asw.html","country":"DE","status":"construction","location":"Bitz","coordinates":[48.244838,9.103339]},{"title":"Dachau (SWD)","url":"dachau-swd.html","country":"DE","status":"construction","location":"Dachau","coordinates":[48.286084,11.456667]},{"title":"Freiburg (Knauf)","url":"freiburg-knauf.html","country":"DE","status":"construction","location":"Freiburg","coordinates":null},{"title":"Freiburg (Madeira)","url":"freiburg-madeira.html","country":"DE","status":"construction","location":"Freiburg","coordinates":null},{"title":"Henau (BAG)","url":"henau-bag.html","country":"DE","status":"construction","location":"Henau","coordinates":[49.869334,7.485536]},{"title":"Krefeld (Kaarst 2)","url":"krefeld-kaarst-2.html","country":"DE","status":"construction","location":"Krefeld","coordinates":null},{"title":"Krefeld (Kaarst)","url":"krefeld-kaarst.html","country":"DE","status":"construction","location":"Krefeld","coordinates":null},{"title":"Offenburg (Pflegeheim)","url":"offenburg-pflegeheim.html","country":"DE","status":"construction","location":"Offenburg","coordinates":null},{"title":"Riesa","url":"riesa.html","country":"DE","status":"construction","location":"Riesa","coordinates":null},{"title":"St. Georgen (EBM Papst)","url":"st-georgen-ebm-papst.html","country":"DE","status":"construction","location":"St. Georgen","coordinates":null},{"title":"Stockach (R)","url":"stockach-r.html","country":"DE","status":"construction","location":"Stockach","coordinates":null},{"title":"Winterspüren","url":"winterspuren.html","country":"DE","status":"construction","location":"Winterspüren","coordinates":null},{"title":"Buggingen (W)","url":"buggingen-w.html","country":"DE","status":"construction","location":"Buggingen","coordinates":[47.844041,7.622598]},{"title":"Donaueschingen (S)","url":"donaueschingen-s.html","country":"DE","status":"construction","location":"Donaueschingen","coordinates":[47.925015,8.553501]},{"title":"Flechtingen (BAG)","url":"flechtingen-bag-2.html","country":"DE","status":"construction","location":"Flechtingen","coordinates":[52.31412,11.222896]},{"title":"Munzingen (B)","url":"munzingen-b.html","country":"DE","status":"construction","location":"Freiburg","coordinates":[47.965611,7.707361]},{"title":"Ochtendung MfP (R)","url":"ochtendung-mfp-r.html","country":"DE","status":"construction","location":"Ochtendung MfP","coordinates":[50.354287,7.598785]},{"title":"Stühlingen (D)","url":"stuhlingen-d.html","country":"DE","status":"construction","location":"Stühlingen","coordinates":[47.76791,8.374]},{"title":"Bilstein (BAG)","url":"bilstein-bag.html","country":"DE","status":"construction","location":"Bilstein","coordinates":[51.381167,8.627833]},{"title":"Brohltal (R)","url":"brohltal-r.html","country":"DE","status":"construction","location":"Brohltal","coordinates":[50.371857,7.600275]},{"title":"Buggingen (R)","url":"buggingen-r.html","country":"DE","status":"construction","location":"Buggingen","coordinates":[47.85547,7.61947]},{"title":"Ochtendung GE (R)","url":"ochtendung-ge-r.html","country":"DE","status":"construction","location":"Ochtendung GE","coordinates":[50.363356,7.600273]},{"title":"Rottweil (S)","url":"rottweil-s.html","country":"DE","status":"construction","location":"Rottweil","coordinates":[48.18244,8.63276]},{"title":"Talbecke (BAG)","url":"talbecke-bag.html","country":"DE","status":"construction","location":"Talbecke","coordinates":[51.044684,7.585679]},{"title":"Wetzstein (BAG)","url":"wetzstein-bag.html","country":"DE","status":"construction","location":"Rothenbach","coordinates":[50.57,7.88]},{"title":"Schallstadt (GMK)","url":"schallstadt-gmk.html","country":"DE","status":"development","location":"Schallstadt","coordinates":[47.962864,7.754984]},{"title":"Aitrach (T)","url":"aitrach-t.html","country":"DE","status":"development","location":"Aitrach","coordinates":[47.97109,10.0779]},{"title":"Blumberg (G)","url":"blumberg-g.html","country":"DE","status":"development","location":"Blumberg","coordinates":[47.8058797,8.5143936]},{"title":"Hüfingen (S)","url":"hufingen-s.html","country":"DE","status":"development","location":"Hüfingen","coordinates":[47.92013,8.54291]},{"title":"Schrenz (S)","url":"schrenz-s.html","country":"DE","status":"development","location":"Schrenz","coordinates":null},{"title":"Dietingen (M)","url":"dietingen-m.html","country":"DE","status":"development","location":"Dietingen","coordinates":[48.204053,8.622555]},{"title":"Eisenbach 3 (E3)","url":"eisenbach-3-e3.html","country":"DE","status":"development","location":"Eisenbach","coordinates":[47.949922,8.310412]},{"title":"Friedenweiler (GMK)","url":"friedenweiler-gmk.html","country":"DE","status":"development","location":"Löffingen","coordinates":[47.89822,8.32612]},{"title":"Rheinfelden (L)","url":"rheinfelden-l.html","country":"DE","status":"development","location":"Rheinfelden","coordinates":[47.553659,7.755591]},{"title":"Renchen (K)","url":"renchen-k-2.html","country":"DE","status":"development","location":"Renchen","coordinates":null},{"title":"Neuenburg (iAR)","url":"neuenburg-iar.html","country":"DE","status":"development","location":"Neuenburg am Rhein","coordinates":[47.80775,7.56084]},{"title":"Wutöschingen (S)","url":"wutoschingen-s.html","country":"DE","status":"development","location":"Wutöschingen","coordinates":[47.65535,8.32772]},{"title":"Ühlingen-Birkendorf (L)","url":"uhlingen-birkendorf-l.html","country":"DE","status":"development","location":"Ühlingen-Birkendorf","coordinates":[47.6775429,8.3344057]},{"title":"Bad Dürrheim (M)","url":"bad-durrheim-m.html","country":"DE","status":"development","location":"Bad Dürrheim","coordinates":[47.95452,8.58857]},{"title":"Oberhambach (K)","url":"oberhambach-k.html","country":"DE","status":"development","location":"Oberhambach","coordinates":null},{"title":"Treplin (W)","url":"treplin-w.html","country":"DE","status":"development","location":"Treplin","coordinates":[52.388015,14.418966]},{"title":"Bitburg (Z)","url":"bitburg-z.html","country":"DE","status":"development","location":"Bitburg","coordinates":[49.979009,6.506084]},{"title":"Deggenhausertal (M)","url":"deggenhausertal-m.html","country":"DE","status":"development","location":"Deggenhausertal","coordinates":[47.802761,9.414395]},{"title":"Freiberg (Z)","url":"freiberg-z.html","country":"DE","status":"development","location":"Freiberg","coordinates":[50.915841,13.379901]},{"title":"Sauldorf (H)","url":"sauldorf-h.html","country":"DE","status":"development","location":"Sauldorf","coordinates":[47.958009,9.072078]},{"title":"Waldshut-Tiengen (B)","url":"waldshut-tiengen-b.html","country":"DE","status":"development","location":"Waldshut-Tiengen","coordinates":[47.654587,8.168878]},{"title":"Augsburg (Stätzlinger 70)","url":"augsburg-statzlinger-70.html","country":"DE","status":"development","location":"Augsburg","coordinates":null},{"title":"Eisenbach 4 (L)","url":"eisenbach-4-l.html","country":"DE","status":"development","location":"Eisenbach","coordinates":[47.979608,8.229203]},{"title":"Whylen ()","url":"whylen.html","country":"DE","status":"development","location":"Whylen","coordinates":null},{"title":"Achterspannerhof 1 (MW)","url":"achterspannerhof-1-mw.html","country":"DE","status":"development","location":"Achterspannerhof","coordinates":[50.344464,7.5979]},{"title":"Achterspannerhof 2 (N)","url":"achterspannerhof-2-n.html","country":"DE","status":"development","location":"Kobern-Gondorf","coordinates":null},{"title":"Bernbrunn (BayWa)","url":"bernbrunn-baywa.html","country":"DE","status":"development","location":"Bernbrunn","coordinates":null},{"title":"Ettlingen (F)","url":"ettlingen-f.html","country":"DE","status":"development","location":"Ettlingen","coordinates":null},{"title":"Gresselgrund (BayWa)","url":"gresselgrund-baywa.html","country":"DE","status":"development","location":"Gresselgrund","coordinates":null},{"title":"Immendingen (K)","url":"immendingen-k.html","country":"DE","status":"development","location":"Immendingen","coordinates":null},{"title":"Neckarzimmern (BayWa)","url":"neckarzimmern-baywa.html","country":"DE","status":"development","location":"Neckarzimmern","coordinates":null},{"title":"Oppin (B)","url":"oppin-b.html","country":"DE","status":"development","location":"Landsberg","coordinates":null},{"title":"Schafstedt (Chint)","url":"schafstedt-chint.html","country":"DE","status":"development","location":"Schafstedt","coordinates":null},{"title":"Audenhain (H)","url":"audenhain-h.html","country":"DE","status":"acquisition","location":"Mockrehna","coordinates":[51.51115,12.88883]},{"title":"Buggingen (F)","url":"buggingen-f.html","country":"DE","status":"acquisition","location":"Buggingen","coordinates":[47.86392,7.63535]},{"title":"Denzlingen (W)","url":"denzlingen-w.html","country":"DE","status":"acquisition","location":"Denzlingen","coordinates":null},{"title":"Gebhardshain (H)","url":"gebhardshain-h.html","country":"DE","status":"acquisition","location":"Gebhardshain","coordinates":[50.74264,7.82496]},{"title":"Neuenburg (D)","url":"neuenburg-d.html","country":"DE","status":"acquisition","location":"Neuenburg am Rhein","coordinates":[47.866604,7.596617]},{"title":"Baden-Baden (F)","url":"baden-baden-f.html","country":"DE","status":"acquisition","location":"Baden-Baden","coordinates":[48.739754,8.1644]},{"title":"Denzlingen (S)","url":"denzlingen-s.html","country":"DE","status":"acquisition","location":"Denzlingen","coordinates":[48.06001,7.88019]},{"title":"Lohagen (S)","url":"lohagen-s.html","country":"DE","status":"acquisition","location":"Erwitte; Anröchte","coordinates":[51.57963,8.24785]},{"title":"Pfullendorf (G)","url":"pfullendorf-g.html","country":"DE","status":"acquisition","location":"Pfullendorf","coordinates":[47.94363,9.2272]},{"title":"Wickede (R)","url":"wickede-r.html","country":"DE","status":"acquisition","location":"Wickede","coordinates":null},{"title":"Freiburg (UWSA)","url":"freiburg-uwsa.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":null},{"title":"Bad Krozingen (R)","url":"bad-krozingen-r.html","country":"DE","status":"acquisition","location":"Bad Krozingen","coordinates":[47.92529,7.7043]},{"title":"Freiburg-March (K)","url":"freiburg-march-k.html","country":"DE","status":"acquisition","location":"Freiburg-March","coordinates":null},{"title":"Kagenow","url":"kagenow.html","country":"DE","status":"acquisition","location":"17391 Neetzow-Liepen","coordinates":null},{"title":"Karlsruhe (F)","url":"karlsruhe-f.html","country":"DE","status":"acquisition","location":"Karlsruhe","coordinates":null},{"title":"Meiningen (AGH)","url":"meiningen-agh.html","country":"DE","status":"acquisition","location":"Meiningen","coordinates":[50.599507,10.424804]},{"title":"München 1 (ArtInvest)","url":"munchen-1-artinvest.html","country":"DE","status":"acquisition","location":"München","coordinates":null},{"title":"Schallstadt (vH)","url":"schallstadt-vh.html","country":"DE","status":"acquisition","location":"Schallstadt","coordinates":[47.9655855,7.7236906]},{"title":"Unterwellenborn (Z)","url":"unterwellenborn-z.html","country":"DE","status":"acquisition","location":"Unterwellenborn","coordinates":null},{"title":"Wolkow","url":"wolkow.html","country":"DE","status":"acquisition","location":"Wildberg","coordinates":null},{"title":"Denzlingen (GMK)","url":"denzlingen-gmk.html","country":"DE","status":"acquisition","location":"Denzlingen","coordinates":[48.06001,7.88019]},{"title":"Harsewinkel (F)","url":"harsewinkel-f.html","country":"DE","status":"acquisition","location":"Harsewinkel","coordinates":[51.9557,8.129978]},{"title":"Neuenburg (G)","url":"neuenburg-g.html","country":"DE","status":"acquisition","location":"Neuenburg am Rhein","coordinates":[47.875536,7.61249]},{"title":"Opfingen (M)","url":"opfingen-m.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":[48.010283,7.707796]},{"title":"Reichertsheim (D)","url":"reichertsheim-d.html","country":"DE","status":"acquisition","location":"Reichertsheim","coordinates":null},{"title":"Villigst (S)","url":"villigst-s.html","country":"DE","status":"acquisition","location":"Schwerte","coordinates":[51.43673,7.62193]},{"title":"Zützen (C)","url":"zutzen-c.html","country":"DE","status":"acquisition","location":"Schwedt","coordinates":[53.053047,14.236618]},{"title":"Freiburg (GMK)","url":"freiburg-gmk.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":null},{"title":"Reute (GMK)","url":"reute-gmk.html","country":"DE","status":"acquisition","location":"Reute","coordinates":null},{"title":"Vörstetten (GMK)","url":"vorstetten-gmk.html","country":"DE","status":"acquisition","location":"Vörstetten","coordinates":null},{"title":"Bad Dürrheim (K)","url":"bad-durrheim-k.html","country":"DE","status":"acquisition","location":"Bad Dürrheim","coordinates":[47.97646,8.61659]},{"title":"Bad Krozingen (S)","url":"bad-krozingen-s.html","country":"DE","status":"acquisition","location":"Bad Krozingen","coordinates":null},{"title":"Bonndorf (G)","url":"bonndorf-g.html","country":"DE","status":"acquisition","location":"Bonndorf","coordinates":null},{"title":"Breisach (D)","url":"breisach-d.html","country":"DE","status":"acquisition","location":"Breisach","coordinates":null},{"title":"Denzlingen (B)","url":"denzlingen-b.html","country":"DE","status":"acquisition","location":"Denzlingen","coordinates":null},{"title":"Donaueschingen (M)","url":"donaueschingen-m.html","country":"DE","status":"acquisition","location":"Donaueschingen","coordinates":[47.95604,8.56251]},{"title":"Eichstetten (H)","url":"eichstetten-h.html","country":"DE","status":"acquisition","location":"Eichstetten","coordinates":null},{"title":"Endingen (B)","url":"endingen-b.html","country":"DE","status":"acquisition","location":"Endingen","coordinates":[48.15546,7.71359]},{"title":"Eschbach (W)","url":"eschbach-w.html","country":"DE","status":"acquisition","location":"Eschbach","coordinates":null},{"title":"Falkenberg (B)","url":"falkenberg-b.html","country":"DE","status":"acquisition","location":"Falkenberg","coordinates":[51.59378,13.24197]},{"title":"Freiburg (D)","url":"freiburg-d.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":[47.98606,7.80054]},{"title":"Freiburg (G)","url":"freiburg-g.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":null},{"title":"Freiburg (M 1)","url":"freiburg-m-1.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":null},{"title":"Geißlingen (G)","url":"gei-lingen-g.html","country":"DE","status":"acquisition","location":"Geißlingen","coordinates":[47.62129,8.38025]},{"title":"Gengenbach (S)","url":"gengenbach-s.html","country":"DE","status":"acquisition","location":"Gengenbach","coordinates":null},{"title":"Gerichshain (W)","url":"gerichshain-w.html","country":"DE","status":"acquisition","location":"Gerichshain","coordinates":null},{"title":"Gutach (S)","url":"gutach-s.html","country":"DE","status":"acquisition","location":"Gutach","coordinates":null},{"title":"Gündlingen (D)","url":"gundlingen-d.html","country":"DE","status":"acquisition","location":"Breisach","coordinates":null},{"title":"Halle (PVG)","url":"halle-pvg.html","country":"DE","status":"acquisition","location":"Halle","coordinates":null},{"title":"Holzdorf (B)","url":"holzdorf-b.html","country":"DE","status":"acquisition","location":"Holzdorf","coordinates":[51.78508,13.16907]},{"title":"Hüfingen (M)","url":"hufingen-m.html","country":"DE","status":"acquisition","location":"Hüfingen","coordinates":[47.9115,8.50844]},{"title":"Hüfingen (V)","url":"hufingen-v.html","country":"DE","status":"acquisition","location":"Hüfingen","coordinates":null},{"title":"Hüfingen BESS (S)","url":"hufingen-bess-s.html","country":"DE","status":"acquisition","location":"Hüfingen","coordinates":[47.91914,8.54573]},{"title":"Lauchhammer (B)","url":"lauchhammer-b.html","country":"DE","status":"acquisition","location":"Lauchhammer","coordinates":null},{"title":"Leimen (M)","url":"leimen-m.html","country":"DE","status":"acquisition","location":"Leimen","coordinates":null},{"title":"Leipzig (H)","url":"leipzig-h.html","country":"DE","status":"acquisition","location":"Leipzig","coordinates":null},{"title":"Linden (B)","url":"linden-b.html","country":"DE","status":"acquisition","location":"Linden","coordinates":[50.5266459100385,8.625974941135972]},{"title":"Linden (CS)","url":"linden-cs.html","country":"DE","status":"acquisition","location":"Linden","coordinates":null},{"title":"Löffelstelzen (K)","url":"loffelstelzen-k.html","country":"DE","status":"acquisition","location":"Löffelstelzen","coordinates":null},{"title":"Machern (W)","url":"machern-w.html","country":"DE","status":"acquisition","location":"Machern","coordinates":null},{"title":"Marburg (O)","url":"marburg-o.html","country":"DE","status":"acquisition","location":"Marburg","coordinates":[50.83693,8.76817]},{"title":"Munzingen 2 (B)","url":"munzingen-2-b.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":null},{"title":"München 2 (Parkstadtcenter)","url":"munchen-2-parkstadtcenter.html","country":"DE","status":"acquisition","location":"München","coordinates":null},{"title":"München 3 (Arnulfbogen)","url":"munchen-3-arnulfbogen.html","country":"DE","status":"acquisition","location":"München","coordinates":null},{"title":"Rastatt 1 Durmersheim (KH)","url":"rastatt-1-durmersheim-kh.html","country":"DE","status":"acquisition","location":"Durmersheim","coordinates":null},{"title":"Rastatt 2 Durmersheim (KH)","url":"rastatt-2-durmersheim-kh.html","country":"DE","status":"acquisition","location":"Durmersheim","coordinates":null},{"title":"Rastatt 4 Durmersheim (KH)","url":"rastatt-4-durmersheim-kh.html","country":"DE","status":"acquisition","location":"Durmersheim","coordinates":null},{"title":"Rheinfelden (R)","url":"rheinfelden-r.html","country":"DE","status":"acquisition","location":"Rheinfelden","coordinates":null},{"title":"Riesa (B)","url":"riesa-b.html","country":"DE","status":"acquisition","location":"Riesa","coordinates":[51.30148,13.29393]},{"title":"Ripphalde (D)","url":"ripphalde-d.html","country":"DE","status":"acquisition","location":"Ripphalde","coordinates":null},{"title":"Simonswald (S)","url":"simonswald-s.html","country":"DE","status":"acquisition","location":"Simonswald","coordinates":null},{"title":"Spornitz (CS)","url":"spornitz-cs.html","country":"DE","status":"acquisition","location":"Spornitz","coordinates":null},{"title":"Stockach (H)","url":"stockach-h.html","country":"DE","status":"acquisition","location":"Stockach","coordinates":null},{"title":"Stühlingen (P)","url":"stuhlingen-p.html","country":"DE","status":"acquisition","location":"Stühlingen","coordinates":[47.770519,8.464811]},{"title":"Treis Karden (BAG)","url":"treis-karden-bag.html","country":"DE","status":"acquisition","location":"Treis Karden","coordinates":null},{"title":"Waldshut-Tiengen (D)","url":"waldshut-tiengen-d.html","country":"DE","status":"acquisition","location":"Waldshut-Tiengen","coordinates":null},{"title":"Werther (AEG)","url":"werther-aeg.html","country":"DE","status":"acquisition","location":"Werther","coordinates":[51.468472,10.687222]},{"title":"Zweibrücken (S)","url":"zweibrucken-s.html","country":"DE","status":"acquisition","location":"Zweibrücken","coordinates":null},{"title":"Aitrach (H2O)","url":"aitrach-h2o.html","country":"DE","status":"acquisition","location":"Aitrach","coordinates":[47.91682703281797,10.074029122660447]},{"title":"Berkholz-Meyenburg (x)","url":"berkholz-meyenburg-x.html","country":"DE","status":"acquisition","location":"Berkholz-Meyenburg","coordinates":[53.054331,14.234392]},{"title":"Burladingen","url":"burladingen.html","country":"DE","status":"acquisition","location":"Burladingen","coordinates":null},{"title":"Freiburg (Nord)","url":"freiburg-nord.html","country":"DE","status":"acquisition","location":"Freiburg","coordinates":null},{"title":"Heising","url":"heising.html","country":"DE","status":"acquisition","location":"Heising","coordinates":[47.7926,10.3185]},{"title":"Malsch (KH)","url":"malsch-kh.html","country":"DE","status":"acquisition","location":"Malsch","coordinates":null},{"title":"Rheinfelden Adelhausen","url":"rheinfelden-adelhausen.html","country":"DE","status":"acquisition","location":"Rheinfelden Adelhausen","coordinates":null},{"title":"Röllshausen","url":"rollshausen.html","country":"DE","status":"acquisition","location":"Röllshausen","coordinates":null},{"title":"Titisee-Neustadt (UW)","url":"titisee-neustadt-uw.html","country":"DE","status":"acquisition","location":"Titisee-Neustadt","coordinates":null},{"title":"Auggen (F)","url":"auggen-f.html","country":"DE","status":"other","location":"Auggen","coordinates":[47.77571,7.57811]},{"title":"Bosenberg (GPB)","url":"bosenberg-gpb.html","country":"DE","status":"other","location":"Bosenberg","coordinates":null},{"title":"Calden (R)","url":"calden-r.html","country":"DE","status":"other","location":"Calden","coordinates":null},{"title":"Gaildorf (G)","url":"gaildorf-g.html","country":"DE","status":"other","location":"Gaildorf","coordinates":null},{"title":"Genthin","url":"genthin.html","country":"DE","status":"other","location":"Genthin","coordinates":null},{"title":"Gröningen (W)","url":"groningen-w.html","country":"DE","status":"other","location":"Gröningen","coordinates":null},{"title":"Gurtweil","url":"gurtweil.html","country":"DE","status":"other","location":"Gurtweil","coordinates":null},{"title":"Hartha (S)","url":"hartha-s.html","country":"DE","status":"other","location":"Hartha","coordinates":[51.08857,12.97195]},{"title":"Hüfingen (W)","url":"hufingen-w.html","country":"DE","status":"other","location":"Hüfingen","coordinates":[47.908031,8.518002]},{"title":"Kühmoos","url":"kuhmoos.html","country":"DE","status":"other","location":"Kühmoos","coordinates":null},{"title":"Löffingen (GMK)","url":"loffingen-gmk.html","country":"DE","status":"other","location":"Löffingen","coordinates":[47.89822,8.32612]},{"title":"Mecklar (B)","url":"mecklar-b.html","country":"DE","status":"other","location":"Mecklar","coordinates":null},{"title":"Quickborn (S)","url":"quickborn-s.html","country":"DE","status":"other","location":"Quickborn","coordinates":null},{"title":"Schortens (P)","url":"schortens-p.html","country":"DE","status":"other","location":"Schortens","coordinates":null},{"title":"Simonswald (W)","url":"simonswald-w.html","country":"DE","status":"other","location":"Simonswald","coordinates":null},{"title":"Stadtallendorf (FPS)","url":"stadtallendorf-fps.html","country":"DE","status":"other","location":"Stadtallendorf","coordinates":null},{"title":"Stockach (L)","url":"stockach-l.html","country":"DE","status":"other","location":"Stockach","coordinates":[47.831329,8.971444]},{"title":"Weil am Rhein (M)","url":"weil-am-rhein-m.html","country":"DE","status":"other","location":"Weil am Rhein","coordinates":null},{"title":"Trassenkosten","url":"trassenkosten.html","country":"DE","status":"other","location":"Trassenkosten","coordinates":null},{"title":"20251216 Rheinfelden UNB","url":"20251216-rheinfelden-unb.html","country":"DE","status":"other","location":"20251216 Rheinfelden UNB","coordinates":null},{"title":"46352","url":"46352.html","country":"DE","status":"other","location":"46352","coordinates":null},{"title":"Netzanfrage Calden","url":"netzanfrage-calden.html","country":"DE","status":"other","location":"Netzanfrage Calden","coordinates":null},{"title":"Netzanfrage Endingen","url":"netzanfrage-endingen.html","country":"DE","status":"other","location":"Netzanfrage Endingen","coordinates":null},{"title":"Netzanfrage Hartha","url":"netzanfrage-hartha.html","country":"DE","status":"other","location":"Netzanfrage Hartha","coordinates":null},{"title":"Netzanfrage Mecklar","url":"netzanfrage-mecklar.html","country":"DE","status":"other","location":"Netzanfrage Mecklar","coordinates":null},{"title":"Netzanfrage Quickborn","url":"netzanfrage-quickborn.html","country":"DE","status":"other","location":"Netzanfrage Quickborn","coordinates":null},{"title":"Netzanfrage Stadtallendorf","url":"netzanfrage-stadtallendorf.html","country":"DE","status":"other","location":"Netzanfrage Stadtallendorf","coordinates":null},{"title":"Pachtvertrag Bitburg","url":"pachtvertrag-bitburg.html","country":"DE","status":"other","location":"Pachtvertrag Bitburg","coordinates":null},{"title":"Restriktionsanalyse Bonndorf","url":"restriktionsanalyse-bonndorf.html","country":"DE","status":"other","location":"Restriktionsanalyse Bonndorf","coordinates":null},{"title":"Zeitplan Freiberg","url":"zeitplan-freiberg.html","country":"DE","status":"other","location":"Zeitplan Freiberg","coordinates":null},{"title":"Zeitplan Neuenburg","url":"zeitplan-neuenburg.html","country":"DE","status":"other","location":"Zeitplan Neuenburg","coordinates":null},{"title":"Zeitplan Schallstadt","url":"zeitplan-schallstadt.html","country":"DE","status":"other","location":"Zeitplan Schallstadt","coordinates":null},{"title":"Zeitplan Stühlingen","url":"zeitplan-stuhlingen.html","country":"DE","status":"other","location":"Zeitplan Stühlingen","coordinates":null},{"title":"Zeitplan Waldshut-Tiengen","url":"zeitplan-waldshut-tiengen.html","country":"DE","status":"other","location":"Zeitplan Waldshut-Tiengen","coordinates":null}]</script>
+  </section>
         </div>
       </article>
       <aside class="relation-panel">

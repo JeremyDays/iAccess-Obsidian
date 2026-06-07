@@ -5,12 +5,6 @@
   "relativePath": "Projekte/C - BaurechtV/C6 - Aufstellung B/Oberhambach (K).md",
   "url": "notes/oberhambach-k.html",
   "apiUrl": "api/notes/oberhambach-k.json",
-  "tags": [
-    "CB",
-    "Projekt",
-    "S_hion",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Projektkauf",

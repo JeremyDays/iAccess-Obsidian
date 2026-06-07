@@ -7,70 +7,16 @@
       "url": "notes/00-projekte-entwicklung.html"
     },
     {
-      "id": "solar-bau-wiki-informationssammlung-solar-bau",
-      "title": "Solar & Bau Wiki - Informationssammlung Solar & Bau",
-      "category": "overview",
-      "url": "notes/solar-bau-wiki-informationssammlung-solar-bau.html"
-    },
-    {
       "id": "die-nachsten-bauprojekte",
       "title": "Die nächsten Bauprojekte",
       "category": "overview",
       "url": "notes/die-nachsten-bauprojekte.html"
     },
     {
-      "id": "iac-central-design-and-material-list",
-      "title": "iAC Central Design and Material List",
-      "category": "overview",
-      "url": "notes/iac-central-design-and-material-list.html"
-    },
-    {
-      "id": "iac-central-greenkeeping-list",
-      "title": "iAC Central Greenkeeping List",
-      "category": "overview",
-      "url": "notes/iac-central-greenkeeping-list.html"
-    },
-    {
       "id": "projektphasen",
       "title": "Projektphasen",
       "category": "overview",
       "url": "notes/projektphasen.html"
-    },
-    {
-      "id": "qgis-wiki-formelsammlung-qgis",
-      "title": "QGIS Wiki - Formelsammlung QGIS",
-      "category": "overview",
-      "url": "notes/qgis-wiki-formelsammlung-qgis.html"
-    },
-    {
-      "id": "task-overview-cb",
-      "title": "task overview CB",
-      "category": "overview",
-      "url": "notes/task-overview-cb.html"
-    },
-    {
-      "id": "task-overview-sh",
-      "title": "task overview SH",
-      "category": "overview",
-      "url": "notes/task-overview-sh.html"
-    },
-    {
-      "id": "tasks",
-      "title": "Tasks",
-      "category": "overview",
-      "url": "notes/tasks.html"
-    },
-    {
-      "id": "bors-praktikum",
-      "title": "BORS-Praktikum",
-      "category": "note",
-      "url": "notes/bors-praktikum.html"
-    },
-    {
-      "id": "solargik",
-      "title": "SolarGik",
-      "category": "expert",
-      "url": "notes/solargik.html"
     },
     {
       "id": "eisenbach-f",
@@ -1373,6 +1319,12 @@
       "title": "Zeitplan Waldshut-Tiengen",
       "category": "project",
       "url": "notes/zeitplan-waldshut-tiengen.html"
+    },
+    {
+      "id": "projektkarten",
+      "title": "Projektkarten",
+      "category": "overview",
+      "url": "notes/projektkarten.html"
     }
   ],
   "edges": [
@@ -1470,136 +1422,6 @@
       "source": "00-projekte-entwicklung",
       "target": "blumberg-g",
       "label": "Blumberg (G)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "munzingen-b",
-      "label": "Munzingen (B)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "donaueschingen-s",
-      "label": "Donaueschingen (S)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "buggingen-w",
-      "label": "Buggingen (W)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "stuhlingen-d",
-      "label": "Stühlingen (D)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "schrenz-s",
-      "label": "Schrenz (S)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "eisenbach-3-e3",
-      "label": "Eisenbach 3 (E3)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "aitrach-t",
-      "label": "Aitrach (T)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "hufingen-s",
-      "label": "Hüfingen (S)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "blumberg-g",
-      "label": "Blumberg (G)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "dietingen-m",
-      "label": "Dietingen (M)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "rheinfelden-l",
-      "label": "Rheinfelden (L)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "friedenweiler-gmk",
-      "label": "Friedenweiler (GMK)"
-    },
-    {
-      "source": "iac-central-design-and-material-list",
-      "target": "schallstadt-gmk",
-      "label": "Schallstadt (GMK)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "munzingen-b",
-      "label": "Munzingen (B)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "donaueschingen-s",
-      "label": "Donaueschingen (S)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "buggingen-w",
-      "label": "Buggingen (W)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "stuhlingen-d",
-      "label": "Stühlingen (D)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "schrenz-s",
-      "label": "Schrenz (S)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "eisenbach-3-e3",
-      "label": "Eisenbach 3 (E3)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "aitrach-t",
-      "label": "Aitrach (T)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "hufingen-s",
-      "label": "Hüfingen (S)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "blumberg-g",
-      "label": "Blumberg (G)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "dietingen-m",
-      "label": "Dietingen (M)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "rheinfelden-l",
-      "label": "Rheinfelden (L)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "friedenweiler-gmk",
-      "label": "Friedenweiler (GMK)"
-    },
-    {
-      "source": "iac-central-greenkeeping-list",
-      "target": "schallstadt-gmk",
-      "label": "Schallstadt (GMK)"
     },
     {
       "source": "projektphasen",
@@ -1937,186 +1759,6 @@
       "label": "Denzlingen (GMK)"
     },
     {
-      "source": "tasks",
-      "target": "denzlingen-s",
-      "label": "Denzlingen (S)"
-    },
-    {
-      "source": "tasks",
-      "target": "denzlingen-gmk",
-      "label": "Denzlingen (GMK)"
-    },
-    {
-      "source": "tasks",
-      "target": "aitrach-h2o",
-      "label": "Aitrach (H2O)"
-    },
-    {
-      "source": "tasks",
-      "target": "aitrach-t",
-      "label": "Aitrach (T)"
-    },
-    {
-      "source": "tasks",
-      "target": "bad-durrheim-m",
-      "label": "Bad Dürrheim (M)"
-    },
-    {
-      "source": "tasks",
-      "target": "bitburg-z",
-      "label": "Bitburg (Z)"
-    },
-    {
-      "source": "tasks",
-      "target": "blumberg-g",
-      "label": "Blumberg (G)"
-    },
-    {
-      "source": "tasks",
-      "target": "buggingen-f",
-      "label": "Buggingen (F)"
-    },
-    {
-      "source": "tasks",
-      "target": "buggingen-w",
-      "label": "Buggingen (W)"
-    },
-    {
-      "source": "tasks",
-      "target": "rheinfelden-l",
-      "label": "Rheinfelden (L)"
-    },
-    {
-      "source": "tasks",
-      "target": "deggenhausertal-m",
-      "label": "Deggenhausertal (M)"
-    },
-    {
-      "source": "tasks",
-      "target": "dietingen-m",
-      "label": "Dietingen (M)"
-    },
-    {
-      "source": "tasks",
-      "target": "eisenbach-3-e3",
-      "label": "Eisenbach 3 (E3)"
-    },
-    {
-      "source": "tasks",
-      "target": "eisenbach-4-l",
-      "label": "Eisenbach 4 (L)"
-    },
-    {
-      "source": "tasks",
-      "target": "ettlingen-f",
-      "label": "Ettlingen (F)"
-    },
-    {
-      "source": "tasks",
-      "target": "freiberg-z",
-      "label": "Freiberg (Z)"
-    },
-    {
-      "source": "tasks",
-      "target": "friedenweiler-gmk",
-      "label": "Friedenweiler (GMK)"
-    },
-    {
-      "source": "tasks",
-      "target": "hufingen-s",
-      "label": "Hüfingen (S)"
-    },
-    {
-      "source": "tasks",
-      "target": "stuhlingen-d",
-      "label": "Stühlingen (D)"
-    },
-    {
-      "source": "tasks",
-      "target": "solargik",
-      "label": "SolarGik"
-    },
-    {
-      "source": "tasks",
-      "target": "immendingen-k",
-      "label": "Immendingen (K)"
-    },
-    {
-      "source": "tasks",
-      "target": "isahaya-north",
-      "label": "Isahaya North"
-    },
-    {
-      "source": "tasks",
-      "target": "isahaya-south",
-      "label": "Isahaya South"
-    },
-    {
-      "source": "tasks",
-      "target": "neuenburg-d",
-      "label": "Neuenburg (D)"
-    },
-    {
-      "source": "tasks",
-      "target": "neuenburg-iar",
-      "label": "Neuenburg (iAR)"
-    },
-    {
-      "source": "tasks",
-      "target": "oberhambach-k",
-      "label": "Oberhambach (K)"
-    },
-    {
-      "source": "tasks",
-      "target": "renchen-k-2",
-      "label": "Renchen (K)"
-    },
-    {
-      "source": "tasks",
-      "target": "rheinfelden-adelhausen",
-      "label": "Rheinfelden Adelhausen"
-    },
-    {
-      "source": "tasks",
-      "target": "sauldorf-h",
-      "label": "Sauldorf (H)"
-    },
-    {
-      "source": "tasks",
-      "target": "schortens-p",
-      "label": "Schortens (P)"
-    },
-    {
-      "source": "tasks",
-      "target": "schrenz-s",
-      "label": "Schrenz (S)"
-    },
-    {
-      "source": "tasks",
-      "target": "treplin-w",
-      "label": "Treplin (W)"
-    },
-    {
-      "source": "tasks",
-      "target": "uhlingen-birkendorf-l",
-      "label": "Ühlingen-Birkendorf (L)"
-    },
-    {
-      "source": "tasks",
-      "target": "waldshut-tiengen-b",
-      "label": "Waldshut-Tiengen (B)"
-    },
-    {
-      "source": "tasks",
-      "target": "wickede-r",
-      "label": "Wickede (R)"
-    },
-    {
-      "source": "tasks",
-      "target": "wutoschingen-s",
-      "label": "Wutöschingen (S)"
-    },
-    {
       "source": "buggingen-w",
       "target": "buggingen-w",
       "label": "Buggingen (W)"
@@ -2170,11 +1812,6 @@
       "source": "hufingen-s",
       "target": "stuhlingen-d",
       "label": "Stühlingen (D)"
-    },
-    {
-      "source": "hufingen-s",
-      "target": "solargik",
-      "label": "SolarGik"
     },
     {
       "source": "schrenz-s",

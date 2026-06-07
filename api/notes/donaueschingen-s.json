@@ -5,14 +5,6 @@
   "relativePath": "Projekte/A2 - Im Bau/A2 - Im Bau/Donaueschingen (S).md",
   "url": "notes/donaueschingen-s.html",
   "apiUrl": "api/notes/donaueschingen-s.json",
-  "tags": [
-    "Eduardo",
-    "MM",
-    "MS",
-    "Projekt",
-    "SAO",
-    "SH"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

@@ -5,9 +5,6 @@
   "relativePath": "Projekte/C - BaurechtV/C4 - 1. Offenlage B/Neuenburg (iAR).md",
   "url": "notes/neuenburg-iar.html",
   "apiUrl": "api/notes/neuenburg-iar.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

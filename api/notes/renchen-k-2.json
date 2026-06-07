@@ -5,9 +5,6 @@
   "relativePath": "Projekte/B - BaugenehmigungV/B6 - Designphase/Renchen (K).md",
   "url": "notes/renchen-k-2.html",
   "apiUrl": "api/notes/renchen-k-2.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
     "Projekttyp": "Entwicklungsprojekt",

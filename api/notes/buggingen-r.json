@@ -5,9 +5,6 @@
   "relativePath": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Buggingen (R).md",
   "url": "notes/buggingen-r.html",
   "apiUrl": "api/notes/buggingen-r.json",
-  "tags": [
-    "Projekt"
-  ],
   "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
   "frontmatter": {
     "Projekttyp": "Auftragsprojekt",
