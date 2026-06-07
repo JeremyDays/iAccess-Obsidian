@@ -15,12 +15,17 @@
     "Verfahren": "BV - Autobahn/Gleise",
     "Phase": "Phase 2 | Netz",
     "Projektstatus": "Restriktionsanalyse; Vertrag verschickt; Netzanfrage",
+    "NächsteSchritte": "Warten auf Netzreservierung",
     "Koordinaten": "",
+    "Eigentümer": "Winfried Bächle und andere",
+    "Grundstücksfläche": "",
+    "NutzbareFläche": "",
     "Bundesland": "Baden-Württemberg",
     "Regionalverband": "",
     "Gemeinde": "Freiburg",
     "Gemarkung": "Munzingen",
     "Flur": "",
+    "Flurstücke": "5921, 5922, 5953, 5924, 5925, 5926",
     "DVLP": "",
     "Restriktionen": "",
     "Leistung": "",
@@ -32,6 +37,7 @@
     "Vorgangsnummern": "35282",
     "EinspeisungGesichert": "",
     "BezugGesichert": "",
+    "KapazitätGesichert": "",
     "GesichertEBK": "",
     "Distanz": "",
     "NVP": "UW Rankackerweg angefragt",
@@ -59,7 +65,8 @@
     "tags": [
       "Projekt"
     ],
-    "Bild_klein": "![[Temp.png|250]]"
+    "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]"
   },
   "links": [],
   "markdown": "\n`=this.Bild_klein`\n`=this.Bild_groß`\n\n>[!dialogue2] Projekt\n- **Projekttyp:** `=this.Projekttyp`\n- **Privilegierung:** `=this.Privilegierung`\n- **Verfahren:** `=this.Verfahren`\n- **Projektstatus:** `=this.Projektstatus`\n- **Nächste Schritte:** `=this.NächsteSchritte`\n\n>[!dialogue2] Land\n- **Koordinaten:** `=this.Koordinaten`\n- **Eigentümer:** `=this.Eigentümer`\n- **Grundstücksfläche:** `=this.Grundstücksfläche`\n- **Nutzbare Fläche:** `=this.NutzbareFläche`\n- **Bundesland:** `=this.Bundesland`\n- **Regionalverband:** `=this.Regionalverband`\n- **Gemeinde:** `=this.Gemeinde`\n- **Gemarkung:** `=this.Gemarkung`\n- **Flur:** `=this.Flur`\n- **Flurstücke:** `=this.Flurstücke`\n\n>[!dialogue2] Leistung\n- **Leistung:** `=this.Leistung`\n- **Specific Yield:** `=this.SpecificYield`\n- **Yield Estimate:** `=this.YieldEstimate`\n- **Letztes Design:** `=this.Design`\n\n>[!dialogue2] Netz\n- **Netzbetreiber:** `=this.Netzbetreiber`\n- **Einspeisung (gesichert):** `=this.EinspeisungGesichert`\n- **Bezug (gesichert):** `=this.BezugGesichert`\n- **Kapazität (gesichert):** `=this.KapazitätGesichert`\n- **Distanz zum NVP:** `=this.Distanz`\n- **Reservierungsstufe:** `=this.Stufe`\n- **Reservierung bis:** `=this.Reservierung`\n\n>[!dialogue2] Gutachten etc.\n- **Stadtplanung:** `=this.Stadtplanung`\n- **Vermessung:** `=this.Vermessung`\n- **Leitungsauskunft:** `=this.Leitungsauskunft`\n- **Blendschutz:** `=this.Blendschutz`\n- **Umweltschutz:** `=this.Umweltschutz`\n- **Brandschutz:** `=this.Brandschutz`\n- **Bodenschutz:** `=this.Bodenschutz`\n- **Schallschutz/Immissionsschutz:** `=this.Schallschutz`\n- **Landwirtschaftliches Nutzungskonzept:** `=this.LWNK`\n- **Auszugstests:** `=this.Auszugstests`\n- **Standsicherheitsnachweis:** `=this.Standsicherheitsnachweis`\n\n>[!dialogue2] Baurecht\n- **Zeitplan:**\n\n\n>[!dialogue2] Notizen\n\n\n"

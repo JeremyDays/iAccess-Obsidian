@@ -2157,11 +2157,6 @@
       "label": "Zeitplan Schallstadt"
     },
     {
-      "source": "aitrach-t",
-      "target": "aitrach-t",
-      "label": "Aitrach (T)"
-    },
-    {
       "source": "blumberg-g",
       "target": "blumberg-g",
       "label": "Blumberg (G)"

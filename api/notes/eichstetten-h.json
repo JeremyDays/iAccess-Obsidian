@@ -14,7 +14,11 @@
     "Privilegierung": "Vielleicht",
     "Verfahren": "BA - Batteriepark",
     "Projektstatus": "Restriktionsanalyse",
+    "NächsteSchritte": "Absprache mit Vermittler Schott",
     "Koordinaten": "",
+    "Eigentümer": "Andreas Hiss",
+    "Grundstücksfläche": "",
+    "NutzbareFläche": "",
     "Leistung": "",
     "SpecificYield": "",
     "YieldEstimate": "",
@@ -22,6 +26,7 @@
     "Netzbetreiber": "Netze BW",
     "EinspeisungGesichert": "",
     "BezugGesichert": "",
+    "KapazitätGesichert": "",
     "GesichertEBK": "",
     "Distanz": "",
     "Reservierung": "",
@@ -45,6 +50,7 @@
     "Gemeinde": "",
     "Gemarkung": "",
     "Flur": "",
+    "Flurstücke": "12118",
     "Vorgangsnummern": "",
     "EigenesUW": "",
     "Stufe": "",
@@ -55,7 +61,8 @@
     "MS5_ConstructionStart": "",
     "MS6_ConstructionCompletion": "",
     "MS7_CommercialOperation": "",
-    "Bild_klein": "![[Temp.png|250]]"
+    "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]"
   },
   "links": [],
   "markdown": "\n`=this.Bild_klein`\n`=this.Bild_groß`\n\n>[!dialogue2] Projekt\n- **Projekttyp:** `=this.Projekttyp`\n- **Privilegierung:** `=this.Privilegierung`\n- **Verfahren:** `=this.Verfahren`\n- **Projektstatus:** `=this.Projektstatus`\n- **Nächste Schritte:** `=this.NächsteSchritte`\n\n>[!dialogue2] Land\n- **Koordinaten:** `=this.Koordinaten`\n- **Eigentümer:** `=this.Eigentümer`\n- **Grundstücksfläche:** `=this.Grundstücksfläche`\n- **Nutzbare Fläche:** `=this.NutzbareFläche`\n- **Bundesland:** `=this.Bundesland`\n- **Regionalverband:** `=this.Regionalverband`\n- **Gemeinde:** `=this.Gemeinde`\n- **Gemarkung:** `=this.Gemarkung`\n- **Flur:** `=this.Flur`\n- **Flurstücke:** `=this.Flurstücke`\n\n>[!dialogue2] Leistung\n- **Leistung:** `=this.Leistung`\n- **Specific Yield:** `=this.SpecificYield`\n- **Yield Estimate:** `=this.YieldEstimate`\n- **Letztes Design:** `=this.Design`\n\n>[!dialogue2] Netz\n- **Netzbetreiber:** `=this.Netzbetreiber`\n- **Einspeisung (gesichert):** `=this.EinspeisungGesichert`\n- **Bezug (gesichert):** `=this.BezugGesichert`\n- **Kapazität (gesichert):** `=this.KapazitätGesichert`\n- **Distanz zum NVP:** `=this.Distanz`\n- **Reservierungsstufe:** `=this.Stufe`\n- **Reservierung bis:** `=this.Reservierung`\n\n>[!dialogue2] Gutachten etc.\n- **Stadtplanung:** `=this.Stadtplanung`\n- **Vermessung:** `=this.Vermessung`\n- **Leitungsauskunft:** `=this.Leitungsauskunft`\n- **Blendschutz:** `=this.Blendschutz`\n- **Umweltschutz:** `=this.Umweltschutz`\n- **Brandschutz:** `=this.Brandschutz`\n- **Bodenschutz:** `=this.Bodenschutz`\n- **Schallschutz/Immissionsschutz:** `=this.Schallschutz`\n- **Landwirtschaftliches Nutzungskonzept:** `=this.LWNK`\n- **Auszugstests:** `=this.Auszugstests`\n- **Standsicherheitsnachweis:** `=this.Standsicherheitsnachweis`\n\n>[!dialogue2] Baurecht\n- **Zeitplan:**\n\n\n>[!dialogue2] Notizen\n\n- Wir haben eine Vollmacht von Herrn Hiss.\n- Direkt neben L116\n- Wir haben einen Lageplan für einen Neubau einer landwirtschaftlichen Lager- und Maschinenhalle\n\n**Kommunikation mit Rainer Schott 11.09.2025:**\n- also de Hiss kennt ja den BM recht  gut. Der BM sagt, dass dieses Grundstück grundsätzlich zu bebauen ist. Der Hiss ssagt, da er ja schon eine BG für ne Halle hat, kann man ja das ganze in die Halle stellen, da er die Halle eigentlich nicht mehr braucht.\n- Anders rum gesagt, Anfrage stellen und wenn hier was machbar ist kommt das Ganze in eine Halle, wenn sich das lohnt. Lohnt es sich ?\n\n**Antwort SH 22.08.2025:**\n- Das ist ein kleiner Ausschnitt einer Fassung zur frühzeitigen Beteiligung und ich kann da nicht sagen von was. Damit allein kann ich noch keine Aussage treffen.\n- Ich brauche die gesamten Unterlagen für den gültigen Bebauungsplan. Soll der denn gerade geändert werden, oder warum ist das ein Entwurf zur Frühzeitigen Beteiligung?\n\n**Bebauungsplan Bruckmatten 20.08.2025:**\n- Ist bei diesem Bebauungsplan ein Speicher möglich?\n![[Eichstetten (H) Bruckmatten.jpg|250]]\n\n**Restriktionsanalyse 2 - 20.08.2025:**\n- 1000 m² nutzbar in Halle im Gewerbegebiet (nicht Industriegebiet), aber auch in 40m Entfernung zum Wohngebiet. 110kV neben Flurstück.\n- Adresse ist übrigens falsch gewesen: Bruckmatten 5, Eichstetten.\n- Gewerbegebiet Bruckmatten.\n- Könnten wir also IN der Halle machen.\n\n**Kommunikation mit Rainer Schott 20.08.2025:**\n- Hi Marc, dann gib doch mal Bruckmühl 5 in Eichstetten ein. Ehemalige Schlosserei Hiss. Das Grundstück hat er auch gekauft. Das liegt mitten im Industriegebiet. Da sollte doch Lärm kein Thema sein!? Und liegt noch näher am Umspannwerk.\n\n**Restriktionsanalyse 1 - 20.08.2025:**\n- Das Grundstück liegt in der Nähe von Umspannwerk, befindet sich aber im Vogelschutzgebiet, im Regionalen Grünzug und eine Landwirtschaftlichen Vorrangflur.\n- Damit lässt sich hier leider kein Batteriespeicherprojekt oder Solarprojekt verwirklichen.\n\n**Weißflächenanalyse 2:**\nUnd zum Industriegebiet... das ist nicht besonders groß und auch mit Leitungen überbaut... In einer Halle z.B., ja, oder eben in den Zwischenbereichen mit genügend Abstand...\n![[Eichstetten (H) Industriegebiet.png|250]]\n\n**Kommunikation mit Rainer Schott 17.08.2025:**\n- Rainer Schott, Geschäftsführer von Sun Pool GmbH\n- Schott: Grundstück hat \"er\" gerade gekauft. Im Industriegebiet beim Umspannwerk gehört ihm auch ein Grundstück.\n- Es soll herausgefunden werden, ob man da eine Batterie bauen kann.\n\n**Weißflächenanalyse 1 - 02.12.2024:**\nDie weißen Flächen sind ohne Restriktion, aber dort steht eben das USW. Die ausgewiesene PV-Fläche F-63 hat so gut wie keine Restriktionen.\n![[Eichstetten (H) UW01.png|250]]\nUnd hier mit etwas mehr Distanz. Bis zur Weißfläche im Nordwesten (südlich von F-61) sind es gerade einmal 800-1.000m.\nBis zur großen Weißfläche im Nordosten sind es 1.500-2.200m.\n![[Eichstetten (H) UW02.png|250]]\n"

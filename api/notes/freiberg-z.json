@@ -14,7 +14,11 @@
     "Privilegierung": "Nein",
     "Verfahren": "Zielabweichungsverfahren",
     "Projektstatus": "Gemeinderat hat das Projekt zurückgestellt; IF Group hat noch einmal angeschrieben",
+    "NächsteSchritte": "Warten auf Antwort der Stadt; Aufstellungsbeschluss",
     "Koordinaten": "50.915841, 13.379901",
+    "Eigentümer": "IF Group AG (Zippenfennig)",
+    "Grundstücksfläche": "202.910 m²",
+    "NutzbareFläche": "",
     "Leistung": "14.800,00 kWp",
     "SpecificYield": "1.021,8 kWh/kWp",
     "YieldEstimate": "15.122.640,00 kWh",
@@ -22,6 +26,7 @@
     "Netzbetreiber": "Stadtwerke Freiberg",
     "EinspeisungGesichert": "",
     "BezugGesichert": "",
+    "KapazitätGesichert": "24.438 kWh",
     "GesichertEBK": "",
     "Distanz": "",
     "Reservierung": "2024-06-07",
@@ -45,6 +50,7 @@
     "Gemeinde": "Freiberg",
     "Gemarkung": "",
     "Flur": "",
+    "Flurstücke": "2663/7",
     "EigenesUW": "",
     "Stufe": "0",
     "MS1_Bauantrag": "2025-07-01",
@@ -59,7 +65,8 @@
     "Anfragedatum": "2023-11-07",
     "Vorgangsnummern": "23/330",
     "NVP": "UW-Sammelschiene des UW Freiberg Ost - 20-kV-Schaltfeld J25",
-    "Bild_klein": "![[Temp.png|250]]"
+    "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]"
   },
   "links": [
     {

@@ -14,7 +14,11 @@
     "Privilegierung": "Teils",
     "Verfahren": "BLP - FFPVA",
     "Projektstatus": "Erweiterungsanalyse",
+    "NächsteSchritte": "Infoveranstaltung Nachbarn",
     "Koordinaten": "48.06001, 7.88019",
+    "Eigentümer": "Divers",
+    "Grundstücksfläche": "26,3 ha (516.582 m²)",
+    "NutzbareFläche": "",
     "Leistung": "20 MWp",
     "SpecificYield": "1.127,0 kWh/kWp",
     "YieldEstimate": "",
@@ -22,6 +26,7 @@
     "Netzbetreiber": "Stadtwerke Emmendingen GmbH",
     "EinspeisungGesichert": "",
     "BezugGesichert": "",
+    "KapazitätGesichert": "",
     "GesichertEBK": "",
     "Distanz": "",
     "Reservierung": "",
@@ -45,6 +50,7 @@
     "Gemeinde": "Denzlingen",
     "Gemarkung": "",
     "Flur": "",
+    "Flurstücke": "7590, 7581, 7582, 7584, 7585, 7586, 7588, 7589, 7570, 7571, 7572, 7573, 7575, 7576, 7577, 7578, 7579, 7553/1, 7553, 7554, 7555, 7556, 7557, 7558, 7559, 7560, 7561, 7562, 7563, 7564, 7565, 7566, 7567, 7568, 7592/1, 7592, 7593, 7594, 7595, 7596, 7597, 7598, 7599, 7600, 7601, 7602, 7603, 7604, 7605, 7606, 7607, 7608, 7609, 7610, 7611, 7612, 7613, 7614, 7615",
     "EigenesUW": "",
     "Stufe": "",
     "MS1_Bauantrag": "",
@@ -58,7 +64,8 @@
     "Anfragedatum": "2025-05-28",
     "Vorgangsnummern": "",
     "NVP": "",
-    "Bild_klein": "![[Temp.png|250]]"
+    "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]"
   },
   "links": [],
   "markdown": "\n`=this.Bild_klein`\n`=this.Bild_groß`\n\n>[!dialogue2] Projekt\n- **Projekttyp:** `=this.Projekttyp`\n- **Privilegierung:** `=this.Privilegierung`\n- **Verfahren:** `=this.Verfahren`\n- **Projektstatus:** `=this.Projektstatus`\n- **Nächste Schritte:** `=this.NächsteSchritte`\n\n>[!dialogue2] Land\n- **Koordinaten:** `=this.Koordinaten`\n- **Eigentümer:** `=this.Eigentümer`\n- **Grundstücksfläche:** `=this.Grundstücksfläche`\n- **Nutzbare Fläche:** `=this.NutzbareFläche`\n- **Bundesland:** `=this.Bundesland`\n- **Regionalverband:** `=this.Regionalverband`\n- **Gemeinde:** `=this.Gemeinde`\n- **Gemarkung:** `=this.Gemarkung`\n- **Flur:** `=this.Flur`\n- **Flurstücke:** `=this.Flurstücke`\n\n>[!dialogue2] Leistung\n- **Leistung:** `=this.Leistung`\n- **Specific Yield:** `=this.SpecificYield`\n- **Yield Estimate:** `=this.YieldEstimate`\n- **Letztes Design:** `=this.Design`\n\n>[!dialogue2] Netz\n- **Netzbetreiber:** `=this.Netzbetreiber`\n- **Einspeisung (gesichert):** `=this.EinspeisungGesichert`\n- **Bezug (gesichert):** `=this.BezugGesichert`\n- **Kapazität (gesichert):** `=this.KapazitätGesichert`\n- **Distanz zum NVP:** `=this.Distanz`\n- **Reservierungsstufe:** `=this.Stufe`\n- **Reservierung bis:** `=this.Reservierung`\n\n>[!dialogue2] Gutachten etc.\n- **Stadtplanung:** `=this.Stadtplanung`\n- **Vermessung:** `=this.Vermessung`\n- **Leitungsauskunft:** `=this.Leitungsauskunft`\n- **Blendschutz:** `=this.Blendschutz`\n- **Umweltschutz:** `=this.Umweltschutz`\n- **Brandschutz:** `=this.Brandschutz`\n- **Bodenschutz:** `=this.Bodenschutz`\n- **Schallschutz/Immissionsschutz:** `=this.Schallschutz`\n- **Landwirtschaftliches Nutzungskonzept:** `=this.LWNK`\n- **Auszugstests:** `=this.Auszugstests`\n- **Standsicherheitsnachweis:** `=this.Standsicherheitsnachweis`\n\n>[!dialogue2] Baurecht\n- **Zeitplan:**\n\n\n>[!dialogue2] Notizen\n\n\n\n\n\n"

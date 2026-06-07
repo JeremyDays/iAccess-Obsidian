@@ -15,12 +15,17 @@
     "Verfahren": "BA - Batteriepark",
     "Phase": "Phase X | Cancelled",
     "Projektstatus": "Kein Netz",
+    "NächsteSchritte": "Rückfrage beim Netzbetreiber warum es tot ist",
     "Koordinaten": "",
+    "Eigentümer": "Scheller (Batteriespeicher Sybac)",
+    "Grundstücksfläche": "6.080 m²",
+    "NutzbareFläche": "",
     "Bundesland": "Sachsen",
     "Regionalverband": "",
     "Gemeinde": "Hartha",
     "Gemarkung": "",
     "Flur": "",
+    "Flurstücke": "1201/6",
     "Leistung": "",
     "SpecificYield": "",
     "YieldEstimate": "",
@@ -28,6 +33,7 @@
     "Netzbetreiber": "",
     "EinspeisungGesichert": "15,2 MVA",
     "BezugGesichert": "0 MVA",
+    "KapazitätGesichert": "",
     "GesichertEBK": "",
     "EigenesUW": "",
     "Distanz": "",
@@ -59,7 +65,8 @@
     "Anfragedatum": "2024-10-17",
     "Vorgangsnummern": "2024-40031-K1",
     "NVP": "",
-    "Bild_klein": "![[Temp.png|250]]"
+    "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]"
   },
   "links": [
     {

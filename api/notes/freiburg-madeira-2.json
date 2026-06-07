@@ -15,12 +15,17 @@
     "Verfahren": "",
     "Phase": "Phase 10 | Projektabschluss",
     "Projektstatus": "Gebaut",
+    "NächsteSchritte": "Ertüchtigung NSHV; Zertifikat; Fernwirktechnik; Inbetriebnahme; Installation restliche Anlage",
     "Koordinaten": "",
+    "Eigentümer": "Madeira",
+    "Grundstücksfläche": "",
+    "NutzbareFläche": "",
     "Bundesland": "",
     "Regionalverband": "",
     "Gemeinde": "",
     "Gemarkung": "",
     "Flur": "",
+    "Flurstücke": "",
     "Leistung": "",
     "SpecificYield": "",
     "YieldEstimate": "",
@@ -28,6 +33,7 @@
     "Netzbetreiber": "",
     "EinspeisungGesichert": "",
     "BezugGesichert": "",
+    "KapazitätGesichert": "",
     "GesichertEBK": "",
     "EigenesUW": "",
     "Distanz": "",
@@ -60,6 +66,7 @@
     "Vorgangsnummern": "",
     "NVP": "",
     "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]",
     "aliases": [
       "Madeira 2"
     ]

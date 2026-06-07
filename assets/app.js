@@ -154,9 +154,47 @@ function bootImageLightbox() {
   });
 }
 
+function bootFolderTree() {
+  const tree = document.querySelector(".category-tree");
+  if (!tree) return;
+  const storageKey = "iaccess-folder-tree-open";
+  let stored = [];
+  try {
+    stored = JSON.parse(localStorage.getItem(storageKey) || "[]");
+  } catch {
+    stored = [];
+  }
+  const openIds = new Set(Array.isArray(stored) ? stored : []);
+  const details = Array.from(tree.querySelectorAll("details[data-tree-id]"));
+  details.forEach((item) => {
+    if (openIds.has(item.dataset.treeId)) item.open = true;
+    item.addEventListener("toggle", () => {
+      const next = details.filter((entry) => entry.open).map((entry) => entry.dataset.treeId);
+      localStorage.setItem(storageKey, JSON.stringify(next));
+    });
+  });
+
+  const currentPath = decodeURIComponent(window.location.pathname).replace(/\/+$/, "");
+  const active = Array.from(tree.querySelectorAll("a.tree-note")).find((link) => {
+    const linkPath = decodeURIComponent(new URL(link.href, window.location.href).pathname).replace(/\/+$/, "");
+    return linkPath === currentPath;
+  });
+  if (!active) return;
+  active.classList.add("is-active");
+  active.setAttribute("aria-current", "page");
+  let parent = active.parentElement;
+  while (parent && parent !== tree) {
+    if (parent.matches?.("details[data-tree-id]")) parent.open = true;
+    parent = parent.parentElement;
+  }
+  localStorage.setItem(storageKey, JSON.stringify(details.filter((entry) => entry.open).map((entry) => entry.dataset.treeId)));
+  requestAnimationFrame(() => active.scrollIntoView({ block: "nearest" }));
+}
+
 function escapeHtml(value) {
   return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 }
 
 bootSearch();
 bootImageLightbox();
+bootFolderTree();

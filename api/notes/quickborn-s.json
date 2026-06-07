@@ -15,12 +15,17 @@
     "Verfahren": "BA - Batteriepark",
     "Phase": "Phase X | Cancelled",
     "Projektstatus": "Kein Netz",
+    "NächsteSchritte": "---",
     "Koordinaten": "",
+    "Eigentümer": "Schatzschneider (Batteriespeicher Sybac)",
+    "Grundstücksfläche": "",
+    "NutzbareFläche": "",
     "Bundesland": "Schleswig-Holstein",
     "Regionalverband": "",
     "Gemeinde": "Quickborn",
     "Gemarkung": "Gerichshain",
     "Flur": "",
+    "Flurstücke": "307",
     "Leistung": "",
     "SpecificYield": "",
     "YieldEstimate": "",
@@ -28,6 +33,7 @@
     "Netzbetreiber": "Mitnetz Strom; Stadtwerke Quickborn",
     "EinspeisungGesichert": "",
     "BezugGesichert": "",
+    "KapazitätGesichert": "",
     "GesichertEBK": "",
     "EigenesUW": "",
     "Distanz": "",
@@ -59,7 +65,8 @@
     "Anfragedatum": "2024-09-16",
     "Vorgangsnummern": "ANA2024-37821",
     "NVP": "",
-    "Bild_klein": "![[Temp.png|250]]"
+    "Bild_klein": "![[Temp.png|250]]",
+    "Bild_groß": "[[Temp.png|Vollbild]]"
   },
   "links": [
     {
