@@ -5,376 +5,926 @@
   "relativePath": "0 - Übersicht/Projektphasen.md",
   "url": "notes/projektphasen.html",
   "apiUrl": "api/notes/projektphasen.json",
-  "excerpt": "Baureife Projekte [ ] In Betrieb [ ] Bötzingen (H) [ ] Eisenbach 1 (F) [ ] Lüptitz (BAG) [ ] Neuwied (R) [ ] Eisenbach 2 (W) [ ] Nacharbeiten [ ] Bad Säckingen (M) [ ] Bitz...",
+  "excerpt": "Baureife Projekte [ ] In Betrieb [ ] Laufender Betrieb / DE [ ] Eisenbach (F)Projekte/A0 In Betrieb/1 Laufender Betrieb/DE/Eisenbach (F) [ ] Freiburg (Kindergalaxie)Projekte/A0...",
   "frontmatter": {
     "kanban-plugin": "board"
   },
   "links": [
     {
-      "target": "Bötzingen (H)",
-      "label": "Bötzingen (H)",
-      "slug": "botzingen-h"
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Eisenbach (F)",
+      "label": "Eisenbach (F)",
+      "slug": "eisenbach-f"
     },
     {
-      "target": "Eisenbach 1 (F)",
-      "label": "Eisenbach 1 (F)",
-      "slug": null
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Freiburg (Kindergalaxie)",
+      "label": "Freiburg (Kindergalaxie)",
+      "slug": "freiburg-kindergalaxie"
     },
     {
-      "target": "Lüptitz (BAG)",
-      "label": "Lüptitz (BAG)",
-      "slug": "luptitz-bag"
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Grabsleben",
+      "label": "Grabsleben",
+      "slug": "grabsleben"
     },
     {
-      "target": "Neuwied (R)",
-      "label": "Neuwied (R)",
-      "slug": "neuwied-r"
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Hugstetten",
+      "label": "Hugstetten",
+      "slug": "hugstetten"
     },
     {
-      "target": "Eisenbach 2 (W)",
-      "label": "Eisenbach 2 (W)",
-      "slug": null
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Kippenheim (Sportpark)",
+      "label": "Kippenheim (Sportpark)",
+      "slug": "kippenheim-sportpark"
     },
     {
-      "target": "Bad Säckingen (M)",
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Nauroth",
+      "label": "Nauroth",
+      "slug": "nauroth"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Pferdsfeld",
+      "label": "Pferdsfeld",
+      "slug": "pferdsfeld"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Stassfurt",
+      "label": "Stassfurt",
+      "slug": "stassfurt"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Cardon",
+      "label": "Cardon",
+      "slug": "cardon"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Estézargues",
+      "label": "Estézargues",
+      "slug": "estezargues"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Guitinières",
+      "label": "Guitinières",
+      "slug": "guitinieres"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Puch-D'Agenais",
+      "label": "Puch-D'Agenais",
+      "slug": "puch-d-agenais"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Akune",
+      "label": "Akune",
+      "slug": "akune"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Isahaya North",
+      "label": "Isahaya North",
+      "slug": "isahaya-north"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Isahaya South",
+      "label": "Isahaya South",
+      "slug": "isahaya-south"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Kawasaki",
+      "label": "Kawasaki",
+      "slug": "kawasaki"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Minami-Izu",
+      "label": "Minami-Izu",
+      "slug": "minami-izu"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Okayama",
+      "label": "Okayama",
+      "slug": "okayama"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Sanbonmatsu",
+      "label": "Sanbonmatsu",
+      "slug": "sanbonmatsu"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Tochigi",
+      "label": "Tochigi",
+      "slug": "tochigi"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Tsuyama",
+      "label": "Tsuyama",
+      "slug": "tsuyama"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Uwaba North",
+      "label": "Uwaba North",
+      "slug": "uwaba-north"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Uwaba South",
+      "label": "Uwaba South",
+      "slug": "uwaba-south"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamagata",
+      "label": "Yamagata",
+      "slug": "yamagata"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamanashi",
+      "label": "Yamanashi",
+      "slug": "yamanashi"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamashita North",
+      "label": "Yamashita North",
+      "slug": "yamashita-north"
+    },
+    {
+      "target": "Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamashita South",
+      "label": "Yamashita South",
+      "slug": "yamashita-south"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Bad Säckingen (M)",
       "label": "Bad Säckingen (M)",
-      "slug": "bad-sackingen-m-2"
+      "slug": "bad-sackingen-m"
     },
     {
-      "target": "Bitz (ASW)",
-      "label": "Bitz (ASW)",
-      "slug": "bitz-asw"
-    },
-    {
-      "target": "Dachau (SWD)",
-      "label": "Dachau (SWD)",
-      "slug": "dachau-swd"
-    },
-    {
-      "target": "Freiburg (M 2)",
-      "label": "Freiburg (M 2)",
-      "slug": null
-    },
-    {
-      "target": "Haßfurt (Uponor)",
+      "target": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Haßfurt (Uponor)",
       "label": "Haßfurt (Uponor)",
       "slug": "ha-furt-uponor"
     },
     {
-      "target": "Henau (BAG)",
-      "label": "Henau (BAG)",
-      "slug": "henau-bag"
+      "target": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Lüptitz (BAG)",
+      "label": "Lüptitz (BAG)",
+      "slug": "luptitz-bag"
     },
     {
-      "target": "Stockhausen (BAG)",
+      "target": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme ohne AZ/Eisenbach (W)",
+      "label": "Eisenbach (W)",
+      "slug": "eisenbach-w"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme ohne AZ/Stockhausen (BAG)",
       "label": "Stockhausen (BAG)",
       "slug": "stockhausen-bag"
     },
     {
-      "target": "Munzingen (B)",
-      "label": "Munzingen (B)",
-      "slug": "munzingen-b"
+      "target": "Projekte/A1 - Inbetriebnahme/4 - Anlagenzertifikat/Bötzingen (H)",
+      "label": "Bötzingen (H)",
+      "slug": "botzingen-h"
     },
     {
-      "target": "Donaueschingen (S)",
-      "label": "Donaueschingen (S)",
-      "slug": "donaueschingen-s"
+      "target": "Projekte/A1 - Inbetriebnahme/5 - Vorbereitung IBN/Freiburg (Madeira 2)",
+      "label": "Freiburg (Madeira 2)",
+      "slug": "freiburg-madeira-2"
     },
     {
-      "target": "Flechtingen (BAG)",
-      "label": "Flechtingen (BAG)",
-      "slug": "flechtingen-bag-2"
+      "target": "Projekte/A1 - Inbetriebnahme/5 - Vorbereitung IBN/Neuwied (R)",
+      "label": "Neuwied (R)",
+      "slug": "neuwied-r"
     },
     {
-      "target": "Wetzstein (BAG)",
-      "label": "Wetzstein (BAG)",
-      "slug": "wetzstein-bag"
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Bad Säckingen (M)",
+      "label": "Bad Säckingen (M)",
+      "slug": "bad-sackingen-m-2"
     },
     {
-      "target": "Schallstadt (GMK)",
-      "label": "Schallstadt (GMK)",
-      "slug": "schallstadt-gmk"
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Bitz (ASW)",
+      "label": "Bitz (ASW)",
+      "slug": "bitz-asw"
     },
     {
-      "target": "Stühlingen (D)",
-      "label": "Stühlingen (D)",
-      "slug": "stuhlingen-d"
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Dachau (SWD)",
+      "label": "Dachau (SWD)",
+      "slug": "dachau-swd"
     },
     {
-      "target": "Hüfingen (S)",
-      "label": "Hüfingen (S)",
-      "slug": "hufingen-s"
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Freiburg (Knauf)",
+      "label": "Freiburg (Knauf)",
+      "slug": "freiburg-knauf"
     },
     {
-      "target": "Schrenz (S)",
-      "label": "Schrenz (S)",
-      "slug": "schrenz-s"
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Freiburg (Madeira)",
+      "label": "Freiburg (Madeira)",
+      "slug": "freiburg-madeira"
     },
     {
-      "target": "Buggingen (W)",
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Henau (BAG)",
+      "label": "Henau (BAG)",
+      "slug": "henau-bag"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Krefeld (Kaarst 2)",
+      "label": "Krefeld (Kaarst 2)",
+      "slug": "krefeld-kaarst-2"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Krefeld (Kaarst)",
+      "label": "Krefeld (Kaarst)",
+      "slug": "krefeld-kaarst"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Offenburg (Pflegeheim)",
+      "label": "Offenburg (Pflegeheim)",
+      "slug": "offenburg-pflegeheim"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Riesa",
+      "label": "Riesa",
+      "slug": "riesa"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/St. Georgen (EBM Papst)",
+      "label": "St. Georgen (EBM Papst)",
+      "slug": "st-georgen-ebm-papst"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Stockach (R)",
+      "label": "Stockach (R)",
+      "slug": "stockach-r"
+    },
+    {
+      "target": "Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Winterspüren",
+      "label": "Winterspüren",
+      "slug": "winterspuren"
+    },
+    {
+      "target": "Projekte/A2 - Im Bau/A2 - Im Bau/Buggingen (W)",
       "label": "Buggingen (W)",
       "slug": "buggingen-w"
     },
     {
-      "target": "Rheinfelden (L)",
-      "label": "Rheinfelden (L)",
-      "slug": "rheinfelden-l"
+      "target": "Projekte/A2 - Im Bau/A2 - Im Bau/Donaueschingen (S)",
+      "label": "Donaueschingen (S)",
+      "slug": "donaueschingen-s"
     },
     {
-      "target": "Blumberg (G)",
-      "label": "Blumberg (G)",
-      "slug": "blumberg-g"
+      "target": "Projekte/A2 - Im Bau/A2 - Im Bau/Flechtingen (BAG)",
+      "label": "Flechtingen (BAG)",
+      "slug": "flechtingen-bag"
     },
     {
-      "target": "Dietingen (M)",
-      "label": "Dietingen (M)",
-      "slug": "dietingen-m"
+      "target": "Projekte/A2 - Im Bau/A2 - Im Bau/Munzingen (B)",
+      "label": "Munzingen (B)",
+      "slug": "munzingen-b"
     },
     {
-      "target": "Renchen (K)",
-      "label": "Renchen (K)",
-      "slug": "renchen-k-2"
+      "target": "Projekte/A2 - Im Bau/A2 - Im Bau/Ochtendung MfP (R)",
+      "label": "Ochtendung MfP (R)",
+      "slug": "ochtendung-mfp-r"
     },
     {
-      "target": "Eisenbach 3 (E3)",
-      "label": "Eisenbach 3 (E3)",
-      "slug": "eisenbach-3-e3"
+      "target": "Projekte/A2 - Im Bau/A2 - Im Bau/Stühlingen (D)",
+      "label": "Stühlingen (D)",
+      "slug": "stuhlingen-d"
     },
     {
-      "target": "Neuenburg (iAR)",
-      "label": "Neuenburg (iAR)",
-      "slug": "neuenburg-iar"
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Bilstein (BAG)",
+      "label": "Bilstein (BAG)",
+      "slug": "bilstein-bag"
     },
     {
-      "target": "Schortens (P)",
-      "label": "Schortens (P)",
-      "slug": "schortens-p"
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Brohltal (R)",
+      "label": "Brohltal (R)",
+      "slug": "brohltal-r"
     },
     {
-      "target": "Treplin (W)",
-      "label": "Treplin (W)",
-      "slug": "treplin-w"
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Buggingen (R)",
+      "label": "Buggingen (R)",
+      "slug": "buggingen-r"
     },
     {
-      "target": "Bad Dürrheim (M)",
-      "label": "Bad Dürrheim (M)",
-      "slug": "bad-durrheim-m"
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Ochtendung GE (R)",
+      "label": "Ochtendung GE (R)",
+      "slug": "ochtendung-ge-r"
     },
     {
-      "target": "Wutöschingen (S)",
-      "label": "Wutöschingen (S)",
-      "slug": "wutoschingen-s"
-    },
-    {
-      "target": "Deggenhausertal (M)",
-      "label": "Deggenhausertal (M)",
-      "slug": "deggenhausertal-m"
-    },
-    {
-      "target": "Sauldorf (H)",
-      "label": "Sauldorf (H)",
-      "slug": "sauldorf-h"
-    },
-    {
-      "target": "Freiberg (Z)",
-      "label": "Freiberg (Z)",
-      "slug": "freiberg-z"
-    },
-    {
-      "target": "Bitburg (Z)",
-      "label": "Bitburg (Z)",
-      "slug": "bitburg-z"
-    },
-    {
-      "target": "Waldshut-Tiengen (B)",
-      "label": "Waldshut-Tiengen (B)",
-      "slug": "waldshut-tiengen-b"
-    },
-    {
-      "target": "Ühlingen-Birkendorf (L)",
-      "label": "Ühlingen-Birkendorf (L)",
-      "slug": "uhlingen-birkendorf-l"
-    },
-    {
-      "target": "Eisenbach 4 (L)",
-      "label": "Eisenbach 4 (L)",
-      "slug": "eisenbach-4-l"
-    },
-    {
-      "target": "Löffingen (GMK)",
-      "label": "Löffingen (GMK)",
-      "slug": "loffingen-gmk"
-    },
-    {
-      "target": "Whylen ()",
-      "label": "Whylen ()",
-      "slug": "whylen"
-    },
-    {
-      "target": "Rottweil (S)",
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Rottweil (S)",
       "label": "Rottweil (S)",
       "slug": "rottweil-s"
     },
     {
-      "target": "Shared/Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)",
-      "label": "Shared/Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)",
-      "slug": null
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Talbecke (BAG)",
+      "label": "Talbecke (BAG)",
+      "slug": "talbecke-bag"
     },
     {
-      "target": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)",
-      "label": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)",
-      "slug": null
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Wetzstein (BAG)",
+      "label": "Wetzstein (BAG)",
+      "slug": "wetzstein-bag"
     },
     {
-      "target": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)",
-      "label": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)",
-      "slug": null
+      "target": "Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/Flechtingen (BAG)",
+      "label": "Flechtingen (BAG)",
+      "slug": "flechtingen-bag-2"
     },
     {
-      "target": "Pfullendorf (G)",
-      "label": "Pfullendorf (G)",
-      "slug": "pfullendorf-g"
+      "target": "Projekte/B - BaugenehmigungV/B1 - Baufreigabe/Schallstadt (GMK)",
+      "label": "Schallstadt (GMK)",
+      "slug": "schallstadt-gmk"
     },
     {
-      "target": "Denzlingen (S)",
-      "label": "Denzlingen (S)",
-      "slug": "denzlingen-s"
+      "target": "Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Aitrach (T)",
+      "label": "Aitrach (T)",
+      "slug": "aitrach-t"
     },
     {
-      "target": "Freiburg (UWSA)",
-      "label": "Freiburg (UWSA)",
-      "slug": "freiburg-uwsa"
+      "target": "Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Blumberg (G)",
+      "label": "Blumberg (G)",
+      "slug": "blumberg-g"
     },
     {
-      "target": "Meiningen (AGH)",
-      "label": "Meiningen (AGH)",
-      "slug": "meiningen-agh"
+      "target": "Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Hüfingen (S)",
+      "label": "Hüfingen (S)",
+      "slug": "hufingen-s"
     },
     {
-      "target": "Bad Krozingen (R)",
-      "label": "Bad Krozingen (R)",
-      "slug": "bad-krozingen-r"
+      "target": "Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Schrenz (S)",
+      "label": "Schrenz (S)",
+      "slug": "schrenz-s"
     },
     {
-      "target": "Freiburg-March (K)",
-      "label": "Freiburg-March (K)",
-      "slug": "freiburg-march-k"
+      "target": "Projekte/B - BaugenehmigungV/B3 - Bauantrag/Dietingen (M)",
+      "label": "Dietingen (M)",
+      "slug": "dietingen-m"
     },
     {
-      "target": "Karlsruhe (F)",
-      "label": "Karlsruhe (F)",
-      "slug": "karlsruhe-f"
+      "target": "Projekte/B - BaugenehmigungV/B3 - Bauantrag/Eisenbach 3 (E3)",
+      "label": "Eisenbach 3 (E3)",
+      "slug": "eisenbach-3-e3"
     },
     {
-      "target": "München 1 (ArtInvest)",
-      "label": "München 1 (ArtInvest)",
-      "slug": "munchen-1-artinvest"
+      "target": "Projekte/B - BaugenehmigungV/B3 - Bauantrag/Friedenweiler (GMK)",
+      "label": "Friedenweiler (GMK)",
+      "slug": "friedenweiler-gmk"
     },
     {
-      "target": "Schallstadt (vH)",
-      "label": "Schallstadt (vH)",
-      "slug": "schallstadt-vh"
+      "target": "Projekte/B - BaugenehmigungV/B3 - Bauantrag/Rheinfelden (L)",
+      "label": "Rheinfelden (L)",
+      "slug": "rheinfelden-l"
     },
     {
-      "target": "Unterwellenborn (Z)",
-      "label": "Unterwellenborn (Z)",
-      "slug": "unterwellenborn-z"
+      "target": "Projekte/B - BaugenehmigungV/B4 - BA Vorbereitung/Renchen (K)",
+      "label": "Renchen (K)",
+      "slug": "renchen-k"
     },
     {
-      "target": "Buggingen (F)",
+      "target": "Projekte/B - BaugenehmigungV/B6 - Designphase/Renchen (K)",
+      "label": "Renchen (K)",
+      "slug": "renchen-k-2"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C4 - 1. Offenlage B/Neuenburg (iAR)",
+      "label": "Neuenburg (iAR)",
+      "slug": "neuenburg-iar"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C5 - Frühzeitige B/Ühlingen-Birkendorf (L)",
+      "label": "Ühlingen-Birkendorf (L)",
+      "slug": "uhlingen-birkendorf-l"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C5 - Frühzeitige B/Wutöschingen (S)",
+      "label": "Wutöschingen (S)",
+      "slug": "wutoschingen-s"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C6 - Aufstellung B/Bad Dürrheim (M)",
+      "label": "Bad Dürrheim (M)",
+      "slug": "bad-durrheim-m"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C6 - Aufstellung B/Oberhambach (K)",
+      "label": "Oberhambach (K)",
+      "slug": "oberhambach-k"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C6 - Aufstellung B/Treplin (W)",
+      "label": "Treplin (W)",
+      "slug": "treplin-w"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Bitburg (Z)",
+      "label": "Bitburg (Z)",
+      "slug": "bitburg-z"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Deggenhausertal (M)",
+      "label": "Deggenhausertal (M)",
+      "slug": "deggenhausertal-m"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Freiberg (Z)",
+      "label": "Freiberg (Z)",
+      "slug": "freiberg-z"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Sauldorf (H)",
+      "label": "Sauldorf (H)",
+      "slug": "sauldorf-h"
+    },
+    {
+      "target": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Waldshut-Tiengen (B)",
+      "label": "Waldshut-Tiengen (B)",
+      "slug": "waldshut-tiengen-b"
+    },
+    {
+      "target": "Projekte/D1 - Bezugsprojekte/Augsburg (Stätzlinger 70)",
+      "label": "Augsburg (Stätzlinger 70)",
+      "slug": "augsburg-statzlinger-70"
+    },
+    {
+      "target": "Projekte/D1 - Bezugsprojekte/Eisenbach 4 (L)",
+      "label": "Eisenbach 4 (L)",
+      "slug": "eisenbach-4-l"
+    },
+    {
+      "target": "Projekte/D1 - Bezugsprojekte/Whylen ()",
+      "label": "Whylen ()",
+      "slug": "whylen"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Achterspannerhof 1 (MW)",
+      "label": "Achterspannerhof 1 (MW)",
+      "slug": "achterspannerhof-1-mw"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Achterspannerhof 2 (N)",
+      "label": "Achterspannerhof 2 (N)",
+      "slug": "achterspannerhof-2-n"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Bernbrunn (BayWa)",
+      "label": "Bernbrunn (BayWa)",
+      "slug": "bernbrunn-baywa"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Ettlingen (F)",
+      "label": "Ettlingen (F)",
+      "slug": "ettlingen-f"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Gresselgrund (BayWa)",
+      "label": "Gresselgrund (BayWa)",
+      "slug": "gresselgrund-baywa"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Immendingen (K)",
+      "label": "Immendingen (K)",
+      "slug": "immendingen-k"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Neckarzimmern (BayWa)",
+      "label": "Neckarzimmern (BayWa)",
+      "slug": "neckarzimmern-baywa"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Oppin (B)",
+      "label": "Oppin (B)",
+      "slug": "oppin-b"
+    },
+    {
+      "target": "Projekte/D2 - Kaufprojekte DD/Schafstedt (Chint)",
+      "label": "Schafstedt (Chint)",
+      "slug": "schafstedt-chint"
+    },
+    {
+      "target": "Projekte/E - Akquise/E3 - Vertrag & NetzR/Audenhain (H)",
+      "label": "Audenhain (H)",
+      "slug": "audenhain-h"
+    },
+    {
+      "target": "Projekte/E - Akquise/E3 - Vertrag & NetzR/Buggingen (F)",
       "label": "Buggingen (F)",
       "slug": "buggingen-f"
     },
     {
-      "target": "Opfingen (M)",
-      "label": "Opfingen (M)",
-      "slug": "opfingen-m"
+      "target": "Projekte/E - Akquise/E3 - Vertrag & NetzR/Denzlingen (W)",
+      "label": "Denzlingen (W)",
+      "slug": "denzlingen-w"
     },
     {
-      "target": "Villigst (S)",
-      "label": "Villigst (S)",
-      "slug": "villigst-s"
+      "target": "Projekte/E - Akquise/E3 - Vertrag & NetzR/Gebhardshain (H)",
+      "label": "Gebhardshain (H)",
+      "slug": "gebhardshain-h"
     },
     {
-      "target": "Zützen (C)",
-      "label": "Zützen (C)",
-      "slug": "zutzen-c"
+      "target": "Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)",
+      "label": "Neuenburg (D)",
+      "slug": "neuenburg-d"
     },
     {
-      "target": "Reichertsheim (D)",
-      "label": "Reichertsheim (D)",
-      "slug": "reichertsheim-d"
+      "target": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)",
+      "label": "Baden-Baden (F)",
+      "slug": "baden-baden-f"
     },
     {
-      "target": "Neuenburg (G)",
-      "label": "Neuenburg (G)",
-      "slug": "neuenburg-g"
+      "target": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Denzlingen (S)",
+      "label": "Denzlingen (S)",
+      "slug": "denzlingen-s"
     },
     {
-      "target": "Burladingen",
-      "label": "Burladingen",
-      "slug": "burladingen"
+      "target": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)",
+      "label": "Lohagen (S)",
+      "slug": "lohagen-s"
     },
     {
-      "target": "Hüfingen (M)",
-      "label": "Hüfingen (M)",
-      "slug": "hufingen-m"
+      "target": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Pfullendorf (G)",
+      "label": "Pfullendorf (G)",
+      "slug": "pfullendorf-g"
     },
     {
-      "target": "Linden (CS)",
-      "label": "Linden (CS)",
-      "slug": "linden-cs"
-    },
-    {
-      "target": "München 2 (Parkstadtcenter)",
-      "label": "München 2 (Parkstadtcenter)",
-      "slug": "munchen-2-parkstadtcenter"
-    },
-    {
-      "target": "München 3 (Arnulfbogen)",
-      "label": "München 3 (Arnulfbogen)",
-      "slug": "munchen-3-arnulfbogen"
-    },
-    {
-      "target": "Spornitz (CS)",
-      "label": "Spornitz (CS)",
-      "slug": "spornitz-cs"
-    },
-    {
-      "target": "Stockach (H)",
-      "label": "Stockach (H)",
-      "slug": "stockach-h"
-    },
-    {
-      "target": "Waldshut-Tiengen (D)",
-      "label": "Waldshut-Tiengen (D)",
-      "slug": "waldshut-tiengen-d"
-    },
-    {
-      "target": "Wickede (R)",
+      "target": "Projekte/E - Akquise/E4 - Vertrag & NetzA/Wickede (R)",
       "label": "Wickede (R)",
       "slug": "wickede-r"
     },
     {
-      "target": "Freiburg (GMK)",
+      "target": "Projekte/E - Akquise/E5 - Nur Netzreservierung/Freiburg (UWSA)",
+      "label": "Freiburg (UWSA)",
+      "slug": "freiburg-uwsa"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Bad Krozingen (R)",
+      "label": "Bad Krozingen (R)",
+      "slug": "bad-krozingen-r"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Freiburg-March (K)",
+      "label": "Freiburg-March (K)",
+      "slug": "freiburg-march-k"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Kagenow",
+      "label": "Kagenow",
+      "slug": "kagenow"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Karlsruhe (F)",
+      "label": "Karlsruhe (F)",
+      "slug": "karlsruhe-f"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Meiningen (AGH)",
+      "label": "Meiningen (AGH)",
+      "slug": "meiningen-agh"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/München 1 (ArtInvest)",
+      "label": "München 1 (ArtInvest)",
+      "slug": "munchen-1-artinvest"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Schallstadt (vH)",
+      "label": "Schallstadt (vH)",
+      "slug": "schallstadt-vh"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Unterwellenborn (Z)",
+      "label": "Unterwellenborn (Z)",
+      "slug": "unterwellenborn-z"
+    },
+    {
+      "target": "Projekte/E - Akquise/E6 - Nur Netzanfrage/Wolkow",
+      "label": "Wolkow",
+      "slug": "wolkow"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Denzlingen (GMK)",
+      "label": "Denzlingen (GMK)",
+      "slug": "denzlingen-gmk"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Harsewinkel (F)",
+      "label": "Harsewinkel (F)",
+      "slug": "harsewinkel-f"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Neuenburg (G)",
+      "label": "Neuenburg (G)",
+      "slug": "neuenburg-g"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Opfingen (M)",
+      "label": "Opfingen (M)",
+      "slug": "opfingen-m"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Reichertsheim (D)",
+      "label": "Reichertsheim (D)",
+      "slug": "reichertsheim-d"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Villigst (S)",
+      "label": "Villigst (S)",
+      "slug": "villigst-s"
+    },
+    {
+      "target": "Projekte/E - Akquise/E7 - Nur Vertrag/Zützen (C)",
+      "label": "Zützen (C)",
+      "slug": "zutzen-c"
+    },
+    {
+      "target": "Projekte/E - Akquise/E8 - GMK-Analyse/Freiburg (GMK)",
       "label": "Freiburg (GMK)",
       "slug": "freiburg-gmk"
     },
     {
-      "target": "Reute (GMK)",
+      "target": "Projekte/E - Akquise/E8 - GMK-Analyse/Reute (GMK)",
       "label": "Reute (GMK)",
       "slug": "reute-gmk"
     },
     {
-      "target": "Vörstetten (GMK)",
+      "target": "Projekte/E - Akquise/E8 - GMK-Analyse/Vörstetten (GMK)",
       "label": "Vörstetten (GMK)",
       "slug": "vorstetten-gmk"
     },
     {
-      "target": "Denzlingen (GMK)",
-      "label": "Denzlingen (GMK)",
-      "slug": "denzlingen-gmk"
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Bad Dürrheim (K)",
+      "label": "Bad Dürrheim (K)",
+      "slug": "bad-durrheim-k"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Bad Krozingen (S)",
+      "label": "Bad Krozingen (S)",
+      "slug": "bad-krozingen-s"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Bonndorf (G)",
+      "label": "Bonndorf (G)",
+      "slug": "bonndorf-g"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Breisach (D)",
+      "label": "Breisach (D)",
+      "slug": "breisach-d"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Denzlingen (B)",
+      "label": "Denzlingen (B)",
+      "slug": "denzlingen-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Donaueschingen (M)",
+      "label": "Donaueschingen (M)",
+      "slug": "donaueschingen-m"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Eichstetten (H)",
+      "label": "Eichstetten (H)",
+      "slug": "eichstetten-h"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Endingen (B)",
+      "label": "Endingen (B)",
+      "slug": "endingen-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Eschbach (W)",
+      "label": "Eschbach (W)",
+      "slug": "eschbach-w"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Falkenberg (B)",
+      "label": "Falkenberg (B)",
+      "slug": "falkenberg-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Freiburg (D)",
+      "label": "Freiburg (D)",
+      "slug": "freiburg-d"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Freiburg (G)",
+      "label": "Freiburg (G)",
+      "slug": "freiburg-g"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Freiburg (M 1)",
+      "label": "Freiburg (M 1)",
+      "slug": "freiburg-m-1"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Geißlingen (G)",
+      "label": "Geißlingen (G)",
+      "slug": "gei-lingen-g"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Gengenbach (S)",
+      "label": "Gengenbach (S)",
+      "slug": "gengenbach-s"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Gerichshain (W)",
+      "label": "Gerichshain (W)",
+      "slug": "gerichshain-w"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Gündlingen (D)",
+      "label": "Gündlingen (D)",
+      "slug": "gundlingen-d"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Gutach (S)",
+      "label": "Gutach (S)",
+      "slug": "gutach-s"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Halle (PVG)",
+      "label": "Halle (PVG)",
+      "slug": "halle-pvg"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Holzdorf (B)",
+      "label": "Holzdorf (B)",
+      "slug": "holzdorf-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Hüfingen (M)",
+      "label": "Hüfingen (M)",
+      "slug": "hufingen-m"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Hüfingen (V)",
+      "label": "Hüfingen (V)",
+      "slug": "hufingen-v"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Hüfingen BESS (S)",
+      "label": "Hüfingen BESS (S)",
+      "slug": "hufingen-bess-s"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Lauchhammer (B)",
+      "label": "Lauchhammer (B)",
+      "slug": "lauchhammer-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Leimen (M)",
+      "label": "Leimen (M)",
+      "slug": "leimen-m"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Leipzig (H)",
+      "label": "Leipzig (H)",
+      "slug": "leipzig-h"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Linden (B)",
+      "label": "Linden (B)",
+      "slug": "linden-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Linden (CS)",
+      "label": "Linden (CS)",
+      "slug": "linden-cs"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Löffelstelzen (K)",
+      "label": "Löffelstelzen (K)",
+      "slug": "loffelstelzen-k"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Machern (W)",
+      "label": "Machern (W)",
+      "slug": "machern-w"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Marburg (O)",
+      "label": "Marburg (O)",
+      "slug": "marburg-o"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/München 2 (Parkstadtcenter)",
+      "label": "München 2 (Parkstadtcenter)",
+      "slug": "munchen-2-parkstadtcenter"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/München 3 (Arnulfbogen)",
+      "label": "München 3 (Arnulfbogen)",
+      "slug": "munchen-3-arnulfbogen"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Munzingen 2 (B)",
+      "label": "Munzingen 2 (B)",
+      "slug": "munzingen-2-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Rastatt 1 Durmersheim (KH)",
+      "label": "Rastatt 1 Durmersheim (KH)",
+      "slug": "rastatt-1-durmersheim-kh"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Rastatt 2 Durmersheim (KH)",
+      "label": "Rastatt 2 Durmersheim (KH)",
+      "slug": "rastatt-2-durmersheim-kh"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Rastatt 4 Durmersheim (KH)",
+      "label": "Rastatt 4 Durmersheim (KH)",
+      "slug": "rastatt-4-durmersheim-kh"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Rheinfelden (R)",
+      "label": "Rheinfelden (R)",
+      "slug": "rheinfelden-r"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Riesa (B)",
+      "label": "Riesa (B)",
+      "slug": "riesa-b"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Ripphalde (D)",
+      "label": "Ripphalde (D)",
+      "slug": "ripphalde-d"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Simonswald (S)",
+      "label": "Simonswald (S)",
+      "slug": "simonswald-s"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Spornitz (CS)",
+      "label": "Spornitz (CS)",
+      "slug": "spornitz-cs"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Stockach (H)",
+      "label": "Stockach (H)",
+      "slug": "stockach-h"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Stühlingen (P)",
+      "label": "Stühlingen (P)",
+      "slug": "stuhlingen-p"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Treis Karden (BAG)",
+      "label": "Treis Karden (BAG)",
+      "slug": "treis-karden-bag"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Waldshut-Tiengen (D)",
+      "label": "Waldshut-Tiengen (D)",
+      "slug": "waldshut-tiengen-d"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Werther (AEG)",
+      "label": "Werther (AEG)",
+      "slug": "werther-aeg"
+    },
+    {
+      "target": "Projekte/F - Leads/F1 - Warm-Akquise/Zweibrücken (S)",
+      "label": "Zweibrücken (S)",
+      "slug": "zweibrucken-s"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Aitrach (H2O)",
+      "label": "Aitrach (H2O)",
+      "slug": "aitrach-h2o"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Berkholz-Meyenburg (x)",
+      "label": "Berkholz-Meyenburg (x)",
+      "slug": "berkholz-meyenburg-x"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Burladingen",
+      "label": "Burladingen",
+      "slug": "burladingen"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Freiburg (Nord)",
+      "label": "Freiburg (Nord)",
+      "slug": "freiburg-nord"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Heising",
+      "label": "Heising",
+      "slug": "heising"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Malsch (KH)",
+      "label": "Malsch (KH)",
+      "slug": "malsch-kh"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Rheinfelden Adelhausen",
+      "label": "Rheinfelden Adelhausen",
+      "slug": "rheinfelden-adelhausen"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Röllshausen",
+      "label": "Röllshausen",
+      "slug": "rollshausen"
+    },
+    {
+      "target": "Projekte/F - Leads/F2 - Kalt-Akquise/Titisee-Neustadt (UW)",
+      "label": "Titisee-Neustadt (UW)",
+      "slug": "titisee-neustadt-uw"
     }
   ],
-  "markdown": "\n## ###### **Baureife Projekte**\n\n- [ ] **In Betrieb**\n- [ ] [[Bötzingen (H)]]\n- [ ] [[Eisenbach 1 (F)]]\n- [ ] [[Lüptitz (BAG)]]\n- [ ] [[Neuwied (R)]]\n- [ ] [[Eisenbach 2 (W)]]\n- [ ] **Nacharbeiten**\n- [ ] [[Bad Säckingen (M)]]\n- [ ] [[Bitz (ASW)]]\n- [ ] [[Dachau (SWD)]]\n- [ ] [[Freiburg (M 2)]]\n- [ ] [[Haßfurt (Uponor)]]\n- [ ] [[Henau (BAG)]]\n- [ ] [[Stockhausen (BAG)]]\n- [ ] **Im Bau**\n- [ ] [[Munzingen (B)]]\n- [ ] [[Donaueschingen (S)]]\n- [ ] [[Flechtingen (BAG)]]\n- [ ] [[Wetzstein (BAG)]]\n\n\n## ###### **Bauantragsverfahren**\n\n- [ ] **Baufreigabe**\n- [ ] [[Schallstadt (GMK)]]\n- [ ] [[Stühlingen (D)]]\n- [ ] **Baugenehmigung**\n- [ ] [[Hüfingen (S)]]\n- [ ] [[Schrenz (S)]]\n- [ ] **Bauantrag**\n- [ ] [[Buggingen (W)]]\n- [ ] [[Rheinfelden (L)]]\n- [ ] [[Blumberg (G)]]\n- [ ] **Bauantragsvorbereitung**\n- [ ] [[Dietingen (M)]]\n- [ ] **Gutachtenphase**\n- [ ] **Designphase**\n- [ ] [[Renchen (K)]]\n\n\n## ###### **Bauleitplanungsverfahren**\n\n- [ ] **Feststellungsbeschluss**\n- [ ] **Satzungsbeschluss**\n- [ ] **2. Offenlage Beschluss**\n- [ ] [[Eisenbach 3 (E3)]]\n- [ ] **1. Offenlage Beschluss**\n- [ ] [[Neuenburg (iAR)]]\n- [ ] **Frühzeitige Beteiligung Beschluss**\n- [ ] **Aufstellungsbeschluss**\n- [ ] [[Schortens (P)]]\n- [ ] [[Treplin (W)]]\n- [ ] [[Bad Dürrheim (M)]]\n- [ ] **Bauleitplanungsvorbereitung**\n- [ ] Oberhambach\n- [ ] [[Wutöschingen (S)]]\n- [ ] [[Deggenhausertal (M)]]\n- [ ] [[Sauldorf (H)]]\n- [ ] [[Freiberg (Z)]]\n- [ ] [[Bitburg (Z)]]\n- [ ] [[Waldshut-Tiengen (B)]]\n- [ ] [[Ühlingen-Birkendorf (L)]]\n\n\n## ###### **Bezug-Projekte**\n\n- [ ] **Netzreservierung (mit Bezug)**\n- [ ] [[Eisenbach 4 (L)]]\n- [ ] [[Löffingen (GMK)]]\n- [ ] [[Whylen ()]]\n- [ ] [[Rottweil (S)]]\n\n\n## ###### **Leads**\n\n- [ ] **Wirtschaftliche Projekte**\n- [ ] **Kommunen-Gutdünken**\n- [ ] **Pachtvertrag & Netzreservierung**\n- [ ] [[Shared/Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)]]\n- [ ] **Pachtvertrag & Netzanfrage**\n- [ ] [[Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)]]\n- [ ] [[Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)]]\n- [ ] [[Pfullendorf (G)]]\n- [ ] [[Denzlingen (S)]]\n- [ ] **Nur Netzreservierung**\n- [ ] [[Freiburg (UWSA)]]\n- [ ] **Nur Netzanfrage**\n- [ ] [[Meiningen (AGH)]]\n- [ ] [[Bad Krozingen (R)]]\n- [ ] [[Freiburg-March (K)]]\n- [ ] [[Karlsruhe (F)]]\n- [ ] [[München 1 (ArtInvest)]]\n- [ ] [[Schallstadt (vH)]]\n- [ ] [[Unterwellenborn (Z)]]\n- [ ] **Nur Pachtvertrag**\n- [ ] [[Buggingen (F)]]\n- [ ] [[Opfingen (M)]]\n- [ ] [[Villigst (S)]]\n- [ ] [[Zützen (C)]]\n- [ ] [[Reichertsheim (D)]]\n- [ ] [[Neuenburg (G)]]\n- [ ] **Akquise**\n- [ ] [[Burladingen]]\n- [ ] [[Hüfingen (M)]]\n- [ ] [[Linden (CS)]]\n- [ ] [[München 2 (Parkstadtcenter)]]\n- [ ] [[München 3 (Arnulfbogen)]]\n- [ ] [[Spornitz (CS)]]\n- [ ] [[Stockach (H)]]\n- [ ] [[Waldshut-Tiengen (D)]]\n- [ ] [[Wickede (R)]]\n- [ ] **Analyse**\n- [ ] [[Freiburg (GMK)]]\n- [ ] [[Reute (GMK)]]\n- [ ] [[Vörstetten (GMK)]]\n- [ ] [[Denzlingen (GMK)]]\n\n\n\n\n%% kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false]}\n```\n%%"
+  "markdown": "\n## ###### **Baureife Projekte**\n\n- [ ] **In Betrieb**\n- [ ] **Laufender Betrieb / DE**\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Eisenbach (F)|Eisenbach (F)]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Freiburg (Kindergalaxie)|Freiburg (Kindergalaxie)]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Grabsleben|Grabsleben]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Hugstetten|Hugstetten]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Kippenheim (Sportpark)|Kippenheim (Sportpark)]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Nauroth|Nauroth]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Pferdsfeld|Pferdsfeld]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/DE/Stassfurt|Stassfurt]]\n- [ ] **Laufender Betrieb / FR**\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Cardon|Cardon]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Estézargues|Estézargues]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Guitinières|Guitinières]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/FR/Puch-D'Agenais|Puch-D'Agenais]]\n- [ ] **Laufender Betrieb / JP**\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Akune|Akune]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Isahaya North|Isahaya North]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Isahaya South|Isahaya South]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Kawasaki|Kawasaki]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Minami-Izu|Minami-Izu]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Okayama|Okayama]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Sanbonmatsu|Sanbonmatsu]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Tochigi|Tochigi]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Tsuyama|Tsuyama]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Uwaba North|Uwaba North]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Uwaba South|Uwaba South]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamagata|Yamagata]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamanashi|Yamanashi]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamashita North|Yamashita North]]\n- [ ] [[Projekte/A0 - In Betrieb/1 - Laufender Betrieb/JP/Yamashita South|Yamashita South]]\n\n- [ ] **Nacharbeiten**\n- [ ] **Inbetriebnahme mit AZ**\n- [ ] [[Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Bad Säckingen (M)|Bad Säckingen (M)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Haßfurt (Uponor)|Haßfurt (Uponor)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme mit AZ/Lüptitz (BAG)|Lüptitz (BAG)]]\n- [ ] **Inbetriebnahme ohne AZ**\n- [ ] [[Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme ohne AZ/Eisenbach (W)|Eisenbach (W)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/3 - Inbetriebnahme ohne AZ/Stockhausen (BAG)|Stockhausen (BAG)]]\n- [ ] **Anlagenzertifikat**\n- [ ] [[Projekte/A1 - Inbetriebnahme/4 - Anlagenzertifikat/Bötzingen (H)|Bötzingen (H)]]\n- [ ] **Vorbereitung IBN**\n- [ ] [[Projekte/A1 - Inbetriebnahme/5 - Vorbereitung IBN/Freiburg (Madeira 2)|Freiburg (Madeira 2)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/5 - Vorbereitung IBN/Neuwied (R)|Neuwied (R)]]\n- [ ] **Status unbekannt**\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Bad Säckingen (M)|Bad Säckingen (M)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Bitz (ASW)|Bitz (ASW)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Dachau (SWD)|Dachau (SWD)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Freiburg (Knauf)|Freiburg (Knauf)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Freiburg (Madeira)|Freiburg (Madeira)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Henau (BAG)|Henau (BAG)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Krefeld (Kaarst 2)|Krefeld (Kaarst 2)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Krefeld (Kaarst)|Krefeld (Kaarst)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Offenburg (Pflegeheim)|Offenburg (Pflegeheim)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Riesa|Riesa]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/St. Georgen (EBM Papst)|St. Georgen (EBM Papst)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Stockach (R)|Stockach (R)]]\n- [ ] [[Projekte/A1 - Inbetriebnahme/6 - Status unbekannt/Winterspüren|Winterspüren]]\n\n- [ ] **Im Bau**\n- [ ] [[Projekte/A2 - Im Bau/A2 - Im Bau/Buggingen (W)|Buggingen (W)]]\n- [ ] [[Projekte/A2 - Im Bau/A2 - Im Bau/Donaueschingen (S)|Donaueschingen (S)]]\n- [ ] [[Projekte/A2 - Im Bau/A2 - Im Bau/Flechtingen (BAG)|Flechtingen (BAG)]]\n- [ ] [[Projekte/A2 - Im Bau/A2 - Im Bau/Munzingen (B)|Munzingen (B)]]\n- [ ] [[Projekte/A2 - Im Bau/A2 - Im Bau/Ochtendung MfP (R)|Ochtendung MfP (R)]]\n- [ ] [[Projekte/A2 - Im Bau/A2 - Im Bau/Stühlingen (D)|Stühlingen (D)]]\n- [ ] **Vorbereitung Bau / EPC**\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Bilstein (BAG)|Bilstein (BAG)]]\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Brohltal (R)|Brohltal (R)]]\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Buggingen (R)|Buggingen (R)]]\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Ochtendung GE (R)|Ochtendung GE (R)]]\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Rottweil (S)|Rottweil (S)]]\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Talbecke (BAG)|Talbecke (BAG)]]\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/A4 - EPC/Wetzstein (BAG)|Wetzstein (BAG)]]\n- [ ] **Vorbereitung Bau**\n- [ ] [[Projekte/A2 - Im Bau/A3 - Vorbereitung Bau/Flechtingen (BAG)|Flechtingen (BAG)]]\n\n\n## ###### **Bauantragsverfahren**\n\n- [ ] **Baufreigabe**\n- [ ] [[Projekte/B - BaugenehmigungV/B1 - Baufreigabe/Schallstadt (GMK)|Schallstadt (GMK)]]\n- [ ] **Baugenehmigung**\n- [ ] [[Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Aitrach (T)|Aitrach (T)]]\n- [ ] [[Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Blumberg (G)|Blumberg (G)]]\n- [ ] [[Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Hüfingen (S)|Hüfingen (S)]]\n- [ ] [[Projekte/B - BaugenehmigungV/B2 - Baugenehmigung/Schrenz (S)|Schrenz (S)]]\n- [ ] **Bauantrag**\n- [ ] [[Projekte/B - BaugenehmigungV/B3 - Bauantrag/Dietingen (M)|Dietingen (M)]]\n- [ ] [[Projekte/B - BaugenehmigungV/B3 - Bauantrag/Eisenbach 3 (E3)|Eisenbach 3 (E3)]]\n- [ ] [[Projekte/B - BaugenehmigungV/B3 - Bauantrag/Friedenweiler (GMK)|Friedenweiler (GMK)]]\n- [ ] [[Projekte/B - BaugenehmigungV/B3 - Bauantrag/Rheinfelden (L)|Rheinfelden (L)]]\n- [ ] **BA Vorbereitung**\n- [ ] [[Projekte/B - BaugenehmigungV/B4 - BA Vorbereitung/Renchen (K)|Renchen (K)]]\n- [ ] **Designphase**\n- [ ] [[Projekte/B - BaugenehmigungV/B6 - Designphase/Renchen (K)|Renchen (K)]]\n\n\n## ###### **Bauleitplanungsverfahren**\n\n- [ ] **1. Offenlage B**\n- [ ] [[Projekte/C - BaurechtV/C4 - 1. Offenlage B/Neuenburg (iAR)|Neuenburg (iAR)]]\n- [ ] **Frühzeitige B**\n- [ ] [[Projekte/C - BaurechtV/C5 - Frühzeitige B/Ühlingen-Birkendorf (L)|Ühlingen-Birkendorf (L)]]\n- [ ] [[Projekte/C - BaurechtV/C5 - Frühzeitige B/Wutöschingen (S)|Wutöschingen (S)]]\n- [ ] **Aufstellung B**\n- [ ] [[Projekte/C - BaurechtV/C6 - Aufstellung B/Bad Dürrheim (M)|Bad Dürrheim (M)]]\n- [ ] [[Projekte/C - BaurechtV/C6 - Aufstellung B/Oberhambach (K)|Oberhambach (K)]]\n- [ ] [[Projekte/C - BaurechtV/C6 - Aufstellung B/Treplin (W)|Treplin (W)]]\n- [ ] **BLP Vorbereitung**\n- [ ] [[Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Bitburg (Z)|Bitburg (Z)]]\n- [ ] [[Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Deggenhausertal (M)|Deggenhausertal (M)]]\n- [ ] [[Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Freiberg (Z)|Freiberg (Z)]]\n- [ ] [[Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Sauldorf (H)|Sauldorf (H)]]\n- [ ] [[Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Waldshut-Tiengen (B)|Waldshut-Tiengen (B)]]\n\n\n## ###### **Bezug-Projekte**\n\n- [ ] [[Projekte/D1 - Bezugsprojekte/Augsburg (Stätzlinger 70)|Augsburg (Stätzlinger 70)]]\n- [ ] [[Projekte/D1 - Bezugsprojekte/Eisenbach 4 (L)|Eisenbach 4 (L)]]\n- [ ] [[Projekte/D1 - Bezugsprojekte/Whylen ()|Whylen ()]]\n\n\n## ###### **Kaufprojekte**\n\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Achterspannerhof 1 (MW)|Achterspannerhof 1 (MW)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Achterspannerhof 2 (N)|Achterspannerhof 2 (N)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Bernbrunn (BayWa)|Bernbrunn (BayWa)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Ettlingen (F)|Ettlingen (F)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Gresselgrund (BayWa)|Gresselgrund (BayWa)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Immendingen (K)|Immendingen (K)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Neckarzimmern (BayWa)|Neckarzimmern (BayWa)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Oppin (B)|Oppin (B)]]\n- [ ] [[Projekte/D2 - Kaufprojekte DD/Schafstedt (Chint)|Schafstedt (Chint)]]\n\n\n## ###### **Akquise**\n\n- [ ] **Vertrag & NetzR**\n- [ ] [[Projekte/E - Akquise/E3 - Vertrag & NetzR/Audenhain (H)|Audenhain (H)]]\n- [ ] [[Projekte/E - Akquise/E3 - Vertrag & NetzR/Buggingen (F)|Buggingen (F)]]\n- [ ] [[Projekte/E - Akquise/E3 - Vertrag & NetzR/Denzlingen (W)|Denzlingen (W)]]\n- [ ] [[Projekte/E - Akquise/E3 - Vertrag & NetzR/Gebhardshain (H)|Gebhardshain (H)]]\n- [ ] [[Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)|Neuenburg (D)]]\n- [ ] **Vertrag & NetzA**\n- [ ] [[Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)|Baden-Baden (F)]]\n- [ ] [[Projekte/E - Akquise/E4 - Vertrag & NetzA/Denzlingen (S)|Denzlingen (S)]]\n- [ ] [[Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)|Lohagen (S)]]\n- [ ] [[Projekte/E - Akquise/E4 - Vertrag & NetzA/Pfullendorf (G)|Pfullendorf (G)]]\n- [ ] [[Projekte/E - Akquise/E4 - Vertrag & NetzA/Wickede (R)|Wickede (R)]]\n- [ ] **Nur Netzreservierung**\n- [ ] [[Projekte/E - Akquise/E5 - Nur Netzreservierung/Freiburg (UWSA)|Freiburg (UWSA)]]\n- [ ] **Nur Netzanfrage**\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Bad Krozingen (R)|Bad Krozingen (R)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Freiburg-March (K)|Freiburg-March (K)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Kagenow|Kagenow]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Karlsruhe (F)|Karlsruhe (F)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Meiningen (AGH)|Meiningen (AGH)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/München 1 (ArtInvest)|München 1 (ArtInvest)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Schallstadt (vH)|Schallstadt (vH)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Unterwellenborn (Z)|Unterwellenborn (Z)]]\n- [ ] [[Projekte/E - Akquise/E6 - Nur Netzanfrage/Wolkow|Wolkow]]\n- [ ] **Nur Vertrag**\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Denzlingen (GMK)|Denzlingen (GMK)]]\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Harsewinkel (F)|Harsewinkel (F)]]\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Neuenburg (G)|Neuenburg (G)]]\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Opfingen (M)|Opfingen (M)]]\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Reichertsheim (D)|Reichertsheim (D)]]\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Villigst (S)|Villigst (S)]]\n- [ ] [[Projekte/E - Akquise/E7 - Nur Vertrag/Zützen (C)|Zützen (C)]]\n- [ ] **GMK-Analyse**\n- [ ] [[Projekte/E - Akquise/E8 - GMK-Analyse/Freiburg (GMK)|Freiburg (GMK)]]\n- [ ] [[Projekte/E - Akquise/E8 - GMK-Analyse/Reute (GMK)|Reute (GMK)]]\n- [ ] [[Projekte/E - Akquise/E8 - GMK-Analyse/Vörstetten (GMK)|Vörstetten (GMK)]]\n\n\n## ###### **Leads**\n\n- [ ] **Warm-Akquise**\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Bad Dürrheim (K)|Bad Dürrheim (K)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Bad Krozingen (S)|Bad Krozingen (S)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Bonndorf (G)|Bonndorf (G)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Breisach (D)|Breisach (D)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Denzlingen (B)|Denzlingen (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Donaueschingen (M)|Donaueschingen (M)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Eichstetten (H)|Eichstetten (H)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Endingen (B)|Endingen (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Eschbach (W)|Eschbach (W)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Falkenberg (B)|Falkenberg (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Freiburg (D)|Freiburg (D)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Freiburg (G)|Freiburg (G)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Freiburg (M 1)|Freiburg (M 1)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Geißlingen (G)|Geißlingen (G)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Gengenbach (S)|Gengenbach (S)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Gerichshain (W)|Gerichshain (W)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Gündlingen (D)|Gündlingen (D)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Gutach (S)|Gutach (S)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Halle (PVG)|Halle (PVG)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Holzdorf (B)|Holzdorf (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Hüfingen (M)|Hüfingen (M)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Hüfingen (V)|Hüfingen (V)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Hüfingen BESS (S)|Hüfingen BESS (S)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Lauchhammer (B)|Lauchhammer (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Leimen (M)|Leimen (M)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Leipzig (H)|Leipzig (H)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Linden (B)|Linden (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Linden (CS)|Linden (CS)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Löffelstelzen (K)|Löffelstelzen (K)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Machern (W)|Machern (W)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Marburg (O)|Marburg (O)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/München 2 (Parkstadtcenter)|München 2 (Parkstadtcenter)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/München 3 (Arnulfbogen)|München 3 (Arnulfbogen)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Munzingen 2 (B)|Munzingen 2 (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Rastatt 1 Durmersheim (KH)|Rastatt 1 Durmersheim (KH)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Rastatt 2 Durmersheim (KH)|Rastatt 2 Durmersheim (KH)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Rastatt 4 Durmersheim (KH)|Rastatt 4 Durmersheim (KH)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Rheinfelden (R)|Rheinfelden (R)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Riesa (B)|Riesa (B)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Ripphalde (D)|Ripphalde (D)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Simonswald (S)|Simonswald (S)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Spornitz (CS)|Spornitz (CS)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Stockach (H)|Stockach (H)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Stühlingen (P)|Stühlingen (P)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Treis Karden (BAG)|Treis Karden (BAG)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Waldshut-Tiengen (D)|Waldshut-Tiengen (D)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Werther (AEG)|Werther (AEG)]]\n- [ ] [[Projekte/F - Leads/F1 - Warm-Akquise/Zweibrücken (S)|Zweibrücken (S)]]\n- [ ] **Kalt-Akquise**\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Aitrach (H2O)|Aitrach (H2O)]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Berkholz-Meyenburg (x)|Berkholz-Meyenburg (x)]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Burladingen|Burladingen]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Freiburg (Nord)|Freiburg (Nord)]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Heising|Heising]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Malsch (KH)|Malsch (KH)]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Rheinfelden Adelhausen|Rheinfelden Adelhausen]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Röllshausen|Röllshausen]]\n- [ ] [[Projekte/F - Leads/F2 - Kalt-Akquise/Titisee-Neustadt (UW)|Titisee-Neustadt (UW)]]\n\n%% kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false,false,false]}\n```\n%%\n"
 }
