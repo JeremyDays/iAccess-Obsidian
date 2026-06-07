@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QGIS Wiki - Formelsammlung QGIS</title>
+  <link rel="stylesheet" href="../assets/app.css?v=mq3ock5j">
+  <link rel="stylesheet" href="../assets/obsidian.css?v=mq3ock5j">
+  <script defer src="../assets/app.js?v=mq3ock5j"></script>
+</head>
+<body class="note-page note-qgis-wiki-formelsammlung-qgis">
+  <main>
+      <header class="site-header">
+    <a class="brand" href="../index.html"><img src="../assets/iaccess-logo.png" alt="iAccess"></a>
+    <div><strong>iAccess Projekte</strong><span>Obsidian Wissensbasis</span></div>
+  </header>
+      <div class="site-layout">
+        <aside class="site-sidebar">
+    <div class="search-shell">
+      <input id="site-search" type="search" placeholder="Titel oder Alias..." autocomplete="off">
+      <div id="search-results" class="search-results"></div>
+    </div>
+    <div class="folder-panel">
+      <h2>Ordner</h2>
+      <div class="category-tree"><details class="tree-node tree-root">
+    <summary><span>Shared</span><strong>218</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>Gutachter</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/solargik.html">SolarGik</a></div>
+  </details><details class="tree-node">
+    <summary><span>Projekte</span><strong>208</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>A0 - In Betrieb</span><strong>27</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>Laufender Betrieb</span><strong>27</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>DE</span><strong>8</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/eisenbach-f.html">Eisenbach (F)</a><a class="tree-note" href="../notes/freiburg-kindergalaxie.html">Freiburg (Kindergalaxie)</a><a class="tree-note" href="../notes/grabsleben.html">Grabsleben</a><a class="tree-note" href="../notes/hugstetten.html">Hugstetten</a><a class="tree-note" href="../notes/kippenheim-sportpark.html">Kippenheim (Sportpark)</a><a class="tree-note" href="../notes/nauroth.html">Nauroth</a><a class="tree-note" href="../notes/pferdsfeld.html">Pferdsfeld</a><a class="tree-note" href="../notes/stassfurt.html">Stassfurt</a></div>
+  </details><details class="tree-node">
+    <summary><span>FR</span><strong>4</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/cardon.html">Cardon</a><a class="tree-note" href="../notes/estezargues.html">Estézargues</a><a class="tree-note" href="../notes/guitinieres.html">Guitinières</a><a class="tree-note" href="../notes/puch-d-agenais.html">Puch-D'Agenais</a></div>
+  </details><details class="tree-node">
+    <summary><span>JP</span><strong>15</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/akune.html">Akune</a><a class="tree-note" href="../notes/isahaya-north.html">Isahaya North</a><a class="tree-note" href="../notes/isahaya-south.html">Isahaya South</a><a class="tree-note" href="../notes/kawasaki.html">Kawasaki</a><a class="tree-note" href="../notes/minami-izu.html">Minami-Izu</a><a class="tree-note" href="../notes/okayama.html">Okayama</a><a class="tree-note" href="../notes/sanbonmatsu.html">Sanbonmatsu</a><a class="tree-note" href="../notes/tochigi.html">Tochigi</a><a class="tree-note" href="../notes/tsuyama.html">Tsuyama</a><a class="tree-note" href="../notes/uwaba-north.html">Uwaba North</a><a class="tree-note" href="../notes/uwaba-south.html">Uwaba South</a><a class="tree-note" href="../notes/yamagata.html">Yamagata</a><a class="tree-note" href="../notes/yamanashi.html">Yamanashi</a><a class="tree-note" href="../notes/yamashita-north.html">Yamashita North</a><a class="tree-note" href="../notes/yamashita-south.html">Yamashita South</a></div>
+  </details></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>A1 - Inbetriebnahme</span><strong>20</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>Anlagenzertifikat</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/botzingen-h.html">Bötzingen (H)</a></div>
+  </details><details class="tree-node">
+    <summary><span>Inbetriebnahme mit AZ</span><strong>2</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/ha-furt-uponor.html">Haßfurt (Uponor)</a><a class="tree-note" href="../notes/luptitz-bag.html">Lüptitz (BAG)</a></div>
+  </details><details class="tree-node">
+    <summary><span>Inbetriebnahme ohne AZ</span><strong>2</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/eisenbach-w.html">Eisenbach (W)</a><a class="tree-note" href="../notes/stockhausen-bag.html">Stockhausen (BAG)</a></div>
+  </details><details class="tree-node">
+    <summary><span>Status unbekannt</span><strong>13</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/bad-sackingen-m-2.html">Bad Säckingen (M)</a><a class="tree-note" href="../notes/bitz-asw.html">Bitz (ASW)</a><a class="tree-note" href="../notes/dachau-swd.html">Dachau (SWD)</a><a class="tree-note" href="../notes/freiburg-knauf.html">Freiburg (Knauf)</a><a class="tree-note" href="../notes/freiburg-madeira.html">Freiburg (Madeira)</a><a class="tree-note" href="../notes/henau-bag.html">Henau (BAG)</a><a class="tree-note" href="../notes/krefeld-kaarst-2.html">Krefeld (Kaarst 2)</a><a class="tree-note" href="../notes/krefeld-kaarst.html">Krefeld (Kaarst)</a><a class="tree-note" href="../notes/offenburg-pflegeheim.html">Offenburg (Pflegeheim)</a><a class="tree-note" href="../notes/riesa.html">Riesa</a><a class="tree-note" href="../notes/st-georgen-ebm-papst.html">St. Georgen (EBM Papst)</a><a class="tree-note" href="../notes/stockach-r.html">Stockach (R)</a><a class="tree-note" href="../notes/winterspuren.html">Winterspüren</a></div>
+  </details><details class="tree-node">
+    <summary><span>Vorbereitung IBN</span><strong>2</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/freiburg-madeira-2.html">Freiburg (Madeira 2)</a><a class="tree-note" href="../notes/neuwied-r.html">Neuwied (R)</a></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>A2 - Im Bau</span><strong>13</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>A2 - Im Bau</span><strong>5</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/buggingen-w.html">Buggingen (W)</a><a class="tree-note" href="../notes/donaueschingen-s.html">Donaueschingen (S)</a><a class="tree-note" href="../notes/munzingen-b.html">Munzingen (B)</a><a class="tree-note" href="../notes/ochtendung-mfp-r.html">Ochtendung MfP (R)</a><a class="tree-note" href="../notes/stuhlingen-d.html">Stühlingen (D)</a></div>
+  </details><details class="tree-node">
+    <summary><span>A3 - Vorbereitung Bau</span><strong>8</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>A4 - EPC</span><strong>7</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/bilstein-bag.html">Bilstein (BAG)</a><a class="tree-note" href="../notes/brohltal-r.html">Brohltal (R)</a><a class="tree-note" href="../notes/buggingen-r.html">Buggingen (R)</a><a class="tree-note" href="../notes/ochtendung-ge-r.html">Ochtendung GE (R)</a><a class="tree-note" href="../notes/rottweil-s.html">Rottweil (S)</a><a class="tree-note" href="../notes/talbecke-bag.html">Talbecke (BAG)</a><a class="tree-note" href="../notes/wetzstein-bag.html">Wetzstein (BAG)</a></div>
+  </details><a class="tree-note" href="../notes/flechtingen-bag-2.html">Flechtingen (BAG)</a></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>B - BaugenehmigungV</span><strong>10</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>B1 - Baufreigabe</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/schallstadt-gmk.html">Schallstadt (GMK)</a></div>
+  </details><details class="tree-node">
+    <summary><span>B2 - Baugenehmigung</span><strong>4</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/aitrach-t.html">Aitrach (T)</a><a class="tree-note" href="../notes/blumberg-g.html">Blumberg (G)</a><a class="tree-note" href="../notes/hufingen-s.html">Hüfingen (S)</a><a class="tree-note" href="../notes/schrenz-s.html">Schrenz (S)</a></div>
+  </details><details class="tree-node">
+    <summary><span>B3 - Bauantrag</span><strong>4</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/dietingen-m.html">Dietingen (M)</a><a class="tree-note" href="../notes/eisenbach-3-e3.html">Eisenbach 3 (E3)</a><a class="tree-note" href="../notes/friedenweiler-gmk.html">Friedenweiler (GMK)</a><a class="tree-note" href="../notes/rheinfelden-l.html">Rheinfelden (L)</a></div>
+  </details><details class="tree-node">
+    <summary><span>B6 - Designphase</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/renchen-k.html">Renchen (K)</a></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>C - BaurechtV</span><strong>11</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>C4 - 1. Offenlage B</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/neuenburg-iar.html">Neuenburg (iAR)</a></div>
+  </details><details class="tree-node">
+    <summary><span>C5 - Frühzeitige B</span><strong>2</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/uhlingen-birkendorf-l.html">Ühlingen-Birkendorf (L)</a><a class="tree-note" href="../notes/wutoschingen-s.html">Wutöschingen (S)</a></div>
+  </details><details class="tree-node">
+    <summary><span>C6 - Aufstellung B</span><strong>3</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/bad-durrheim-m.html">Bad Dürrheim (M)</a><a class="tree-note" href="../notes/oberhambach-k.html">Oberhambach (K)</a><a class="tree-note" href="../notes/treplin-w.html">Treplin (W)</a></div>
+  </details><details class="tree-node">
+    <summary><span>C7 - BLP Vorbereitung</span><strong>5</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/bitburg-z.html">Bitburg (Z)</a><a class="tree-note" href="../notes/deggenhausertal-m.html">Deggenhausertal (M)</a><a class="tree-note" href="../notes/freiberg-z.html">Freiberg (Z)</a><a class="tree-note" href="../notes/sauldorf-h.html">Sauldorf (H)</a><a class="tree-note" href="../notes/waldshut-tiengen-b.html">Waldshut-Tiengen (B)</a></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>D1 - Bezugsprojekte</span><strong>3</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/augsburg-statzlinger-70.html">Augsburg (Stätzlinger 70)</a><a class="tree-note" href="../notes/eisenbach-4-l.html">Eisenbach 4 (L)</a><a class="tree-note" href="../notes/whylen.html">Whylen ()</a></div>
+  </details><details class="tree-node">
+    <summary><span>D2 - Kaufprojekte DD</span><strong>9</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/achterspannerhof-1-mw.html">Achterspannerhof 1 (MW)</a><a class="tree-note" href="../notes/achterspannerhof-2-n.html">Achterspannerhof 2 (N)</a><a class="tree-note" href="../notes/bernbrunn-baywa.html">Bernbrunn (BayWa)</a><a class="tree-note" href="../notes/ettlingen-f.html">Ettlingen (F)</a><a class="tree-note" href="../notes/gresselgrund-baywa.html">Gresselgrund (BayWa)</a><a class="tree-note" href="../notes/immendingen-k.html">Immendingen (K)</a><a class="tree-note" href="../notes/neckarzimmern-baywa.html">Neckarzimmern (BayWa)</a><a class="tree-note" href="../notes/oppin-b.html">Oppin (B)</a><a class="tree-note" href="../notes/schafstedt-chint.html">Schafstedt (Chint)</a></div>
+  </details><details class="tree-node">
+    <summary><span>E - Akquise</span><strong>28</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>E3 - Vertrag &amp; NetzR</span><strong>3</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/buggingen-f.html">Buggingen (F)</a><a class="tree-note" href="../notes/denzlingen-w.html">Denzlingen (W)</a><a class="tree-note" href="../notes/neuenburg-d.html">Neuenburg (D)</a></div>
+  </details><details class="tree-node">
+    <summary><span>E4 - Vertrag &amp; NetzA</span><strong>5</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/baden-baden-f.html">Baden-Baden (F)</a><a class="tree-note" href="../notes/denzlingen-s.html">Denzlingen (S)</a><a class="tree-note" href="../notes/lohagen-s.html">Lohagen (S)</a><a class="tree-note" href="../notes/pfullendorf-g.html">Pfullendorf (G)</a><a class="tree-note" href="../notes/wickede-r.html">Wickede (R)</a></div>
+  </details><details class="tree-node">
+    <summary><span>E5 - Nur Netzreservierung</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/freiburg-uwsa.html">Freiburg (UWSA)</a></div>
+  </details><details class="tree-node">
+    <summary><span>E6 - Nur Netzanfrage</span><strong>9</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/bad-krozingen-r.html">Bad Krozingen (R)</a><a class="tree-note" href="../notes/freiburg-march-k.html">Freiburg-March (K)</a><a class="tree-note" href="../notes/kagenow.html">Kagenow</a><a class="tree-note" href="../notes/karlsruhe-f.html">Karlsruhe (F)</a><a class="tree-note" href="../notes/meiningen-agh.html">Meiningen (AGH)</a><a class="tree-note" href="../notes/munchen-1-artinvest.html">München 1 (ArtInvest)</a><a class="tree-note" href="../notes/schallstadt-vh.html">Schallstadt (vH)</a><a class="tree-note" href="../notes/unterwellenborn-z.html">Unterwellenborn (Z)</a><a class="tree-note" href="../notes/wolkow.html">Wolkow</a></div>
+  </details><details class="tree-node">
+    <summary><span>E7 - Nur Vertrag</span><strong>7</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/denzlingen-gmk.html">Denzlingen (GMK)</a><a class="tree-note" href="../notes/harsewinkel-f.html">Harsewinkel (F)</a><a class="tree-note" href="../notes/neuenburg-g.html">Neuenburg (G)</a><a class="tree-note" href="../notes/opfingen-m.html">Opfingen (M)</a><a class="tree-note" href="../notes/reichertsheim-d.html">Reichertsheim (D)</a><a class="tree-note" href="../notes/villigst-s.html">Villigst (S)</a><a class="tree-note" href="../notes/zutzen-c.html">Zützen (C)</a></div>
+  </details><details class="tree-node">
+    <summary><span>E8 - GMK-Analyse</span><strong>3</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/freiburg-gmk.html">Freiburg (GMK)</a><a class="tree-note" href="../notes/reute-gmk.html">Reute (GMK)</a><a class="tree-note" href="../notes/vorstetten-gmk.html">Vörstetten (GMK)</a></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>F - Leads</span><strong>53</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>F1 - Warm-Akquise</span><strong>44</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/bad-durrheim-k.html">Bad Dürrheim (K)</a><a class="tree-note" href="../notes/bad-krozingen-s.html">Bad Krozingen (S)</a><a class="tree-note" href="../notes/bonndorf-g.html">Bonndorf (G)</a><a class="tree-note" href="../notes/breisach-d.html">Breisach (D)</a><a class="tree-note" href="../notes/denzlingen-b.html">Denzlingen (B)</a><a class="tree-note" href="../notes/donaueschingen-m.html">Donaueschingen (M)</a><a class="tree-note" href="../notes/eichstetten-h.html">Eichstetten (H)</a><a class="tree-note" href="../notes/endingen-b.html">Endingen (B)</a><a class="tree-note" href="../notes/eschbach-w.html">Eschbach (W)</a><a class="tree-note" href="../notes/falkenberg-b.html">Falkenberg (B)</a><a class="tree-note" href="../notes/freiburg-d.html">Freiburg (D)</a><a class="tree-note" href="../notes/freiburg-g.html">Freiburg (G)</a><a class="tree-note" href="../notes/freiburg-m-1.html">Freiburg (M 1)</a><a class="tree-note" href="../notes/gei-lingen-g.html">Geißlingen (G)</a><a class="tree-note" href="../notes/gengenbach-s.html">Gengenbach (S)</a><a class="tree-note" href="../notes/gerichshain-w.html">Gerichshain (W)</a><a class="tree-note" href="../notes/gundlingen-d.html">Gündlingen (D)</a><a class="tree-note" href="../notes/gutach-s.html">Gutach (S)</a><a class="tree-note" href="../notes/halle-pvg.html">Halle (PVG)</a><a class="tree-note" href="../notes/holzdorf-b.html">Holzdorf (B)</a><a class="tree-note" href="../notes/hufingen-m.html">Hüfingen (M)</a><a class="tree-note" href="../notes/hufingen-v.html">Hüfingen (V)</a><a class="tree-note" href="../notes/hufingen-bess-s.html">Hüfingen BESS (S)</a><a class="tree-note" href="../notes/lauchhammer-b.html">Lauchhammer (B)</a><a class="tree-note" href="../notes/leimen-m.html">Leimen (M)</a><a class="tree-note" href="../notes/leipzig-h.html">Leipzig (H)</a><a class="tree-note" href="../notes/linden-cs.html">Linden (CS)</a><a class="tree-note" href="../notes/machern-w.html">Machern (W)</a><a class="tree-note" href="../notes/munchen-2-parkstadtcenter.html">München 2 (Parkstadtcenter)</a><a class="tree-note" href="../notes/munchen-3-arnulfbogen.html">München 3 (Arnulfbogen)</a><a class="tree-note" href="../notes/munzingen-2-b.html">Munzingen 2 (B)</a><a class="tree-note" href="../notes/rastatt-1-durmersheim-kh.html">Rastatt 1 Durmersheim (KH)</a><a class="tree-note" href="../notes/rastatt-2-durmersheim-kh.html">Rastatt 2 Durmersheim (KH)</a><a class="tree-note" href="../notes/rastatt-4-durmersheim-kh.html">Rastatt 4 Durmersheim (KH)</a><a class="tree-note" href="../notes/rheinfelden-r.html">Rheinfelden (R)</a><a class="tree-note" href="../notes/riesa-b.html">Riesa (B)</a><a class="tree-note" href="../notes/ripphalde-d.html">Ripphalde (D)</a><a class="tree-note" href="../notes/simonswald-s.html">Simonswald (S)</a><a class="tree-note" href="../notes/spornitz-cs.html">Spornitz (CS)</a><a class="tree-note" href="../notes/stockach-h.html">Stockach (H)</a><a class="tree-note" href="../notes/stuhlingen-p.html">Stühlingen (P)</a><a class="tree-note" href="../notes/treis-karden-bag.html">Treis Karden (BAG)</a><a class="tree-note" href="../notes/waldshut-tiengen-d.html">Waldshut-Tiengen (D)</a><a class="tree-note" href="../notes/zweibrucken-s.html">Zweibrücken (S)</a></div>
+  </details><details class="tree-node">
+    <summary><span>F2 - Kalt-Akquise</span><strong>9</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/aitrach-h2o.html">Aitrach (H2O)</a><a class="tree-note" href="../notes/berkholz-meyenburg-x.html">Berkholz-Meyenburg (x)</a><a class="tree-note" href="../notes/burladingen.html">Burladingen</a><a class="tree-note" href="../notes/freiburg-nord.html">Freiburg (Nord)</a><a class="tree-note" href="../notes/heising.html">Heising</a><a class="tree-note" href="../notes/malsch-kh.html">Malsch (KH)</a><a class="tree-note" href="../notes/rheinfelden-adelhausen.html">Rheinfelden Adelhausen</a><a class="tree-note" href="../notes/rollshausen.html">Röllshausen</a><a class="tree-note" href="../notes/titisee-neustadt-uw.html">Titisee-Neustadt (UW)</a></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>z Cancelled</span><strong>18</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/auggen-f.html">Auggen (F)</a><a class="tree-note" href="../notes/bosenberg-gpb.html">Bosenberg (GPB)</a><a class="tree-note" href="../notes/calden-r.html">Calden (R)</a><a class="tree-note" href="../notes/gaildorf-g.html">Gaildorf (G)</a><a class="tree-note" href="../notes/genthin.html">Genthin</a><a class="tree-note" href="../notes/groningen-w.html">Gröningen (W)</a><a class="tree-note" href="../notes/gurtweil.html">Gurtweil</a><a class="tree-note" href="../notes/hartha-s.html">Hartha (S)</a><a class="tree-note" href="../notes/hufingen-w.html">Hüfingen (W)</a><a class="tree-note" href="../notes/kuhmoos.html">Kühmoos</a><a class="tree-note" href="../notes/loffingen-gmk.html">Löffingen (GMK)</a><a class="tree-note" href="../notes/mecklar-b.html">Mecklar (B)</a><a class="tree-note" href="../notes/quickborn-s.html">Quickborn (S)</a><a class="tree-note" href="../notes/schortens-p.html">Schortens (P)</a><a class="tree-note" href="../notes/simonswald-w.html">Simonswald (W)</a><a class="tree-note" href="../notes/stadtallendorf-fps.html">Stadtallendorf (FPS)</a><a class="tree-note" href="../notes/stockach-l.html">Stockach (L)</a><a class="tree-note" href="../notes/weil-am-rhein-m.html">Weil am Rhein (M)</a></div>
+  </details><details class="tree-node">
+    <summary><span>z Ergänzendes</span><strong>16</strong></summary>
+    <div class="tree-children"><details class="tree-node">
+    <summary><span>Kosten</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/trassenkosten.html">Trassenkosten</a></div>
+  </details><details class="tree-node">
+    <summary><span>Meeting Minutes</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/20251216-rheinfelden-unb.html">20251216 Rheinfelden UNB</a></div>
+  </details><details class="tree-node">
+    <summary><span>Netzanfragen</span><strong>7</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/46352.html">46352</a><a class="tree-note" href="../notes/netzanfrage-calden.html">Netzanfrage Calden</a><a class="tree-note" href="../notes/netzanfrage-endingen.html">Netzanfrage Endingen</a><a class="tree-note" href="../notes/netzanfrage-hartha.html">Netzanfrage Hartha</a><a class="tree-note" href="../notes/netzanfrage-mecklar.html">Netzanfrage Mecklar</a><a class="tree-note" href="../notes/netzanfrage-quickborn.html">Netzanfrage Quickborn</a><a class="tree-note" href="../notes/netzanfrage-stadtallendorf.html">Netzanfrage Stadtallendorf</a></div>
+  </details><details class="tree-node">
+    <summary><span>Pachtvertrag</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/pachtvertrag-bitburg.html">Pachtvertrag Bitburg</a></div>
+  </details><details class="tree-node">
+    <summary><span>Restriktionsanalyse</span><strong>1</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/restriktionsanalyse-bonndorf.html">Restriktionsanalyse Bonndorf</a></div>
+  </details><details class="tree-node">
+    <summary><span>Zeitplan</span><strong>5</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/zeitplan-freiberg.html">Zeitplan Freiberg</a><a class="tree-note" href="../notes/zeitplan-neuenburg.html">Zeitplan Neuenburg</a><a class="tree-note" href="../notes/zeitplan-schallstadt.html">Zeitplan Schallstadt</a><a class="tree-note" href="../notes/zeitplan-stuhlingen.html">Zeitplan Stühlingen</a><a class="tree-note" href="../notes/zeitplan-waldshut-tiengen.html">Zeitplan Waldshut-Tiengen</a></div>
+  </details></div>
+  </details></div>
+  </details><details class="tree-node">
+    <summary><span>Übersicht</span><strong>8</strong></summary>
+    <div class="tree-children"><a class="tree-note" href="../notes/00-projekte-entwicklung.html">00 Projekte Entwicklung</a><a class="tree-note" href="../notes/die-nachsten-bauprojekte.html">Die nächsten Bauprojekte</a><a class="tree-note" href="../notes/projektphasen.html">Projektphasen</a><a class="tree-note" href="../notes/qgis-wiki-formelsammlung-qgis.html">QGIS Wiki - Formelsammlung QGIS</a><a class="tree-note" href="../notes/solar-bau-wiki-informationssammlung-solar-bau.html">Solar &amp; Bau Wiki - Informationssammlung Solar &amp; Bau</a><a class="tree-note" href="../notes/task-overview-cb.html">task overview CB</a><a class="tree-note" href="../notes/task-overview-sh.html">task overview SH</a><a class="tree-note" href="../notes/tasks.html">Tasks</a></div>
+  </details><a class="tree-note" href="../notes/bors-praktikum.html">BORS-Praktikum</a></div>
+  </details></div>
+    </div>
+  </aside>
+        <div class="note-column">
+      <nav class="top-nav"><a href="../index.html">Dashboard</a></nav>
+      <article class="note-detail obsidian-note">
+        <header>
+          <p class="eyebrow">Übersicht</p>
+          <h1>QGIS Wiki - Formelsammlung QGIS</h1>
+          <aside class="note-meta" aria-label="Metadaten">
+            <div class="note-meta-row">
+              <span>Tags</span>
+              <div><b>317399</b><b>345</b></div>
+            </div>
+            <div class="note-meta-row">
+              <span>Ordner</span>
+              <div><b>Übersicht</b></div>
+            </div>
+            <div class="note-meta-row">
+              <span>author</span>
+              <div><b>Christian Unger</b></div>
+            </div>
+            <div class="note-meta-row">
+              <span>Datum</span>
+              <div><b>21.05.2024</b></div>
+            </div>
+          </aside>
+        </header>
+        <div class="content obsidian-rendered">
+          <ul><li>[Feldrechner](#feldrechner)</li>
+<li>[LiDaR](#lidar)</li>
+<li>[Klassifizierung](#klassifizierung)</li>
+<li>[LASTools-into-DEM](#lastools-into-dem)</li>
+<li>[LiDAR-in-XSection](#lidar-in-xsection)</li>
+<li>[Cross-Section](#cross-section)</li>
+<li>[Geotagged Fotos](#geotagged-fotos)</li>
+<li>[Stil](#stil)</li>
+<li>[Terrain-Analyse](#terrain-analyse)</li>
+<li>[GDAL](#gdal)</li>
+<li>[GDAL OGR - Kommandozeilenwerkzeuge](#gdal-ogr---kommandozeilenwerkzeuge)</li>
+<li>[Merge/Verschmelzen](#mergeverschmelzen)</li>
+<li>[Raster](#raster)</li>
+<li>[Vector](#vector)</li>
+<li>[Tooltip für Projektübersicht](#tooltip-für-projektübersicht)</li>
+<li>[Print Layout \&amp; Atlas](#print-layout--atlas)</li>
+<li>[Links](#links)</li>
+<li>[Koordinaten in Ecken](#koordinaten-in-ecken)</li>
+<li>[Methodik](#methodik)</li>
+<li>[QGIS Calc](#qgis-calc)</li>
+<li>[Kategorisierung nach Entfernung zu Puunkt](#kategorisierung-nach-entfernung-zu-puunkt)</li>
+<li>[Datenmodell](#datenmodell)</li>
+<li>[Aktuelles Modell](#aktuelles-modell)</li>
+<li>[<code>digi_01_info_point</code>](#digi_01_info_point)</li>
+<li>[<code>digi_01_info_line</code>](#digi_01_info_line)</li>
+<li>[<code>digi_01_info_poly</code>](#digi_01_info_poly)</li>
+<li>[<code>digi_02_icons_point</code>](#digi_02_icons_point)</li>
+<li>[<code>digi_03_kabel</code>](#digi_03_kabel)</li>
+<li>[<code>digi_03_rohr</code>](#digi_03_rohr)</li>
+<li>[<code>digi_05_kanal_line</code>](#digi_05_kanal_line)</li>
+<li>[<code>digi_05_kanal_point</code>](#digi_05_kanal_point)</li>
+<li>[<code>digi_05_kanal_poly</code>](#digi_05_kanal_poly)</li>
+<li>[Neues Modell:](#neues-modell)</li>
+<li>[Ausarbeitung des Relationalen Datenmodells für Leitungsinformationen in QGIS](#ausarbeitung-des-relationalen-datenmodells-für-leitungsinformationen-in-qgis)</li>
+<li>[1. Einführung](#1-einführung)</li>
+<li>[2. Überblick über die Tabellen](#2-überblick-über-die-tabellen)</li>
+<li>[3. Detaillierte Tabellenbeschreibung](#3-detaillierte-tabellenbeschreibung)</li>
+<li>[4. Beziehungen zwischen den Tabellen](#4-beziehungen-zwischen-den-tabellen)</li>
+<li>[5. Umgang mit verschiedenen Geometrietypen in QGIS](#5-umgang-mit-verschiedenen-geometrietypen-in-qgis)</li>
+<li>[6. Integration mit QGIS](#6-integration-mit-qgis)</li>
+<li>[7. Workflow-Überlegungen](#7-workflow-überlegungen)</li>
+<li>[8. Fazit](#8-fazit)</li>
+<li>[Layerliste ausgeben:](#layerliste-ausgeben)</li>
+<li>[<strong>ohne</strong> Gruppenangabe](#ohne-gruppenangabe)</li>
+<li>[<strong>mit</strong> Gruppenangabe](#mit-gruppenangabe)</li></ul>
+<h2>Feldrechner</h2>
+<ul><li>Auslesen der <strong>Z Werte</strong> into Attribute: <code>z($geometry)</code></li></ul>
+<h2>LiDaR</h2>
+<h3>Klassifizierung</h3>
+<table><thead><tr><th style="text-align:left">Klassifizierungswert</th><th style="text-align:left">Bedeutung</th></tr></thead><tbody><tr><td style="text-align:left">0</td><td style="text-align:left">Nie klassifiziert</td></tr><tr><td style="text-align:left">1</td><td style="text-align:left">Nicht zugewiesen</td></tr><tr><td style="text-align:left">2</td><td style="text-align:left">Oberfläche</td></tr><tr><td style="text-align:left">3</td><td style="text-align:left">Niedrige Vegetation</td></tr><tr><td style="text-align:left">4</td><td style="text-align:left">Mittelhohe Vegetation</td></tr><tr><td style="text-align:left">5</td><td style="text-align:left">Hohe Vegetation</td></tr><tr><td style="text-align:left">6</td><td style="text-align:left">Gebäude</td></tr><tr><td style="text-align:left">7</td><td style="text-align:left">Tiefpunkt</td></tr><tr><td style="text-align:left">8</td><td style="text-align:left">Reserviert\*</td></tr><tr><td style="text-align:left">9</td><td style="text-align:left">Wasser</td></tr><tr><td style="text-align:left">10</td><td style="text-align:left">Schienen</td></tr><tr><td style="text-align:left">11</td><td style="text-align:left">Straßenbelag</td></tr><tr><td style="text-align:left">12</td><td style="text-align:left">Reserviert\*</td></tr><tr><td style="text-align:left">13</td><td style="text-align:left">Schutzdraht (Schild)</td></tr><tr><td style="text-align:left">14</td><td style="text-align:left">Drahtleiter (Phase)</td></tr><tr><td style="text-align:left">15</td><td style="text-align:left">Strommast</td></tr><tr><td style="text-align:left">16</td><td style="text-align:left">Leitungsverbinder (Isolator)</td></tr><tr><td style="text-align:left">17</td><td style="text-align:left">Brückenfahrbahn</td></tr><tr><td style="text-align:left">18</td><td style="text-align:left">Hohes Rauschen</td></tr><tr><td style="text-align:left">19-63</td><td style="text-align:left">Reserviert</td></tr><tr><td style="text-align:left">64-255</td><td style="text-align:left">Benutzerdefiniert</td></tr></tbody></table>
+<h3>LASTools-into-DEM</h3>
+<p><em>Tutorials</em>:</p>
+<ul><li><a href="https://www.youtube.com/watch?v=FFLxnBTgtnw" target="_blank" rel="noreferrer">Basics inkl. Splitting</a></li>
+<li><a href="https://www.youtube.com/watch?v=9LUuMYzwjfI&amp;list=WL&amp;index=11" target="_blank" rel="noreferrer">Basics</a></li>
+<li><a href="https://www.youtube.com/watch?v=5tJyC9OdshI&amp;list=WL&amp;index=13" target="_blank" rel="noreferrer">Webinar</a></li></ul>
+<blockquote>1. Punktdichte herausfinden: <strong>LasInfo</strong> mit <code>Compute density</code></blockquote>
+<blockquote>2. Punktwolke aufteilen: <strong>LasSplit</strong> mit <code>-split 1000000</code></blockquote>
+<blockquote>3. DEMs erstellen: <strong>Las2DEM(Folder)</strong> mit <code>-keep_02</code> (02 = ground) oder Filter <code>keep class 02</code></blockquote>
+<blockquote>4. DEMs verschmelzen: <strong>GDALMerge</strong></blockquote>
+<h3>LiDAR-in-XSection</h3>
+<blockquote>1. in <strong>Elevation</strong>: <code>Apply Opacity by Distance from curve effect</code></blockquote>
+<blockquote>2. in <strong>Symbolisierung</strong>: Vegetation/Unclassified/Reserviert Gruppe auf Grün.</blockquote>
+<blockquote>3. in <strong>Crosssection</strong>: Mit <code>Tolerance</code> experimentieren</blockquote>
+<h2>Cross-Section</h2>
+<p><em>Tutorials</em>:</p>
+<ul><li><a href="https://www.youtube.com/watch?v=AknJjNPystU" target="_blank" rel="noreferrer">Basics</a></li>
+<li><a href="https://youtu.be/jqDm1RpGpVE?si=U-keXgMZ_K4MoCcM" target="_blank" rel="noreferrer">LiDAR</a></li>
+<li>Schnittpunkte als Linien darstellen: <strong>Höhe</strong> -&gt; <strong>ChartAppearance</strong> -&gt; <strong>Interpretation</strong></li>
+<li><strong>z Werte</strong> setzen aus Attributtabelle: <strong>Toolbox</strong> -&gt; <strong>Set Z value</strong></li>
+<li>Höhenkomponente hinzufügen (z.B. Zäune): </li></ul>
+<p>1. <strong>Höhe</strong> -&gt; <strong>Enable Extrusion</strong> -&gt; Höhe setzen 2. <strong>Offset</strong> auf ~gleichen Werte wie <strong>Extrusion</strong> *(-1)</p>
+<ul><li>Layer als Schnitt nutzen: <strong>Capture Curve from Feature</strong></li>
+<li>Schnitt seitlich verschieben: Links/Rechts <strong>schubsen</strong></li>
+<li>Projekt-Höhenmodell setzen: <strong>ProjectProperties</strong> -&gt; Type: <strong>DEM</strong></li></ul>
+<p>Buffer um Geometry: <code>buffer($geometry,&quot;buffer_field&quot;)</code></p>
+<h2>Geotagged Fotos</h2>
+<h3>Stil</h3>
+<p>Versatz in Blickrichtung:</p>
+<pre><code>array(200*sin((&quot;direction&quot;*pi()/180)),-200*cos((&quot;direction&quot;*pi()/180)))</code></pre>
+<h2><a href="https://docs.qgis.org/3.34/en/docs/training_manual/rasters/terrain_analysis.html" target="_blank" rel="noreferrer">Terrain-Analyse</a></h2>
+<p>Ziel ist es aus einem DGM/DOM ein Vektorlayer zu erzeugen welches Informationen zur Hanglage (Richtung und Steigung) beinhaltet</p>
+<p>1.  <em>Slope</em> berechnen: Processing &gt; Raster Terrain analysis &gt; Slope 2. 3.  <em>Aspect</em> berechnen: rocessing &gt; Raster Terrain analysis &gt; Aspect 1.  <em>Aspect</em> reklassifizieren: Raster analysis &gt; Reclassify by table 2.  5 Zeilen: &gt; 0-45 : 1 &gt;315-360 : 1 &gt;45-135: 2 &gt;135-225: 3 &gt;225-315: 4 4. 5. Ergebnisse kombinieren: Raster Calculator &gt; Expression</p>
+<h2>GDAL</h2>
+<h3>GDAL OGR - Kommandozeilenwerkzeuge</h3>
+<h4>Merge/Verschmelzen</h4>
+<h4>Raster</h4>
+<p><a href="https://gdal.org/programs/gdal_merge.html#cmdoption-gdal_merge-ps" target="_blank" rel="noreferrer">GDAL_merge</a></p>
+<p>1. Dateiliste erzeugen (Windows Konsole) :</p>
+<pre><code>dir /b /s *.tif &gt; NAME.txt</code></pre>
+<p>2. Dateien verschmelzen (OSgeo4W Shell)</p>
+<pre><code>gdal_merge -o OUTPUTNAME.tif --optfile NAME.txt</code></pre>
+<p>Weiteres:</p>
+<ul><li>Auflösung anpassen: <code>-ps &lt;pixelsize_x&gt; &lt;pixelsize_y&gt;</code></li></ul>
+<h3>Vector</h3>
+<p><a href="https://gdal.org/programs/ogrmerge.html" target="_blank" rel="noreferrer">Ogrmerge</a></p>
+<pre><code>ogrmerge -f GPKG -single -o NAME.gpkg *.shp</code></pre>
+<h2>Tooltip für Projektübersicht</h2>
+<pre><code>&lt;div style=&quot;text-align: center; color: #345; padding-top: 10px;&quot;&gt;
+&lt;h2 style=&quot;color: #317399; text-align: left;&quot;&gt; [%&quot;Projektbezeichnung&quot;%]&lt;br /&gt;[%&quot;Gesamtfläche_ha&quot;%]&lt;/h2&gt;
+&lt;h3 style=&quot;color: #317399; text-align: left;&quot;&gt;GPS: [%&quot;Longitude&quot;%];[%&quot;Latitude&quot;%] &lt;/h3&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;[%&quot;Bundesland&quot;%]&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;[%&quot;Regionalverband&quot;%]&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;[%&quot;Gemeinde&quot;%]&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;[%&quot;Gemarkung&quot;%]&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 style=&quot;text-align: left;&quot;&gt;&lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Restriktionen:&lt;/span&gt;&lt;/em&gt;&lt;/h4&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;[%&quot;Restriktionen&quot;%]&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h4 style=&quot;text-align: left;&quot;&gt;Verp&amp;auml;chter:&lt;/h4&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[%&quot;Verpaechter_1&quot;%] - [%&quot;Flurstueck_1&quot;%] - [%&quot;Flaeche_1&quot;%]m²&lt;br /&gt;[%&quot;Verpaechter_2&quot;%] - [%&quot;Flurstueck_2&quot;%] - [%&quot;Flaeche_2&quot;%]m²&lt;br /&gt;[%&quot;Verpaechter_3&quot;%] - [%&quot;Flurstueck_3&quot;%] - [%&quot;Flaeche_3&quot;%]m²&lt;br /&gt;[%&quot;Verpaechter_4&quot;%] - [%&quot;Flurstueck_4&quot;%] - [%&quot;Flaeche_4&quot;%]m²&lt;br /&gt;[%&quot;Verpaechter_5&quot;%] - [%&quot;Flurstueck_5&quot;%] - [%&quot;Flaeche_5&quot;%]m²&lt;/p&gt;</code></pre>
+<h2>Print Layout &amp; Atlas</h2>
+<h3>Links</h3>
+<ul><li><a href="https://docs.qgis.org/3.34/en/docs/training_manual/forestry/forest_maps.html" target="_blank" rel="noreferrer">Atlas</a></li>
+<li><a href="https://docs.qgis.org/3.34/en/docs/user_manual/print_composer/composer.html" target="_blank" rel="noreferrer">Atlas</a></li>
+<li><a href="https://www.youtube.com/watch?v=d07qAfKwMqU" target="_blank" rel="noreferrer">text</a></li>
+<li><a href="https://www.youtube.com/watch?v=W8iaE1yoCaA" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=W8iaE1yoCaA</a></li></ul>
+<h3>Koordinaten in Ecken</h3>
+<pre><code>x_min - [% to_dms(x_min(transform( map_get(item_variables('map'),'map_extent'),'EPSG:3857','EPSG:4326')),'x',2)%]
+y_max - [% to_dms(y_max(transform( map_get(item_variables('map'),'map_extent'),'EPSG:3857','EPSG:4326')),'y',2)%]</code></pre>
+<h3>Methodik</h3>
+<h3>QGIS Calc</h3>
+<h4>Kategorisierung nach Entfernung zu Puunkt</h4>
+<p>Auswahl: <code>select distinct bez from bw_flstk_uw_500_nutzung</code></p>
+<p>Code:</p>
+<pre><code>CASE 
+	WHEN &quot;distance&quot; &lt; 1000 THEN '0m-1000m'
+	WHEN &quot;distance&quot; &gt;= 1000 AND &quot;distance&quot; &lt; 3000 THEN '1000m - 3000m'
+	WHEN &quot;distance&quot; &gt;= 3000 AND &quot;distance&quot; &lt; 5000 THEN '3000m - 5000m'
+	ELSE '&gt;= 5000m'
+END</code></pre>
+<h2>Datenmodell</h2>
+<h3>Aktuelles Modell</h3>
+<h4><code>digi_01_info_point</code></h4>
+<p>Darstellung wichtiger Leitungspunkte, hauptsächlich von Gasleitungen.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>;</td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Element</td><td style="text-align:left"><code>Gas</code></td></tr><tr><td style="text-align:left">Beschreibung</td><td style="text-align:left">String</td><td style="text-align:left">Bezeichnung des Objektes im Plan</td><td style="text-align:left"><code>Leitungsübergang</code>; <code>Absperrarmatur</code>; <code>Leitungsabschluss</code></td></tr><tr><td style="text-align:left">Kennziffer</td><td style="text-align:left">String</td><td style="text-align:left">Bezeichnung/Identifikation des Objekts im Plan</td><td style="text-align:left">zB <code>AB 10112</code></td></tr></tbody></table>
+<h4><code>digi_01_info_line</code></h4>
+<p>Darstellung der eingezeichneten planerischen Abstände und Schnittführungen.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>;</td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Element</td><td style="text-align:left"><code>Abstände</code>; <code>Schnittführung</code></td></tr><tr><td style="text-align:left">Information</td><td style="text-align:left">String</td><td style="text-align:left">Wert im Plan</td><td style="text-align:left">Abstand in [cm]</td></tr></tbody></table>
+<h4><code>digi_01_info_poly</code></h4>
+<p>Darstellung der auf Plänen verzeichneten Zusatzkontruktionen wie Kabelrohre oder Trafohäusle.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>;</td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Element</td><td style="text-align:left"><code>Gas</code></td></tr><tr><td style="text-align:left">Beschreibung</td><td style="text-align:left">String</td><td style="text-align:left">Objektbezeichnung</td><td style="text-align:left"><code>Schutzrohr</code>; <code>Trafostation</code>; <code>Anschlusskasten</code>; <code>Wärmespeicher</code>; <code>Hebewerk</code></td></tr><tr><td style="text-align:left">Information</td><td style="text-align:left">String</td><td style="text-align:left">Info des Objekts im Plan, Materialbeschreibung</td><td style="text-align:left">zB <code>145flex</code>; <code>50PVC</code></td></tr></tbody></table>
+<h4><code>digi_02_icons_point</code></h4>
+<p>Darstellung der Icons der Pläne</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>;</td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">ELement</td><td style="text-align:left"><code>Gas</code>; <code>Strom</code></td></tr><tr><td style="text-align:left">Beschreibung</td><td style="text-align:left">String</td><td style="text-align:left">Beschreibung des Icons</td><td style="text-align:left">zB <code>Kabelrohr</code></td></tr><tr><td style="text-align:left">Information</td><td style="text-align:left">String</td><td style="text-align:left">Bezeichnung des Icons auf dem Plan</td><td style="text-align:left">zB <code>AY 150</code></td></tr></tbody></table>
+<h4><code>digi_03_kabel</code></h4>
+<p>Digitalisierte Kabelleitungen. Informationen stammen ausschließlich aus den georeferenzierten Plänen.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>; <code>Gemeinde</code></td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Art der Leitung</td><td style="text-align:left"><code>Gas</code>; <code>Strom</code>; <code>Telekommunikation</code>; <code>Deutsche Bahn AG</code></td></tr><tr><td style="text-align:left">Status</td><td style="text-align:left">String</td><td style="text-align:left">Leitungsstatus</td><td style="text-align:left"><code>in Betrieb</code>; <code>stillgelegt</code>; <code>geplant</code>; <code>Reserve</code></td></tr><tr><td style="text-align:left">Typ</td><td style="text-align:left">String</td><td style="text-align:left">Leitungstyp</td><td style="text-align:left">zB: <code>20kV</code>, <code>Überlandleitung</code>, <code>Niederspannung</code></td></tr><tr><td style="text-align:left">Info</td><td style="text-align:left">String</td><td style="text-align:left">Nähere Beschreibung der Leitung</td><td style="text-align:left">nur bei <code>Glasfaser</code> genutzt, sonst <code>NULL</code></td></tr><tr><td style="text-align:left">Beschreibung</td><td style="text-align:left">String</td><td style="text-align:left">Verwendete Kabel</td><td style="text-align:left">zB <code>AY 150</code></td></tr></tbody></table>
+<h4><code>digi_03_rohr</code></h4>
+<p>Digitalisierte Rohr-/Druckleitungen. Informationen stammen ausschließlich aus den georeferenzierten Plänen.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Art der Leitung</td><td style="text-align:left"><code>Erdgas</code>; <code>Strom</code>; <code>Telekommunikation</code>; <code>Trinkwasser</code></td></tr><tr><td style="text-align:left">Status</td><td style="text-align:left">String</td><td style="text-align:left">Leitungsstatus</td><td style="text-align:left"><code>in Betrieb</code>; <code>stillgelegt</code>; <code>geplant</code>; <code>Reserve</code></td></tr><tr><td style="text-align:left">Bezeichner</td><td style="text-align:left">String</td><td style="text-align:left">Genutzte Technik der Rohrverbindung</td><td style="text-align:left">zB <code>AY 150</code></td></tr><tr><td style="text-align:left">Druck</td><td style="text-align:left">String</td><td style="text-align:left">Leitungsdruck (wenn angegeben)</td><td style="text-align:left"><code>4 bar</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Baujahr</td><td style="text-align:left">Integer</td><td style="text-align:left">Baujahr (wenn angegeben)</td><td style="text-align:left">zB: <code>1341</code></td></tr><tr><td style="text-align:left">Material</td><td style="text-align:left">String</td><td style="text-align:left">Baustoffbezeichnung der Leitung ( wenn angegeben)</td><td style="text-align:left">zB: <code>St</code>; <code>PE-RC</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Durchmesser</td><td style="text-align:left">String</td><td style="text-align:left">Durchmesser der Leitung (wenn angegeben), in [mm]</td><td style="text-align:left">zB: <code>100</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Typ</td><td style="text-align:left">String</td><td style="text-align:left">Leitungstyp</td><td style="text-align:left">zB: <code>Hochdruck 1-4 bar</code>, <code>Niederdruck</code>, <code>Vorlauf</code>, <code>NULL</code></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>; <code>Gemeinde</code></td></tr><tr><td style="text-align:left">Aussenschutz</td><td style="text-align:left">String</td><td style="text-align:left">Verwendeter Aussenschutz der Leitung (wenn vorhanden/angeben)</td><td style="text-align:left">zB: <code>BA</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Kennziffer</td><td style="text-align:left">String</td><td style="text-align:left">Kennziffer der Leitung aus den Plänen</td><td style="text-align:left">zB: <code>S 2612</code>; <strong>Meist <code>NULL</code></strong></td></tr></tbody></table>
+<blockquote>##### Rohrverbindungstechniken</blockquote>
+<p>&gt;</p>
+<blockquote>| Abkürzung	|Bedeutung	| Beschreibung	|</blockquote>
+<blockquote>|---|---|---|</blockquote>
+<blockquote>|HGD	|Heißverzinktes Stahlrohr	|Stahlrohr mit schützender Zinkschicht gegen Korrosion|</blockquote>
+<blockquote>|AGN|	Außengewinde	|Gewinde an der Außenseite des Rohres	|</blockquote>
+<blockquote>|KNW	|Klemmverschraubung NW	| Verbindung von Rohren durch Klemmen und Verschrauben	|</blockquote>
+<blockquote>| VGN	| Verschraubung mit Gewinde (vermutlich)	|Verbindung von Rohren durch Verschrauben von Gewindeteilen|</blockquote>
+<h4><code>digi_05_kanal_line</code></h4>
+<p>Digitalisierte Kanal/Regen-/Schmutz-/Grauwasserleitungen. Vornehmlich Leitungen unter Normaldruck. Informationen stammen ausschließlich aus den georeferenzierten Plänen.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">fid</td><td style="text-align:left">IntInt64</td><td style="text-align:left">Eindeutige Identifikationsnummer</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Art der Leitung</td><td style="text-align:left"><code>Grundwasser</code>; <code>Abwasser</code>; <code>Abwasser Druckleitung</code></td></tr><tr><td style="text-align:left">Baujahr</td><td style="text-align:left">Integer</td><td style="text-align:left">Baujahr (wenn angegeben)</td><td style="text-align:left"><code>1341</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Material</td><td style="text-align:left">String</td><td style="text-align:left">Baustoffbezeichnung der Leitung ( wenn angegeben)</td><td style="text-align:left">zB: <code>St</code>; <code>PE-RC</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Durchmesser</td><td style="text-align:left">String</td><td style="text-align:left">Durchmesser der Leitung (wenn angegeben), in [mm]</td><td style="text-align:left">zB: <code>100</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>; <code>Gemeinde</code></td></tr><tr><td style="text-align:left">Kennziffer</td><td style="text-align:left">String</td><td style="text-align:left">Kennziffer der Leitung aus den Plänen</td><td style="text-align:left">zB: <code>S 2612</code>; <strong>Meist <code>NULL</code></strong></td></tr><tr><td style="text-align:left">Gefälle</td><td style="text-align:left">Double</td><td style="text-align:left">Gefälle der Leitung in ‰ (wenn angegeben)</td><td style="text-align:left">zB: <code>12,34</code>; <code>NULL</code></td></tr></tbody></table>
+<h4><code>digi_05_kanal_point</code></h4>
+<p>Digitalisierte Bauelemente der in [##<code>digi_05_kanal_line</code>](##<code>digi_05_kanal_line</code>) wie <strong>Kanalschächte</strong> und <strong>Gullideckel</strong>.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>; <code>Gemeinde</code></td></tr><tr><td style="text-align:left">Jahr</td><td style="text-align:left">Integer</td><td style="text-align:left">Baujahr (wenn angegeben)</td><td style="text-align:left"><code>1341</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Art der Leitung</td><td style="text-align:left"><code>Grundwasser</code>; <code>Abwasser</code>;</td></tr><tr><td style="text-align:left">Kennziffer</td><td style="text-align:left">String</td><td style="text-align:left">Kennziffer der Leitung aus den Plänen</td><td style="text-align:left">zB: <code>S 2612</code>; <strong>Meist <code>NULL</code></strong></td></tr><tr><td style="text-align:left">Beschreibung</td><td style="text-align:left">String</td><td style="text-align:left">Beschreibung des Objektes</td><td style="text-align:left">zB <code>Kanalschacht - Deckel</code></td></tr></tbody></table>
+<h4><code>digi_05_kanal_poly</code></h4>
+<p>Digitalisierte Bauelemente der in [##<code>digi_05_kanal_line</code>](##<code>digi_05_kanal_line</code>) wie <strong>Kanalschächte</strong> und <strong>Gullideckel</strong>.</p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Werte</th></tr></thead><tbody><tr><td style="text-align:left">Anbieter</td><td style="text-align:left">String</td><td style="text-align:left">Netzbetreiber</td><td style="text-align:left"><code>bnNETZE GmbH</code>; <code>ED Netze GmbH</code>; <code>Gemeinde</code></td></tr><tr><td style="text-align:left">Baujahr</td><td style="text-align:left">Integer</td><td style="text-align:left">Baujahr (wenn angegeben)</td><td style="text-align:left"><code>1341</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Material</td><td style="text-align:left">String</td><td style="text-align:left">Baustoffbezeichnung der Leitung ( wenn angegeben)</td><td style="text-align:left">zB: <code>St</code>; <code>PE-RC</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Jahr</td><td style="text-align:left">Integer</td><td style="text-align:left">Zeitpunkt der Planerzeugung (wenn angegeben)</td><td style="text-align:left"><code>1341</code>; <code>NULL</code></td></tr><tr><td style="text-align:left">Kategorie</td><td style="text-align:left">String</td><td style="text-align:left">Art der Leitung</td><td style="text-align:left"><code>Grundwasser</code>; <code>Abwasser</code>;</td></tr><tr><td style="text-align:left">Kennziffer</td><td style="text-align:left">String</td><td style="text-align:left">Kennziffer der Leitung aus den Plänen</td><td style="text-align:left">zB: <code>S 2612</code>; <strong>Meist <code>NULL</code></strong></td></tr><tr><td style="text-align:left">Beschreibung</td><td style="text-align:left">String</td><td style="text-align:left">Beschreibung des Objektes</td><td style="text-align:left">zB <code>Kanalschacht - Deckel</code></td></tr></tbody></table>
+<h3>Neues Modell:</h3>
+<p>Absolut! Hier ist eine ausführliche Ausarbeitung und ein Überblick des relationalen Datenmodells, speziell für Geoinformatiker, die mit QGIS arbeiten:</p>
+<h4>Ausarbeitung des Relationalen Datenmodells für Leitungsinformationen in QGIS</h4>
+<p>Dieses Dokument beschreibt ein relationales Datenmodell, das speziell für die Verwaltung von Leitungsinformationen (alle Arten) in QGIS entwickelt wurde. Es ermöglicht eine strukturierte Erfassung, Speicherung und Analyse von Daten, die aus Leitungsauskünften und digitalisierten Plänen gewonnen werden.</p>
+<h4>1. Einführung</h4>
+<p>Das Ziel dieses Datenmodells ist es, eine robuste und flexible Grundlage für die Digitalisierung und Verwaltung von Leitungsinformationen in QGIS zu schaffen. Durch die Verwendung eines relationalen Ansatzes werden Datenredundanzen minimiert, die Datenintegrität verbessert und die Möglichkeiten für komplexe Abfragen und Analysen erweitert. Das Modell berücksichtigt die Notwendigkeit, verschiedene Arten von Leitungen (Kabel, Rohre, Kanäle) sowie Symbole und andere relevante Informationen aus den Plänen abzubilden.</p>
+<h4>2. Überblick über die Tabellen</h4>
+<p>Das Datenmodell besteht aus den folgenden Tabellen:</p>
+<ul><li><strong>Anbieter</strong>: Speichert Informationen über die Netzbetreiber.</li>
+<li><strong>Leitungen</strong>: Die zentrale Tabelle, die allgemeine Informationen und die Geometrie aller Leitungsobjekte enthält.</li>
+<li><strong>Kabel</strong>: Spezifische Attribute für Kabelleitungen.</li>
+<li><strong>Rohr</strong>: Spezifische Attribute für Rohrleitungen.</li>
+<li><strong>Kanal</strong>: Spezifische Attribute für Kanalleitungen.</li>
+<li><strong>PlanSymbole</strong>: Speichert Informationen über Symbole, die auf den Plänen dargestellt sind.</li></ul>
+<h4>3. Detaillierte Tabellenbeschreibung</h4>
+<p><strong>3.1. Tabelle: Anbieter</strong></p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Primär-/Fremdschlüssel</th><th style="text-align:left">QGIS-Relevanz</th></tr></thead><tbody><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Eindeutige Anbieter-ID</td><td style="text-align:left">PRIMARY KEY</td><td style="text-align:left">Wird als eindeutiger Identifikator für die Auswahl in QGIS verwendet.</td></tr><tr><td style="text-align:left"><code>name</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Name des Netzbetreibers</td><td style="text-align:left">UNIQUE</td><td style="text-align:left">Ermöglicht die konsistente Erfassung und Filterung nach Netzbetreibern.</td></tr></tbody></table>
+<p><strong>3.2. Tabelle: Leitungen</strong></p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Primär-/Fremdschlüssel</th><th style="text-align:left">QGIS-Relevanz</th></tr></thead><tbody><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Eindeutige Leitungs-ID</td><td style="text-align:left">PRIMARY KEY</td><td style="text-align:left">Dient als eindeutiger Identifikator für jedes Leitungsobjekt und wird für Beziehungen zu anderen Tabellen verwendet.</td></tr><tr><td style="text-align:left"><code>anbieter_id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Fremdschlüssel zur Tabelle <code>Anbieter</code></td><td style="text-align:left">FOREIGN KEY (Anbieter.id)</td><td style="text-align:left">Ermöglicht die Verknüpfung jeder Leitung mit dem zuständigen Netzbetreiber. In QGIS können Beziehungen definiert werden, um Informationen aus der Tabelle <code>Anbieter</code> direkt in der Attributtabelle von <code>Leitungen</code> anzuzeigen.</td></tr><tr><td style="text-align:left"><code>kategorie</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Allgemeine Art der Leitung (z.B. 'Kabel', 'Rohr', 'Kanal', 'Punkt', 'Polygon')</td><td style="text-align:left"></td><td style="text-align:left">Wird verwendet, um die Art des Leitungsobjekts zu kategorisieren und die Anzeige der spezifischen Attribute in QGIS über bedingte Sichtbarkeit im Attributformular zu steuern.</td></tr><tr><td style="text-align:left"><code>status</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Leitungsstatus (z.B. 'in Betrieb', 'stillgelegt', 'geplant', 'Reserve')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Filterung und Symbolisierung von Leitungen nach ihrem Status in QGIS.</td></tr><tr><td style="text-align:left"><code>geometrie</code></td><td style="text-align:left">GEOMETRY</td><td style="text-align:left">Die räumliche Geometrie des Leitungsobjekts (POINT, LINESTRING, POLYGON)</td><td style="text-align:left"></td><td style="text-align:left">Dies ist die zentrale Spalte für die räumliche Darstellung der Leitungen in QGIS. Der generische Datentyp <code>GEOMETRY</code> erlaubt die Speicherung verschiedener Geometrietypen in derselben Spalte. QGIS kann diese Geometrien direkt visualisieren.</td></tr><tr><td style="text-align:left"><code>plan_id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Optional: Fremdschlüssel zur Tabelle <code>Plaene</code> (falls diese eingeführt wird)</td><td style="text-align:left">FOREIGN KEY (Plaene.id) (optional)</td><td style="text-align:left">Ermöglicht die Verknüpfung mit Informationen über den ursprünglichen Plan.</td></tr><tr><td style="text-align:left"><code>bemerkungen</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Allgemeine Anmerkungen zum Leitungsobjekt</td><td style="text-align:left"></td><td style="text-align:left">Bietet Platz für zusätzliche Informationen oder Notizen, die in QGIS eingesehen und bearbeitet werden können.</td></tr><tr><td style="text-align:left"><code>typ_spezifisch_id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Fremdschlüssel zur spezifischen Leitungstyp-Tabelle</td><td style="text-align:left">FOREIGN KEY (je nach Kategorie)</td><td style="text-align:left">Ermöglicht die Verknüpfung mit den spezifischen Attributen in den Tabellen <code>Kabel</code>, <code>Rohr</code> oder <code>Kanal</code>. Die tatsächliche Tabelle, auf die dieser Fremdschlüssel verweist, hängt vom Wert der Spalte <code>kategorie</code> ab. In QGIS werden Beziehungen verwendet, um diese Verknüpfung zu handhaben.</td></tr></tbody></table>
+<p><strong>3.3. Tabelle: Kabel</strong></p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Primär-/Fremdschlüssel</th><th style="text-align:left">QGIS-Relevanz</th></tr></thead><tbody><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Eindeutige Kabel-ID (verknüpft mit Leitungen)</td><td style="text-align:left">PRIMARY KEY, FOREIGN KEY (Leitungen.id)</td><td style="text-align:left">Stellt die 1:1-Beziehung zur Tabelle <code>Leitungen</code> her. In QGIS kann über Beziehungen direkt auf die Attribute dieser Tabelle zugegriffen und diese bearbeitet werden, wenn ein Feature im <code>Leitungen</code>-Layer ausgewählt ist und die Kategorie 'Kabel' hat (z.B. über ein Formular mit bedingter Sichtbarkeit).</td></tr><tr><td style="text-align:left"><code>leitungstyp</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Spezifischer Leitungstyp (z.B. '20kV', 'Überlandleitung', 'Niederspannung')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die detailliertere Beschreibung des Kabeltyps und kann für Filterung und Symbolisierung in QGIS verwendet werden.</td></tr><tr><td style="text-align:left"><code>glasfaser_info</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Nähere Beschreibung der Leitung (nur bei Glasfaser)</td><td style="text-align:left"></td><td style="text-align:left">Bietet Platz für spezifische Informationen zu Glasfaserkabeln.</td></tr><tr><td style="text-align:left"><code>kabelbezeichnung</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Verwendete Kabel (z.B. 'AY 150')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Angabe der genauen Kabelbezeichnung.</td></tr></tbody></table>
+<p><strong>3.4. Tabelle: Rohr</strong></p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Primär-/Fremdschlüssel</th><th style="text-align:left">QGIS-Relevanz</th></tr></thead><tbody><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Eindeutige Rohr-ID (verknüpft mit Leitungen)</td><td style="text-align:left">PRIMARY KEY, FOREIGN KEY (Leitungen.id)</td><td style="text-align:left">Stellt die 1:1-Beziehung zur Tabelle <code>Leitungen</code> her. In QGIS kann über Beziehungen direkt auf die Attribute dieser Tabelle zugegriffen und diese bearbeitet werden, wenn ein Feature im <code>Leitungen</code>-Layer ausgewählt ist und die Kategorie 'Rohr' hat (z.B. über ein Formular mit bedingter Sichtbarkeit).</td></tr><tr><td style="text-align:left"><code>leitungstyp</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Spezifischer Leitungstyp (z.B. 'Hochdruck', 'Niederdruck')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die detailliertere Beschreibung des Rohrtyps und kann für Filterung und Symbolisierung in QGIS verwendet werden.</td></tr><tr><td style="text-align:left"><code>rohrverbindungstechnik</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Genutzte Technik der Rohrverbindung (z.B. 'HGD', 'AGN')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Erfassung der verwendeten Verbindungstechnik.</td></tr><tr><td style="text-align:left"><code>druck</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Leitungsdruck (z.B. '4 bar')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Speicherung des Drucks in der Leitung.</td></tr><tr><td style="text-align:left"><code>baujahr</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Baujahr (z.B. 1985)</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Erfassung des Baujahrs der Leitung.</td></tr><tr><td style="text-align:left"><code>material</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Baustoffbezeichnung der Leitung (z.B. 'Stahl', 'PE-RC')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Speicherung des Leitungsmaterials.</td></tr><tr><td style="text-align:left"><code>durchmesser</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Durchmesser der Leitung (z.B. '100 mm')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Speicherung des Durchmessers.</td></tr><tr><td style="text-align:left"><code>aussenschutz</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Verwendeter Außenschutz der Leitung (z.B. 'BA')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Erfassung des verwendeten Außenschutzes.</td></tr><tr><td style="text-align:left"><code>kennziffer</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Kennziffer der Leitung aus den Plänen (z.B. 'S 2612')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Referenzierung zur ursprünglichen Planbezeichnung.</td></tr></tbody></table>
+<p><strong>3.5. Tabelle: Kanal</strong></p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Primär-/Fremdschlüssel</th><th style="text-align:left">QGIS-Relevanz</th></tr></thead><tbody><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Eindeutige Kanal-ID (verknüpft mit Leitungen)</td><td style="text-align:left">PRIMARY KEY, FOREIGN KEY (Leitungen.id)</td><td style="text-align:left">Stellt die 1:1-Beziehung zur Tabelle <code>Leitungen</code> her. In QGIS kann über Beziehungen direkt auf die Attribute dieser Tabelle zugegriffen und diese bearbeitet werden, wenn ein Feature im <code>Leitungen</code>-Layer ausgewählt ist und die Kategorie 'Kanal' hat (z.B. über ein Formular mit bedingter Sichtbarkeit).</td></tr><tr><td style="text-align:left"><code>leitungstyp</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Spezifischer Leitungstyp (z.B. 'Grundwasser', 'Abwasser')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die detailliertere Beschreibung des Kanaltyps und kann für Filterung und Symbolisierung in QGIS verwendet werden.</td></tr><tr><td style="text-align:left"><code>baujahr</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Baujahr (z.B. 2001)</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Erfassung des Baujahrs des Kanals.</td></tr><tr><td style="text-align:left"><code>material</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Baustoffbezeichnung des Kanals (z.B. 'Beton', 'PVC')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Speicherung des Kanalmaterials.</td></tr><tr><td style="text-align:left"><code>durchmesser</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Durchmesser des Kanals (z.B. '300 mm')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Speicherung des Durchmessers.</td></tr><tr><td style="text-align:left"><code>kennziffer</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Kennziffer des Kanals aus den Plänen (z.B. 'K-47')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Referenzierung zur ursprünglichen Planbezeichnung.</td></tr><tr><td style="text-align:left"><code>gefälle</code></td><td style="text-align:left">REAL</td><td style="text-align:left">Gefälle der Leitung in ‰ (z.B. 12.5)</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Speicherung des Gefälles.</td></tr></tbody></table>
+<p><strong>3.6. Tabelle: PlanSymbole</strong></p>
+<table><thead><tr><th style="text-align:left">Feldname</th><th style="text-align:left">Datentyp</th><th style="text-align:left">Beschreibung</th><th style="text-align:left">Primär-/Fremdschlüssel</th><th style="text-align:left">QGIS-Relevanz</th></tr></thead><tbody><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Eindeutige ID des Symbols</td><td style="text-align:left">PRIMARY KEY</td><td style="text-align:left">Dient als eindeutiger Identifikator für jedes Symbol.</td></tr><tr><td style="text-align:left"><code>plan_id</code></td><td style="text-align:left">INTEGER</td><td style="text-align:left">Optional: Fremdschlüssel zur Tabelle <code>Plaene</code> (falls diese eingeführt wird)</td><td style="text-align:left">FOREIGN KEY (Plaene.id)</td><td style="text-align:left">Ermöglicht die Verknüpfung des Symbols mit dem ursprünglichen Plan.</td></tr><tr><td style="text-align:left"><code>symbol_typ</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Art des Symbols (z.B. 'Absperrarmatur', 'Kabelendmuffe', 'Hydrant')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Kategorisierung und Symbolisierung der Symbole in QGIS. Du kannst in QGIS Regeln für die Symbolisierung basierend auf diesem Feld definieren (z.B. unterschiedliche Symbole für verschiedene Typen).</td></tr><tr><td style="text-align:left"><code>beschreibung</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Detaillierte Beschreibung des Symbols</td><td style="text-align:left"></td><td style="text-align:left">Bietet zusätzliche Informationen zum Symbol.</td></tr><tr><td style="text-align:left"><code>kennziffer_plan</code></td><td style="text-align:left">TEXT</td><td style="text-align:left">Kennzeichnung des Symbols auf dem Plan (z.B. 'GA-123')</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die Referenzierung zur ursprünglichen Planbezeichnung des Symbols.</td></tr><tr><td style="text-align:left"><code>geometrie</code></td><td style="text-align:left">GEOMETRY (POINT)</td><td style="text-align:left">Punktgeometrie, die die Position des Symbols auf dem Plan darstellt</td><td style="text-align:left"></td><td style="text-align:left">Ermöglicht die räumliche Darstellung der Symbole in QGIS als Punkt-Layer.</td></tr></tbody></table>
+<h4>4. Beziehungen zwischen den Tabellen</h4>
+<p>Die Beziehungen zwischen den Tabellen sind wie folgt:</p>
+<ul><li>Eine <strong>Anbieter</strong>-Entität kann viele <strong>Leitungen</strong>-Entitäten haben (One-to-Many über <code>anbieter_id</code>).</li>
+<li>Eine <strong>Leitungen</strong>-Entität kann optional mit einer <strong>Plaene</strong>-Entität verknüpft sein (One-to-Many über <code>plan_id</code>, falls die Tabelle <code>Plaene</code> existiert).</li>
+<li>Eine <strong>Leitungen</strong>-Entität ist über die <code>id</code> und <code>typ_spezifisch_id</code> mit genau einer Entität in einer der spezifischen Leitungstabellen (<strong>Kabel</strong>, <strong>Rohr</strong> oder <strong>Kanal</strong>) verknüpft (One-to-One). Die <code>kategorie</code> in der Tabelle <code>Leitungen</code> bestimmt, welche der drei Untertabellen relevant ist.</li>
+<li>Eine <strong>Plaene</strong>-Entität kann viele <strong>PlanSymbole</strong>-Entitäten haben (One-to-Many über <code>plan_id</code>, falls die Tabelle <code>Plaene</code> existiert).</li></ul>
+<p>Diese Beziehungen können in QGIS unter <strong>Projekt &gt; Eigenschaften &gt; Beziehungen</strong> definiert werden, um die Arbeit mit den Daten zu erleichtern (z.B. um verknüpfte Attribute in der Attributtabelle anzuzeigen oder um über Formulare navigieren zu können).</p>
+<h4>5. Umgang mit verschiedenen Geometrietypen in QGIS</h4>
+<p>Die Tabelle <code>Leitungen</code> verwendet den generischen Geometrietyp <code>GEOMETRY</code>. In QGIS kannst du:</p>
+<ul><li><strong>Nach Geometrietyp filtern:</strong> Verwende die Funktion &quot;Nach Ausdruck filtern&quot;, um Features basierend auf ihrem Geometrietyp auszuwählen (z.B. <code>$geometrytype = 'LineString'</code>).</li>
+<li><strong>Unterschiedliche Symbolisierungen verwenden:</strong> Definiere in den Layer-Eigenschaften unter &quot;Symbologie&quot; regelbasierte Symbolisierungen, um Punkte, Linien und Polygone unterschiedlich darzustellen (z.B. basierend auf dem Wert der Spalte <code>kategorie</code> oder durch Filtern nach Geometrietyp).</li></ul>
+<h4>6. Integration mit QGIS</h4>
+<ul><li><strong>Datenquellen:</strong> Du kannst dieses Datenmodell in verschiedenen Datenbankformaten implementieren, die von QGIS unterstützt werden, wie z.B. <strong>GeoPackage</strong> (empfohlen für einzelne Projekte) oder <strong>PostGIS</strong> (empfohlen für Multi-User-Umgebungen oder größere Datenmengen).</li>
+<li><strong>Layer laden:</strong> Lade die einzelnen Tabellen als Vektorlayer in dein QGIS-Projekt. Achte darauf, dass die Tabelle <code>Leitungen</code> als räumlicher Layer mit der korrekten Geometriespalte erkannt wird.</li>
+<li><strong>Beziehungen definieren:</strong> Definiere die oben beschriebenen Beziehungen unter <strong>Projekt &gt; Eigenschaften &gt; Beziehungen</strong>. Dies ermöglicht dir, verknüpfte Daten einfacher zu verwalten und in Attributformularen anzuzeigen.</li>
+<li><strong>Attributformulare anpassen:</strong> Nutze den Reiter <strong>Attribute Form</strong> in den Layer-Eigenschaften, um benutzerdefinierte Formulare für die Dateneingabe zu erstellen. Verwende die <strong>bedingte Sichtbarkeit</strong>, um nur die relevanten Attribute (z.B. die spezifischen Felder der Tabellen <code>Kabel</code>, <code>Rohr</code>, <code>Kanal</code>) anzuzeigen, basierend auf der Auswahl in der Spalte <code>kategorie</code> der Tabelle <code>Leitungen</code>.</li>
+<li><strong>Symbolisierung:</strong> Verwende die vielfältigen Symbolisierungsoptionen von QGIS, um die verschiedenen Leitungsarten und Symbole visuell ansprechend und informativ darzustellen. Nutze regelbasierte Symbolisierungen, um unterschiedliche Stile für verschiedene Kategorien, Status oder Leitungstypen zu definieren.</li>
+<li><strong>Abfragen und Filter:</strong> Verwende SQL-Abfragen (z.B. über die Datenbankverwaltung oder den Ausdruckseditor) und Filter, um spezifische Informationen aus deinem Datenmodell zu extrahieren und darzustellen.</li></ul>
+<h4>7. Workflow-Überlegungen</h4>
+<p>Dieses relationale Datenmodell unterstützt deinen Workflow, indem es:</p>
+<ul><li>Eine klare Struktur für die Erfassung von Informationen aus Leitungsauskünften bietet.</li>
+<li>Die Möglichkeit schafft, alle relevanten Informationen (Leitungen, Symbole, Anbieter) miteinander zu verknüpfen.</li>
+<li>Die Grundlage für eine effiziente Digitalisierung in QGIS durch anpassbare Attributformulare legt.</li>
+<li>Die Analyse und Visualisierung der Daten in QGIS durch flexible Symbolisierungs- und Filtermöglichkeiten verbessert.</li></ul>
+<h4>8. Fazit</h4>
+<p>Dieses relationale Datenmodell bietet eine solide Grundlage für die Verwaltung deiner Leitungsinformationen in QGIS. Durch die klare Struktur, die definierten Beziehungen und die Berücksichtigung der spezifischen Anforderungen von Geoinformatikern ermöglicht es eine effiziente und präzise Bearbeitung deiner Daten. Die Flexibilität des Modells erlaubt es, es bei Bedarf zu erweitern und an zukünftige Anforderungen anzupassen.</p>
+<h2>Layerliste ausgeben:</h2>
+<h3><strong>ohne</strong> Gruppenangabe</h3>
+<pre><code>canvas = iface.mapCanvas()
+root = QgsProject.instance().layerTreeRoot()
+
+def get_group_name(layer):
+    # Finde den Layer im Layer Tree
+    tree_layer = root.findLayer(layer.id())
+    if tree_layer:
+        # Hole die übergeordnete Gruppe
+        parent = tree_layer.parent()
+        if parent and not parent.isRoot():
+            return parent.name()
+    return &quot;keine Gruppe&quot;  # Fallback falls keine Gruppe gefunden
+
+for layer in canvas.layers():
+    if layer.isValid():
+        tree_layer = root.findLayer(layer.id())
+        if tree_layer and tree_layer.isVisible():
+            group_name = get_group_name(layer)
+            print(f&quot;{group_name},{layer.name()},&quot;)</code></pre>
+<p>oder</p>
+<pre><code>canvas = iface.mapCanvas()
+visible_layers = []
+
+# Hole alle Layer aus dem Canvas
+for layer in canvas.layers():
+    # Prüfe ob Layer valid ist und dessen Sichtbarkeit
+    if layer.isValid():
+        # Prüfen der Sichtbarkeit über die Eigenschaften des Layers
+        if QgsLayerTree.isLayer(QgsProject.instance().layerTreeRoot().findLayer(layer.id())):
+            tree_layer = QgsProject.instance().layerTreeRoot().findLayer(layer.id())
+            if tree_layer.isVisible():
+                visible_layers.append(layer.name())
+
+# Ausgabe der sichtbaren Layer
+print(&quot;Aktuell sichtbare Layer:&quot;)
+for name in visible_layers:
+    print(f&quot;- {name}&quot;)</code></pre>
+<h3><strong>mit</strong> Gruppenangabe</h3>
+<pre><code>canvas = iface.mapCanvas()
+root = QgsProject.instance().layerTreeRoot()
+
+def get_group_name(layer):
+    # Finde den Layer im Layer Tree
+    tree_layer = root.findLayer(layer.id())
+    if tree_layer:
+        # Hole die übergeordnete Gruppe
+        parent = tree_layer.parent()
+        if parent and isinstance(parent, QgsLayerTreeGroup):
+            return parent.name()
+    return &quot;keine Gruppe&quot;
+
+for layer in canvas.layers():
+    if layer.isValid():
+        tree_layer = root.findLayer(layer.id())
+        if tree_layer and tree_layer.isVisible():
+            group_name = get_group_name(layer)
+            print(f&quot;{group_name},{layer.name()},&quot;)
+ </code></pre>
+        </div>
+      </article>
+      <aside class="relation-panel">
+        <section class="blood-pattern-9">
+          <h2>Verweise</h2>
+          <p class="muted">Keine ausgehenden Links.</p>
+        </section>
+        <section class="blood-pattern-8">
+          <h2>Backlinks</h2>
+          <p class="muted">Keine Backlinks.</p>
+        </section>
+      </aside>
+        </div>
+      </div>
+    </main>
+</body>
+</html>

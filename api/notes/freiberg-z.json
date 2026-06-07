@@ -1,0 +1,72 @@
+{
+  "title": "Freiberg (Z)",
+  "slug": "freiberg-z",
+  "category": "project",
+  "relativePath": "Projekte/C - BaurechtV/C7 - BLP Vorbereitung/Freiberg (Z).md",
+  "url": "notes/freiberg-z.html",
+  "apiUrl": "api/notes/freiberg-z.json",
+  "tags": [
+    "Projekt"
+  ],
+  "excerpt": "=this.Bild klein =this.Bild groß [!dialogue2] Projekt Projekttyp: =this.Projekttyp Privilegierung: =this.Privilegierung Verfahren: =this.Verfahren Projektstatus:...",
+  "frontmatter": {
+    "Projekttyp": "Entwicklungsprojekt",
+    "Privilegierung": "Nein",
+    "Verfahren": "Zielabweichungsverfahren",
+    "Projektstatus": "Gemeinderat hat das Projekt zurückgestellt; IF Group hat noch einmal angeschrieben",
+    "Koordinaten": "50.915841, 13.379901",
+    "Leistung": "14.800,00 kWp",
+    "SpecificYield": "1.021,8 kWh/kWp",
+    "YieldEstimate": "15.122.640,00 kWh",
+    "Design": "",
+    "Netzbetreiber": "Stadtwerke Freiberg",
+    "EinspeisungGesichert": "",
+    "BezugGesichert": "",
+    "GesichertEBK": "",
+    "Distanz": "",
+    "Reservierung": "2024-06-07",
+    "Stadtplanung": "",
+    "Vermessung": "",
+    "Leitungsauskunft": "",
+    "Blendschutz": "",
+    "Umweltschutz": "",
+    "Brandschutz": "",
+    "Bodenschutz": "",
+    "Schallschutz": "",
+    "LWNK": "",
+    "Auszugstests": "",
+    "Standsicherheitsnachweis": "",
+    "tags": [
+      "Projekt"
+    ],
+    "Phase": "Phase 3 | Kommune",
+    "Bundesland": "Sachsen",
+    "Regionalverband": "",
+    "Gemeinde": "Freiberg",
+    "Gemarkung": "",
+    "Flur": "",
+    "EigenesUW": "",
+    "Stufe": "0",
+    "MS1_Bauantrag": "2025-07-01",
+    "MS2_Baugenehmigung": "2025-10-01",
+    "MS3_ShipmentLongLeadItems": "",
+    "MS4_RTB": "2025-12-01",
+    "MS5_ConstructionStart": "",
+    "MS6_ConstructionCompletion": "",
+    "MS7_CommercialOperation": "",
+    "DVLP": "https://app.dvlp.energy/projects/00f40a2a-f6c7-4a36-97e6-c57e2f3961f4/?lng=13.37901&lat=50.91605&zoom=14.94&bearing=0.00&pitch=0.00&style=Outdoor&layers=sn_district%2Csn_parcels",
+    "Restriktionen": "",
+    "Anfragedatum": "2023-11-07",
+    "Vorgangsnummern": "23/330",
+    "NVP": "UW-Sammelschiene des UW Freiberg Ost - 20-kV-Schaltfeld J25",
+    "Bild_klein": "![[Temp.png|250]]"
+  },
+  "links": [
+    {
+      "target": "Zeitplan Freiberg",
+      "label": "Zeitplan Freiberg",
+      "slug": "zeitplan-freiberg"
+    }
+  ],
+  "markdown": "\n\n\n`=this.Bild_klein`\n`=this.Bild_groß`\n\n>[!dialogue2] Projekt\n- **Projekttyp:** `=this.Projekttyp`\n- **Privilegierung:** `=this.Privilegierung`\n- **Verfahren:** `=this.Verfahren`\n- **Projektstatus:** `=this.Projektstatus`\n- **Nächste Schritte:** `=this.NächsteSchritte`\n\n>[!dialogue2] Land\n- **Koordinaten:** `=this.Koordinaten`\n- **Eigentümer:** `=this.Eigentümer`\n- **Grundstücksfläche:** `=this.Grundstücksfläche`\n- **Nutzbare Fläche:** `=this.NutzbareFläche`\n- **Bundesland:** `=this.Bundesland`\n- **Regionalverband:** `=this.Regionalverband`\n- **Gemeinde:** `=this.Gemeinde`\n- **Gemarkung:** `=this.Gemarkung`\n- **Flur:** `=this.Flur`\n- **Flurstücke:** `=this.Flurstücke`\n\n>[!dialogue2] Leistung\n- **Leistung:** `=this.Leistung`\n- **Specific Yield:** `=this.SpecificYield`\n- **Yield Estimate:** `=this.YieldEstimate`\n- **Letztes Design:** `=this.Design`\n\n>[!dialogue2] Netz\n- **Netzbetreiber:** `=this.Netzbetreiber`\n- **Einspeisung (gesichert):** `=this.EinspeisungGesichert`\n- **Bezug (gesichert):** `=this.BezugGesichert`\n- **Kapazität (gesichert):** `=this.KapazitätGesichert`\n- **Distanz zum NVP:** `=this.Distanz`\n- **Reservierungsstufe:** `=this.Stufe`\n- **Reservierung bis:** `=this.Reservierung`\n\n>[!dialogue2] Gutachten etc.\n- **Stadtplanung:** `=this.Stadtplanung`\n- **Vermessung:** `=this.Vermessung`\n- **Leitungsauskunft:** `=this.Leitungsauskunft`\n- **Blendschutz:** `=this.Blendschutz`\n- **Umweltschutz:** `=this.Umweltschutz`\n- **Brandschutz:** `=this.Brandschutz`\n- **Bodenschutz:** `=this.Bodenschutz`\n- **Schallschutz/Immissionsschutz:** `=this.Schallschutz`\n- **Landwirtschaftliches Nutzungskonzept:** `=this.LWNK`\n- **Auszugstests:** `=this.Auszugstests`\n- **Standsicherheitsnachweis:** `=this.Standsicherheitsnachweis`\n\n>[!dialogue2] Baurecht\n- **Zeitplan:**\n\n\n>[!dialogue2] Notizen\n\n\n\n\n[[Zeitplan Freiberg]]\n\n\n\n\n\n\n"
+}

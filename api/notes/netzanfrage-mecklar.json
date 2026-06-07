@@ -1,0 +1,19 @@
+{
+  "title": "Netzanfrage Mecklar",
+  "slug": "netzanfrage-mecklar",
+  "category": "project",
+  "relativePath": "Projekte/z_Ergänzendes/Netzanfragen/Netzanfrage Mecklar.md",
+  "url": "notes/netzanfrage-mecklar.html",
+  "apiUrl": "api/notes/netzanfrage-mecklar.json",
+  "tags": [],
+  "excerpt": "Mecklar (B) Netzanfrage Oktober 2024 bei TenneT TSO GmbH 175 MVA symmetrisch. Lt Eintrag in der Überischtstabelle: „Rückmeldung Tennet (Anforderung: 2/4...",
+  "frontmatter": {},
+  "links": [
+    {
+      "target": "Mecklar (B)",
+      "label": "Mecklar (B)",
+      "slug": "mecklar-b"
+    }
+  ],
+  "markdown": "- [[Mecklar (B)]]\n- Netzanfrage Oktober 2024 bei TenneT TSO GmbH 175 MVA symmetrisch.\n\n- Lt Eintrag in der Überischtstabelle: „Rückmeldung Tennet (Anforderung: 2/4 Ernsthaftigkeitsnachweise)“ aber nicht von wann …\n\n- Kein Screening oder Projektordner\n\n- **Projekt tot**\n"
+}

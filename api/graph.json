@@ -1,0 +1,2126 @@
+{
+  "nodes": [
+    {
+      "id": "00-projekte-entwicklung",
+      "title": "00 Projekte Entwicklung",
+      "category": "overview",
+      "url": "notes/00-projekte-entwicklung.html"
+    },
+    {
+      "id": "solar-bau-wiki-informationssammlung-solar-bau",
+      "title": "Solar & Bau Wiki - Informationssammlung Solar & Bau",
+      "category": "overview",
+      "url": "notes/solar-bau-wiki-informationssammlung-solar-bau.html"
+    },
+    {
+      "id": "die-nachsten-bauprojekte",
+      "title": "Die nächsten Bauprojekte",
+      "category": "overview",
+      "url": "notes/die-nachsten-bauprojekte.html"
+    },
+    {
+      "id": "projektphasen",
+      "title": "Projektphasen",
+      "category": "overview",
+      "url": "notes/projektphasen.html"
+    },
+    {
+      "id": "qgis-wiki-formelsammlung-qgis",
+      "title": "QGIS Wiki - Formelsammlung QGIS",
+      "category": "overview",
+      "url": "notes/qgis-wiki-formelsammlung-qgis.html"
+    },
+    {
+      "id": "task-overview-cb",
+      "title": "task overview CB",
+      "category": "overview",
+      "url": "notes/task-overview-cb.html"
+    },
+    {
+      "id": "task-overview-sh",
+      "title": "task overview SH",
+      "category": "overview",
+      "url": "notes/task-overview-sh.html"
+    },
+    {
+      "id": "tasks",
+      "title": "Tasks",
+      "category": "overview",
+      "url": "notes/tasks.html"
+    },
+    {
+      "id": "bors-praktikum",
+      "title": "BORS-Praktikum",
+      "category": "note",
+      "url": "notes/bors-praktikum.html"
+    },
+    {
+      "id": "solargik",
+      "title": "SolarGik",
+      "category": "expert",
+      "url": "notes/solargik.html"
+    },
+    {
+      "id": "eisenbach-f",
+      "title": "Eisenbach (F)",
+      "category": "project",
+      "url": "notes/eisenbach-f.html"
+    },
+    {
+      "id": "freiburg-kindergalaxie",
+      "title": "Freiburg (Kindergalaxie)",
+      "category": "project",
+      "url": "notes/freiburg-kindergalaxie.html"
+    },
+    {
+      "id": "grabsleben",
+      "title": "Grabsleben",
+      "category": "project",
+      "url": "notes/grabsleben.html"
+    },
+    {
+      "id": "hugstetten",
+      "title": "Hugstetten",
+      "category": "project",
+      "url": "notes/hugstetten.html"
+    },
+    {
+      "id": "kippenheim-sportpark",
+      "title": "Kippenheim (Sportpark)",
+      "category": "project",
+      "url": "notes/kippenheim-sportpark.html"
+    },
+    {
+      "id": "nauroth",
+      "title": "Nauroth",
+      "category": "project",
+      "url": "notes/nauroth.html"
+    },
+    {
+      "id": "pferdsfeld",
+      "title": "Pferdsfeld",
+      "category": "project",
+      "url": "notes/pferdsfeld.html"
+    },
+    {
+      "id": "stassfurt",
+      "title": "Stassfurt",
+      "category": "project",
+      "url": "notes/stassfurt.html"
+    },
+    {
+      "id": "cardon",
+      "title": "Cardon",
+      "category": "project",
+      "url": "notes/cardon.html"
+    },
+    {
+      "id": "estezargues",
+      "title": "Estézargues",
+      "category": "project",
+      "url": "notes/estezargues.html"
+    },
+    {
+      "id": "guitinieres",
+      "title": "Guitinières",
+      "category": "project",
+      "url": "notes/guitinieres.html"
+    },
+    {
+      "id": "puch-d-agenais",
+      "title": "Puch-D'Agenais",
+      "category": "project",
+      "url": "notes/puch-d-agenais.html"
+    },
+    {
+      "id": "akune",
+      "title": "Akune",
+      "category": "project",
+      "url": "notes/akune.html"
+    },
+    {
+      "id": "isahaya-north",
+      "title": "Isahaya North",
+      "category": "project",
+      "url": "notes/isahaya-north.html"
+    },
+    {
+      "id": "isahaya-south",
+      "title": "Isahaya South",
+      "category": "project",
+      "url": "notes/isahaya-south.html"
+    },
+    {
+      "id": "kawasaki",
+      "title": "Kawasaki",
+      "category": "project",
+      "url": "notes/kawasaki.html"
+    },
+    {
+      "id": "minami-izu",
+      "title": "Minami-Izu",
+      "category": "project",
+      "url": "notes/minami-izu.html"
+    },
+    {
+      "id": "okayama",
+      "title": "Okayama",
+      "category": "project",
+      "url": "notes/okayama.html"
+    },
+    {
+      "id": "sanbonmatsu",
+      "title": "Sanbonmatsu",
+      "category": "project",
+      "url": "notes/sanbonmatsu.html"
+    },
+    {
+      "id": "tochigi",
+      "title": "Tochigi",
+      "category": "project",
+      "url": "notes/tochigi.html"
+    },
+    {
+      "id": "tsuyama",
+      "title": "Tsuyama",
+      "category": "project",
+      "url": "notes/tsuyama.html"
+    },
+    {
+      "id": "uwaba-north",
+      "title": "Uwaba North",
+      "category": "project",
+      "url": "notes/uwaba-north.html"
+    },
+    {
+      "id": "uwaba-south",
+      "title": "Uwaba South",
+      "category": "project",
+      "url": "notes/uwaba-south.html"
+    },
+    {
+      "id": "yamagata",
+      "title": "Yamagata",
+      "category": "project",
+      "url": "notes/yamagata.html"
+    },
+    {
+      "id": "yamanashi",
+      "title": "Yamanashi",
+      "category": "project",
+      "url": "notes/yamanashi.html"
+    },
+    {
+      "id": "yamashita-north",
+      "title": "Yamashita North",
+      "category": "project",
+      "url": "notes/yamashita-north.html"
+    },
+    {
+      "id": "yamashita-south",
+      "title": "Yamashita South",
+      "category": "project",
+      "url": "notes/yamashita-south.html"
+    },
+    {
+      "id": "bad-sackingen-m",
+      "title": "Bad Säckingen (M)",
+      "category": "project",
+      "url": "notes/bad-sackingen-m.html"
+    },
+    {
+      "id": "ha-furt-uponor",
+      "title": "Haßfurt (Uponor)",
+      "category": "project",
+      "url": "notes/ha-furt-uponor.html"
+    },
+    {
+      "id": "luptitz-bag",
+      "title": "Lüptitz (BAG)",
+      "category": "project",
+      "url": "notes/luptitz-bag.html"
+    },
+    {
+      "id": "eisenbach-w",
+      "title": "Eisenbach (W)",
+      "category": "project",
+      "url": "notes/eisenbach-w.html"
+    },
+    {
+      "id": "stockhausen-bag",
+      "title": "Stockhausen (BAG)",
+      "category": "project",
+      "url": "notes/stockhausen-bag.html"
+    },
+    {
+      "id": "botzingen-h",
+      "title": "Bötzingen (H)",
+      "category": "project",
+      "url": "notes/botzingen-h.html"
+    },
+    {
+      "id": "freiburg-madeira-2",
+      "title": "Freiburg (Madeira 2)",
+      "category": "project",
+      "url": "notes/freiburg-madeira-2.html"
+    },
+    {
+      "id": "neuwied-r",
+      "title": "Neuwied (R)",
+      "category": "project",
+      "url": "notes/neuwied-r.html"
+    },
+    {
+      "id": "bad-sackingen-m-2",
+      "title": "Bad Säckingen (M)",
+      "category": "project",
+      "url": "notes/bad-sackingen-m-2.html"
+    },
+    {
+      "id": "bitz-asw",
+      "title": "Bitz (ASW)",
+      "category": "project",
+      "url": "notes/bitz-asw.html"
+    },
+    {
+      "id": "dachau-swd",
+      "title": "Dachau (SWD)",
+      "category": "project",
+      "url": "notes/dachau-swd.html"
+    },
+    {
+      "id": "freiburg-knauf",
+      "title": "Freiburg (Knauf)",
+      "category": "project",
+      "url": "notes/freiburg-knauf.html"
+    },
+    {
+      "id": "freiburg-madeira",
+      "title": "Freiburg (Madeira)",
+      "category": "project",
+      "url": "notes/freiburg-madeira.html"
+    },
+    {
+      "id": "henau-bag",
+      "title": "Henau (BAG)",
+      "category": "project",
+      "url": "notes/henau-bag.html"
+    },
+    {
+      "id": "krefeld-kaarst-2",
+      "title": "Krefeld (Kaarst 2)",
+      "category": "project",
+      "url": "notes/krefeld-kaarst-2.html"
+    },
+    {
+      "id": "krefeld-kaarst",
+      "title": "Krefeld (Kaarst)",
+      "category": "project",
+      "url": "notes/krefeld-kaarst.html"
+    },
+    {
+      "id": "offenburg-pflegeheim",
+      "title": "Offenburg (Pflegeheim)",
+      "category": "project",
+      "url": "notes/offenburg-pflegeheim.html"
+    },
+    {
+      "id": "riesa",
+      "title": "Riesa",
+      "category": "project",
+      "url": "notes/riesa.html"
+    },
+    {
+      "id": "st-georgen-ebm-papst",
+      "title": "St. Georgen (EBM Papst)",
+      "category": "project",
+      "url": "notes/st-georgen-ebm-papst.html"
+    },
+    {
+      "id": "stockach-r",
+      "title": "Stockach (R)",
+      "category": "project",
+      "url": "notes/stockach-r.html"
+    },
+    {
+      "id": "winterspuren",
+      "title": "Winterspüren",
+      "category": "project",
+      "url": "notes/winterspuren.html"
+    },
+    {
+      "id": "buggingen-w",
+      "title": "Buggingen (W)",
+      "category": "project",
+      "url": "notes/buggingen-w.html"
+    },
+    {
+      "id": "donaueschingen-s",
+      "title": "Donaueschingen (S)",
+      "category": "project",
+      "url": "notes/donaueschingen-s.html"
+    },
+    {
+      "id": "flechtingen-bag",
+      "title": "Flechtingen (BAG)",
+      "category": "project",
+      "url": "notes/flechtingen-bag.html"
+    },
+    {
+      "id": "munzingen-b",
+      "title": "Munzingen (B)",
+      "category": "project",
+      "url": "notes/munzingen-b.html"
+    },
+    {
+      "id": "ochtendung-mfp-r",
+      "title": "Ochtendung MfP (R)",
+      "category": "project",
+      "url": "notes/ochtendung-mfp-r.html"
+    },
+    {
+      "id": "stuhlingen-d",
+      "title": "Stühlingen (D)",
+      "category": "project",
+      "url": "notes/stuhlingen-d.html"
+    },
+    {
+      "id": "bilstein-bag",
+      "title": "Bilstein (BAG)",
+      "category": "project",
+      "url": "notes/bilstein-bag.html"
+    },
+    {
+      "id": "brohltal-r",
+      "title": "Brohltal (R)",
+      "category": "project",
+      "url": "notes/brohltal-r.html"
+    },
+    {
+      "id": "buggingen-r",
+      "title": "Buggingen (R)",
+      "category": "project",
+      "url": "notes/buggingen-r.html"
+    },
+    {
+      "id": "ochtendung-ge-r",
+      "title": "Ochtendung GE (R)",
+      "category": "project",
+      "url": "notes/ochtendung-ge-r.html"
+    },
+    {
+      "id": "rottweil-s",
+      "title": "Rottweil (S)",
+      "category": "project",
+      "url": "notes/rottweil-s.html"
+    },
+    {
+      "id": "talbecke-bag",
+      "title": "Talbecke (BAG)",
+      "category": "project",
+      "url": "notes/talbecke-bag.html"
+    },
+    {
+      "id": "wetzstein-bag",
+      "title": "Wetzstein (BAG)",
+      "category": "project",
+      "url": "notes/wetzstein-bag.html"
+    },
+    {
+      "id": "flechtingen-bag-2",
+      "title": "Flechtingen (BAG)",
+      "category": "project",
+      "url": "notes/flechtingen-bag-2.html"
+    },
+    {
+      "id": "schallstadt-gmk",
+      "title": "Schallstadt (GMK)",
+      "category": "project",
+      "url": "notes/schallstadt-gmk.html"
+    },
+    {
+      "id": "aitrach-t",
+      "title": "Aitrach (T)",
+      "category": "project",
+      "url": "notes/aitrach-t.html"
+    },
+    {
+      "id": "blumberg-g",
+      "title": "Blumberg (G)",
+      "category": "project",
+      "url": "notes/blumberg-g.html"
+    },
+    {
+      "id": "hufingen-s",
+      "title": "Hüfingen (S)",
+      "category": "project",
+      "url": "notes/hufingen-s.html"
+    },
+    {
+      "id": "schrenz-s",
+      "title": "Schrenz (S)",
+      "category": "project",
+      "url": "notes/schrenz-s.html"
+    },
+    {
+      "id": "dietingen-m",
+      "title": "Dietingen (M)",
+      "category": "project",
+      "url": "notes/dietingen-m.html"
+    },
+    {
+      "id": "eisenbach-3-e3",
+      "title": "Eisenbach 3 (E3)",
+      "category": "project",
+      "url": "notes/eisenbach-3-e3.html"
+    },
+    {
+      "id": "friedenweiler-gmk",
+      "title": "Friedenweiler (GMK)",
+      "category": "project",
+      "url": "notes/friedenweiler-gmk.html"
+    },
+    {
+      "id": "rheinfelden-l",
+      "title": "Rheinfelden (L)",
+      "category": "project",
+      "url": "notes/rheinfelden-l.html"
+    },
+    {
+      "id": "renchen-k",
+      "title": "Renchen (K)",
+      "category": "project",
+      "url": "notes/renchen-k.html"
+    },
+    {
+      "id": "neuenburg-iar",
+      "title": "Neuenburg (iAR)",
+      "category": "project",
+      "url": "notes/neuenburg-iar.html"
+    },
+    {
+      "id": "uhlingen-birkendorf-l",
+      "title": "Ühlingen-Birkendorf (L)",
+      "category": "project",
+      "url": "notes/uhlingen-birkendorf-l.html"
+    },
+    {
+      "id": "wutoschingen-s",
+      "title": "Wutöschingen (S)",
+      "category": "project",
+      "url": "notes/wutoschingen-s.html"
+    },
+    {
+      "id": "bad-durrheim-m",
+      "title": "Bad Dürrheim (M)",
+      "category": "project",
+      "url": "notes/bad-durrheim-m.html"
+    },
+    {
+      "id": "oberhambach-k",
+      "title": "Oberhambach (K)",
+      "category": "project",
+      "url": "notes/oberhambach-k.html"
+    },
+    {
+      "id": "treplin-w",
+      "title": "Treplin (W)",
+      "category": "project",
+      "url": "notes/treplin-w.html"
+    },
+    {
+      "id": "bitburg-z",
+      "title": "Bitburg (Z)",
+      "category": "project",
+      "url": "notes/bitburg-z.html"
+    },
+    {
+      "id": "deggenhausertal-m",
+      "title": "Deggenhausertal (M)",
+      "category": "project",
+      "url": "notes/deggenhausertal-m.html"
+    },
+    {
+      "id": "freiberg-z",
+      "title": "Freiberg (Z)",
+      "category": "project",
+      "url": "notes/freiberg-z.html"
+    },
+    {
+      "id": "sauldorf-h",
+      "title": "Sauldorf (H)",
+      "category": "project",
+      "url": "notes/sauldorf-h.html"
+    },
+    {
+      "id": "waldshut-tiengen-b",
+      "title": "Waldshut-Tiengen (B)",
+      "category": "project",
+      "url": "notes/waldshut-tiengen-b.html"
+    },
+    {
+      "id": "augsburg-statzlinger-70",
+      "title": "Augsburg (Stätzlinger 70)",
+      "category": "project",
+      "url": "notes/augsburg-statzlinger-70.html"
+    },
+    {
+      "id": "eisenbach-4-l",
+      "title": "Eisenbach 4 (L)",
+      "category": "project",
+      "url": "notes/eisenbach-4-l.html"
+    },
+    {
+      "id": "whylen",
+      "title": "Whylen ()",
+      "category": "project",
+      "url": "notes/whylen.html"
+    },
+    {
+      "id": "achterspannerhof-1-mw",
+      "title": "Achterspannerhof 1 (MW)",
+      "category": "project",
+      "url": "notes/achterspannerhof-1-mw.html"
+    },
+    {
+      "id": "achterspannerhof-2-n",
+      "title": "Achterspannerhof 2 (N)",
+      "category": "project",
+      "url": "notes/achterspannerhof-2-n.html"
+    },
+    {
+      "id": "bernbrunn-baywa",
+      "title": "Bernbrunn (BayWa)",
+      "category": "project",
+      "url": "notes/bernbrunn-baywa.html"
+    },
+    {
+      "id": "ettlingen-f",
+      "title": "Ettlingen (F)",
+      "category": "project",
+      "url": "notes/ettlingen-f.html"
+    },
+    {
+      "id": "gresselgrund-baywa",
+      "title": "Gresselgrund (BayWa)",
+      "category": "project",
+      "url": "notes/gresselgrund-baywa.html"
+    },
+    {
+      "id": "immendingen-k",
+      "title": "Immendingen (K)",
+      "category": "project",
+      "url": "notes/immendingen-k.html"
+    },
+    {
+      "id": "neckarzimmern-baywa",
+      "title": "Neckarzimmern (BayWa)",
+      "category": "project",
+      "url": "notes/neckarzimmern-baywa.html"
+    },
+    {
+      "id": "oppin-b",
+      "title": "Oppin (B)",
+      "category": "project",
+      "url": "notes/oppin-b.html"
+    },
+    {
+      "id": "schafstedt-chint",
+      "title": "Schafstedt (Chint)",
+      "category": "project",
+      "url": "notes/schafstedt-chint.html"
+    },
+    {
+      "id": "buggingen-f",
+      "title": "Buggingen (F)",
+      "category": "project",
+      "url": "notes/buggingen-f.html"
+    },
+    {
+      "id": "denzlingen-w",
+      "title": "Denzlingen (W)",
+      "category": "project",
+      "url": "notes/denzlingen-w.html"
+    },
+    {
+      "id": "neuenburg-d",
+      "title": "Neuenburg (D)",
+      "category": "project",
+      "url": "notes/neuenburg-d.html"
+    },
+    {
+      "id": "baden-baden-f",
+      "title": "Baden-Baden (F)",
+      "category": "project",
+      "url": "notes/baden-baden-f.html"
+    },
+    {
+      "id": "denzlingen-s",
+      "title": "Denzlingen (S)",
+      "category": "project",
+      "url": "notes/denzlingen-s.html"
+    },
+    {
+      "id": "lohagen-s",
+      "title": "Lohagen (S)",
+      "category": "project",
+      "url": "notes/lohagen-s.html"
+    },
+    {
+      "id": "pfullendorf-g",
+      "title": "Pfullendorf (G)",
+      "category": "project",
+      "url": "notes/pfullendorf-g.html"
+    },
+    {
+      "id": "wickede-r",
+      "title": "Wickede (R)",
+      "category": "project",
+      "url": "notes/wickede-r.html"
+    },
+    {
+      "id": "freiburg-uwsa",
+      "title": "Freiburg (UWSA)",
+      "category": "project",
+      "url": "notes/freiburg-uwsa.html"
+    },
+    {
+      "id": "bad-krozingen-r",
+      "title": "Bad Krozingen (R)",
+      "category": "project",
+      "url": "notes/bad-krozingen-r.html"
+    },
+    {
+      "id": "freiburg-march-k",
+      "title": "Freiburg-March (K)",
+      "category": "project",
+      "url": "notes/freiburg-march-k.html"
+    },
+    {
+      "id": "kagenow",
+      "title": "Kagenow",
+      "category": "project",
+      "url": "notes/kagenow.html"
+    },
+    {
+      "id": "karlsruhe-f",
+      "title": "Karlsruhe (F)",
+      "category": "project",
+      "url": "notes/karlsruhe-f.html"
+    },
+    {
+      "id": "meiningen-agh",
+      "title": "Meiningen (AGH)",
+      "category": "project",
+      "url": "notes/meiningen-agh.html"
+    },
+    {
+      "id": "munchen-1-artinvest",
+      "title": "München 1 (ArtInvest)",
+      "category": "project",
+      "url": "notes/munchen-1-artinvest.html"
+    },
+    {
+      "id": "schallstadt-vh",
+      "title": "Schallstadt (vH)",
+      "category": "project",
+      "url": "notes/schallstadt-vh.html"
+    },
+    {
+      "id": "unterwellenborn-z",
+      "title": "Unterwellenborn (Z)",
+      "category": "project",
+      "url": "notes/unterwellenborn-z.html"
+    },
+    {
+      "id": "wolkow",
+      "title": "Wolkow",
+      "category": "project",
+      "url": "notes/wolkow.html"
+    },
+    {
+      "id": "denzlingen-gmk",
+      "title": "Denzlingen (GMK)",
+      "category": "project",
+      "url": "notes/denzlingen-gmk.html"
+    },
+    {
+      "id": "harsewinkel-f",
+      "title": "Harsewinkel (F)",
+      "category": "project",
+      "url": "notes/harsewinkel-f.html"
+    },
+    {
+      "id": "neuenburg-g",
+      "title": "Neuenburg (G)",
+      "category": "project",
+      "url": "notes/neuenburg-g.html"
+    },
+    {
+      "id": "opfingen-m",
+      "title": "Opfingen (M)",
+      "category": "project",
+      "url": "notes/opfingen-m.html"
+    },
+    {
+      "id": "reichertsheim-d",
+      "title": "Reichertsheim (D)",
+      "category": "project",
+      "url": "notes/reichertsheim-d.html"
+    },
+    {
+      "id": "villigst-s",
+      "title": "Villigst (S)",
+      "category": "project",
+      "url": "notes/villigst-s.html"
+    },
+    {
+      "id": "zutzen-c",
+      "title": "Zützen (C)",
+      "category": "project",
+      "url": "notes/zutzen-c.html"
+    },
+    {
+      "id": "freiburg-gmk",
+      "title": "Freiburg (GMK)",
+      "category": "project",
+      "url": "notes/freiburg-gmk.html"
+    },
+    {
+      "id": "reute-gmk",
+      "title": "Reute (GMK)",
+      "category": "project",
+      "url": "notes/reute-gmk.html"
+    },
+    {
+      "id": "vorstetten-gmk",
+      "title": "Vörstetten (GMK)",
+      "category": "project",
+      "url": "notes/vorstetten-gmk.html"
+    },
+    {
+      "id": "bad-durrheim-k",
+      "title": "Bad Dürrheim (K)",
+      "category": "project",
+      "url": "notes/bad-durrheim-k.html"
+    },
+    {
+      "id": "bad-krozingen-s",
+      "title": "Bad Krozingen (S)",
+      "category": "project",
+      "url": "notes/bad-krozingen-s.html"
+    },
+    {
+      "id": "bonndorf-g",
+      "title": "Bonndorf (G)",
+      "category": "project",
+      "url": "notes/bonndorf-g.html"
+    },
+    {
+      "id": "breisach-d",
+      "title": "Breisach (D)",
+      "category": "project",
+      "url": "notes/breisach-d.html"
+    },
+    {
+      "id": "denzlingen-b",
+      "title": "Denzlingen (B)",
+      "category": "project",
+      "url": "notes/denzlingen-b.html"
+    },
+    {
+      "id": "donaueschingen-m",
+      "title": "Donaueschingen (M)",
+      "category": "project",
+      "url": "notes/donaueschingen-m.html"
+    },
+    {
+      "id": "eichstetten-h",
+      "title": "Eichstetten (H)",
+      "category": "project",
+      "url": "notes/eichstetten-h.html"
+    },
+    {
+      "id": "endingen-b",
+      "title": "Endingen (B)",
+      "category": "project",
+      "url": "notes/endingen-b.html"
+    },
+    {
+      "id": "eschbach-w",
+      "title": "Eschbach (W)",
+      "category": "project",
+      "url": "notes/eschbach-w.html"
+    },
+    {
+      "id": "falkenberg-b",
+      "title": "Falkenberg (B)",
+      "category": "project",
+      "url": "notes/falkenberg-b.html"
+    },
+    {
+      "id": "freiburg-d",
+      "title": "Freiburg (D)",
+      "category": "project",
+      "url": "notes/freiburg-d.html"
+    },
+    {
+      "id": "freiburg-g",
+      "title": "Freiburg (G)",
+      "category": "project",
+      "url": "notes/freiburg-g.html"
+    },
+    {
+      "id": "freiburg-m-1",
+      "title": "Freiburg (M 1)",
+      "category": "project",
+      "url": "notes/freiburg-m-1.html"
+    },
+    {
+      "id": "gei-lingen-g",
+      "title": "Geißlingen (G)",
+      "category": "project",
+      "url": "notes/gei-lingen-g.html"
+    },
+    {
+      "id": "gengenbach-s",
+      "title": "Gengenbach (S)",
+      "category": "project",
+      "url": "notes/gengenbach-s.html"
+    },
+    {
+      "id": "gerichshain-w",
+      "title": "Gerichshain (W)",
+      "category": "project",
+      "url": "notes/gerichshain-w.html"
+    },
+    {
+      "id": "gundlingen-d",
+      "title": "Gündlingen (D)",
+      "category": "project",
+      "url": "notes/gundlingen-d.html"
+    },
+    {
+      "id": "gutach-s",
+      "title": "Gutach (S)",
+      "category": "project",
+      "url": "notes/gutach-s.html"
+    },
+    {
+      "id": "halle-pvg",
+      "title": "Halle (PVG)",
+      "category": "project",
+      "url": "notes/halle-pvg.html"
+    },
+    {
+      "id": "holzdorf-b",
+      "title": "Holzdorf (B)",
+      "category": "project",
+      "url": "notes/holzdorf-b.html"
+    },
+    {
+      "id": "hufingen-m",
+      "title": "Hüfingen (M)",
+      "category": "project",
+      "url": "notes/hufingen-m.html"
+    },
+    {
+      "id": "hufingen-v",
+      "title": "Hüfingen (V)",
+      "category": "project",
+      "url": "notes/hufingen-v.html"
+    },
+    {
+      "id": "hufingen-bess-s",
+      "title": "Hüfingen BESS (S)",
+      "category": "project",
+      "url": "notes/hufingen-bess-s.html"
+    },
+    {
+      "id": "lauchhammer-b",
+      "title": "Lauchhammer (B)",
+      "category": "project",
+      "url": "notes/lauchhammer-b.html"
+    },
+    {
+      "id": "leimen-m",
+      "title": "Leimen (M)",
+      "category": "project",
+      "url": "notes/leimen-m.html"
+    },
+    {
+      "id": "leipzig-h",
+      "title": "Leipzig (H)",
+      "category": "project",
+      "url": "notes/leipzig-h.html"
+    },
+    {
+      "id": "linden-cs",
+      "title": "Linden (CS)",
+      "category": "project",
+      "url": "notes/linden-cs.html"
+    },
+    {
+      "id": "machern-w",
+      "title": "Machern (W)",
+      "category": "project",
+      "url": "notes/machern-w.html"
+    },
+    {
+      "id": "munchen-2-parkstadtcenter",
+      "title": "München 2 (Parkstadtcenter)",
+      "category": "project",
+      "url": "notes/munchen-2-parkstadtcenter.html"
+    },
+    {
+      "id": "munchen-3-arnulfbogen",
+      "title": "München 3 (Arnulfbogen)",
+      "category": "project",
+      "url": "notes/munchen-3-arnulfbogen.html"
+    },
+    {
+      "id": "munzingen-2-b",
+      "title": "Munzingen 2 (B)",
+      "category": "project",
+      "url": "notes/munzingen-2-b.html"
+    },
+    {
+      "id": "rastatt-1-durmersheim-kh",
+      "title": "Rastatt 1 Durmersheim (KH)",
+      "category": "project",
+      "url": "notes/rastatt-1-durmersheim-kh.html"
+    },
+    {
+      "id": "rastatt-2-durmersheim-kh",
+      "title": "Rastatt 2 Durmersheim (KH)",
+      "category": "project",
+      "url": "notes/rastatt-2-durmersheim-kh.html"
+    },
+    {
+      "id": "rastatt-4-durmersheim-kh",
+      "title": "Rastatt 4 Durmersheim (KH)",
+      "category": "project",
+      "url": "notes/rastatt-4-durmersheim-kh.html"
+    },
+    {
+      "id": "rheinfelden-r",
+      "title": "Rheinfelden (R)",
+      "category": "project",
+      "url": "notes/rheinfelden-r.html"
+    },
+    {
+      "id": "riesa-b",
+      "title": "Riesa (B)",
+      "category": "project",
+      "url": "notes/riesa-b.html"
+    },
+    {
+      "id": "ripphalde-d",
+      "title": "Ripphalde (D)",
+      "category": "project",
+      "url": "notes/ripphalde-d.html"
+    },
+    {
+      "id": "simonswald-s",
+      "title": "Simonswald (S)",
+      "category": "project",
+      "url": "notes/simonswald-s.html"
+    },
+    {
+      "id": "spornitz-cs",
+      "title": "Spornitz (CS)",
+      "category": "project",
+      "url": "notes/spornitz-cs.html"
+    },
+    {
+      "id": "stockach-h",
+      "title": "Stockach (H)",
+      "category": "project",
+      "url": "notes/stockach-h.html"
+    },
+    {
+      "id": "stuhlingen-p",
+      "title": "Stühlingen (P)",
+      "category": "project",
+      "url": "notes/stuhlingen-p.html"
+    },
+    {
+      "id": "treis-karden-bag",
+      "title": "Treis Karden (BAG)",
+      "category": "project",
+      "url": "notes/treis-karden-bag.html"
+    },
+    {
+      "id": "waldshut-tiengen-d",
+      "title": "Waldshut-Tiengen (D)",
+      "category": "project",
+      "url": "notes/waldshut-tiengen-d.html"
+    },
+    {
+      "id": "zweibrucken-s",
+      "title": "Zweibrücken (S)",
+      "category": "project",
+      "url": "notes/zweibrucken-s.html"
+    },
+    {
+      "id": "aitrach-h2o",
+      "title": "Aitrach (H2O)",
+      "category": "project",
+      "url": "notes/aitrach-h2o.html"
+    },
+    {
+      "id": "berkholz-meyenburg-x",
+      "title": "Berkholz-Meyenburg (x)",
+      "category": "project",
+      "url": "notes/berkholz-meyenburg-x.html"
+    },
+    {
+      "id": "burladingen",
+      "title": "Burladingen",
+      "category": "project",
+      "url": "notes/burladingen.html"
+    },
+    {
+      "id": "freiburg-nord",
+      "title": "Freiburg (Nord)",
+      "category": "project",
+      "url": "notes/freiburg-nord.html"
+    },
+    {
+      "id": "heising",
+      "title": "Heising",
+      "category": "project",
+      "url": "notes/heising.html"
+    },
+    {
+      "id": "malsch-kh",
+      "title": "Malsch (KH)",
+      "category": "project",
+      "url": "notes/malsch-kh.html"
+    },
+    {
+      "id": "rheinfelden-adelhausen",
+      "title": "Rheinfelden Adelhausen",
+      "category": "project",
+      "url": "notes/rheinfelden-adelhausen.html"
+    },
+    {
+      "id": "rollshausen",
+      "title": "Röllshausen",
+      "category": "project",
+      "url": "notes/rollshausen.html"
+    },
+    {
+      "id": "titisee-neustadt-uw",
+      "title": "Titisee-Neustadt (UW)",
+      "category": "project",
+      "url": "notes/titisee-neustadt-uw.html"
+    },
+    {
+      "id": "auggen-f",
+      "title": "Auggen (F)",
+      "category": "project",
+      "url": "notes/auggen-f.html"
+    },
+    {
+      "id": "bosenberg-gpb",
+      "title": "Bosenberg (GPB)",
+      "category": "project",
+      "url": "notes/bosenberg-gpb.html"
+    },
+    {
+      "id": "calden-r",
+      "title": "Calden (R)",
+      "category": "project",
+      "url": "notes/calden-r.html"
+    },
+    {
+      "id": "gaildorf-g",
+      "title": "Gaildorf (G)",
+      "category": "project",
+      "url": "notes/gaildorf-g.html"
+    },
+    {
+      "id": "genthin",
+      "title": "Genthin",
+      "category": "project",
+      "url": "notes/genthin.html"
+    },
+    {
+      "id": "groningen-w",
+      "title": "Gröningen (W)",
+      "category": "project",
+      "url": "notes/groningen-w.html"
+    },
+    {
+      "id": "gurtweil",
+      "title": "Gurtweil",
+      "category": "project",
+      "url": "notes/gurtweil.html"
+    },
+    {
+      "id": "hartha-s",
+      "title": "Hartha (S)",
+      "category": "project",
+      "url": "notes/hartha-s.html"
+    },
+    {
+      "id": "hufingen-w",
+      "title": "Hüfingen (W)",
+      "category": "project",
+      "url": "notes/hufingen-w.html"
+    },
+    {
+      "id": "kuhmoos",
+      "title": "Kühmoos",
+      "category": "project",
+      "url": "notes/kuhmoos.html"
+    },
+    {
+      "id": "loffingen-gmk",
+      "title": "Löffingen (GMK)",
+      "category": "project",
+      "url": "notes/loffingen-gmk.html"
+    },
+    {
+      "id": "mecklar-b",
+      "title": "Mecklar (B)",
+      "category": "project",
+      "url": "notes/mecklar-b.html"
+    },
+    {
+      "id": "quickborn-s",
+      "title": "Quickborn (S)",
+      "category": "project",
+      "url": "notes/quickborn-s.html"
+    },
+    {
+      "id": "schortens-p",
+      "title": "Schortens (P)",
+      "category": "project",
+      "url": "notes/schortens-p.html"
+    },
+    {
+      "id": "simonswald-w",
+      "title": "Simonswald (W)",
+      "category": "project",
+      "url": "notes/simonswald-w.html"
+    },
+    {
+      "id": "stadtallendorf-fps",
+      "title": "Stadtallendorf (FPS)",
+      "category": "project",
+      "url": "notes/stadtallendorf-fps.html"
+    },
+    {
+      "id": "stockach-l",
+      "title": "Stockach (L)",
+      "category": "project",
+      "url": "notes/stockach-l.html"
+    },
+    {
+      "id": "weil-am-rhein-m",
+      "title": "Weil am Rhein (M)",
+      "category": "project",
+      "url": "notes/weil-am-rhein-m.html"
+    },
+    {
+      "id": "trassenkosten",
+      "title": "Trassenkosten",
+      "category": "project",
+      "url": "notes/trassenkosten.html"
+    },
+    {
+      "id": "20251216-rheinfelden-unb",
+      "title": "20251216 Rheinfelden UNB",
+      "category": "project",
+      "url": "notes/20251216-rheinfelden-unb.html"
+    },
+    {
+      "id": "46352",
+      "title": "46352",
+      "category": "project",
+      "url": "notes/46352.html"
+    },
+    {
+      "id": "netzanfrage-calden",
+      "title": "Netzanfrage Calden",
+      "category": "project",
+      "url": "notes/netzanfrage-calden.html"
+    },
+    {
+      "id": "netzanfrage-endingen",
+      "title": "Netzanfrage Endingen",
+      "category": "project",
+      "url": "notes/netzanfrage-endingen.html"
+    },
+    {
+      "id": "netzanfrage-hartha",
+      "title": "Netzanfrage Hartha",
+      "category": "project",
+      "url": "notes/netzanfrage-hartha.html"
+    },
+    {
+      "id": "netzanfrage-mecklar",
+      "title": "Netzanfrage Mecklar",
+      "category": "project",
+      "url": "notes/netzanfrage-mecklar.html"
+    },
+    {
+      "id": "netzanfrage-quickborn",
+      "title": "Netzanfrage Quickborn",
+      "category": "project",
+      "url": "notes/netzanfrage-quickborn.html"
+    },
+    {
+      "id": "netzanfrage-stadtallendorf",
+      "title": "Netzanfrage Stadtallendorf",
+      "category": "project",
+      "url": "notes/netzanfrage-stadtallendorf.html"
+    },
+    {
+      "id": "pachtvertrag-bitburg",
+      "title": "Pachtvertrag Bitburg",
+      "category": "project",
+      "url": "notes/pachtvertrag-bitburg.html"
+    },
+    {
+      "id": "restriktionsanalyse-bonndorf",
+      "title": "Restriktionsanalyse Bonndorf",
+      "category": "project",
+      "url": "notes/restriktionsanalyse-bonndorf.html"
+    },
+    {
+      "id": "zeitplan-freiberg",
+      "title": "Zeitplan Freiberg",
+      "category": "project",
+      "url": "notes/zeitplan-freiberg.html"
+    },
+    {
+      "id": "zeitplan-neuenburg",
+      "title": "Zeitplan Neuenburg",
+      "category": "project",
+      "url": "notes/zeitplan-neuenburg.html"
+    },
+    {
+      "id": "zeitplan-schallstadt",
+      "title": "Zeitplan Schallstadt",
+      "category": "project",
+      "url": "notes/zeitplan-schallstadt.html"
+    },
+    {
+      "id": "zeitplan-stuhlingen",
+      "title": "Zeitplan Stühlingen",
+      "category": "project",
+      "url": "notes/zeitplan-stuhlingen.html"
+    },
+    {
+      "id": "zeitplan-waldshut-tiengen",
+      "title": "Zeitplan Waldshut-Tiengen",
+      "category": "project",
+      "url": "notes/zeitplan-waldshut-tiengen.html"
+    }
+  ],
+  "edges": [
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "lohagen-s",
+      "label": "Lohagen (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "villigst-s",
+      "label": "Villigst (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "spornitz-cs",
+      "label": "Spornitz (CS)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "treplin-w",
+      "label": "Treplin (W)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "munchen-2-parkstadtcenter",
+      "label": "München 2 (Parkstadtcenter)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "linden-cs",
+      "label": "Linden (CS)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "munchen-3-arnulfbogen",
+      "label": "München 3 (Arnulfbogen)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "schallstadt-gmk",
+      "label": "Schallstadt (GMK)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "hufingen-s",
+      "label": "Hüfingen (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "stuhlingen-d",
+      "label": "Stühlingen (D)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "rheinfelden-l",
+      "label": "Rheinfelden (L)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "donaueschingen-s",
+      "label": "Donaueschingen (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "munzingen-b",
+      "label": "Munzingen (B)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "buggingen-w",
+      "label": "Buggingen (W)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "eisenbach-3-e3",
+      "label": "Eisenbach 3 (E3)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "wutoschingen-s",
+      "label": "Wutöschingen (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "loffingen-gmk",
+      "label": "Löffingen (GMK)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "dietingen-m",
+      "label": "Dietingen (M)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "blumberg-g",
+      "label": "Blumberg (G)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "botzingen-h",
+      "label": "Bötzingen (H)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "luptitz-bag",
+      "label": "Lüptitz (BAG)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "neuwied-r",
+      "label": "Neuwied (R)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "bad-sackingen-m-2",
+      "label": "Bad Säckingen (M)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "bitz-asw",
+      "label": "Bitz (ASW)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "dachau-swd",
+      "label": "Dachau (SWD)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "ha-furt-uponor",
+      "label": "Haßfurt (Uponor)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "henau-bag",
+      "label": "Henau (BAG)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "stockhausen-bag",
+      "label": "Stockhausen (BAG)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "munzingen-b",
+      "label": "Munzingen (B)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "donaueschingen-s",
+      "label": "Donaueschingen (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "flechtingen-bag-2",
+      "label": "Flechtingen (BAG)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "wetzstein-bag",
+      "label": "Wetzstein (BAG)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "schallstadt-gmk",
+      "label": "Schallstadt (GMK)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "stuhlingen-d",
+      "label": "Stühlingen (D)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "hufingen-s",
+      "label": "Hüfingen (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "schrenz-s",
+      "label": "Schrenz (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "buggingen-w",
+      "label": "Buggingen (W)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "rheinfelden-l",
+      "label": "Rheinfelden (L)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "blumberg-g",
+      "label": "Blumberg (G)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "dietingen-m",
+      "label": "Dietingen (M)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "renchen-k",
+      "label": "Renchen (K)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "eisenbach-3-e3",
+      "label": "Eisenbach 3 (E3)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "neuenburg-iar",
+      "label": "Neuenburg (iAR)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "schortens-p",
+      "label": "Schortens (P)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "treplin-w",
+      "label": "Treplin (W)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "bad-durrheim-m",
+      "label": "Bad Dürrheim (M)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "wutoschingen-s",
+      "label": "Wutöschingen (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "deggenhausertal-m",
+      "label": "Deggenhausertal (M)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "sauldorf-h",
+      "label": "Sauldorf (H)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "freiberg-z",
+      "label": "Freiberg (Z)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "bitburg-z",
+      "label": "Bitburg (Z)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "waldshut-tiengen-b",
+      "label": "Waldshut-Tiengen (B)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "uhlingen-birkendorf-l",
+      "label": "Ühlingen-Birkendorf (L)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "eisenbach-4-l",
+      "label": "Eisenbach 4 (L)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "loffingen-gmk",
+      "label": "Löffingen (GMK)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "whylen",
+      "label": "Whylen ()"
+    },
+    {
+      "source": "projektphasen",
+      "target": "rottweil-s",
+      "label": "Rottweil (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "pfullendorf-g",
+      "label": "Pfullendorf (G)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "denzlingen-s",
+      "label": "Denzlingen (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "freiburg-uwsa",
+      "label": "Freiburg (UWSA)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "meiningen-agh",
+      "label": "Meiningen (AGH)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "bad-krozingen-r",
+      "label": "Bad Krozingen (R)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "freiburg-march-k",
+      "label": "Freiburg-March (K)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "karlsruhe-f",
+      "label": "Karlsruhe (F)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "munchen-1-artinvest",
+      "label": "München 1 (ArtInvest)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "schallstadt-vh",
+      "label": "Schallstadt (vH)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "unterwellenborn-z",
+      "label": "Unterwellenborn (Z)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "buggingen-f",
+      "label": "Buggingen (F)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "opfingen-m",
+      "label": "Opfingen (M)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "villigst-s",
+      "label": "Villigst (S)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "zutzen-c",
+      "label": "Zützen (C)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "reichertsheim-d",
+      "label": "Reichertsheim (D)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "neuenburg-g",
+      "label": "Neuenburg (G)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "burladingen",
+      "label": "Burladingen"
+    },
+    {
+      "source": "projektphasen",
+      "target": "hufingen-m",
+      "label": "Hüfingen (M)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "linden-cs",
+      "label": "Linden (CS)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "munchen-2-parkstadtcenter",
+      "label": "München 2 (Parkstadtcenter)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "munchen-3-arnulfbogen",
+      "label": "München 3 (Arnulfbogen)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "spornitz-cs",
+      "label": "Spornitz (CS)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "stockach-h",
+      "label": "Stockach (H)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "waldshut-tiengen-d",
+      "label": "Waldshut-Tiengen (D)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "wickede-r",
+      "label": "Wickede (R)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "freiburg-gmk",
+      "label": "Freiburg (GMK)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "reute-gmk",
+      "label": "Reute (GMK)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "vorstetten-gmk",
+      "label": "Vörstetten (GMK)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "denzlingen-gmk",
+      "label": "Denzlingen (GMK)"
+    },
+    {
+      "source": "tasks",
+      "target": "denzlingen-s",
+      "label": "Denzlingen (S)"
+    },
+    {
+      "source": "tasks",
+      "target": "denzlingen-gmk",
+      "label": "Denzlingen (GMK)"
+    },
+    {
+      "source": "tasks",
+      "target": "aitrach-h2o",
+      "label": "Aitrach (H2O)"
+    },
+    {
+      "source": "tasks",
+      "target": "aitrach-t",
+      "label": "Aitrach (T)"
+    },
+    {
+      "source": "tasks",
+      "target": "bad-durrheim-m",
+      "label": "Bad Dürrheim (M)"
+    },
+    {
+      "source": "tasks",
+      "target": "bitburg-z",
+      "label": "Bitburg (Z)"
+    },
+    {
+      "source": "tasks",
+      "target": "blumberg-g",
+      "label": "Blumberg (G)"
+    },
+    {
+      "source": "tasks",
+      "target": "buggingen-f",
+      "label": "Buggingen (F)"
+    },
+    {
+      "source": "tasks",
+      "target": "buggingen-w",
+      "label": "Buggingen (W)"
+    },
+    {
+      "source": "tasks",
+      "target": "rheinfelden-l",
+      "label": "Rheinfelden (L)"
+    },
+    {
+      "source": "tasks",
+      "target": "deggenhausertal-m",
+      "label": "Deggenhausertal (M)"
+    },
+    {
+      "source": "tasks",
+      "target": "dietingen-m",
+      "label": "Dietingen (M)"
+    },
+    {
+      "source": "tasks",
+      "target": "eisenbach-3-e3",
+      "label": "Eisenbach 3 (E3)"
+    },
+    {
+      "source": "tasks",
+      "target": "eisenbach-4-l",
+      "label": "Eisenbach 4 (L)"
+    },
+    {
+      "source": "tasks",
+      "target": "ettlingen-f",
+      "label": "Ettlingen (F)"
+    },
+    {
+      "source": "tasks",
+      "target": "freiberg-z",
+      "label": "Freiberg (Z)"
+    },
+    {
+      "source": "tasks",
+      "target": "friedenweiler-gmk",
+      "label": "Friedenweiler (GMK)"
+    },
+    {
+      "source": "tasks",
+      "target": "hufingen-s",
+      "label": "Hüfingen (S)"
+    },
+    {
+      "source": "tasks",
+      "target": "stuhlingen-d",
+      "label": "Stühlingen (D)"
+    },
+    {
+      "source": "tasks",
+      "target": "solargik",
+      "label": "SolarGik"
+    },
+    {
+      "source": "tasks",
+      "target": "immendingen-k",
+      "label": "Immendingen (K)"
+    },
+    {
+      "source": "tasks",
+      "target": "isahaya-north",
+      "label": "Isahaya North"
+    },
+    {
+      "source": "tasks",
+      "target": "isahaya-south",
+      "label": "Isahaya South"
+    },
+    {
+      "source": "tasks",
+      "target": "neuenburg-d",
+      "label": "Neuenburg (D)"
+    },
+    {
+      "source": "tasks",
+      "target": "neuenburg-iar",
+      "label": "Neuenburg (iAR)"
+    },
+    {
+      "source": "tasks",
+      "target": "oberhambach-k",
+      "label": "Oberhambach (K)"
+    },
+    {
+      "source": "tasks",
+      "target": "renchen-k",
+      "label": "Renchen (K)"
+    },
+    {
+      "source": "tasks",
+      "target": "rheinfelden-adelhausen",
+      "label": "Rheinfelden Adelhausen"
+    },
+    {
+      "source": "tasks",
+      "target": "sauldorf-h",
+      "label": "Sauldorf (H)"
+    },
+    {
+      "source": "tasks",
+      "target": "schortens-p",
+      "label": "Schortens (P)"
+    },
+    {
+      "source": "tasks",
+      "target": "schrenz-s",
+      "label": "Schrenz (S)"
+    },
+    {
+      "source": "tasks",
+      "target": "treplin-w",
+      "label": "Treplin (W)"
+    },
+    {
+      "source": "tasks",
+      "target": "uhlingen-birkendorf-l",
+      "label": "Ühlingen-Birkendorf (L)"
+    },
+    {
+      "source": "tasks",
+      "target": "waldshut-tiengen-b",
+      "label": "Waldshut-Tiengen (B)"
+    },
+    {
+      "source": "tasks",
+      "target": "wickede-r",
+      "label": "Wickede (R)"
+    },
+    {
+      "source": "tasks",
+      "target": "wutoschingen-s",
+      "label": "Wutöschingen (S)"
+    },
+    {
+      "source": "buggingen-w",
+      "target": "buggingen-w",
+      "label": "Buggingen (W)"
+    },
+    {
+      "source": "buggingen-w",
+      "target": "rheinfelden-l",
+      "label": "Rheinfelden (L)"
+    },
+    {
+      "source": "donaueschingen-s",
+      "target": "donaueschingen-s",
+      "label": "Donaueschingen (S)"
+    },
+    {
+      "source": "donaueschingen-s",
+      "target": "donaueschingen-m",
+      "label": "Donaueschingen (M)"
+    },
+    {
+      "source": "munzingen-b",
+      "target": "munzingen-b",
+      "label": "Munzingen (B)"
+    },
+    {
+      "source": "stuhlingen-d",
+      "target": "stuhlingen-d",
+      "label": "Stühlingen (D)"
+    },
+    {
+      "source": "stuhlingen-d",
+      "target": "zeitplan-stuhlingen",
+      "label": "Zeitplan Stühlingen"
+    },
+    {
+      "source": "schallstadt-gmk",
+      "target": "schallstadt-gmk",
+      "label": "Schallstadt (GMK)"
+    },
+    {
+      "source": "schallstadt-gmk",
+      "target": "zeitplan-schallstadt",
+      "label": "Zeitplan Schallstadt"
+    },
+    {
+      "source": "aitrach-t",
+      "target": "aitrach-t",
+      "label": "Aitrach (T)"
+    },
+    {
+      "source": "blumberg-g",
+      "target": "blumberg-g",
+      "label": "Blumberg (G)"
+    },
+    {
+      "source": "hufingen-s",
+      "target": "hufingen-s",
+      "label": "Hüfingen (S)"
+    },
+    {
+      "source": "hufingen-s",
+      "target": "stuhlingen-d",
+      "label": "Stühlingen (D)"
+    },
+    {
+      "source": "hufingen-s",
+      "target": "solargik",
+      "label": "SolarGik"
+    },
+    {
+      "source": "schrenz-s",
+      "target": "schrenz-s",
+      "label": "Schrenz (S)"
+    },
+    {
+      "source": "eisenbach-3-e3",
+      "target": "eisenbach-3-e3",
+      "label": "Eisenbach 3 (E3)"
+    },
+    {
+      "source": "friedenweiler-gmk",
+      "target": "friedenweiler-gmk",
+      "label": "Friedenweiler (GMK)"
+    },
+    {
+      "source": "neuenburg-iar",
+      "target": "zeitplan-neuenburg",
+      "label": "Zeitplan Neuenburg"
+    },
+    {
+      "source": "oberhambach-k",
+      "target": "oberhambach-k",
+      "label": "Oberhambach (K)"
+    },
+    {
+      "source": "treplin-w",
+      "target": "treplin-w",
+      "label": "Treplin (W)"
+    },
+    {
+      "source": "freiberg-z",
+      "target": "zeitplan-freiberg",
+      "label": "Zeitplan Freiberg"
+    },
+    {
+      "source": "immendingen-k",
+      "target": "immendingen-k",
+      "label": "Immendingen (K)"
+    },
+    {
+      "source": "pfullendorf-g",
+      "target": "pfullendorf-g",
+      "label": "Pfullendorf (G)"
+    },
+    {
+      "source": "bonndorf-g",
+      "target": "restriktionsanalyse-bonndorf",
+      "label": "Restriktionsanalyse Bonndorf"
+    },
+    {
+      "source": "aitrach-h2o",
+      "target": "aitrach-h2o",
+      "label": "Aitrach (H2O)"
+    },
+    {
+      "source": "calden-r",
+      "target": "netzanfrage-calden",
+      "label": "Netzanfrage Calden"
+    },
+    {
+      "source": "hartha-s",
+      "target": "netzanfrage-hartha",
+      "label": "Netzanfrage Hartha"
+    },
+    {
+      "source": "mecklar-b",
+      "target": "netzanfrage-mecklar",
+      "label": "Netzanfrage Mecklar"
+    },
+    {
+      "source": "quickborn-s",
+      "target": "netzanfrage-quickborn",
+      "label": "Netzanfrage Quickborn"
+    },
+    {
+      "source": "stadtallendorf-fps",
+      "target": "netzanfrage-stadtallendorf",
+      "label": "Netzanfrage Stadtallendorf"
+    },
+    {
+      "source": "netzanfrage-calden",
+      "target": "calden-r",
+      "label": "Calden (R)"
+    },
+    {
+      "source": "netzanfrage-endingen",
+      "target": "endingen-b",
+      "label": "Endingen (B)"
+    },
+    {
+      "source": "netzanfrage-hartha",
+      "target": "hartha-s",
+      "label": "Hartha (S)"
+    },
+    {
+      "source": "netzanfrage-mecklar",
+      "target": "mecklar-b",
+      "label": "Mecklar (B)"
+    },
+    {
+      "source": "netzanfrage-quickborn",
+      "target": "quickborn-s",
+      "label": "Quickborn (S)"
+    },
+    {
+      "source": "netzanfrage-stadtallendorf",
+      "target": "stadtallendorf-fps",
+      "label": "Stadtallendorf (FPS)"
+    },
+    {
+      "source": "zeitplan-neuenburg",
+      "target": "neuenburg-iar",
+      "label": "Neuenburg (iAR)"
+    },
+    {
+      "source": "zeitplan-schallstadt",
+      "target": "schallstadt-gmk",
+      "label": "Schallstadt (GMK)"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "title": "Tasks",
+  "slug": "tasks",
+  "category": "overview",
+  "relativePath": "0 - Übersicht/Tasks.md",
+  "url": "notes/tasks.html",
+  "apiUrl": "api/notes/tasks.json",
+  "tags": [
+    "CB",
+    "CB5-11-27",
+    "CU",
+    "MH",
+    "MM",
+    "S_hion",
+    "SH",
+    "todo",
+    "Yugo"
+  ],
+  "excerpt": "Stephan [x] Arbeitsproben IBA durchschauen SH ⏫ 📅 2025 12 01 ✅ 2025 12 11 [ ] Kosten der Entwicklung in Obsidian übernehmen (Stadtplanung, BA, Gutachten, Gras, Hecke) SH 🔼 📅...",
+  "frontmatter": {
+    "status": "In Progress",
+    "tags": [
+      "todo"
+    ]
+  },
+  "links": [
+    {
+      "target": "Denzlingen (S)",
+      "label": "Denzlingen (S)",
+      "slug": "denzlingen-s"
+    },
+    {
+      "target": "Denzlingen (GMK)",
+      "label": "Denzlingen (GMK)",
+      "slug": "denzlingen-gmk"
+    },
+    {
+      "target": "Aitrach (H2O)",
+      "label": "Aitrach (H2O)",
+      "slug": "aitrach-h2o"
+    },
+    {
+      "target": "Aitrach (T)",
+      "label": "Aitrach (T)",
+      "slug": "aitrach-t"
+    },
+    {
+      "target": "Bad Dürrheim (M)",
+      "label": "Bad Dürrheim (M)",
+      "slug": "bad-durrheim-m"
+    },
+    {
+      "target": "Bitburg (Z)",
+      "label": "Bitburg (Z)",
+      "slug": "bitburg-z"
+    },
+    {
+      "target": "Blumberg (G)",
+      "label": "Blumberg (G)",
+      "slug": "blumberg-g"
+    },
+    {
+      "target": "Buggingen (F)",
+      "label": "Buggingen (F)",
+      "slug": "buggingen-f"
+    },
+    {
+      "target": "Buggingen (W)",
+      "label": "Buggingen (W)",
+      "slug": "buggingen-w"
+    },
+    {
+      "target": "Rheinfelden (L)",
+      "label": "Rheinfelden (L)",
+      "slug": "rheinfelden-l"
+    },
+    {
+      "target": "Deggenhausertal (M)",
+      "label": "Deggenhausertal (M)",
+      "slug": "deggenhausertal-m"
+    },
+    {
+      "target": "Dietingen (M)",
+      "label": "Dietingen (M)",
+      "slug": "dietingen-m"
+    },
+    {
+      "target": "Eisenbach 3 (E3)",
+      "label": "Eisenbach 3 (E3)",
+      "slug": "eisenbach-3-e3"
+    },
+    {
+      "target": "Eisenbach 4 (L)",
+      "label": "Eisenbach 4 (L)",
+      "slug": "eisenbach-4-l"
+    },
+    {
+      "target": "Ettlingen (F)",
+      "label": "Ettlingen (F)",
+      "slug": "ettlingen-f"
+    },
+    {
+      "target": "Freiberg (Z)",
+      "label": "Freiberg (Z)",
+      "slug": "freiberg-z"
+    },
+    {
+      "target": "Friedenweiler (GMK)",
+      "label": "Friedenweiler (GMK)",
+      "slug": "friedenweiler-gmk"
+    },
+    {
+      "target": "Rottw5-1 (S8",
+      "label": "Rottw5-1 (S8",
+      "slug": null
+    },
+    {
+      "target": "Hüfingen (S)",
+      "label": "Hüfingen (S)",
+      "slug": "hufingen-s"
+    },
+    {
+      "target": "Stühlingen (D)",
+      "label": "Stühlingen (D)",
+      "slug": "stuhlingen-d"
+    },
+    {
+      "target": "SolarGik",
+      "label": "SolarGik",
+      "slug": "solargik"
+    },
+    {
+      "target": "Immendingen (K)",
+      "label": "Immendingen (K)",
+      "slug": "immendingen-k"
+    },
+    {
+      "target": "Isahaya North",
+      "label": "Isahaya North",
+      "slug": "isahaya-north"
+    },
+    {
+      "target": "Isahaya South",
+      "label": "Isahaya South",
+      "slug": "isahaya-south"
+    },
+    {
+      "target": "Neuenburg (D)",
+      "label": "Neuenburg (D)",
+      "slug": "neuenburg-d"
+    },
+    {
+      "target": "Neuenburg (iAR)",
+      "label": "Neuenburg (iAR)",
+      "slug": "neuenburg-iar"
+    },
+    {
+      "target": "Oberhambach (K)",
+      "label": "Oberhambach (K)",
+      "slug": "oberhambach-k"
+    },
+    {
+      "target": "Renchen (K)",
+      "label": "Renchen (K)",
+      "slug": "renchen-k"
+    },
+    {
+      "target": "Rheinfelden Adelhausen",
+      "label": "Rheinfelden Adelhausen",
+      "slug": "rheinfelden-adelhausen"
+    },
+    {
+      "target": "Sauldorf (H)",
+      "label": "Sauldorf (H)",
+      "slug": "sauldorf-h"
+    },
+    {
+      "target": "Schortens (P)",
+      "label": "Schortens (P)",
+      "slug": "schortens-p"
+    },
+    {
+      "target": "Schrenz (S)",
+      "label": "Schrenz (S)",
+      "slug": "schrenz-s"
+    },
+    {
+      "target": "Treplin (W)",
+      "label": "Treplin (W)",
+      "slug": "treplin-w"
+    },
+    {
+      "target": "Ühlingen-Birkendorf (L)",
+      "label": "Ühlingen-Birkendorf (L)",
+      "slug": "uhlingen-birkendorf-l"
+    },
+    {
+      "target": "Waldshut-Tiengen (B)",
+      "label": "Waldshut-Tiengen (B)",
+      "slug": "waldshut-tiengen-b"
+    },
+    {
+      "target": "Wickede (R)",
+      "label": "Wickede (R)",
+      "slug": "wickede-r"
+    },
+    {
+      "target": "Wutöschingen (S)",
+      "label": "Wutöschingen (S)",
+      "slug": "wutoschingen-s"
+    }
+  ],
+  "markdown": "\n# Stephan\n \n \n - [x] Arbeitsproben IBA durchschauen #SH ⏫ 📅 2025-12-01 ✅ 2025-12-11\n- [ ] Kosten der Entwicklung in Obsidian übernehmen (Stadtplanung, BA, Gutachten, Gras, Hecke) #SH 🔼 📅 2026-03-07\n- [x] Geräteschuppen nach LBO prüfen 2x3m, wenn Höhe klar (Stühlingen, Buggingen, Munzingen), Erdung, Bodenarbeiten #SH 🔼 📅 2026-02-28 ✅ 2026-02-23\n- [ ] Sling einrichten #SH 🔼 📅 2026-03-07\n- [ ] Alle Bilder in den Bilder-Ordner verschieben #SH 🔽 📅 2026-03-31\n- [x] Namen und Adressen aller Bürgermeister, Vermittler und Bauämter in Excel-Liste setzen | #SH 🔼 📅 2025-11-28 ✅ 2025-12-11\n- [x] \"Nachweis der Baulichen Nutzung\" aus Bauantrag (Excel) in Druckversion pdf mit neuem Excel-Tab umwandeln (Dietingen-Version 8.0) | #SH 🔽 📅 2025-12-05 ✅ 2026-03-03\n- [ ] Tasks in Tasks zurückführen | #SH 🔼 📅 2026-03-06 \n- [ ] Moadh alle Foundation Designs ändern lassen | #SH 🔼 📅 2026-03-28\n- [ ] Foundation Daten in BRI-Excel eintragen | #SH 🔼 📅 2026-03-28\n- [ ] Projekt Design & Material Übersicht korrigieren und in Teams eintragen | #SH ⏫ 📅 2026-03-28\n- [ ] Maxxen-AwSV Residual. Wie ist mit dem Gutachten umgegangen worden? | #SH 🔼 📅 2026-04-10\n- [ ] Liste der Einsaat für verschiedene Projekte mit Kontaktadressen zu Landwirten | #SH ⏫ 📅 2026-03-24\n- [ ] Liste der Projekte (Name, AZ, BPL, ÖP-Überschuss) für ÖP-Verkauf an Gemeinde | #SH 🔼 📅 2026-03-27\n\n\n\n\n## Chris\n- [x] QGIS installieren und einrichten lassen, PostGIS freigeben ✅ 2025-11-04 #CB\n- [x] Dropbox, Teams ✅ 2025-11-03 #CB\n- [x] Obsidian installieren und einrichten lassen, Vault freigeben ✅ 2025-11-03 #CB\n- [x] Regionalplan georeferenziert in PostGIS laden | [[Denzlingen (S)]] #CB 📅 2025-11-11\n- [x] Ladesäulenpunkte Denzlingen mit Ladesäulen CVS hochladen | [[Denzlingen (GMK)]] #CB 📅 2025-11-11\n- [-] Visualisierung für alle Projekte einstellen #S_hion #CB 🔽\n- [x] Powerpoint Stühlingen anpassen #CB\n- [x] Namen und Adressen aller Gutachter in Excel-Liste setzen | #CB 🔼 📅 2025-11-19 ✅ 2025-11-28\n\n\n## Andere Mitarbeiter\n- [x] RPS antworten und alle archäologischen Schutzgebiete erhalten und in PostGIS laden ✅ 2025-11-04\n- [ ] Küche aufräumen #S_hion #Yugo 🔽\n- [x] Unterlagen in Projekt-Ordner einheften #Yugo 🔽 ✅ 2025-11-12\n- [/] Projekt-Ordner Liegenschaften durchschauen und mit Flurstück benennen #S_hion 🔽\n- [ ] Agreements DE wieder nach Datum durchschauen und in die Overview Agreements DE eintragen lassen #S_hion\n- [x] Namen und Adressen aller Landverpächter in Excel-Liste setzen | #MM 🔼 📅 2025-11-19 ✅ 2025-11-18\n- [x] Netzreservierungen wann beantragt? Wann abgelaufen? (z.B. Baden-Baden) #CU ✅ 2026-03-03\n\n\n## Projekte\n\n#### [[Aitrach (H2O)]]\n- [x] Fläche für Wasserstoffwerk finden | [[Aitrach (H2O)]] #SH 🔺 📅 2026-02-26\n- [ ] Eigentümer in QGIS übernehmen | [[Aitrach (H2O)]] ⏫ 📅 2026-03-19\n\n\n#### [[Aitrach (T)]]\n- [ ] Drainage-Tiefen und -Position überprüfen und Karte erstellen | [[Aitrach (T)]] #SH ⏫ 📅 2026-03-27\n- [ ] POT wet area | [[Aitrach (T)]] #SH 🔼 📅 2026-02-28\n- [ ] 5.000 Euro Bankbürgschaft Ausgleichsmaßnahmen (Durchführungsvertrag) | [[Aitrach (T)]] #SH 🔼 📅 2026-06-20\n- [ ] 35.000 Euro Bankbürgschaft Rückbau vor Baubeginn (Durchführungsvertrag, Korrektur) | [[Aitrach (T)]] #SH 🔼 📅 2026-06-20\n- [/] § 6 EEG Vertrag an BM schicken | [[Aitrach (T)]] #SH 🆔 aitrach03 ⏫ 📅 2026-03-05\n- [/] Bürgerbeteiligung-Ticket-Höhe klären mit MR | [[Aitrach (T)]] #SH 🔼 📅 2026-03-10 🆔 aitrach01\n- [/] Termin mit Genossenschaft wegen Bürgerbeteiligung | [[Aitrach (T)]] #SH ⏫ 📅 2026-03-20 🆔 aitrach02 ⛔ aitrach01\n- [ ] Unterlagen für Gemeinderatstermin schicken | [[Aitrach (T)]] #SH ⏫ 📅 2026-04-10 ⛔ aitrach01, aitrach02, aitrach05, aitrach06, aitrach07 🆔 aitrach04\n- [ ] Gemeinderatstermin mit KlingConsult | [[Aitrach (T)]] #SH ⏫ 📅 2026-04-20 ⛔ aitrach04\n- [ ] Änderung Städtebaulicher Vertrag | [[Aitrach (T)]] #SH 🔼 📅 2026-03-10 🆔 aitrach05\n\t - [/] 30 Jahre -> 2026 #SH 🔺 📅 2026-03-05\n\t - [/] Verweis auf neuen VEP #SH 🔺 📅 2026-03-05\n\t - [/] Rückbaubürgschaft auf 35.000 € #SH 🔺 📅 2026-03-05\n- [ ] Neuen VEP erstellen (unser Design) | [[Aitrach (T)]] #SH 🔼 📅 2026-03-10 🆔 aitrach06\n- [ ] Neue EAB-Berechnung von KlingConsult | [[Aitrach (T)]] #SH 🔼 📅 2026-03-10 🆔 aitrach07 ⛔ aitrach08\n- [x] Neue Flächenangaben und EAB an KlingConsult schicken | [[Aitrach (T)]] #SH 🆔 aitrach08 🔺 📅 2026-02-13 ✅ 2026-02-23\n- [x] Änderungs-Bauantrag einreichen | [[Aitrach (T)]] #SH 🔺 📅 2026-02-16 ✅ 2026-02-23\n- [x] Lärmschutzgutachten Zentral-WR statt String-WR erstellen lassen | [[Aitrach (T)]] #SH 🔺 ⏳ 2026-03-09 📅 2026-03-16 ✅ 2026-03-17\n- [x] Vorort-Termin mit Herrn Traub und Frau Schwarz | [[Aitrach (T)]] #SH ⛔ aitrach09 🔺 📅 2026-03-02 ✅ 2026-03-04\n- [x] Bodenschutzkonzept überarbeiten lassen | [[Aitrach (T)]] #SH 🆔 aitrach09 🔺 📅 2026-03-01 ✅ 2026-03-04\n- [x] Brandschutzkonzept beauftragen | [[Aitrach (T)]] #SH ⏫ 📅 2026-03-05 ✅ 2026-03-03\n- [ ] Statik im Anmoorgebiet | [[Aitrach (T)]] #SH 🔼 📅 2026-03-31\n- [x] Bodenschutzamt Bodenschutzplan und BSK schicken | [[Aitrach (T)]] #SH 🔺 📅 2026-03-03 ✅ 2026-03-04\n- [/] Design bei MN ändern lassen | [[Aitrach (T)]] #SH 🔺 📅 2026-03-05\n- [x] Brandschutzkonzept prüfen | [[Aitrach (T)]] #SH 🔺 📅 2026-03-04 ✅ 2026-03-04\n- [x] Brandschutzkonzept einreichen | [[Aitrach (T)]] #SH 🔺 📅 2026-03-05 ✅ 2026-03-17\n- [ ] Netzreservierungsverlängerung bis zum 16.04.26 | [[Aitrach (T)]] #SH ⏫ 📅 2026-04-01\n- [ ] Einspeiseleistung auf 10MVA, Bezugsleistung auf 3MVA erhöhen/anfragen | [[Aitrach (T)]] #SH #CU ⏫ 📅 2026-03-09 \n\n\n#### [[Bad Dürrheim (M)]]\n- [ ] Herrn Bühler Antwort zu seiner Fläche an der A81 geben | [[Bad Dürrheim (M)]] #SH 🔼  📅 2025-11-13 ⛔ badduerrheim01\n- [ ] Fläche von Herrn Bühler prüfen |[[Bad Dürrheim (M)]] #MM 🔼 📅 2025-11-14🆔 badduerrheim01 \n- [ ] Einspeisung und Bezug erhalten, ggf. DVLP NVP | [[Bad Dürrheim (M)]] #CU 🔺 📅 2025-11-10\n- [ ] SAP-Kriterien sauber herausarbeiten und an Herrn Bronner schicken | [[Bad Dürrheim (M)]] #SH 🔽 📅 2025-12-10 \n\n\n#### [[Bitburg (Z)]]\n- [x] Verfahrensfortgang Q1 | [[Bitburg (Z)]] #SH 🔼 📅 2026-01-15 ✅ 2026-03-27\n- [ ] Netzreservierung aktualisieren lassen | [[Bitburg (Z)]] #CB ⏫ 📅 2025-11-11 \n- [/] Dokumente sichten  | [[Bitburg (Z)]] #CB 🔼 📅 2026-03-05 ✅ 2026-03-13\n\n\n#### [[Blumberg (G)]]\n- [x] Designunterlagen mit Moadh durchschauen und korrigieren lassen | [[Blumberg (G)]] #SH ⏫ 📅 2025-11-04 ✅ 2025-11-03\n- [x] Bauzeichnungen beim Bauamt hochladen | [[Blumberg (G)]] #SH ⏫ 📅 2025-11-04 ✅ 2025-11-09\n- [x] Umweltgutachten durchsehen | [[Blumberg (G)]] #SH 🔼 📅 2025-12-03 ✅ 2026-03-27\n- [x] Bodenschutzgutachten durchsehen | [[Blumberg (G)]] #SH 🔼 📅 2025-12-03 ✅ 2026-03-27\n- [x] Brandschutzkonzept in Auftrag geben | [[Blumberg (G)]] #SH ⏫ 📅 2025-11-28 ✅ 2026-03-16\n- [x] Brandschutzkonzept nachreichen | [[Blumberg (G)]] #SH 🔺 📅 2025-12-16 ✅ 2026-03-27\n- [ ] Übrige Umweltgutachten nachreichen (Kartierung, sRP, Natura2000, LPB mit EAB) | [[Blumberg (G)]] #SH 🔺 📅 2026-06-25\n\n\n#### [[Buggingen (F)]]\n- [ ] Zusätzliche Gemeindeflächen von Gemeinde erfragen | [[Buggingen (F)]] #SH 🔽 📅 2026-03-17 \n\n\n#### [[Buggingen (W)]]\n- [x] **Landwirte updaten** | [[Buggingen (W)]] 🔼 📅 2025-11-02 ✅ 2025-11-05\n- [x] **Baugenehmigung erhalten** (für 17.-19.11. angekündigt) | [[Buggingen (W)]] #SH 🆔 buggingen01 ⏫ 📅 2025-11-10 ✅ 2025-11-19\n- [x] **Bedingungen zur Baufreigabe erfüllen** | [[Buggingen (W)]] #SH ⏫ 📅 2025-11-11 ✅ 2025-11-27\n\t- [x] BBB-Angebot durchschauen und beauftragen | [[Buggingen (W)]] #SH ✅ 2025-11-03\n\t- [x] Bestätigung an Bodenschutzamt schicken | [[Buggingen (W)]] #SH 🔼 📅 2025-11-07 ✅ 2025-11-05\n\t- [x] Vermessung für Zaun beauftragen lassen | [[Buggingen (W)]] #SH 🔼 📅 2025-11-07 ✅ 2025-11-09\n\t- [x] Adresse für die Bürgschaft ändern lassen | [[Buggingen (W)]] #SH ⛔ buggingen01 ⏫ 📅 2025-11-06 ✅ 2025-11-19\n\t- [x] Ankündigung Baubeginn Herr Renz #SH #CB✅ 2025-11-26\n\t- [x] Weiterleiten Baugenehmigung Herr Treiber und Herr Zügel #SH #CB ✅ 2025-11-26\n\t- [x] Aktualisierte Bürgschaft | [[Buggingen (W)]] #SH 🔺 📅 2025-11-28 ✅ 2025-12-08\n\t- [x] Verpflichtungserklärung Rückbau unterschreiben lassen | [[Buggingen (W)]] #CB ✅ 2025-11-26\n\t- [x] Einmessbescheinigung Zaun an Behörde schicken | [[Buggingen (W)]] #SH #CB ✅ 2025-11-27\n\t- [ ] Freigabeschreiben von DB Immobilien einholen und Behörde schicken | [[Buggingen (W)]] #SH 📅 2026-01-21\n- [x] Bauamt zurückrufen | [[Rheinfelden (L)]] 🔺 📅 2025-11-03 ✅ 2025-11-03\n- [x] Grundstückspläne mit Flurstücksnummern und DB-Flächen und unseren Flächen erstellen | [[Buggingen (W)]] ⏫ 📅 2025-11-07 ✅ 2025-11-03\n- [x] Baugenehmigung an Herrn Posch weiterleiten zur Netzreservierungsverlängerung | [[Buggingen (W)]] #SH ⛔ buggingen01 🔺 📅 2025-11-04 ✅ 2025-11-25\n- [/] Aufschaltung auf Feuerwehr Stellungnahme April, aber September nicht, IBW klärt das zur neuen Stellungnahme bei der FB520 Breisgau-Hochschwarzwald | [[Buggingen (W)]] #SH\n- [x] Zaunpunkte an Simon Bilharz schicken | [[Buggingen (W)]] #SH 🔺 📅 2025-11-25 ✅ 2025-11-26\n- [ ] Nebenbestimmungen der Baugenehmigung abarbeiten | [[Buggingen (W)]] #CB ⏫ 📅 2025-12-01\n\t- [-] Schutzgut Landschaftsbild Bewältigung Eingriffsregelung Landschaftsbild nachreichen | [[Buggingen (W)]] #CB 🔼 📅 2025-12-03 ❌ 2025-11-27\n\t- [-] Schutzgut Biotope Biotoptypenkarte vorlegen und Ökopunkte anpassen | [[Buggingen (W)]] #SH #CB ❌ 2025-11-27\n\t- [-] Schutzgut Biotopverbund: Erhöhung Zaun von 15 auf 20 cm über Boden | [[Buggingen (W)]] #SH #CB ❌ 2025-11-27\n\t- [-] Artenschutz Kartierung Feldlerche durchführen ❌ 2025-11-27\n\t\n\t- [ ] UNB Ausgleichs-/ Ersatzmaßnahmen: Entwicklung einer Fettwiese (Umsetzung innerhalb eines Jahres nach Baubeginn) (IBA nachfragen wg. Ökopunkten/ Wiesendrusch Saatgut Bezug) | [[Buggingen (W)]] #SH #CB 📅 2025-12-05\n\t- [ ] UNB Feldhecke Entwicklung beauftragen (Umsetzung innerhalb eines Jahres nach Baubeginn) | [[Buggingen (W)]] #CB #SH 📅 2025-12-05\n\t- [ ] UNB Monitoring beauftragen (2. und 5. Jahr bzgl. Fettwiesenentwicklung, Entwicklung der Feldhecke, Gehölzpflanzung, Einreichung bei UNB bis 31.11. des jeweiligen Jahres) | [[Buggingen (W)]] #CB #SH 📅 2025-12-05\n\t- [ ] Gewerbeaufsicht Feuerwehrplan erstellen | [[Buggingen (W)]] #CB #SH 📅 2025-12-05\n\t- [ ] Gewerbeaufsicht Erste Hilfe Mittel bereitstellen | [[Buggingen (W)]] #CB #SH 📅 2025-12-05\n\t- [x] Bodenschutz Schüttungen Straße, Lastverteilungsplatten Ränder und Tabuflächen einzäunen | [[Buggingen (W)]] #CB #SH 📅 2025-12-05 ✅ 2025-12-15\n\t- [ ] Brandschutz Feuerwehr Buggingen einweisen, Feuerwehrpläne erstellen | [[Buggingen (W)]] #CB #SH 📅 2025-12-05\n\t- [/] Gestattungsvertrag für die Trasse mit Stadt klären | [[Buggingen (W)]] #CB ⏫ 📅 2026-01-27\n\t- [ ] Badenova anfragen ob sie unseren Trassenabschnitt in Regiodata mit einpflegen können | [[Buggingen (W)]] #CU #SH ⏫ 📅 2026-01-30\n\n\n#### [[Deggenhausertal (M)]]\n- [ ] Netzanfrage mit 7,5 MVA symmetrisch | [[Deggenhausertal (M)]] #CU 🔼 📅 2025-11-11 \n- [ ] Kommune zum Aufstellungsbeschluss kontaktieren | [[Deggenhausertal (M)]] #SH ⏫ 📅 2025-12-15\n\n#### [[Dietingen (M)]]\n- [ ] Design mit Leitungsauskunft vergleichen | [[Dietingen (M)]] #SH 🔼 📅 2025-12-02\n- [/] Bauvoranfrage vorbereiten | [[Dietingen (M)]] #SH 🆔 ur1z5k ⛔ pa9asp 🔼 📅 2025-11-10\n- [x] Bauvoranfrage stellen | [[Dietingen (M)]] #SH 🆔 pa9asp ⛔ ur1z5k ⏫ 📅 2025-11-14 ✅ 2025-12-15\n- [ ] Trassenroute festlegen | [[Dietingen (M)]] #CU 🔼 📅 2025-11-17\n- [/] Leitungsauskunft in QGIS-Projekt reinziehen und überprüfen | [[Dietingen (M)]] #CU 🔼 📅 2025-11-10\n- [x] Rohbaukosten an Frau Heise (Faktorgruen) schicken | [[Dietingen (M)]] #SH 🔼 📅 2025-11-10 ✅ 2025-11-28\n- [ ] Umweltgutachten durchsehen | [[Dietingen (M)]] #SH 🔼 📅 2025-11-21\n- [x] Brandschutzkonzept in Auftrag geben | [[Dietingen (M)]] #SH #CB ⏫ 📅 2025-12-15 ✅ 2025-12-16\n\n#### [[Eisenbach 3 (E3)]]\n- [x] Aktueller Belegungsplan für Schäfer und Beha erstellen lassen | [[Eisenbach 3 (E3)]] #SH 🔺 📅 2026-03-20 ✅ 2026-03-24\n- [ ] Grünpflegevertrag an Jörg schicken | [[Eisenbach 3 (E3)]] #SH 🔼 📅 2026-03-25 \n- [x] **Abwägung und Gutachten von Ruppel und Körner durchschauen** | [[Eisenbach 3 (E3)]] ⏫ 📅 2025-11-03 ✅ 2025-11-09\n- [x] **Ökopunktemaßnahmen-Vertrag durchschauen** | [[Eisenbach 3 (E3)]] 🔽 📅 2025-11-07 ✅ 2025-11-09\n- [x] **Trassenroute konkretisieren und E3 schicken** | [[Eisenbach 3 (E3)]] #CB 🔼 📅 2025-12-03 ✅ 2025-12-10\n- [x] Projektplan an Frau Körner schicken | [[Eisenbach 3 (E3)]] ⏫ 📅 2025-11-04 ✅ 2025-11-09\n- [x] In die 3. Offenlage gehen | [[Eisenbach 3 (E3)]] #SH ⏫ 📅 2025-11-14 ✅ 2025-11-27\n- [x] Brandschutzkonzept IBW Rückmeldung Vorabzug (bis Ende Nov) | [[Eisenbach 3 (E3)]] #SH 🔼 📅 2025-11-30 ✅ 2025-12-15\n- [x] Bauvoranfrage stellen | [[Eisenbach 3 (E3)]] #SH 🔺 📅 2025-12-19 ✅ 2026-03-16\n- [x] Trassenführung anpassen | [[Eisenbach 3 (E3)]] #SH #CB 📅 2025-12-02 ✅ 2025-12-02\n- [/] Pachtverträge prüfen | [[Eisenbach 3 (E3)]] #SH #MH 🔼 📅 2025-12-15\n- [x] Ökopunktevertrag zeichnen | [[Eisenbach 3 (E3)]] #SH 🔼 📅 2025-12-16\n- [x]  Trassenroute an Herr Riesterer schicken  | [[Eisenbach 3 (E3)]] #CB 📅 2026-02-27 ⏫ \n- [ ] Vertrag fertig machen für Trasse und Herr Riesterer schicken  | [[Eisenbach 3 (E3)]] #CB  📅 2026-03-16 \n\n#### [[Eisenbach 4 (L)]]\n\n\n#### [[Ettlingen (F)]]\n- [ ] Termin mit Bauamt machen bis zum 26.02.2026 | [[Ettlingen (F)]] #SH 🔺 📅 2026-03-07\n- [ ] Bauantrag einreichen | [[Ettlingen (F)]] #SH 🔺 📅 2026-03-07\n\n\n#### [[Freiberg (Z)]]\n- [ ] Stadt um Fortführung des Verfahrens bitten | [[Freiberg (Z)]] #CB 🔽 📅 2025-12-19\n- [x] Mail an alle Beteiligten, nach Fortführung des Verfahrens fragen  | [[Freiberg (Z)]] #CB 🔼 📅 2026-03-04 ✅ 2026-03-04\n\n\n#### [[Friedenweiler (GMK)]]\n- [x] Herrn Seiffert Update geben zum Blumbach-Flächen | [[Friedenweiler (GMK)]] ⏫ 📅 2025-11-03 ✅ 2025-11-03 #SH\n- [/] Leitungsauskunft in QGIS-Projekt reinziehen und überprüfen | [[Friedenweiler (GMK)]] #CU ⏫ 📅 2025-11-10\n- [x] Erschließung und Design mit Herrn Läufer und Herrn Matt besprechen | [[Friedenweiler (GMK)]] 🔺 📅 2025-11-07 ✅ 2025-11-06 #SH\n- [x] Neues Design erstellen lassen nach Gespräch mit Herrn Läufer (sh) | [[Friedenweiler (GMK)]] 🆔 friedenweiler01 🔺 📅 2025-11-06 ✅ 2025-11-06 #S_hion\n- [x] Neues Design erstellen lassen nach Gespräch mit Herrn Läufer (JR->MN) | [[Friedenweiler (GMK)]] #SH 🔺 📅 2025-12-04 ✅ 2025-12-11\n- [x] Gutachten beauftragen | [[Friedenweiler (GMK)]] #SH ⛔ friedenweiler01 🔺 📅 2025-11-28 ✅ 2025-12-11\n\t- [x] DXF erstellen der Planfläche und u.a. an faktorgruen schicken | [[Friedenweiler (GMK)]] #SH 🔺 📅 2025-11-28 ✅ 2025-12-11\n\t- [x] Umweltgutachten beauftragen | [[Friedenweiler (GMK)]] #SH #CB ⏫ 📅 2025-12-01 ✅ 2025-12-11\n\t- [x] Bodenschutzgutachten beauftragen | [[Friedenweiler (GMK)]] #SH #CB ⏫ 📅 2025-12-01 ✅ 2025-12-11\n\t- [x] Brandschutzkonzept in Auftrag geben | [[Friedenweiler (GMK)]] #SH ⏫ 📅 2025-12-11 ✅ 2025-12-11\n- [x] Beschlussvorlage-Präsentation vorbereiten (Pachtvertrag ohne Pachtpreis) | [[Friedenweiler (GMK)]] #SH 🔺 📅 2025-11-18 ✅ 2025-11-27\n- [x] Brandschutzkonzept in Auftrag geben | [[Friedenweiler (GMK)]] #SH ⏫� 2026-01-16 ✅ 2026-01-16\n- [x] Vermessungs DWG importierSH |�[[Rottw5-1 (S8]] #CB5-11-27\n\n\n\n#### [[Hüfingen (S)]]\n- [x] **Herrn Seiffert Update geben** | [[Hüfingen (S)]] #SH 🔼 📅 2025-11-03 ✅ 2025-11-06\n- [x] Trassenroute vertraglich mit der Stadt sichern | [[Hüfingen (S)]] #CB ⏫ 📅 2025-12-15 ✅ 2025-12-17\n- [x] Leitungsauskunft für Trassenroute in QGIS ziehen (neue Route) | [[Stühlingen (D)]] #CU ⏫ 📅 2025-11-10 ✅ 2025-12-17\n- [x] Design von [[SolarGik]] erstellen lassen und bestellen | [[Hüfingen (S)]] #SH 🔼 📅 2025-11-14 ✅ 2025-11-27\n- [ ] Neues Gebäude neu vermessen lassen | [[Hüfingen (S)]] #SH 🆔 huefingen01 🔼 📅 2026-01-15\n- [ ] Vermessungsdaten von Gebäude in QGIS laden und an Designer schicken | [[Hüfingen (S)]] #SH 🔼 📅 2025-11-30 ⛔ huefingen01\n- [x] Vertrag mit Herrn Seiffert zusammenfügen und ablegen? | [[Hüfingen (S)]] #CB 🔽 📅 2025-11-30 ✅ 2025-12-16\n- [x] Unterschrift von MR in den Vertrag aufnehmen | [[Hüfingen (S)]] #CB 🔽 📅 2025-11-30 ✅ 2025-12-16\n- [x] 📅 2025-12-02 (Flurstücknr. 255) fertig machen und an Herr Seiffert schicken #CB ✅ 2025-12-02\n- [ ] Übergabe an PM | [[Hüfingen (S)]] #SH 🔼 📅 2025-11-30 🆔 huefingen02\n\t- [ ] Bei der Einstellung der Tracking-Systeme darauf achten, dass nachts nicht waagerecht sondern gleich gen Osten gedreht wird (zum Schutz von Wasservögeln und Insekten und Fledermäusen) | [[Hüfingen (S)]] #SH 🔽 📅 2025-11-30\n- [ ] Vorabzug FWP prüfen | [[Hüfingen (S)]] #SH 🔼 📅 2025-11-30\n- [x] Angebot Statiker drüber schauen Windbühler | [[Hüfingen (S)]] #SH ⏫ 📅 2025-11-21 ✅ 2025-11-27\n- [ ] Bedingungen für Baufreigabe erfüllen |[[Hüfingen (S)]] #SH ⏫ 📅 2025-12-17\n\t- [ ] Beleg Bezahlung Rückbau\n\t- [ ] Beleg Bezahlung Natur-Ausgleichszahlung\n\t- [/] Nachweis Löschwasserversorgung (beantragt) | [[Hüfingen (S)]] #CB ⏫ 📅 2025-12-15\n\t- [/] Nachweis Löschwasserversorgung mit IB Waldvogel besprechen | [[Hüfingen (S)]] #CB ⏫ 📅 2026-01-27\n\n#### [[Immendingen (K)]]\n- [ ] Baugenehmigung durchschauen | [[Immendingen (K)]] #SH  ⏫ 📅 2026-03-12\n\n#### [[Isahaya North]]\n- [-] Curtailment-Berechnung | [[Isahaya North]] #SH 🔺 📅 2025-11-10 ❌ 2025-11-11\n\n#### [[Isahaya South]]\n- [-] Curtailment-Berechnung | [[Isahaya South]] #SH 🔺 📅 2025-11-10 ❌ 2025-11-11\n\n##### [[Neuenburg (D)]]\n- [x] Mit Frau Müller telefonieren | [[Neuenburg (D)]] #SH ⏫ 📅 2026-03-17 ✅ 2026-03-27\n\n\n#### [[Neuenburg (iAR)]]\n- [x] Gutachten koordinieren | [[Neuenburg (iAR)]] #CB 🆔 neuenburg01 ⏫ 📅 2025-11-21 ✅ 2025-12-15\n- [x] Lärmgutachten mit Höhen der Lärmschutzmauern und Abständen und Häuserausrichtung koordinieren | [[Neuenburg (iAR)]] #SH ⏫ 📅 2025-11-07 ✅ 2025-11-06\n- [x] Lärmschutzwand Angebot und Zeichnungen einholen | [[Neuenburg (iAR)]]  #Yugo 🔺 📅 2025-11-10\n- [x] Lärmschutzwand Angebot durchsehen | [[Neuenburg (iAR)]] #SH 🔼 📅 2025-12-10 ✅ 2025-12-15\n- [x] Dropbox-Ordner richtig anordnen | [[Neuenburg (iAR)]] #SH 🔽 📅 2025-12-18 ✅ 2026-03-27\n- [x] Präsentation für Nicht-öffentliche Gemeinderatssitzung für das Fortführen, später den Beschluss der 2. Offenlage | [[Neuenburg (iAR)]] #SH 🔺 📅 2025-12-08\n\n\n#### [[Oberhambach (K)]]\n- [-] Termin mit Herrn Schuler über Basalt Ellenberg | [[Oberhambach (K)]] #SH 🔼 📅 2025-11-17\n- [-] Textlichen Teil des BPlans von EHL Heidelberg auf Nutzbarkeit prüfen | [[Oberhambach (K)]] #SH 🔼 📅 2025-11-17\n- [-] Präsentation Frühzeitige für Gemeinderat erstellen | [[Oberhambach (K)]] #SH 🔼 📅 2025-12-04\n- [x] Status aufarbeiten | [[Oberhambach (K)]] #SH ⏫ 📅 2025-12-17 ✅ 2026-03-27\n- [-] Design überdenken mit Entwurf Bebauungsplan und Feuerwehranforderungen | [[Oberhambach (K)]] #CB ⏫ 📅 2025-11-24 ❌ 2025-11-27\n- [x] Design anpassen | [[Oberhambach (K)]] #CB ⏫ 📅 2025-11-25 ✅ 2026-03-27\n- [x] Mit Herrn Peters das weitere Vorgehen besprechen | [[Oberhambach (K)]] #SH 🔼 📅 2025-12-01 ✅ 2025-12-11\n- [x] Update Landeigentümer bis 19.12. | [[Oberhambach (K)]] #SH 🔺 📅 2025-12-15 ✅ 2026-03-16\n- [x] Kontakt mit Landeigentümer aufnehmen | [[Oberhambach (K)]] #SH 🔺 📅 2025-11-19 ✅ 2025-11-21\n- [x] Design in QGIS erstellen und als dxf an Herrn Peters schicken | [[Oberhambach (K)]] #CB 🔺 📅 2025-12-02 ✅ 2026-03-27\n- [x] Absprache mit Planungsbüro Peters | Oberhambach (K) 📅 2026-01-16 ✅ 2026-01-16\n- [x] Bauplan finalisieren (30m Abstand) Planungsbüro Peters | [[Oberhambach (K)]] #CB 🔼 📅 2026-01-27 ✅ 2026-02-06\n- [x] Planungsbüro Peters beauftragen, Termin für frühzeitige Beteiligung zu machen und uns Unterlagen schicken  | [[Oberhambach (K)]] #CB ⏫ 📅 2026-02-06 \n- [x] Kontaktaufnahme Gemeinde (Termin Frühzeitige Beteiligung | ⏫ [[Oberhambach (K)]] #CB ✅ 2026-02-12\n- [x] Schriftliche Festsetzungen prüfen  | [[Oberhambach (K)]] #CB ⏫ 📅 2026-03-11 ✅ 2026-03-27\n\n\n#### [[Renchen (K)]]\n- [ ] Kontakt mit Kommune aufnehmen | [[Renchen (K)]] #CB 🆔 renchen01 ⏫ 📅 2026-01-15\n- [ ] Leitungsauskunft | [[Renchen (K)]] #CU 🔼 📅 2025-11-12 ⛔ renchen01\n- [x] ARP (IBA) beauftragen | [[Renchen (K)]] #CB ⛔ renchen01 🔼 📅 2025-11-14 ✅ 2026-02-06\n- [x] Bodenschutzkonzept und LBP beauftragen  | [[Renchen (K)]] #CB 📅 2026-02-19 ✅ 2026-02-19\n- [x] Vermessung beauftragen 📅 2026-02-19 ✅ 2026-02-19\n- [/] Trassenverlauf festlegen | [[Renchen (K)]] #CB 🔼 📅 2026-01-27\n- [x] Eigentümer raus finden umliegende Flächen | [[Renchen (K)]] #CB 🔼 📅 2026-02-12 ✅ 2026-02-17\n- [x] Restriktionsanalyse Umliegende Flächen | [[Renchen (K)]] #CB 🔼 📅 2026-02-12 ✅ 2026-02-12\n- [x] Bodenschutzkonzept und BBB Angebot einholen IBA | [[Renchen (K)]] #CB 🔼 📅 2026-02-18 ✅ 2026-02-18\n\n#### [[Rheinfelden (L)]]\n- [x] Unterlagen von SMA durchsehen | [[Rheinfelden (L)]] #SH 🆔 rheinfelden01 ⏫ 📅 2025-11-04 ✅ 2025-11-09\n- [x] Unterlagen von SMA hochladen und an das Gewerbeamt weiterleiten | [[Rheinfelden (L)]] #SH 🆔 rheinfelden02 ⛔ rheinfelden01 ⏫ 📅 2025-11-04 ✅ 2025-11-09\n- [x] Unterlagen nach Bestätigung inklusive der letzten an das Bauamt leiten | [[Rheinfelden (L)]] #SH ⛔ rheinfelden02 ⏫ 📅 2025-11-07 ✅ 2025-11-09\n- [x] Projektmöglichkeit mit der UNB klären lassen | [[Rheinfelden (L)]] #SH 🔺 📅 2025-11-20 ✅ 2025-11-27\n- [x] Herrn Rooks wegen UNB antworten | [[Rheinfelden (L)]] #SH 🔺 📅 2025-11-19 ✅ 2025-11-27\n- [x] Meeting mit UNB | [[Rheinfelden (L)]] #SH 🔺 📅 2025-12-16 ✅ 2026-03-16\n- [x] Telefonische Rückfrage Frau Salach | [[Rheinfelden (L)]] #SH 🔺 📅 2026-03-06 ✅ 2026-04-02\n- [ ] Neues Design von MN erstellen lassen | [[Rheinfelden (L)]] #SH 🔺 📅 2026-04-02\n\n\n#### [[Rheinfelden Adelhausen]]\n- [ ] Eigentümer in QGIS eintragen | [[Rheinfelden Adelhausen]] #SH 🔼 📅 2026-03-20\n\n\n#### [[Sauldorf (H)]]\n- [x] Kontakt mit Kommune zum Aufstellungsbeschluss (vor dem 11.12.) | [[Sauldorf (H)]] #SH 🔼 📅 2025-11-11 ✅ 2025-11-27\n- [ ] Privilegierung erreichen, da keine Konzentrationszone RV | [[Sauldorf (H)]] #SH 🔼 📅 2025-12-18 \n\n\n#### [[Schortens (P)]]\n\n\n#### [[Schrenz (S)]]\n- [ ] Standsicherheitsnachweis | [[Schrenz (S)]] #SH 📅 2025-12-01\n- [ ] Brandschutzgutachten | [[Schrenz (S)]] #SH 📅 2025-12-01\n- [ ] Bodenschutzgutachten | [[Schrenz (S)]] #SH 📅 2025-12-01\n- [ ] Vermessung | [[Schrenz (S)]] #SH 📅 2025-12-01\n- [ ] Einigung mit Bauer für Ersatz der Aufwendungen + kleinen Obolus | [[Schrenz (S)]] #SH 📅 2025-12-01\n- [ ] Vertrag ablegen | [[Schrenz (S)]] 🔽 📅 2025-11-12 #CB 🆔 schrenz01\n- [ ] Bisher ist das Projekt legal nicht in Ordnung (Grundbuch) | [[Schrenz (S)]] #MH\n\n\n\n#### [[Treplin (W)]]\n- [ ] Update von CS holen | [[Treplin (W)]] #SH 🔽 📅 2026-01-01\n\n\n#### [[Ühlingen-Birkendorf (L)]]\n- [x] Präsentation anpassen | [[Ühlingen-Birkendorf (L)]] #SH #CB 🔺 📅 2025-11-07 ✅ 2025-11-11\n- [x] Leitungsauskunft in QGIS-Projekt reinziehen und überprüfen | [[Ühlingen-Birkendorf (L)]] #SH ⏫ 📅 2025-11-10 ✅ 2025-11-11\n- [ ] Brandschutzkonzept beauftragen | [[Ühlingen-Birkendorf (L)]] #SH 🔽 📅 2026-01-15\n- [x] Städtebaulichen Vertrag kommentieren | [[Ühlingen-Birkendorf (L)]] #SH 🔺 📅 2025-11-17 ✅ 2025-11-19\n- [x] FSP beauftragen | [[Ühlingen-Birkendorf (L)]] #SH 🔺 📅 2025-12-16 ✅ 2025-12-15\n- [x] Angebote anfragen Umweltgutachten IBA und GalaPlan Decker 📅 2025-12-16 ✅ 2025-12-16\n\n\n#### [[Waldshut-Tiengen (B)]]\n- [x] Netzreservierung abgelaufen. Bei Naturenergie gesichert? | [[Waldshut-Tiengen (B)]] #CU 📅 2025-11-11 ✅ 2025-12-15\n- [x] Management-Entscheidung, ob das Projekt weiter verfolgt wird | [[Waldshut-Tiengen (B)]] ⏫ 📅 2025-11-06 ✅ 2025-11-06\n- [ ] Leitungsauskunft in QGIS-Projekt reinziehen und überprüfen | [[Waldshut-Tiengen (B)]] #CB 🔼 📅 2025-11-28\n- [x] Anderen Projektierer anrufen für NVP | [[Waldshut-Tiengen (B)]] #CB 🔼 📅 2025-11-10 ✅ 2026-03-27\n\n\n#### [[Wickede (R)]]\n- [ ] Bauantrag stellen 1,25MWh BESS | [[Wickede (R)]] 🔺 📅 2025-11-17 #SH ⛔ wickede01\n\t- [ ] Due diligence | [[Wickede (R)]] #SH ⛔ wickede01 🔽 📅 2025-11-14\n\t- [ ] Restriktionsanalyse | [[Wickede (R)]] #MM #S_hion #Yugo #CB  ⛔ wickede01 🔽 📅 2025-11-14\n\t- [ ] Leitungsauskunft | [[Wickede (R)]] #CU  ⛔ wickede01 🔽 📅 2025-11-14\n\n\n#### [[Wutöschingen (S)]]\n- [ ] Frau Alber Links und Verweise zu 5m Reh-Korridoren schicken | [[Wutöschingen (S)]] #SH 🔺 📅 2026-03-24 \n- [x] FSP Update geben | [[Wutöschingen (S)]] ⏫ 📅 2025-11-03 ✅ 2025-11-03✅ 2025-11-05\n- [ ] Leitungsauskunft in QGIS-Projekt reinziehen und überprüfen | [[Wutöschingen (S)]] #SH 🔽 📅 2025-12-02\n- [ ] Neues Design erstellen lassen (JR->MN) | [[Wutöschingen (S)]] #SH 🔼 📅 2025-12-16\n- [x] Aufstellungsbeschluss FNP | [[Wutöschingen (S)]] #SH 🔺 📅 2025-11-20 ✅ 2025-11-27\n- [ ] Trassennutzungsbestätigung von Naturenergie erhalten bzw. NVP auf der Fläche | [[Wutöschingen (S)]] #CU ⏫ 📅 2025-11-11 \n- [x] Kartierung und weitere Gutachten überprüfen | [[Wutöschingen (S)]] #CB 🔼 📅 2025-11-11 ✅ 2025-12-15\n- [ ] Brandschutzkonzept beauftragen | [[Wutöschingen (S)]] #SH 🔽 📅 2025-11-30\n- [x] Vermessungsdaten ablegen |  [[Wutöschingen (S)]] #CB 🔼 📅 2026-01-21 ✅ 2026-01-21\n\n\n\n\n\n\n\n\n\n\n---\n\n\n```tasks\n# Only tasks that are not done, that is, which begin like this (but without the quotes):\n#   '- [ ] ' or\n#   '* [ ] ' or\n#   '1. [ ] '\n# Indented tasks are supported, but only single-line tasks.\n# not done\n\n# Tasks due today or earlier:\n# due before tomorrow\n\n# Restrict to at most 100 tasks.\n# If you ask Tasks to display many hundreds or thousands of tasks,\n# Obsidian's editing performance really slows down.\nlimit 100\n\n# Group and sort the output:\nfilename does not include Tasks\ngroup by filename\n# sort by due reverse\n# sort by description\n\n# Optionally, ask Tasks to explain how it interpreted this query:\nexplain\n```\n"
+}

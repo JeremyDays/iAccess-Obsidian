@@ -1,0 +1,382 @@
+{
+  "title": "Projektphasen",
+  "slug": "projektphasen",
+  "category": "overview",
+  "relativePath": "0 - Übersicht/Projektphasen.md",
+  "url": "notes/projektphasen.html",
+  "apiUrl": "api/notes/projektphasen.json",
+  "tags": [],
+  "excerpt": "Baureife Projekte [ ] In Betrieb [ ] Bötzingen (H) [ ] Eisenbach 1 (F) [ ] Lüptitz (BAG) [ ] Neuwied (R) [ ] Eisenbach 2 (W) [ ] Nacharbeiten [ ] Bad Säckingen (M) [ ] Bitz...",
+  "frontmatter": {
+    "kanban-plugin": "board",
+    "status": "Todo"
+  },
+  "links": [
+    {
+      "target": "Bötzingen (H)",
+      "label": "Bötzingen (H)",
+      "slug": "botzingen-h"
+    },
+    {
+      "target": "Eisenbach 1 (F)",
+      "label": "Eisenbach 1 (F)",
+      "slug": null
+    },
+    {
+      "target": "Lüptitz (BAG)",
+      "label": "Lüptitz (BAG)",
+      "slug": "luptitz-bag"
+    },
+    {
+      "target": "Neuwied (R)",
+      "label": "Neuwied (R)",
+      "slug": "neuwied-r"
+    },
+    {
+      "target": "Eisenbach 2 (W)",
+      "label": "Eisenbach 2 (W)",
+      "slug": null
+    },
+    {
+      "target": "Bad Säckingen (M)",
+      "label": "Bad Säckingen (M)",
+      "slug": "bad-sackingen-m-2"
+    },
+    {
+      "target": "Bitz (ASW)",
+      "label": "Bitz (ASW)",
+      "slug": "bitz-asw"
+    },
+    {
+      "target": "Dachau (SWD)",
+      "label": "Dachau (SWD)",
+      "slug": "dachau-swd"
+    },
+    {
+      "target": "Freiburg (M 2)",
+      "label": "Freiburg (M 2)",
+      "slug": null
+    },
+    {
+      "target": "Haßfurt (Uponor)",
+      "label": "Haßfurt (Uponor)",
+      "slug": "ha-furt-uponor"
+    },
+    {
+      "target": "Henau (BAG)",
+      "label": "Henau (BAG)",
+      "slug": "henau-bag"
+    },
+    {
+      "target": "Stockhausen (BAG)",
+      "label": "Stockhausen (BAG)",
+      "slug": "stockhausen-bag"
+    },
+    {
+      "target": "Munzingen (B)",
+      "label": "Munzingen (B)",
+      "slug": "munzingen-b"
+    },
+    {
+      "target": "Donaueschingen (S)",
+      "label": "Donaueschingen (S)",
+      "slug": "donaueschingen-s"
+    },
+    {
+      "target": "Flechtingen (BAG)",
+      "label": "Flechtingen (BAG)",
+      "slug": "flechtingen-bag-2"
+    },
+    {
+      "target": "Wetzstein (BAG)",
+      "label": "Wetzstein (BAG)",
+      "slug": "wetzstein-bag"
+    },
+    {
+      "target": "Schallstadt (GMK)",
+      "label": "Schallstadt (GMK)",
+      "slug": "schallstadt-gmk"
+    },
+    {
+      "target": "Stühlingen (D)",
+      "label": "Stühlingen (D)",
+      "slug": "stuhlingen-d"
+    },
+    {
+      "target": "Hüfingen (S)",
+      "label": "Hüfingen (S)",
+      "slug": "hufingen-s"
+    },
+    {
+      "target": "Schrenz (S)",
+      "label": "Schrenz (S)",
+      "slug": "schrenz-s"
+    },
+    {
+      "target": "Buggingen (W)",
+      "label": "Buggingen (W)",
+      "slug": "buggingen-w"
+    },
+    {
+      "target": "Rheinfelden (L)",
+      "label": "Rheinfelden (L)",
+      "slug": "rheinfelden-l"
+    },
+    {
+      "target": "Blumberg (G)",
+      "label": "Blumberg (G)",
+      "slug": "blumberg-g"
+    },
+    {
+      "target": "Dietingen (M)",
+      "label": "Dietingen (M)",
+      "slug": "dietingen-m"
+    },
+    {
+      "target": "Renchen (K)",
+      "label": "Renchen (K)",
+      "slug": "renchen-k"
+    },
+    {
+      "target": "Eisenbach 3 (E3)",
+      "label": "Eisenbach 3 (E3)",
+      "slug": "eisenbach-3-e3"
+    },
+    {
+      "target": "Neuenburg (iAR)",
+      "label": "Neuenburg (iAR)",
+      "slug": "neuenburg-iar"
+    },
+    {
+      "target": "Schortens (P)",
+      "label": "Schortens (P)",
+      "slug": "schortens-p"
+    },
+    {
+      "target": "Treplin (W)",
+      "label": "Treplin (W)",
+      "slug": "treplin-w"
+    },
+    {
+      "target": "Bad Dürrheim (M)",
+      "label": "Bad Dürrheim (M)",
+      "slug": "bad-durrheim-m"
+    },
+    {
+      "target": "Wutöschingen (S)",
+      "label": "Wutöschingen (S)",
+      "slug": "wutoschingen-s"
+    },
+    {
+      "target": "Deggenhausertal (M)",
+      "label": "Deggenhausertal (M)",
+      "slug": "deggenhausertal-m"
+    },
+    {
+      "target": "Sauldorf (H)",
+      "label": "Sauldorf (H)",
+      "slug": "sauldorf-h"
+    },
+    {
+      "target": "Freiberg (Z)",
+      "label": "Freiberg (Z)",
+      "slug": "freiberg-z"
+    },
+    {
+      "target": "Bitburg (Z)",
+      "label": "Bitburg (Z)",
+      "slug": "bitburg-z"
+    },
+    {
+      "target": "Waldshut-Tiengen (B)",
+      "label": "Waldshut-Tiengen (B)",
+      "slug": "waldshut-tiengen-b"
+    },
+    {
+      "target": "Ühlingen-Birkendorf (L)",
+      "label": "Ühlingen-Birkendorf (L)",
+      "slug": "uhlingen-birkendorf-l"
+    },
+    {
+      "target": "Eisenbach 4 (L)",
+      "label": "Eisenbach 4 (L)",
+      "slug": "eisenbach-4-l"
+    },
+    {
+      "target": "Löffingen (GMK)",
+      "label": "Löffingen (GMK)",
+      "slug": "loffingen-gmk"
+    },
+    {
+      "target": "Whylen ()",
+      "label": "Whylen ()",
+      "slug": "whylen"
+    },
+    {
+      "target": "Rottweil (S)",
+      "label": "Rottweil (S)",
+      "slug": "rottweil-s"
+    },
+    {
+      "target": "Shared/Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)",
+      "label": "Shared/Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)",
+      "slug": null
+    },
+    {
+      "target": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)",
+      "label": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)",
+      "slug": null
+    },
+    {
+      "target": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)",
+      "label": "Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)",
+      "slug": null
+    },
+    {
+      "target": "Pfullendorf (G)",
+      "label": "Pfullendorf (G)",
+      "slug": "pfullendorf-g"
+    },
+    {
+      "target": "Denzlingen (S)",
+      "label": "Denzlingen (S)",
+      "slug": "denzlingen-s"
+    },
+    {
+      "target": "Freiburg (UWSA)",
+      "label": "Freiburg (UWSA)",
+      "slug": "freiburg-uwsa"
+    },
+    {
+      "target": "Meiningen (AGH)",
+      "label": "Meiningen (AGH)",
+      "slug": "meiningen-agh"
+    },
+    {
+      "target": "Bad Krozingen (R)",
+      "label": "Bad Krozingen (R)",
+      "slug": "bad-krozingen-r"
+    },
+    {
+      "target": "Freiburg-March (K)",
+      "label": "Freiburg-March (K)",
+      "slug": "freiburg-march-k"
+    },
+    {
+      "target": "Karlsruhe (F)",
+      "label": "Karlsruhe (F)",
+      "slug": "karlsruhe-f"
+    },
+    {
+      "target": "München 1 (ArtInvest)",
+      "label": "München 1 (ArtInvest)",
+      "slug": "munchen-1-artinvest"
+    },
+    {
+      "target": "Schallstadt (vH)",
+      "label": "Schallstadt (vH)",
+      "slug": "schallstadt-vh"
+    },
+    {
+      "target": "Unterwellenborn (Z)",
+      "label": "Unterwellenborn (Z)",
+      "slug": "unterwellenborn-z"
+    },
+    {
+      "target": "Buggingen (F)",
+      "label": "Buggingen (F)",
+      "slug": "buggingen-f"
+    },
+    {
+      "target": "Opfingen (M)",
+      "label": "Opfingen (M)",
+      "slug": "opfingen-m"
+    },
+    {
+      "target": "Villigst (S)",
+      "label": "Villigst (S)",
+      "slug": "villigst-s"
+    },
+    {
+      "target": "Zützen (C)",
+      "label": "Zützen (C)",
+      "slug": "zutzen-c"
+    },
+    {
+      "target": "Reichertsheim (D)",
+      "label": "Reichertsheim (D)",
+      "slug": "reichertsheim-d"
+    },
+    {
+      "target": "Neuenburg (G)",
+      "label": "Neuenburg (G)",
+      "slug": "neuenburg-g"
+    },
+    {
+      "target": "Burladingen",
+      "label": "Burladingen",
+      "slug": "burladingen"
+    },
+    {
+      "target": "Hüfingen (M)",
+      "label": "Hüfingen (M)",
+      "slug": "hufingen-m"
+    },
+    {
+      "target": "Linden (CS)",
+      "label": "Linden (CS)",
+      "slug": "linden-cs"
+    },
+    {
+      "target": "München 2 (Parkstadtcenter)",
+      "label": "München 2 (Parkstadtcenter)",
+      "slug": "munchen-2-parkstadtcenter"
+    },
+    {
+      "target": "München 3 (Arnulfbogen)",
+      "label": "München 3 (Arnulfbogen)",
+      "slug": "munchen-3-arnulfbogen"
+    },
+    {
+      "target": "Spornitz (CS)",
+      "label": "Spornitz (CS)",
+      "slug": "spornitz-cs"
+    },
+    {
+      "target": "Stockach (H)",
+      "label": "Stockach (H)",
+      "slug": "stockach-h"
+    },
+    {
+      "target": "Waldshut-Tiengen (D)",
+      "label": "Waldshut-Tiengen (D)",
+      "slug": "waldshut-tiengen-d"
+    },
+    {
+      "target": "Wickede (R)",
+      "label": "Wickede (R)",
+      "slug": "wickede-r"
+    },
+    {
+      "target": "Freiburg (GMK)",
+      "label": "Freiburg (GMK)",
+      "slug": "freiburg-gmk"
+    },
+    {
+      "target": "Reute (GMK)",
+      "label": "Reute (GMK)",
+      "slug": "reute-gmk"
+    },
+    {
+      "target": "Vörstetten (GMK)",
+      "label": "Vörstetten (GMK)",
+      "slug": "vorstetten-gmk"
+    },
+    {
+      "target": "Denzlingen (GMK)",
+      "label": "Denzlingen (GMK)",
+      "slug": "denzlingen-gmk"
+    }
+  ],
+  "markdown": "\n## ###### **Baureife Projekte**\n\n- [ ] **In Betrieb**\n- [ ] [[Bötzingen (H)]]\n- [ ] [[Eisenbach 1 (F)]]\n- [ ] [[Lüptitz (BAG)]]\n- [ ] [[Neuwied (R)]]\n- [ ] [[Eisenbach 2 (W)]]\n- [ ] **Nacharbeiten**\n- [ ] [[Bad Säckingen (M)]]\n- [ ] [[Bitz (ASW)]]\n- [ ] [[Dachau (SWD)]]\n- [ ] [[Freiburg (M 2)]]\n- [ ] [[Haßfurt (Uponor)]]\n- [ ] [[Henau (BAG)]]\n- [ ] [[Stockhausen (BAG)]]\n- [ ] **Im Bau**\n- [ ] [[Munzingen (B)]]\n- [ ] [[Donaueschingen (S)]]\n- [ ] [[Flechtingen (BAG)]]\n- [ ] [[Wetzstein (BAG)]]\n\n\n## ###### **Bauantragsverfahren**\n\n- [ ] **Baufreigabe**\n- [ ] [[Schallstadt (GMK)]]\n- [ ] [[Stühlingen (D)]]\n- [ ] **Baugenehmigung**\n- [ ] [[Hüfingen (S)]]\n- [ ] [[Schrenz (S)]]\n- [ ] **Bauantrag**\n- [ ] [[Buggingen (W)]]\n- [ ] [[Rheinfelden (L)]]\n- [ ] [[Blumberg (G)]]\n- [ ] **Bauantragsvorbereitung**\n- [ ] [[Dietingen (M)]]\n- [ ] **Gutachtenphase**\n- [ ] **Designphase**\n- [ ] [[Renchen (K)]]\n\n\n## ###### **Bauleitplanungsverfahren**\n\n- [ ] **Feststellungsbeschluss**\n- [ ] **Satzungsbeschluss**\n- [ ] **2. Offenlage Beschluss**\n- [ ] [[Eisenbach 3 (E3)]]\n- [ ] **1. Offenlage Beschluss**\n- [ ] [[Neuenburg (iAR)]]\n- [ ] **Frühzeitige Beteiligung Beschluss**\n- [ ] **Aufstellungsbeschluss**\n- [ ] [[Schortens (P)]]\n- [ ] [[Treplin (W)]]\n- [ ] [[Bad Dürrheim (M)]]\n- [ ] **Bauleitplanungsvorbereitung**\n- [ ] Oberhambach\n- [ ] [[Wutöschingen (S)]]\n- [ ] [[Deggenhausertal (M)]]\n- [ ] [[Sauldorf (H)]]\n- [ ] [[Freiberg (Z)]]\n- [ ] [[Bitburg (Z)]]\n- [ ] [[Waldshut-Tiengen (B)]]\n- [ ] [[Ühlingen-Birkendorf (L)]]\n\n\n## ###### **Bezug-Projekte**\n\n- [ ] **Netzreservierung (mit Bezug)**\n- [ ] [[Eisenbach 4 (L)]]\n- [ ] [[Löffingen (GMK)]]\n- [ ] [[Whylen ()]]\n- [ ] [[Rottweil (S)]]\n\n\n## ###### **Leads**\n\n- [ ] **Wirtschaftliche Projekte**\n- [ ] **Kommunen-Gutdünken**\n- [ ] **Pachtvertrag & Netzreservierung**\n- [ ] [[Shared/Projekte/E - Akquise/E3 - Vertrag & NetzR/Neuenburg (D)]]\n- [ ] **Pachtvertrag & Netzanfrage**\n- [ ] [[Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Lohagen (S)]]\n- [ ] [[Shared/Projekte/E - Akquise/E4 - Vertrag & NetzA/Baden-Baden (F)]]\n- [ ] [[Pfullendorf (G)]]\n- [ ] [[Denzlingen (S)]]\n- [ ] **Nur Netzreservierung**\n- [ ] [[Freiburg (UWSA)]]\n- [ ] **Nur Netzanfrage**\n- [ ] [[Meiningen (AGH)]]\n- [ ] [[Bad Krozingen (R)]]\n- [ ] [[Freiburg-March (K)]]\n- [ ] [[Karlsruhe (F)]]\n- [ ] [[München 1 (ArtInvest)]]\n- [ ] [[Schallstadt (vH)]]\n- [ ] [[Unterwellenborn (Z)]]\n- [ ] **Nur Pachtvertrag**\n- [ ] [[Buggingen (F)]]\n- [ ] [[Opfingen (M)]]\n- [ ] [[Villigst (S)]]\n- [ ] [[Zützen (C)]]\n- [ ] [[Reichertsheim (D)]]\n- [ ] [[Neuenburg (G)]]\n- [ ] **Akquise**\n- [ ] [[Burladingen]]\n- [ ] [[Hüfingen (M)]]\n- [ ] [[Linden (CS)]]\n- [ ] [[München 2 (Parkstadtcenter)]]\n- [ ] [[München 3 (Arnulfbogen)]]\n- [ ] [[Spornitz (CS)]]\n- [ ] [[Stockach (H)]]\n- [ ] [[Waldshut-Tiengen (D)]]\n- [ ] [[Wickede (R)]]\n- [ ] **Analyse**\n- [ ] [[Freiburg (GMK)]]\n- [ ] [[Reute (GMK)]]\n- [ ] [[Vörstetten (GMK)]]\n- [ ] [[Denzlingen (GMK)]]\n\n\n\n\n%% kanban:settings\n```\n{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false,false,false]}\n```\n%%"
+}

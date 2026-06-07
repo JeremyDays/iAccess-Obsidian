@@ -1,0 +1,19 @@
+{
+  "title": "Netzanfrage Hartha",
+  "slug": "netzanfrage-hartha",
+  "category": "project",
+  "relativePath": "Projekte/z_Ergänzendes/Netzanfragen/Netzanfrage Hartha.md",
+  "url": "notes/netzanfrage-hartha.html",
+  "apiUrl": "api/notes/netzanfrage-hartha.json",
+  "tags": [],
+  "excerpt": "Hartha (S) Kein Screening oder Projektordner vorhanden. Datenbank Anfrage von Oktober 2024 symmetrisch 8,34 MVA Mitnetz – stehen im Mitnetz Portal als abgebrochen drin aber...",
+  "frontmatter": {},
+  "links": [
+    {
+      "target": "Hartha (S)",
+      "label": "Hartha (S)",
+      "slug": "hartha-s"
+    }
+  ],
+  "markdown": "- [[Hartha (S)]]\n- Kein Screening oder Projektordner vorhanden.\n\n- Datenbank Anfrage von Oktober 2024 symmetrisch 8,34 MVA Mitnetz – stehen im Mitnetz Portal als abgebrochen drin aber sonst keine Infos dazu, wieso zB\n\n- Nachfragen, warum das Projekt abgebrochen wurde.\n\n\t- 15.07.2025 15 MVA Einspeisung bestätigt (relativ weit weg), 8 MVA Bezug angefragt, aber nichts erwähnt. Wir haken nach."
+}

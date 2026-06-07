@@ -1,0 +1,15 @@
+{
+  "title": "task overview SH",
+  "slug": "task-overview-sh",
+  "category": "overview",
+  "relativePath": "0 - Übersicht/task overview SH.md",
+  "url": "notes/task-overview-sh.html",
+  "apiUrl": "api/notes/task-overview-sh.json",
+  "tags": [
+    "SH"
+  ],
+  "excerpt": "Überfällig Heute Morgen In den nächsten 7 Tagen Ohne Datum Ohne Zuweisung Nach Projekt Anderen zugewiesen",
+  "frontmatter": {},
+  "links": [],
+  "markdown": "\n\n\n\n###### Überfällig\n```tasks\nnot done\nsort by priority\ndue before today\nis not blocked\nshow tree\nshort mode\ntags include #SH\nlimit 15\n```\n\n###### Heute\n```tasks\nnot done\nsort by priority\ndue today\nis not blocked\nshow tree\nlimit 15\ntags include #SH\nshort mode\n```\n\n###### Morgen\n```tasks\nnot done\nsort by priority\ndue tomorrow\nis not blocked\nshow tree\nlimit 10\ntags include #SH\nshort mode\n```\n\n\n###### In den nächsten 7 Tagen\n```tasks\nnot done\nsort by priority\ndue after tomorrow\ndue before in 7 days\nis not blocked\nshow tree\nlimit 10\ntags include #SH\nshort mode\n```\n\n\n\n###### Ohne Datum\n```tasks\nnot done\nsort by priority\nno due date\nis not blocked\nshow tree\nshort mode\ntags include #SH\n```\n\n\n###### Ohne Zuweisung\n```tasks\nnot done\nsort by priority\nis not blocked\nshow tree\nshort mode\nno tags\n```\n\n###### Nach Projekt\n```tasks\nnot done\ngroup by filename\nsort by priority\nis not blocked\nshow tree\nshort mode\ntags include #SH\nlimit 10\n```\n\n\n\n###### Anderen zugewiesen\n```tasks\nnot done\ngroup by tags\nsort by priority\nis not blocked\nshow tree\nshort mode\nhas tags\ntags do not include #SH\n```\n"
+}
