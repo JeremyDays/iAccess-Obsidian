@@ -349,8 +349,55 @@ function escapeHtml(value) {
   return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 }
 
+function bootNoteFeedback() {
+  document.querySelectorAll(".note-feedback-form").forEach((form) => {
+    const status = form.querySelector(".note-feedback-status");
+    const button = form.querySelector('button[type="submit"]');
+    const linkField = form.querySelector('input[name="Notiz-Link"]');
+    const timeField = form.querySelector('input[name="Zeitpunkt"]');
+    if (linkField) linkField.value = window.location.href;
+    if (timeField) timeField.value = new Date().toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "medium" });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      status.className = "note-feedback-status";
+      status.textContent = "";
+      if (timeField) timeField.value = new Date().toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "medium" });
+
+      if (form.action.endsWith("/FORM_ID")) {
+        status.classList.add("is-error");
+        status.textContent = "Die Kommentarfunktion ist noch nicht aktiviert.";
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = "Wird abgeschickt...";
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { Accept: "application/json" }
+        });
+        if (!response.ok) throw new Error("Formspree request failed");
+        form.reset();
+        if (linkField) linkField.value = window.location.href;
+        if (timeField) timeField.value = new Date().toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "medium" });
+        status.classList.add("is-success");
+        status.textContent = "Die Anmerkung wurde erfolgreich abgeschickt.";
+      } catch {
+        status.classList.add("is-error");
+        status.textContent = "Die Anmerkung konnte nicht abgeschickt werden. Bitte versuchen Sie es erneut.";
+      } finally {
+        button.disabled = false;
+        button.textContent = "Anmerkung abschicken";
+      }
+    });
+  });
+}
+
 bootSearch();
 bootImageLightbox();
 bootFolderTree();
 bootNotePreviews();
 bootProjectMaps();
+bootNoteFeedback();
