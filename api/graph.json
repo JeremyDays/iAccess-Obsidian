@@ -235,12 +235,6 @@
       "url": "notes/neuwied-r.html"
     },
     {
-      "id": "bad-sackingen-m-2",
-      "title": "Bad Säckingen (M)",
-      "category": "project",
-      "url": "notes/bad-sackingen-m-2.html"
-    },
-    {
       "id": "bitz-asw",
       "title": "Bitz (ASW)",
       "category": "project",
@@ -389,12 +383,6 @@
       "title": "Wetzstein (BAG)",
       "category": "project",
       "url": "notes/wetzstein-bag.html"
-    },
-    {
-      "id": "flechtingen-bag-2",
-      "title": "Flechtingen (BAG)",
-      "category": "project",
-      "url": "notes/flechtingen-bag-2.html"
     },
     {
       "id": "schallstadt-gmk",
@@ -2623,12 +2611,6 @@
       "url": "notes/loffingen-2-gmk.html"
     },
     {
-      "id": "lohagen-s-2",
-      "title": "Lohagen (S)",
-      "category": "project",
-      "url": "notes/lohagen-s-2.html"
-    },
-    {
       "id": "lohagen-2-s",
       "title": "Lohagen 2 (S)",
       "category": "project",
@@ -3703,12 +3685,6 @@
       "url": "notes/stodtlen-a.html"
     },
     {
-      "id": "stuhlingen-d-2",
-      "title": "Stühlingen (D)",
-      "category": "project",
-      "url": "notes/stuhlingen-d-2.html"
-    },
-    {
       "id": "stuhlingen-i",
       "title": "Stühlingen (I)",
       "category": "project",
@@ -3815,12 +3791,6 @@
       "title": "Treis Karden (BAG)",
       "category": "project",
       "url": "notes/treis-karden-bag.html"
-    },
-    {
-      "id": "treplin-w-2",
-      "title": "Treplin (W)",
-      "category": "project",
-      "url": "notes/treplin-w-2.html"
     },
     {
       "id": "tsuyama-okayama-u",
@@ -5653,7 +5623,7 @@
     },
     {
       "source": "00-projekte-entwicklung",
-      "target": "stuhlingen-d-2",
+      "target": "stuhlingen-d",
       "label": "Stühlingen (D)"
     },
     {
@@ -5668,7 +5638,7 @@
     },
     {
       "source": "00-projekte-entwicklung",
-      "target": "lohagen-s-2",
+      "target": "lohagen-s",
       "label": "Lohagen (S)"
     },
     {
@@ -5683,7 +5653,7 @@
     },
     {
       "source": "00-projekte-entwicklung",
-      "target": "treplin-w-2",
+      "target": "treplin-w",
       "label": "Treplin (W)"
     },
     {
@@ -5878,11 +5848,6 @@
     },
     {
       "source": "projektphasen",
-      "target": "bad-sackingen-m-2",
-      "label": "Bad Säckingen (M)"
-    },
-    {
-      "source": "projektphasen",
       "target": "bitz-asw",
       "label": "Bitz (ASW)"
     },
@@ -6005,11 +5970,6 @@
       "source": "projektphasen",
       "target": "wetzstein-bag",
       "label": "Wetzstein (BAG)"
-    },
-    {
-      "source": "projektphasen",
-      "target": "flechtingen-bag-2",
-      "label": "Flechtingen (BAG)"
     },
     {
       "source": "projektphasen",
@@ -7868,11 +7828,6 @@
     },
     {
       "source": "projektphasen",
-      "target": "lohagen-s-2",
-      "label": "Lohagen (S)"
-    },
-    {
-      "source": "projektphasen",
       "target": "lohagen-2-s",
       "label": "Lohagen 2 (S)"
     },
@@ -8768,11 +8723,6 @@
     },
     {
       "source": "projektphasen",
-      "target": "stuhlingen-d-2",
-      "label": "Stühlingen (D)"
-    },
-    {
-      "source": "projektphasen",
       "target": "stuhlingen-i",
       "label": "Stühlingen (I)"
     },
@@ -8860,11 +8810,6 @@
       "source": "projektphasen",
       "target": "treis-karden-bag",
       "label": "Treis Karden (BAG)"
-    },
-    {
-      "source": "projektphasen",
-      "target": "treplin-w-2",
-      "label": "Treplin (W)"
     },
     {
       "source": "projektphasen",

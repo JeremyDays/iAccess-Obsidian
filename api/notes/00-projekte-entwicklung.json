@@ -56,7 +56,7 @@
     {
       "target": "Stühlingen (D)",
       "label": "Stühlingen (D)",
-      "slug": "stuhlingen-d-2"
+      "slug": "stuhlingen-d"
     },
     {
       "target": "Hüfingen (S)",
@@ -71,7 +71,7 @@
     {
       "target": "Lohagen (S)",
       "label": "Lohagen (S)",
-      "slug": "lohagen-s-2"
+      "slug": "lohagen-s"
     },
     {
       "target": "Villigst (S)",
@@ -86,7 +86,7 @@
     {
       "target": "Treplin (W)",
       "label": "Treplin (W)",
-      "slug": "treplin-w-2"
+      "slug": "treplin-w"
     },
     {
       "target": "München 2 (Parkstadtcenter)",
