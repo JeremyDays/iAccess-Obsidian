@@ -83,7 +83,7 @@
     "Baugenehmigung": "false",
     "Beschluss_Feststellung": "false",
     "Bauantrag": "false",
-    "Landsicherung": "false",
+    "Landsicherung": "true",
     "Kommune": "false",
     "Wirtschaftlichkeit": "false",
     "Beschluss_Aufstellung": "false",

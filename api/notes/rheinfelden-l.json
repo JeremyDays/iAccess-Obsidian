@@ -81,7 +81,7 @@
     "Baugenehmigung": "false",
     "Beschluss_Feststellung": "false",
     "Bauantrag": "false",
-    "Landsicherung": "false",
+    "Landsicherung": "true",
     "Kommune": "false",
     "Bauleitplanverfahren": "false",
     "Beschluss_Aufstellung": "false",

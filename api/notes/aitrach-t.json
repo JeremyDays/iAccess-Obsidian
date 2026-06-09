@@ -7,11 +7,11 @@
   "apiUrl": "api/notes/aitrach-t.json",
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte File: =this.file.name Folder: =this.file.folder Template: =this.Template DVLP Link: VIEW[{DVLP}][link] [!blank]...",
   "frontmatter": {
-    "Projekttyp": "",
+    "Projekttyp": "Projektkauf",
     "Privilegierung": "",
     "Verfahren": "",
     "Phase": "",
-    "Projektstatus": "Bauänderungsantrag laufend;\nProjektkooperationsvertrag",
+    "Projektstatus": "Pachtvertrag mit Peter Traub wurde durch die übernommene Projektgesellschaft geschlossen; Projektübernahme über SPA abgeschlossen. Änderungsantrag und Bauvorbereitung laufen.",
     "NächsteSchritte": "Änderungsantrag Baugenehmigung; Bau ab Mitte Juli 2026 - spätestens Anfang März 2027; Dan: 01.08. Baustart",
     "Koordinaten": "47.97109, 10.0779",
     "Eigentümer": "Peter Traub",

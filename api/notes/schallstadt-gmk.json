@@ -81,7 +81,7 @@
     "MS5_ConstructionStartCivil": "",
     "status": "Todo",
     "Beschluss_Feststellung": "false",
-    "Landsicherung": "false",
+    "Landsicherung": "true",
     "Netzreservierung": "false",
     "Kommune": "false",
     "Wirtschaftlichkeit": "false",
