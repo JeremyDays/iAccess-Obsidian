@@ -7,24 +7,24 @@
   "apiUrl": "api/notes/malsch-kh.json",
   "excerpt": "[!multi column] [!blank] Projektstatus Nächste Schritte =this.file.path DVLP Link: INPUT[text:DVLP] [!blank] Milestones INPUT[toggle:Vertrag] Vertrag...",
   "frontmatter": {
-    "Projekttyp": "",
-    "Privilegierung": "",
-    "Verfahren": "",
+    "Projekttyp": "Datencenter",
+    "Privilegierung": "Nein",
+    "Verfahren": "BLP",
     "Phase": "",
-    "Projektstatus": "",
-    "NächsteSchritte": "",
-    "Koordinaten": "",
-    "Eigentümer": "",
-    "Grundstücksfläche": "",
+    "Projektstatus": "Restriktionsanalyse",
+    "NächsteSchritte": "Netzanfrage",
+    "Koordinaten": "48.904131,8.298151",
+    "Eigentümer": "Koffler-Haitz",
+    "Grundstücksfläche": "30 ha",
     "NutzbareFläche": "",
-    "Bundesland": "",
+    "Bundesland": "Baden-Württemberg",
     "Regionalverband": "",
-    "Gemeinde": "",
+    "Gemeinde": "Malsch",
     "Gemarkung": "",
     "Flur": "",
-    "Flurstücke": "",
-    "DVLP": "",
-    "Restriktionen": "",
+    "Flurstücke": "17634",
+    "DVLP": "https://app.dvlp.energy/beta/projects/85f3aeca-09a0-4e40-8692-397f84cf2d4a?style=Satellite&layers=bw_rdp_priority_rawmaterials&search=ma&lat=48.9023&lng=8.2974&zoom=15.4",
+    "Restriktionen": "VRG Rohstoffe (Kies)",
     "Leistung": "",
     "SpecificYield": "",
     "YieldEstimate": "",
@@ -36,7 +36,7 @@
     "BezugGesichert": "",
     "KapazitätGesichert": "",
     "GesichertEBK": "",
-    "Distanz": "",
+    "Distanz": "Nah?",
     "NVP": "",
     "EigenesUW": "",
     "Reservierung": "",
@@ -68,8 +68,8 @@
     "tags": [
       "Projekt"
     ],
-    "Bild_klein": "![[Temp.png|250]]",
-    "Bild_groß": "[[Temp.png|Vollbild]]",
+    "Bild_klein": "![[Malsch (KH).png|250]]",
+    "Bild_groß": "[[Malsch (KH).png|Vollbild]]",
     "status": "",
     "Baugenehmigung": "false",
     "Beschluss_Feststellung": "false",
@@ -77,14 +77,21 @@
     "Vertrag": "false",
     "Netzreservierung": "false",
     "Wirtschaftlichkeit": "false",
-    "Bauleitplanverfahren": "false",
+    "Bauleitplanverfahren": "true",
     "Beschluss_Aufstellung": "false",
     "Beschluss_Beteiligung": "false",
     "Beschluss_Offenlage": "false",
     "Beschluss_Satzung": "false",
     "Bauantragsverfahren": "false",
-    "Baufreigabe": "false"
+    "Baufreigabe": "false",
+    "Projektadresse": "(Bei Karlsruhe)"
   },
-  "links": [],
-  "markdown": "\n>[!multi-column]\n>\n>>[!blank] \n>>**Projektstatus**\n>>```meta-bind \n>>INPUT[textArea:Projektstatus]\n>>```\n>>\n>>**Nächste Schritte**\n>>```meta-bind \n>>INPUT[textArea:NächsteSchritte]\n>>```\n>>\n>>**`=this.file.path`**\n>>**DVLP-Link:** `INPUT[text:DVLP]`\n>\n>>[!blank]\n>>**Milestones**\n>>`INPUT[toggle:Vertrag]` Vertrag \n>>`INPUT[toggle:Netzreservierung]` Netzreservierung \n>>`INPUT[toggle:Wirtschaftlichkeit]` Wirtschaftlichkeit\n>>\n>>`INPUT[toggle:Bauleitplanverfahren]` Bauleitplanverfahren \n>>`INPUT[toggle:Beschluss_Aufstellung]` Aufstellungsbeschluss \n>>`INPUT[toggle:Beschluss_Beteiligung]` Beteiligungsbeschluss \n>>`INPUT[toggle:Beschluss_Offenlage]` Offenlagebeschluss \n>>`INPUT[toggle:Beschluss_Satzung]` Satzungsbeschluss \n>>`INPUT[toggle:Beschluss_Feststellung]` Feststellungsbeschluss\n>>\n>>`INPUT[toggle:Bauantragsverfahren]` Baugenehmigungsverfahren \n>>`INPUT[toggle:Bauantrag]` Bauantrag \n>>`INPUT[toggle:Baugenehmigung]` Baugenehmigung \n>>`INPUT[toggle:Baufreigabe]` Baufreigabe\n>\n\n>[!multi-column]\n>\n>>[!dialogue2]- Projekt\n>>Kategorie | Inhalt\n>>---|---\n>>**Projekttyp** | `INPUT[text:Projekttyp]`|\n>>**Privilegierung** | `INPUT[text:Privilegierung]`|\n>>**Verfahren** | `INPUT[text:Verfahren]`\n>\n>>[!dialogue2]- Leistung\n>>Kategorie | Inhalt\n>>---|---\n>>**Leistung** | `INPUT[text:Leistung]`|\n>>**Specific Yield** | `INPUT[text:SpecificYield]`|\n>>**Yield Estimate** | `INPUT[text:YieldEstimate]`\n\n>[!multi-column]\n>\n>>[!dialogue2]- Land\n>>Kategorie | Inhalt\n>>---|---\n>> **Koordinaten** | `INPUT[text:Koordinaten]` |\n>> **Eigentümer** | `INPUT[text:Eigentümer]`|\n>> **Grundstücksfläche** | `INPUT[text:Grundstücksfläche]`|\n>> **Nutzbare Fläche** | `INPUT[text:NutzbareFläche]`|\n>> **Bundesland** | `INPUT[text:Bundesland]`|\n>> **Regionalverband** | `INPUT[text:Regionalverband]`|\n>> **Gemeinde** | `INPUT[text:Gemeinde]`|\n>> **Gemarkung** | `INPUT[text:Gemarkung]`|\n>> **Flur** | `INPUT[text:Flur]`|\n>> **Flurstücke** | `INPUT[text:Flurstücke]`|\n>> **Projektadresse** | `INPUT[text:Projektadresse]`|\n>> **Restriktionen** | `INPUT[textArea:Restriktionen]`|\n>\n>>[!dialogue2]- Netz\n>>Kategorie | Inhalt\n>>---|---\n>>**Netzbetreiber** | `INPUT[text:Netzbetreiber]`|\n>>**Letzte Anfrage** | `INPUT[date:Anfragedatum]`|\n>>**Vorgangsnummern** | `INPUT[text:Vorgangsnummern]`|\n>>**Einspeisung (G)** | `INPUT[text:EinspeisungGesichert]`|\n>>**Bezug (G)** | `INPUT[text:BezugGesichert]`|\n>>**Netzverknüpfungspunkt** | `INPUT[text:NVP]`|\n>>**Distanz zum NVP** | `INPUT[text:Distanz]`|\n>>**Eigenes UW** | `INPUT[text:EigenesUW]`|\n>>**Netzausbau bis** | `INPUT[text:Netzausbau]`|\n>>**Reservierungsstufe** | `INPUT[text:Stufe]`|\n>>**Reserviert bis** | `INPUT[date:Reservierung]`|\n\n>[!multi-column]\n>>[!dialogue2]- Gutachten Phase 1\n>>Kategorie | Inhalt\n>>---|---\n>>**Stadtplanung** | `INPUT[text:Stadtplanung]`|\n>>**Vermessung** | `INPUT[text:Vermessung]`|\n>>**Leitungsauskunft Fläche** | `INPUT[text:Leitungsauskunft]`|\n>>**Leitungsauskunft Trasse** | `INPUT[text:Leitungsauskunft_Trasse]`|\n>>**Letztes Design** | `INPUT[date:Design]`|\n>>**Umweltschutz** | `INPUT[text:Umweltschutz]`|\n>>**Bodenschutz** | `INPUT[text:Bodenschutz]`|\n>>**Brandschutz** | `INPUT[text:Brandschutz]`|\n>>**Blendschutz** | `INPUT[text:Blendschutz]`|\n>>**Wasserschutz** | `INPUT[text:AwSV]`|\n>>**Landwirtschaftliches Nutzungskonzept** | `INPUT[text:lwnk]`|\n>\n>>[!dialogue2]- Gutachten Phase 2\n>>Kategorie | Inhalt\n>>---|---\n>>**Umweltfachgutachten** | `INPUT[text:Fachgutachten]`|\n>>**Kartierung** | `INPUT[text:Kartierung]`|\n>>**Ökologische Baubegleitung** | `INPUT[text:ÖBB]`|\n>>**Bodenkundliche Baubegleitung** | `INPUT[text:BBB]`|\n>>**Schallschutz** | `INPUT[text:Schallschutz]`|\n>>**Feuerwehrplan** | `INPUT[text:Feuerwehrplan]`|\n>>**Immissionsschutz** | `INPUT[text:Immissionsschutz]`|\n>>**Auszugstests** | `INPUT[text:Auszugstests]`|\n>>**Standsicherheitsnachweis** | `INPUT[text:Standsicherheitsnachweis]`|\n>>**UK beantragt** | `INPUT[text:UK_beantragt]`|\n>>**Statik** | `INPUT[text:Statik]`|\n>>**Prüfstatik** | `INPUT[text:Prüfstatik]`|\n>\n\n>[!multi-column]\n>>[!dialogue2]- Milestones\n>>Kategorie | Inhalt\n>>---|---\n>>**Bauantrag** | `INPUT[date:MS1_Bauantrag]`|\n>>**Baugenehmigung** | `INPUT[date:MS2_Baugenehmigung]`|\n>>**Shipment Long Lead Items** | `INPUT[date:MS3_ShipmentLongLeadItems]`|\n>>**Baufreigabe** | `INPUT[date:MS4_RTB]`|\n>>**Baubeginn** | `INPUT[date:MS5_ConstructionStart]`|\n>>**Bauende** | `INPUT[date:MS6_ConstructionCompletion]`|\n>>**Inbetriebnahme** | `INPUT[date:MS7_CommercialOperation]`|\n>\n>>[!dialogue2]- Zeitplan\n>>**Zeitplan**  `INPUT[textArea:Zeitplan]`\n>\n\n`=this.Bild_klein`\n`=this.Bild_groß`\n\n"
+  "links": [
+    {
+      "target": "Malsch (KH).png",
+      "label": "Vollbild",
+      "slug": null
+    }
+  ],
+  "markdown": "\n>[!multi-column]\n>\n>>[!blank] \n>>**Projektstatus**\n>>```meta-bind \n>>INPUT[textArea:Projektstatus]\n>>```\n>>\n>>**Nächste Schritte**\n>>```meta-bind \n>>INPUT[textArea:NächsteSchritte]\n>>```\n>>\n>>**`=this.file.path`**\n>>**DVLP-Link:** `INPUT[text:DVLP]`\n>\n>>[!blank]\n>>**Milestones**\n>>`INPUT[toggle:Vertrag]` Vertrag \n>>`INPUT[toggle:Netzreservierung]` Netzreservierung \n>>`INPUT[toggle:Wirtschaftlichkeit]` Wirtschaftlichkeit\n>>\n>>`INPUT[toggle:Bauleitplanverfahren]` Bauleitplanverfahren \n>>`INPUT[toggle:Beschluss_Aufstellung]` Aufstellungsbeschluss \n>>`INPUT[toggle:Beschluss_Beteiligung]` Beteiligungsbeschluss \n>>`INPUT[toggle:Beschluss_Offenlage]` Offenlagebeschluss \n>>`INPUT[toggle:Beschluss_Satzung]` Satzungsbeschluss \n>>`INPUT[toggle:Beschluss_Feststellung]` Feststellungsbeschluss\n>>\n>>`INPUT[toggle:Bauantragsverfahren]` Baugenehmigungsverfahren \n>>`INPUT[toggle:Bauantrag]` Bauantrag \n>>`INPUT[toggle:Baugenehmigung]` Baugenehmigung \n>>`INPUT[toggle:Baufreigabe]` Baufreigabe\n>\n\n>[!multi-column]\n>\n>>[!dialogue2]- Projekt\n>>Kategorie | Inhalt\n>>---|---\n>>**Projekttyp** | `INPUT[text:Projekttyp]`|\n>>**Privilegierung** | `INPUT[text:Privilegierung]`|\n>>**Verfahren** | `INPUT[text:Verfahren]`\n>\n>>[!dialogue2]- Leistung\n>>Kategorie | Inhalt\n>>---|---\n>>**Leistung** | `INPUT[text:Leistung]`|\n>>**Specific Yield** | `INPUT[text:SpecificYield]`|\n>>**Yield Estimate** | `INPUT[text:YieldEstimate]`\n\n>[!multi-column]\n>\n>>[!dialogue2]- Land\n>>Kategorie | Inhalt\n>>---|---\n>> **Koordinaten** | `INPUT[text:Koordinaten]` |\n>> **Eigentümer** | `INPUT[text:Eigentümer]`|\n>> **Grundstücksfläche** | `INPUT[text:Grundstücksfläche]`|\n>> **Nutzbare Fläche** | `INPUT[text:NutzbareFläche]`|\n>> **Bundesland** | `INPUT[text:Bundesland]`|\n>> **Regionalverband** | `INPUT[text:Regionalverband]`|\n>> **Gemeinde** | `INPUT[text:Gemeinde]`|\n>> **Gemarkung** | `INPUT[text:Gemarkung]`|\n>> **Flur** | `INPUT[text:Flur]`|\n>> **Flurstücke** | `INPUT[text:Flurstücke]`|\n>> **Projektadresse** | `INPUT[text:Projektadresse]`|\n>> **Restriktionen** | `INPUT[textArea:Restriktionen]`|\n>\n>>[!dialogue2]- Netz\n>>Kategorie | Inhalt\n>>---|---\n>>**Netzbetreiber** | `INPUT[text:Netzbetreiber]`|\n>>**Letzte Anfrage** | `INPUT[date:Anfragedatum]`|\n>>**Vorgangsnummern** | `INPUT[text:Vorgangsnummern]`|\n>>**Einspeisung (G)** | `INPUT[text:EinspeisungGesichert]`|\n>>**Bezug (G)** | `INPUT[text:BezugGesichert]`|\n>>**Netzverknüpfungspunkt** | `INPUT[text:NVP]`|\n>>**Distanz zum NVP** | `INPUT[text:Distanz]`|\n>>**Eigenes UW** | `INPUT[text:EigenesUW]`|\n>>**Netzausbau bis** | `INPUT[text:Netzausbau]`|\n>>**Reservierungsstufe** | `INPUT[text:Stufe]`|\n>>**Reserviert bis** | `INPUT[date:Reservierung]`|\n\n>[!multi-column]\n>>[!dialogue2]- Gutachten Phase 1\n>>Kategorie | Inhalt\n>>---|---\n>>**Stadtplanung** | `INPUT[text:Stadtplanung]`|\n>>**Vermessung** | `INPUT[text:Vermessung]`|\n>>**Leitungsauskunft Fläche** | `INPUT[text:Leitungsauskunft]`|\n>>**Leitungsauskunft Trasse** | `INPUT[text:Leitungsauskunft_Trasse]`|\n>>**Letztes Design** | `INPUT[date:Design]`|\n>>**Umweltschutz** | `INPUT[text:Umweltschutz]`|\n>>**Bodenschutz** | `INPUT[text:Bodenschutz]`|\n>>**Brandschutz** | `INPUT[text:Brandschutz]`|\n>>**Blendschutz** | `INPUT[text:Blendschutz]`|\n>>**Wasserschutz** | `INPUT[text:AwSV]`|\n>>**Landwirtschaftliches Nutzungskonzept** | `INPUT[text:lwnk]`|\n>\n>>[!dialogue2]- Gutachten Phase 2\n>>Kategorie | Inhalt\n>>---|---\n>>**Umweltfachgutachten** | `INPUT[text:Fachgutachten]`|\n>>**Kartierung** | `INPUT[text:Kartierung]`|\n>>**Ökologische Baubegleitung** | `INPUT[text:ÖBB]`|\n>>**Bodenkundliche Baubegleitung** | `INPUT[text:BBB]`|\n>>**Schallschutz** | `INPUT[text:Schallschutz]`|\n>>**Feuerwehrplan** | `INPUT[text:Feuerwehrplan]`|\n>>**Immissionsschutz** | `INPUT[text:Immissionsschutz]`|\n>>**Auszugstests** | `INPUT[text:Auszugstests]`|\n>>**Standsicherheitsnachweis** | `INPUT[text:Standsicherheitsnachweis]`|\n>>**UK beantragt** | `INPUT[text:UK_beantragt]`|\n>>**Statik** | `INPUT[text:Statik]`|\n>>**Prüfstatik** | `INPUT[text:Prüfstatik]`|\n>\n\n>[!multi-column]\n>>[!dialogue2]- Milestones\n>>Kategorie | Inhalt\n>>---|---\n>>**Bauantrag** | `INPUT[date:MS1_Bauantrag]`|\n>>**Baugenehmigung** | `INPUT[date:MS2_Baugenehmigung]`|\n>>**Shipment Long Lead Items** | `INPUT[date:MS3_ShipmentLongLeadItems]`|\n>>**Baufreigabe** | `INPUT[date:MS4_RTB]`|\n>>**Baubeginn** | `INPUT[date:MS5_ConstructionStart]`|\n>>**Bauende** | `INPUT[date:MS6_ConstructionCompletion]`|\n>>**Inbetriebnahme** | `INPUT[date:MS7_CommercialOperation]`|\n>\n>>[!dialogue2]- Zeitplan\n>>**Zeitplan**  `INPUT[textArea:Zeitplan]`\n>\n\n\n![[Malsch (KH).png|250]]\n[[Malsch (KH).png|Vollbild]]\n"
 }

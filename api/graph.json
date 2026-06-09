@@ -457,12 +457,6 @@
       "url": "notes/renchen-k.html"
     },
     {
-      "id": "renchen-k-2",
-      "title": "Renchen (K)",
-      "category": "project",
-      "url": "notes/renchen-k-2.html"
-    },
-    {
       "id": "neuenburg-iar",
       "title": "Neuenburg (iAR)",
       "category": "project",
@@ -1330,6 +1324,66 @@
   "edges": [
     {
       "source": "00-projekte-entwicklung",
+      "target": "dietingen-m",
+      "label": "Dietingen (M)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "eisenbach-3-e3",
+      "label": "Eisenbach 3 (E3)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "blumberg-g",
+      "label": "Blumberg (G)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "friedenweiler-gmk",
+      "label": "Friedenweiler (GMK)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "aitrach-t",
+      "label": "Aitrach (T)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "munzingen-b",
+      "label": "Munzingen (B)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "donaueschingen-s",
+      "label": "Donaueschingen (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "buggingen-w",
+      "label": "Buggingen (W)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "schallstadt-gmk",
+      "label": "Schallstadt (GMK)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "stuhlingen-d",
+      "label": "Stühlingen (D)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "hufingen-s",
+      "label": "Hüfingen (S)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "rheinfelden-l",
+      "label": "Rheinfelden (L)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
       "target": "lohagen-s",
       "label": "Lohagen (S)"
     },
@@ -1355,73 +1409,13 @@
     },
     {
       "source": "00-projekte-entwicklung",
-      "target": "linden-cs",
-      "label": "Linden (CS)"
+      "target": "linden-b",
+      "label": "Linden (B)"
     },
     {
       "source": "00-projekte-entwicklung",
       "target": "munchen-3-arnulfbogen",
       "label": "München 3 (Arnulfbogen)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "schallstadt-gmk",
-      "label": "Schallstadt (GMK)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "hufingen-s",
-      "label": "Hüfingen (S)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "stuhlingen-d",
-      "label": "Stühlingen (D)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "rheinfelden-l",
-      "label": "Rheinfelden (L)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "donaueschingen-s",
-      "label": "Donaueschingen (S)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "munzingen-b",
-      "label": "Munzingen (B)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "buggingen-w",
-      "label": "Buggingen (W)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "eisenbach-3-e3",
-      "label": "Eisenbach 3 (E3)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "wutoschingen-s",
-      "label": "Wutöschingen (S)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "loffingen-gmk",
-      "label": "Löffingen (GMK)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "dietingen-m",
-      "label": "Dietingen (M)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "blumberg-g",
-      "label": "Blumberg (G)"
     },
     {
       "source": "projektphasen",
@@ -1781,11 +1775,6 @@
     {
       "source": "projektphasen",
       "target": "renchen-k",
-      "label": "Renchen (K)"
-    },
-    {
-      "source": "projektphasen",
-      "target": "renchen-k-2",
       "label": "Renchen (K)"
     },
     {
@@ -2339,39 +2328,9 @@
       "label": "Titisee-Neustadt (UW)"
     },
     {
-      "source": "buggingen-w",
-      "target": "buggingen-w",
-      "label": "Buggingen (W)"
-    },
-    {
-      "source": "buggingen-w",
-      "target": "rheinfelden-l",
-      "label": "Rheinfelden (L)"
-    },
-    {
-      "source": "donaueschingen-s",
-      "target": "donaueschingen-s",
-      "label": "Donaueschingen (S)"
-    },
-    {
-      "source": "donaueschingen-s",
-      "target": "donaueschingen-m",
-      "label": "Donaueschingen (M)"
-    },
-    {
-      "source": "stuhlingen-d",
-      "target": "stuhlingen-d",
-      "label": "Stühlingen (D)"
-    },
-    {
       "source": "stuhlingen-d",
       "target": "zeitplan-stuhlingen",
       "label": "Zeitplan Stühlingen"
-    },
-    {
-      "source": "schallstadt-gmk",
-      "target": "schallstadt-gmk",
-      "label": "Schallstadt (GMK)"
     },
     {
       "source": "schallstadt-gmk",
@@ -2379,34 +2338,14 @@
       "label": "Zeitplan Schallstadt"
     },
     {
-      "source": "blumberg-g",
-      "target": "blumberg-g",
-      "label": "Blumberg (G)"
-    },
-    {
-      "source": "hufingen-s",
-      "target": "hufingen-s",
-      "label": "Hüfingen (S)"
-    },
-    {
-      "source": "hufingen-s",
-      "target": "stuhlingen-d",
-      "label": "Stühlingen (D)"
-    },
-    {
-      "source": "schrenz-s",
-      "target": "schrenz-s",
-      "label": "Schrenz (S)"
-    },
-    {
       "source": "eisenbach-3-e3",
       "target": "eisenbach-3-e3",
       "label": "Eisenbach 3 (E3)"
     },
     {
-      "source": "friedenweiler-gmk",
-      "target": "friedenweiler-gmk",
-      "label": "Friedenweiler (GMK)"
+      "source": "rheinfelden-l",
+      "target": "20251216-rheinfelden-unb",
+      "label": "20251216 Rheinfelden UNB"
     },
     {
       "source": "neuenburg-iar",
@@ -2414,79 +2353,19 @@
       "label": "Zeitplan Neuenburg"
     },
     {
-      "source": "oberhambach-k",
-      "target": "oberhambach-k",
-      "label": "Oberhambach (K)"
-    },
-    {
-      "source": "treplin-w",
-      "target": "treplin-w",
-      "label": "Treplin (W)"
-    },
-    {
       "source": "freiberg-z",
       "target": "zeitplan-freiberg",
       "label": "Zeitplan Freiberg"
     },
     {
-      "source": "immendingen-k",
-      "target": "immendingen-k",
-      "label": "Immendingen (K)"
-    },
-    {
-      "source": "pfullendorf-g",
-      "target": "pfullendorf-g",
-      "label": "Pfullendorf (G)"
-    },
-    {
-      "source": "bonndorf-g",
-      "target": "restriktionsanalyse-bonndorf",
-      "label": "Restriktionsanalyse Bonndorf"
-    },
-    {
-      "source": "aitrach-h2o",
-      "target": "aitrach-h2o",
-      "label": "Aitrach (H2O)"
-    },
-    {
-      "source": "calden-r",
-      "target": "netzanfrage-calden",
-      "label": "Netzanfrage Calden"
-    },
-    {
-      "source": "hartha-s",
-      "target": "netzanfrage-hartha",
-      "label": "Netzanfrage Hartha"
-    },
-    {
-      "source": "mecklar-b",
-      "target": "netzanfrage-mecklar",
-      "label": "Netzanfrage Mecklar"
-    },
-    {
-      "source": "quickborn-s",
-      "target": "netzanfrage-quickborn",
-      "label": "Netzanfrage Quickborn"
-    },
-    {
-      "source": "stadtallendorf-fps",
-      "target": "netzanfrage-stadtallendorf",
-      "label": "Netzanfrage Stadtallendorf"
-    },
-    {
-      "source": "netzanfrage-calden",
-      "target": "calden-r",
-      "label": "Calden (R)"
+      "source": "20251216-rheinfelden-unb",
+      "target": "rheinfelden-l",
+      "label": "Rheinfelden (L)"
     },
     {
       "source": "netzanfrage-endingen",
       "target": "endingen-b",
       "label": "Endingen (B)"
-    },
-    {
-      "source": "netzanfrage-hartha",
-      "target": "hartha-s",
-      "label": "Hartha (S)"
     },
     {
       "source": "netzanfrage-mecklar",
