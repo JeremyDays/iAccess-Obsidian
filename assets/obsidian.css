@@ -912,6 +912,22 @@ body{background:#ccc;}*/
 }
 
 
+/* Obsidian snippet: iAccess Milestones.css */
+/* Force the four plain milestone paragraphs into a stable 2x2 grid. */
+div[data-callout="multi-column"][data-callout-metadata~="milestones"].callout {
+  column-gap: 1.5em;
+  row-gap: 1em;
+}
+
+div[data-callout="multi-column"][data-callout-metadata~="milestones"].callout
+  > .callout-content
+  > p {
+  flex: 0 0 calc(50% - 0.75em);
+  min-width: 0;
+  margin: 0;
+}
+
+
 /* Obsidian snippet: MCL Gallery Cards.css */
 /* === README ===
 	Snippet: MCL Gallery Cards / Author: Faiz Khuzaimah / twitter: @faizkhuzaimah / github: https://github.com/efemkay
