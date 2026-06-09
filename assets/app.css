@@ -185,9 +185,11 @@ input[type="search"] { width: 100%; border: 1px solid #ccd4e1; border-radius: 5p
 .project-file-meta div { display: flex; gap: 8px; min-width: 0; }
 .project-file-meta dt { font-weight: 800; }
 .project-file-meta dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
-.milestone-list { display: grid; gap: 5px; }
-.milestone-item { align-items: center; display: flex; gap: 9px; min-height: 29px; }
-.milestone-item span { align-items: center; background: #fff; border: 2px solid #adb6c6; border-radius: 3px; color: #fff; display: inline-flex; flex: 0 0 25px; font-size: 16px; font-weight: 900; height: 25px; justify-content: center; }
+.milestone-grid { display: grid; column-gap: 24px; row-gap: 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.milestone-group { min-width: 0; padding: 0; }
+.milestone-list { display: grid; gap: 2px; }
+.milestone-item { align-items: center; display: flex; font-size: 12px; gap: 6px; line-height: 1.15; min-height: 21px; }
+.milestone-item span { align-items: center; background: #fff; border: 1.5px solid #adb6c6; border-radius: 3px; color: #fff; display: inline-flex; flex: 0 0 18px; font-size: 12px; font-weight: 900; height: 18px; justify-content: center; }
 .milestone-item.is-done span { background: var(--accent-strong); border-color: var(--accent-strong); }
 .project-groups { display: grid; gap: 8px 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .project-group { background: #f7f8fb; border: 1px solid #bcc7d9; border-radius: 5px; overflow: hidden; }
@@ -386,7 +388,7 @@ input[type="search"] { width: 100%; border: 1px solid #ccd4e1; border-radius: 5p
   .site-sidebar { border-bottom: 1px solid var(--line); border-right: 0; height: auto; max-height: 58vh; position: static; }
   .relation-panel { grid-template-columns: 1fr; }
   .note-feedback-heading { align-items: start; flex-direction: column; gap: 8px; }
-  .project-summary-grid, .project-groups { grid-template-columns: 1fr; }
+  .project-summary-grid, .project-groups, .milestone-grid { grid-template-columns: 1fr; }
   .note-detail header { padding-right: 0; }
   .note-meta { margin-top: 12px; max-width: none; position: static; }
   .note-meta-row { justify-items: start; }
