@@ -1,0 +1,11 @@
+{
+  "name": "iaccess-obsidian-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "node scripts/export-vault.mjs",
+    "postprocess": "node scripts/postprocess-site.mjs public",
+    "serve": "node scripts/serve.mjs public 4173"
+  }
+}
