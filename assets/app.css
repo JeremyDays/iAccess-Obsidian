@@ -380,7 +380,7 @@ input[type="search"] { width: 100%; border: 1px solid #ccd4e1; border-radius: 5p
 .note-feedback-status.is-success { color: #205f46; font-weight: 700; }
 .note-feedback-status.is-error { color: #9a2f36; font-weight: 700; }
 @media (max-width: 860px) {
-  .site-header { grid-template-columns: 1fr; position: static; }
+  .site-header { grid-template-columns: 1fr; position: relative; }
   .header-brand { justify-content: center; }
   .header-stats { grid-template-columns: repeat(4, minmax(64px, 1fr)); max-width: none; order: 3; }
   .header-search { left: 10px; max-width: none; right: 10px; width: auto; }
