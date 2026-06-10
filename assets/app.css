@@ -402,3 +402,29 @@ input[type="search"] { width: 100%; border: 1px solid #ccd4e1; border-radius: 5p
   .header-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .note-detail { padding: 20px; }
 }
+
+/* iAccess compact two-row header */
+@media (min-width: 861px) {
+  .site-header {
+    align-items: center;
+    gap: 7px 14px;
+    grid-template-columns: minmax(300px, auto) minmax(0, 1fr);
+    min-height: 126px;
+  }
+  .header-stats {
+    grid-template-columns:
+      repeat(7, minmax(68px, 1fr))
+      repeat(2, minmax(104px, 1.2fr))
+      minmax(148px, 1.55fr);
+    max-width: none;
+  }
+  .header-search {
+    grid-column: 1 / -1;
+    justify-self: end;
+    max-width: 300px;
+  }
+  .site-sidebar {
+    height: calc(100vh - 126px);
+    top: 126px;
+  }
+}
