@@ -4255,6 +4255,12 @@
       "url": "notes/zutzen-z.html"
     },
     {
+      "id": "zutzen-berkholz-meyenburg-c",
+      "title": "Zützen-Berkholz-Meyenburg (C)",
+      "category": "project",
+      "url": "notes/zutzen-berkholz-meyenburg-c.html"
+    },
+    {
       "id": "zweibrucken-s",
       "title": "Zweibrücken (S)",
       "category": "project",
@@ -9189,6 +9195,11 @@
       "source": "projektphasen",
       "target": "zutzen-z",
       "label": "Zützen (Z)"
+    },
+    {
+      "source": "projektphasen",
+      "target": "zutzen-berkholz-meyenburg-c",
+      "label": "Zützen-Berkholz-Meyenburg (C)"
     },
     {
       "source": "projektphasen",
