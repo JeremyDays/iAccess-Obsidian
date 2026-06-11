@@ -110,7 +110,8 @@
     "Inbetriebnahme": "false",
     "Bezugsprojekt": "false",
     "Vertrag_Pacht": "",
-    "Projektkosten": ""
+    "Projektkosten": "",
+    "BA_Vorgangsnummer": ""
   },
   "links": [],
   "markdown": ""

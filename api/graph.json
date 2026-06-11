@@ -5578,31 +5578,6 @@
   "edges": [
     {
       "source": "00-projekte-entwicklung",
-      "target": "dietingen-m",
-      "label": "Dietingen (M)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "eisenbach-3-e3",
-      "label": "Eisenbach 3 (E3)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "blumberg-g",
-      "label": "Blumberg (G)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "friedenweiler-gmk",
-      "label": "Friedenweiler (GMK)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
-      "target": "aitrach-t",
-      "label": "Aitrach (T)"
-    },
-    {
-      "source": "00-projekte-entwicklung",
       "target": "munzingen-b",
       "label": "Munzingen (B)"
     },
@@ -5635,6 +5610,31 @@
       "source": "00-projekte-entwicklung",
       "target": "rheinfelden-l",
       "label": "Rheinfelden (L)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "blumberg-g",
+      "label": "Blumberg (G)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "dietingen-m",
+      "label": "Dietingen (M)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "eisenbach-3-e3",
+      "label": "Eisenbach 3 (E3)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "friedenweiler-gmk",
+      "label": "Friedenweiler (GMK)"
+    },
+    {
+      "source": "00-projekte-entwicklung",
+      "target": "aitrach-t",
+      "label": "Aitrach (T)"
     },
     {
       "source": "00-projekte-entwicklung",

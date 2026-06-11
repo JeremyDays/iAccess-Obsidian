@@ -913,18 +913,20 @@ body{background:#ccc;}*/
 
 
 /* Obsidian snippet: iAccess Milestones.css */
-/* Force the four plain milestone paragraphs into a stable 2x2 grid. */
+/* Keep the four invisible milestone areas as a clear 2x2 grid. */
 div[data-callout="multi-column"][data-callout-metadata~="milestones"].callout {
-  column-gap: 1.5em;
-  row-gap: 1em;
+  --callout-gap: 0;
+  column-gap: 1.5em !important;
+  row-gap: 1.25em !important;
 }
 
 div[data-callout="multi-column"][data-callout-metadata~="milestones"].callout
   > .callout-content
-  > p {
-  flex: 0 0 calc(50% - 0.75em);
+  > div[data-callout*="blank"].callout {
+  flex: 0 0 calc(50% - 0.75em) !important;
   min-width: 0;
-  margin: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 
